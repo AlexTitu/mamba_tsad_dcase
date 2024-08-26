@@ -40,7 +40,7 @@ bash run.sh
 
 ### Results
 
-![image-20240820193425419](D:\python_project\SPL_mamba_for_TSAD\README\image-20240820193425419.png)
+![image-20240820193425419](README\image-20240820193425419.png)
 
 
 
@@ -57,7 +57,6 @@ If you found this code helpful, please consider citing it as follows:
   volume={31},
   number={},
   pages={2050-2054},
-  keywords={Market research;Time series analysis;Data models;Context modeling;Kernel;Information filters;Training;Selective state space model;time series anomaly detection;time series detrending},
   doi={10.1109/LSP.2024.3438078}}
 ```
 
