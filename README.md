@@ -40,7 +40,7 @@ bash run.sh
 
 ### Results
 
-![image-20240820193425419]([image-20240820193425419.png](https://github.com/aaaceo890/mamba_tsad/blob/master/README/image-20240820193425419.png))
+![image-20240820193425419](https://github.com/aaaceo890/mamba_tsad/blob/master/README/image-20240820193425419.png)
 
 
 
