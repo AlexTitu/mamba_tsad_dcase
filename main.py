@@ -68,76 +68,74 @@ if __name__ == '__main__':
         subdata = [None]
 
     result_df = pd.DataFrame(columns=["Datasets"] + METRICS)
-    # TODO: test seed
-    for seed in [598]:
-        for subname in subdata:
-            if args.tag is not None:
-                output_dir = f"./result/{args.dataset}_{subname}_{args.tag}_{seed}"
-            else:
-                output_dir = f"./result/{args.dataset}_{subname}_{seed}"
-            os.makedirs(path.join(output_dir), exist_ok=True)
+    for subname in subdata:
+        if args.tag is not None:
+            output_dir = f"./result/{args.dataset}_{subname}_{args.tag}_{seed}"
+        else:
+            output_dir = f"./result/{args.dataset}_{subname}_{seed}"
+        os.makedirs(path.join(output_dir), exist_ok=True)
 
-            # get dataset
-            train_data, test_data, test_label = read_dataset(args.dataset, subname)
+        # get dataset
+        train_data, test_data, test_label = read_dataset(args.dataset, subname)
 
-            # get method info
-            train_config = {"seed": 598, "lr": 0.001, "optim_conf": {"weight_decay": 0.00001},
-                            "schedule_conf": {"step_num": 5, "decay": 0.9}, "batch_size": 128, "max_epochs": 7,
-                            "log_period": 10, "num_recent_models": -1, "early_stop_count": -1, "test_bsz": 1,
-                            "norm_type": "norm",
-                            }
+        # get method info
+        train_config = {"seed": 598, "lr": 0.001, "optim_conf": {"weight_decay": 0.00001},
+                        "schedule_conf": {"step_num": 5, "decay": 0.9}, "batch_size": 128, "max_epochs": 7,
+                        "log_period": 10, "num_recent_models": -1, "early_stop_count": -1, "test_bsz": 1,
+                        "norm_type": "norm",
+                        }
 
-            # other config
-            window_length = 100
-            test_window_length = window_length
-            test_align = "nonoverlap"
+        # other config
+        window_length = 100
+        test_window_length = window_length
+        test_align = "nonoverlap"
 
-            # init_seed(train_config["seed"])
-            init_seed(seed)
-            # training
-            train_dataset = RecDataset(train_data, label=np.zeros_like(train_data), dtype=np.float64 if args.double else np.float32,
-                                       partition=True, shuffle=False, window_length=window_length, normalization_type=train_config["norm_type"])
+        init_seed(train_config["seed"])
 
-            clf = DecomposeMambaSSM(
-                input_size=train_dataset.input_dim,
-                window_size=window_length,
-                pre_filter=args.pre_filter, # HP filter
-                decomp=args.decomp # AMA
-            )
+        # training
+        train_dataset = RecDataset(train_data, label=np.zeros_like(train_data), dtype=np.float64 if args.double else np.float32,
+                                   partition=True, shuffle=False, window_length=window_length, normalization_type=train_config["norm_type"])
 
-            if args.double:
-                clf = clf.double()
-            logging.info("Training...")
-            # train
-            trainer = Trainer(clf,
-                              output_dir=output_dir,
-                              init_model=None,
-                              device=args.device,
-                              **train_config
-                              )
-            if not args.test:
-                trainer.fit(train_dataset, val_dataset=None)
+        clf = DecomposeMambaSSM(
+            input_size=train_dataset.input_dim,
+            window_size=window_length,
+            pre_filter=args.pre_filter, # HP filter
+            decomp=args.decomp # AMA
+        )
 
-            test_dataset = RecDataset(test_data, test_label, dtype=np.float64 if args.double else np.float32,
-                                      partition=False, shuffle=False, window_length=test_window_length,
-                                      xscaler=train_dataset.xscaler, align=test_align)
+        if args.double:
+            clf = clf.double()
+        logging.info("Training...")
+        # train
+        trainer = Trainer(clf,
+                          output_dir=output_dir,
+                          init_model=None,
+                          device=args.device,
+                          **train_config
+                          )
+        if not args.test:
+            trainer.fit(train_dataset, val_dataset=None)
 
-            test_dataloader = DataLoader(test_dataset, batch_size=train_config["test_bsz"], num_workers=0)
-            init_dataset = RecDataset(train_data, np.zeros(train_data.shape[0]), dtype=np.float64 if args.double else np.float32,
-                                      partition=False, shuffle=False, window_length=test_window_length,
-                                      xscaler=train_dataset.xscaler, align=test_align)
-            init_dataloader = DataLoader(init_dataset, batch_size=train_config["test_bsz"], num_workers=0)
+        test_dataset = RecDataset(test_data, test_label, dtype=np.float64 if args.double else np.float32,
+                                  partition=False, shuffle=False, window_length=test_window_length,
+                                  xscaler=train_dataset.xscaler, align=test_align)
 
-            results, labels = detect(clf, trainer.final_model, test_dataloader, device=args.device,
-                                     init_dataloader=init_dataloader, pot_params=get_q(args.dataset, subname))
+        test_dataloader = DataLoader(test_dataset, batch_size=train_config["test_bsz"], num_workers=0)
+        init_dataset = RecDataset(train_data, np.zeros(train_data.shape[0]), dtype=np.float64 if args.double else np.float32,
+                                  partition=False, shuffle=False, window_length=test_window_length,
+                                  xscaler=train_dataset.xscaler, align=test_align)
+        init_dataloader = DataLoader(init_dataset, batch_size=train_config["test_bsz"], num_workers=0)
 
-            dataname = subname if subname is not None else args.dataset
+        results, labels = detect(clf, trainer.final_model, test_dataloader, device=args.device,
+                                 init_dataloader=init_dataloader, pot_params=get_q(args.dataset, subname))
 
-            row = {"Datasets": f"{dataname}_{seed}"}
-            for m in METRICS:
-                if m in results:
-                    row.update({m: results[m]})
-            result_df = pd.concat([result_df, pd.DataFrame(row, index=[0])], ignore_index=True)
+        dataname = subname if subname is not None else args.dataset
+
+        row = {"Datasets": f"{dataname}"}
+        for m in METRICS:
+            if m in results:
+                row.update({m: results[m]})
+        result_df = pd.concat([result_df, pd.DataFrame(row, index=[0])], ignore_index=True)
 
         # save results
         result_df = result_df.sort_values(by="Datasets")
@@ -145,6 +143,6 @@ if __name__ == '__main__':
         avg_df["Datasets"] = "Avg"
         result_df = result_df.append(avg_df, ignore_index=True)
         if args.tag is not None:
-            result_df.to_csv(path.join(path.abspath(path.join("./result", f"{args.dataset}_{args.tag}_{seed}_result.csv"))), index=False)
+            result_df.to_csv(path.join(path.abspath(path.join("./result", f"{args.dataset}_{args.tag}_result.csv"))), index=False)
         else:
-            result_df.to_csv(path.join(path.abspath(path.join("./result", f"{args.dataset}_{seed}_result.csv"))), index=False)
+            result_df.to_csv(path.join(path.abspath(path.join("./result", f"{args.dataset}_result.csv"))), index=False)
