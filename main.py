@@ -16,7 +16,7 @@ from detect import detect
 from baseline_read_dataset import read_dataset
 
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
-os.environ['CUDA_VISIBLE_DEVICES'] = "3"
+os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 
 METRICS = ["P_af", "R_af", "F1_af"]
 
@@ -61,7 +61,6 @@ if __name__ == '__main__':
 
     if args.dataset == "NASA":
         subdata = ["A-4", "T-1", "C-2"]
-        # subdata = ["A-4"]
     elif args.dataset == "SMD":
         subdata = ["machine-1-1", "machine-2-1", "machine-3-2", "machine-3-7", "machine-1-6"]
     else:
@@ -70,9 +69,9 @@ if __name__ == '__main__':
     result_df = pd.DataFrame(columns=["Datasets"] + METRICS)
     for subname in subdata:
         if args.tag is not None:
-            output_dir = f"./result/{args.dataset}_{subname}_{args.tag}_{seed}"
+            output_dir = f"./result/{args.dataset}_{subname}_{args.tag}"
         else:
-            output_dir = f"./result/{args.dataset}_{subname}_{seed}"
+            output_dir = f"./result/{args.dataset}_{subname}"
         os.makedirs(path.join(output_dir), exist_ok=True)
 
         # get dataset
