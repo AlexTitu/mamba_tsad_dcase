@@ -23,7 +23,7 @@ Download the datasets (`datasets.zip`) here: [[datasets.zip](https://mailnwpuedu
 Unzip the datasets into `./datasets` directory:
 
 ```
-unzip -d ./datasets datasets.zip
+unzip -d ./ datasets.zip
 ```
 
 
