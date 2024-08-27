@@ -136,12 +136,12 @@ if __name__ == '__main__':
                 row.update({m: results[m]})
         result_df = pd.concat([result_df, pd.DataFrame(row, index=[0])], ignore_index=True)
 
-        # save results
-        result_df = result_df.sort_values(by="Datasets")
-        avg_df = pd.Series(result_df.mean(numeric_only=True))
-        avg_df["Datasets"] = "Avg"
-        result_df = result_df.append(avg_df, ignore_index=True)
-        if args.tag is not None:
-            result_df.to_csv(path.join(path.abspath(path.join("./result", f"{args.dataset}_{args.tag}_result.csv"))), index=False)
-        else:
-            result_df.to_csv(path.join(path.abspath(path.join("./result", f"{args.dataset}_result.csv"))), index=False)
+    # save results
+    result_df = result_df.sort_values(by="Datasets")
+    avg_df = pd.Series(result_df.mean(numeric_only=True))
+    avg_df["Datasets"] = "Avg"
+    result_df = result_df.append(avg_df, ignore_index=True)
+    if args.tag is not None:
+        result_df.to_csv(path.join(path.abspath(path.join("./result", f"{args.dataset}_{args.tag}_result.csv"))), index=False)
+    else:
+        result_df.to_csv(path.join(path.abspath(path.join("./result", f"{args.dataset}_result.csv"))), index=False)

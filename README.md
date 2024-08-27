@@ -36,6 +36,8 @@ Run
 bash run.sh
 ```
 
+Results are stored in `./result`.
+
 
 
 ### Results
