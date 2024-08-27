@@ -20,11 +20,11 @@ def detect(clf, model_path, test_dataloader, device="cpu",
         model_name = model_path
     logging.info("Testing model {} ...".format(model_name))
     # obtain scores
-    scores, labels, y_trues, y_hats, trends, seasonals = clf.anomaly_detection(test_dataloader, device)
+    scores, labels, y_trues, y_hats = clf.anomaly_detection(test_dataloader, device)
     results = {"model": model_name, "scores": scores, "y_trues": y_trues, "y_hats": y_hats, "labels": labels}
 
     assert init_dataloader is not None
-    init_scores, _, _, _, _, _ = clf.anomaly_detection(init_dataloader, device)
+    init_scores, _, _, _ = clf.anomaly_detection(init_dataloader, device)
     q, level = pot_params
     spot = SPOT(init_scores, q=q)
     spot.initialize(level=level)

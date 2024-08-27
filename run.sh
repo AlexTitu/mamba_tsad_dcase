@@ -1,6 +1,5 @@
 datasets="NASA SMD SWaT"
-# datasets="NASA"
-tag="final_trial"
+tag="anomaly_detection"
 for data in ${datasets}; do
   echo ${data}
   nohup python3 main.py \

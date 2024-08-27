@@ -175,8 +175,6 @@ class DecomposeMambaSSM(nn.Module):
 
         res = {
             "x": rec,
-            "seasonal": seasonal,
-            "trend": trends,
             "hidden": (new_hidden, trend_hidden),
         }
 
@@ -189,7 +187,7 @@ class DecomposeMambaSSM(nn.Module):
         return tags
 
     def cal_loss(self, res, target, epoch, **kwargs):
-        x, _, _, _ = res.values()
+        x, _ = res.values()
         rec_loss = nn.functional.mse_loss(target, x)
         loss = rec_loss
         metrics = (loss.item(),)
@@ -204,34 +202,26 @@ class DecomposeMambaSSM(nn.Module):
         scores = []
         y_trues = []
         y_hats = []
-        seasonals = []
-        trends = []
         hidden = None
         with torch.no_grad():
             for data, target, data_lens, _ in tqdm(test_dataloader):
                 if device != "cpu":
                     data = data.cuda(0)
                     target = target.cuda(0)
-                x, seasonal, trend, hidden = self.forward(data, data_lens, hidden).values()
+                x, hidden = self.forward(data, data_lens, hidden).values()
                 score = nn.functional.mse_loss(target, x, reduction="none")
                 # b, t -> b
                 y_trues.append(data.cpu().detach().numpy().reshape(-1, x.shape[-1]))
                 y_hats.append(x.cpu().detach().numpy().reshape(-1, x.shape[-1]))
-                seasonals.append(seasonal.cpu().detach().numpy().reshape(-1, seasonal.shape[-1]))
-                trends.append(trend.cpu().detach().numpy().reshape(-1, trend.shape[-1]))
                 scores.append(score.cpu().detach().numpy().reshape(-1, score.shape[-1]))
         # b, t -> b
         y_trues = np.concatenate(y_trues, axis=0)
         y_hats = np.concatenate(y_hats, axis=0)
-        seasonals = np.concatenate(seasonals, axis=0)
-        trends = np.concatenate(trends, axis=0)
         scores = np.concatenate(scores, axis=0).mean(axis=-1)
 
         label = test_dataloader.dataset.label
         scores = scores[:label.shape[0]]
         y_trues = y_trues[:label.shape[0]]
         y_hats = y_hats[:label.shape[0]]
-        trends = trends[:label.shape[0]]
-        seasonals = seasonals[:label.shape[0]]
 
-        return scores, label, y_trues, y_hats, trends, seasonals
+        return scores, label, y_trues, y_hats
