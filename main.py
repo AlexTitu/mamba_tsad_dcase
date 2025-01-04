@@ -20,6 +20,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 
 METRICS = ["P_af", "R_af", "F1_af"]
 
+
 def get_q(dataset, subname=None):
     level = 0.98
     if dataset == "NASA":
@@ -39,11 +40,13 @@ def get_q(dataset, subname=None):
 
     return q, level
 
+
 def init_seed(seed):
     torch.manual_seed(seed)
     np.random.seed(seed)
     random.seed(seed)
     torch.cuda.manual_seed(seed)
+
 
 if __name__ == '__main__':
     # get parser

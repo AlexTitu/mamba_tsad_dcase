@@ -207,7 +207,7 @@ class Mamba(nn.Module):
             if self.training:
                 ssm_state = hs[:, -1]
             else:
-                ssm_state = hs[:, b-1]
+                ssm_state = hs[:, l-1]
             y = (hs @ C.unsqueeze(-1)).squeeze(-1)  # (B, L, D, N) @ (B, L, N, 1) -> (B, L, D, 1)
             if D is not None:
                 y = y + u * D

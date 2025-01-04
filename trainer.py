@@ -9,9 +9,10 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from torch.nn.utils import clip_grad_norm_
-
+import shutil
 MASTER_NODE = 0
 logging.basicConfig(level=logging.INFO)
+
 
 def get_logger(logger_name, file_name):
     """
@@ -35,6 +36,7 @@ def get_logger(logger_name, file_name):
     logger.addHandler(consoleHandler)
     logger.addHandler(fileHandler)
     return logger
+
 
 class StepLRScheduleWrapper(object):
     def __init__(self,
@@ -61,7 +63,6 @@ class StepLRScheduleWrapper(object):
         self.cur_lr = self.lr
         self.step_num = step_num
         self.decay = decay
-
 
     def get_learning_rate(self):
         return self.cur_lr
@@ -103,6 +104,7 @@ class StepLRScheduleWrapper(object):
         state_dict.pop('wrapper_name')
         self.optimizer.load_state_dict(state_dict)
         self.adjust_learning_rate(self.lr)
+
 
 class MetricStat(object):
     """
@@ -256,6 +258,7 @@ class Trainer:
 
         self.train_dataset = None
         self.valid_dataset = None
+
     def save_chkpt(self, epoch):
         optim_state = self.optimizer.state_dict()
         chkpt = {'epoch': epoch,
@@ -265,6 +268,7 @@ class Trainer:
                  'global_step': self.global_step,
                  'optim': optim_state}
         torch.save(chkpt, self.chkpt_path)
+
     def save_model_state(self, epoch):
         cur_model = path.join(self.output_dir, "model.epoch-{}.step-{}".format(epoch, self.global_step))
         model_state_dict = self.model.state_dict()
@@ -274,10 +278,12 @@ class Trainer:
         if num_recent_models > 0 and len(self.recent_models) > num_recent_models:
             pop_model = self.recent_models.pop(0)
             os.remove(pop_model)
+
     def should_early_stop(self):
         early_stop_count = self.train_conf.get("early_stop_count", 0)
         return early_stop_count > 0 and self.stop_step >= early_stop_count
-    def train_one_epoch(self, epoch):
+
+    def train_one_epoch(self, epoch, h):
         cur_lr = self.optimizer.get_learning_rate()
         self.logger.info("Epoch {} start, lr {}".format(epoch, cur_lr))
 
@@ -294,14 +300,14 @@ class Trainer:
         hidden = None
         for batch_data in self.train_loader:
             if self.device == "gpu":
-                data, target, data_lens, target_lens = [d.cuda() for d in batch_data]
+                data, target, labels = [d.cuda() for d in batch_data]
             else:
-                data, target, data_lens, target_lens = [d.cuda() for d in batch_data]
+                data, target, labels = [d.cuda() for d in batch_data]
             batch_size = data.size(0)
 
             self.global_step += 1
 
-            res = self.model(data, data_lens, hidden=hidden)
+            res = self.model(data, hidden=hidden)
             hidden = res.get("hidden", None)
             loss, metrics, counts = self.model.cal_loss(res, target, epoch=epoch)
             loss = loss / accum_grad
@@ -339,6 +345,7 @@ class Trainer:
 
         # final log
         avg_str = []
+        h["train_loss"].append(train_stat[0])
         for tag, stat in zip(self.train_metric.tags, train_stat):
             avg_str += ["{}: {:.6f},".format(tag, stat)]
         avg_str = '\t'.join(avg_str)
@@ -346,14 +353,15 @@ class Trainer:
         self.logger.info("Epoch {} Done,\t{}\tTime: {:.1f} hr,\t".format(epoch, avg_str, elapsed / 3.6e3))
         # valid
         if self.valid_loader is not None:
-            self.valid(epoch)
+            self.valid(epoch, h)
         else:
             self.save_model_state(epoch)
             self.best_model = path.join(self.output_dir, "best_valid_model")
             os.system("cp {} {}".format(self.recent_models[-1], self.best_model))
         # save checkpoint
         self.save_chkpt(epoch + 1)
-    def valid(self, epoch):
+
+    def valid(self, epoch, h):
         self.logger.info("Start Validation")
         self.model.eval()
 
@@ -365,15 +373,15 @@ class Trainer:
         hidden = None
         for batch_idx, batch_data in enumerate(self.valid_loader):
             if self.device == "gpu":
-                data, target, data_lens, target_lens = [d.cuda() for d in batch_data]
+                data, target, labels = [d.cuda() for d in batch_data]
             else:
-                data, target, data_lens, target_lens = [d.cuda() for d in batch_data]
+                data, target, labels = [d.cuda() for d in batch_data]
 
             with torch.no_grad():
                 if hidden is not None:
-                    res = self.model(data, data_lens, hidden)
+                    res = self.model(data, hidden)
                 else:
-                    res = self.model(data, data_lens)
+                    res = self.model(data)
                 hidden = getattr(res, "hidden", None)
                 loss, metrics, counts = self.model.cal_loss(res, target, epoch=epoch)
 
@@ -384,6 +392,7 @@ class Trainer:
         valid_stat = self.valid_metric.summary_stat()  # summarize total state in one epoch
         elapsed = time.time() - valid_start_time
         avg_str = []
+
         for tag, stat in zip(self.valid_metric.tags, valid_stat):
             avg_str += ["{}: {:.6f},".format(tag, stat)]
         avg_str = '\t'.join(avg_str)
@@ -406,21 +415,27 @@ class Trainer:
         # check best loss
         # NOTE: state[0] must store total loss
         valid_loss = valid_stat[0]
+        h["val_loss"].append(valid_loss)
+
         if valid_loss < self.best_valid_loss:
             self.best_valid_loss = valid_loss
             self.best_model = path.join(self.output_dir, "best_valid_model")
-            os.system("cp {} {}".format(self.recent_models[-1], self.best_model))
+            shutil.copy(self.recent_models[-1], self.best_model)
             self.logger.info("new best_valid_loss: {}, storing best model: {}".format(
                 self.best_valid_loss, self.recent_models[-1]))
             self.stop_step = 0
         else:
             self.stop_step += 1
+
         # back to train mode
         self.model.train()
+
     def fit(self, train_dataset, val_dataset, test_dataset=None, test_batch_size=None):
         # build loader
+        h = {"train_loss": [], "val_loss": []}
         self.train_dataset = train_dataset
         self.valid_dataset = val_dataset
+
         self.train_loader = DataLoader(
             self.train_dataset,
             batch_size=self.train_conf["batch_size"],
@@ -449,15 +464,14 @@ class Trainer:
         # )
 
         max_epochs = self.train_conf["max_epochs"]
-
         # training
         for epoch in range(self.start_epoch, max_epochs + 1):
             if self.should_early_stop():
                 self.logger.info("Early stopping")
                 break
-            self.train_dataset.set_epoch(epoch)
-            self.train_one_epoch(epoch)
+            self.train_one_epoch(epoch, h)
         self.logger.info("Training finished")
+        torch.save(h, os.path.join(self.output_dir, "train_loss_history.pt"))
         for handler in list(self.logger.handlers):
             self.logger.removeHandler(handler)
         os.system("ln -s {} {}".format(

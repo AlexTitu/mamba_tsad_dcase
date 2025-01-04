@@ -57,11 +57,11 @@ class MovingAvgFilter(nn.Module):
         return res, trend_hats
 
 class MambaBlock(nn.Module):
-    def __init__(self, d_model, d_state=16, expand=2, dt_rank= 'auto',
-                 d_conv = 4, conv_bias=True, bias=False, scan=True):
+    def __init__(self, d_model, d_state=16, expand=2, dt_rank='auto',
+                 d_conv=4, conv_bias=True, bias=False, scan=True):
         """A single Mamba block, as described in Figure 3 in Section 3.4 in the Mamba paper [1]."""
         super().__init__()
-        self.d_model  = d_model
+        self.d_model = d_model
         self.expand = expand
         self.d_inner = int(d_model * expand)
         self.d_conv = d_conv
@@ -109,6 +109,7 @@ class Hpfilter(object):
 
         return trend, hidden
 
+
 class DecomposeMambaSSM(nn.Module):
     def __init__(self, input_size, window_size, d_model=32, state_size=16,
                  expand=2, block_num=3, pre_filter=True, decomp=True
@@ -125,15 +126,15 @@ class DecomposeMambaSSM(nn.Module):
             MambaBlock(d_model, state_size, expand) for _ in range(block_num)
         )
         self.seasonal_projection = nn.Conv1d(in_channels=d_model, out_channels=input_size, kernel_size=3, stride=1,
+                                             padding=1, padding_mode='replicate', bias=False)
+        self.trend_projection = nn.Conv1d(in_channels=d_model, out_channels=input_size, kernel_size=3, stride=1,
                                           padding=1, padding_mode='replicate', bias=False)
-        self.trend_projection = nn.Conv1d(in_channels=d_model, out_channels=input_size, kernel_size=3, stride=1, padding=1,
-                                    padding_mode='replicate', bias=False)
 
         self.decomp = decomp
         if decomp:
             self.moving_avg = MovingAvgFilter(top_k=1)
 
-    def forward(self, x, ilens=None, hidden=None, **kwargs):
+    def forward(self, x, hidden=None, **kwargs):
         if hidden is not None:
             ssm_hidden, trend_hidden = hidden
         else:

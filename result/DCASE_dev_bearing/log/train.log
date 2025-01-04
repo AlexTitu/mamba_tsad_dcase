@@ -1,0 +1,1397 @@
+2024-12-29 23:05:16 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-29 23:05:16 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-29 23:05:16 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-29 23:05:16 logger.DCASE_dev_bearing:INFO no checkpoint, start training from scratch
+2024-12-29 23:05:16 logger.DCASE_dev_bearing:INFO Epoch 1 start, lr 0.001
+2024-12-29 23:05:20 logger.DCASE_dev_bearing:INFO Epoch: 1,	Trained sentences: 1000,	total_loss: 0.004704,	reconstruction_loss: 0.004704,	lr: 0.00100000,	elapse: 4.2 s
+2024-12-29 23:05:24 logger.DCASE_dev_bearing:INFO Epoch: 1,	Trained sentences: 2000,	total_loss: 0.004404,	reconstruction_loss: 0.004404,	lr: 0.00100000,	elapse: 3.6 s
+2024-12-29 23:05:27 logger.DCASE_dev_bearing:INFO Epoch: 1,	Trained sentences: 3000,	total_loss: 0.004063,	reconstruction_loss: 0.004063,	lr: 0.00100000,	elapse: 3.5 s
+2024-12-29 23:05:31 logger.DCASE_dev_bearing:INFO Epoch: 1,	Trained sentences: 4000,	total_loss: 0.003939,	reconstruction_loss: 0.003939,	lr: 0.00100000,	elapse: 3.6 s
+2024-12-29 23:05:35 logger.DCASE_dev_bearing:INFO Epoch: 1,	Trained sentences: 5000,	total_loss: 0.003816,	reconstruction_loss: 0.003816,	lr: 0.00100000,	elapse: 3.9 s
+2024-12-29 23:05:39 logger.DCASE_dev_bearing:INFO Epoch: 1,	Trained sentences: 6000,	total_loss: 0.003670,	reconstruction_loss: 0.003670,	lr: 0.00100000,	elapse: 3.8 s
+2024-12-29 23:05:40 logger.DCASE_dev_bearing:INFO Epoch 1 Done,	total_loss: 0.004067,	reconstruction_loss: 0.004067,	Time: 0.0 hr,	
+2024-12-29 23:05:40 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:05:49 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.003678,	reconstruction_loss: 0.003678,	Time: 9.380141258239746 s	
+2024-12-29 23:05:49 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0036776529159396887
+2024-12-29 23:05:49 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0036776529159396887, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-1.step-63
+2024-12-29 23:05:49 logger.DCASE_dev_bearing:INFO Epoch 2 start, lr 0.001
+2024-12-29 23:05:52 logger.DCASE_dev_bearing:INFO Epoch: 2,	Trained sentences: 7000,	total_loss: 0.003743,	reconstruction_loss: 0.003743,	lr: 0.00100000,	elapse: 2.5 s
+2024-12-29 23:05:55 logger.DCASE_dev_bearing:INFO Epoch: 2,	Trained sentences: 8000,	total_loss: 0.003734,	reconstruction_loss: 0.003734,	lr: 0.00100000,	elapse: 3.6 s
+2024-12-29 23:05:59 logger.DCASE_dev_bearing:INFO Epoch: 2,	Trained sentences: 9000,	total_loss: 0.003551,	reconstruction_loss: 0.003551,	lr: 0.00100000,	elapse: 3.5 s
+2024-12-29 23:06:02 logger.DCASE_dev_bearing:INFO Epoch: 2,	Trained sentences: 10000,	total_loss: 0.003604,	reconstruction_loss: 0.003604,	lr: 0.00100000,	elapse: 3.5 s
+2024-12-29 23:06:06 logger.DCASE_dev_bearing:INFO Epoch: 2,	Trained sentences: 11000,	total_loss: 0.003455,	reconstruction_loss: 0.003455,	lr: 0.00100000,	elapse: 3.5 s
+2024-12-29 23:06:09 logger.DCASE_dev_bearing:INFO Epoch: 2,	Trained sentences: 12000,	total_loss: 0.003355,	reconstruction_loss: 0.003355,	lr: 0.00100000,	elapse: 3.6 s
+2024-12-29 23:06:12 logger.DCASE_dev_bearing:INFO Epoch 2 Done,	total_loss: 0.003548,	reconstruction_loss: 0.003548,	Time: 0.0 hr,	
+2024-12-29 23:06:12 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:06:21 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.003439,	reconstruction_loss: 0.003439,	Time: 9.491698265075684 s	
+2024-12-29 23:06:21 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0034393982496112585
+2024-12-29 23:06:21 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0034393982496112585, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-2.step-126
+2024-12-29 23:06:21 logger.DCASE_dev_bearing:INFO Epoch 3 start, lr 0.001
+2024-12-29 23:06:23 logger.DCASE_dev_bearing:INFO Epoch: 3,	Trained sentences: 13000,	total_loss: 0.003523,	reconstruction_loss: 0.003523,	lr: 0.00100000,	elapse: 1.5 s
+2024-12-29 23:06:26 logger.DCASE_dev_bearing:INFO Epoch: 3,	Trained sentences: 14000,	total_loss: 0.003463,	reconstruction_loss: 0.003463,	lr: 0.00100000,	elapse: 3.6 s
+2024-12-29 23:06:30 logger.DCASE_dev_bearing:INFO Epoch: 3,	Trained sentences: 15000,	total_loss: 0.003440,	reconstruction_loss: 0.003440,	lr: 0.00100000,	elapse: 3.5 s
+2024-12-29 23:06:33 logger.DCASE_dev_bearing:INFO Epoch: 3,	Trained sentences: 16000,	total_loss: 0.003414,	reconstruction_loss: 0.003414,	lr: 0.00100000,	elapse: 3.5 s
+2024-12-29 23:06:37 logger.DCASE_dev_bearing:INFO Epoch: 3,	Trained sentences: 17000,	total_loss: 0.003270,	reconstruction_loss: 0.003270,	lr: 0.00100000,	elapse: 3.5 s
+2024-12-29 23:06:40 logger.DCASE_dev_bearing:INFO Epoch: 3,	Trained sentences: 18000,	total_loss: 0.003188,	reconstruction_loss: 0.003188,	lr: 0.00100000,	elapse: 3.5 s
+2024-12-29 23:06:43 logger.DCASE_dev_bearing:INFO Epoch 3 Done,	total_loss: 0.003339,	reconstruction_loss: 0.003339,	Time: 0.0 hr,	
+2024-12-29 23:06:43 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:06:53 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.003220,	reconstruction_loss: 0.003220,	Time: 9.326883554458618 s	
+2024-12-29 23:06:53 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.003220321610569954
+2024-12-29 23:06:53 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.003220321610569954, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-3.step-189
+2024-12-29 23:06:53 logger.DCASE_dev_bearing:INFO Epoch 4 start, lr 0.001
+2024-12-29 23:06:53 logger.DCASE_dev_bearing:INFO Epoch: 4,	Trained sentences: 19000,	total_loss: 0.003065,	reconstruction_loss: 0.003065,	lr: 0.00090000,	elapse: 0.4 s
+2024-12-29 23:06:57 logger.DCASE_dev_bearing:INFO Epoch: 4,	Trained sentences: 20000,	total_loss: 0.003229,	reconstruction_loss: 0.003229,	lr: 0.00090000,	elapse: 3.5 s
+2024-12-29 23:07:00 logger.DCASE_dev_bearing:INFO Epoch: 4,	Trained sentences: 21000,	total_loss: 0.003271,	reconstruction_loss: 0.003271,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:07:03 logger.DCASE_dev_bearing:INFO Epoch: 4,	Trained sentences: 22000,	total_loss: 0.003227,	reconstruction_loss: 0.003227,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:07:07 logger.DCASE_dev_bearing:INFO Epoch: 4,	Trained sentences: 23000,	total_loss: 0.003145,	reconstruction_loss: 0.003145,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:07:10 logger.DCASE_dev_bearing:INFO Epoch: 4,	Trained sentences: 24000,	total_loss: 0.003023,	reconstruction_loss: 0.003023,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:07:14 logger.DCASE_dev_bearing:INFO Epoch: 4,	Trained sentences: 25000,	total_loss: 0.003031,	reconstruction_loss: 0.003031,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:07:14 logger.DCASE_dev_bearing:INFO Epoch 4 Done,	total_loss: 0.003145,	reconstruction_loss: 0.003145,	Time: 0.0 hr,	
+2024-12-29 23:07:14 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:07:24 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.003056,	reconstruction_loss: 0.003056,	Time: 9.354063987731934 s	
+2024-12-29 23:07:24 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.003056459128856659
+2024-12-29 23:07:24 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.003056459128856659, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-4.step-252
+2024-12-29 23:07:24 logger.DCASE_dev_bearing:INFO Epoch 5 start, lr 0.0009000000000000001
+2024-12-29 23:07:27 logger.DCASE_dev_bearing:INFO Epoch: 5,	Trained sentences: 26000,	total_loss: 0.003036,	reconstruction_loss: 0.003036,	lr: 0.00090000,	elapse: 3.1 s
+2024-12-29 23:07:30 logger.DCASE_dev_bearing:INFO Epoch: 5,	Trained sentences: 27000,	total_loss: 0.003151,	reconstruction_loss: 0.003151,	lr: 0.00090000,	elapse: 3.5 s
+2024-12-29 23:07:34 logger.DCASE_dev_bearing:INFO Epoch: 5,	Trained sentences: 28000,	total_loss: 0.002995,	reconstruction_loss: 0.002995,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:07:37 logger.DCASE_dev_bearing:INFO Epoch: 5,	Trained sentences: 29000,	total_loss: 0.003030,	reconstruction_loss: 0.003030,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:07:41 logger.DCASE_dev_bearing:INFO Epoch: 5,	Trained sentences: 30000,	total_loss: 0.002899,	reconstruction_loss: 0.002899,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:07:44 logger.DCASE_dev_bearing:INFO Epoch: 5,	Trained sentences: 31000,	total_loss: 0.002873,	reconstruction_loss: 0.002873,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:07:46 logger.DCASE_dev_bearing:INFO Epoch 5 Done,	total_loss: 0.002985,	reconstruction_loss: 0.002985,	Time: 0.0 hr,	
+2024-12-29 23:07:46 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:07:55 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002907,	reconstruction_loss: 0.002907,	Time: 9.241732835769653 s	
+2024-12-29 23:07:55 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0029072584584355354
+2024-12-29 23:07:55 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0029072584584355354, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-5.step-315
+2024-12-29 23:07:55 logger.DCASE_dev_bearing:INFO Epoch 6 start, lr 0.0009000000000000001
+2024-12-29 23:07:57 logger.DCASE_dev_bearing:INFO Epoch: 6,	Trained sentences: 32000,	total_loss: 0.002861,	reconstruction_loss: 0.002861,	lr: 0.00090000,	elapse: 2.0 s
+2024-12-29 23:08:00 logger.DCASE_dev_bearing:INFO Epoch: 6,	Trained sentences: 33000,	total_loss: 0.002961,	reconstruction_loss: 0.002961,	lr: 0.00090000,	elapse: 3.6 s
+2024-12-29 23:08:04 logger.DCASE_dev_bearing:INFO Epoch: 6,	Trained sentences: 34000,	total_loss: 0.002888,	reconstruction_loss: 0.002888,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:08:07 logger.DCASE_dev_bearing:INFO Epoch: 6,	Trained sentences: 35000,	total_loss: 0.002910,	reconstruction_loss: 0.002910,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:08:11 logger.DCASE_dev_bearing:INFO Epoch: 6,	Trained sentences: 36000,	total_loss: 0.002759,	reconstruction_loss: 0.002759,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:08:14 logger.DCASE_dev_bearing:INFO Epoch: 6,	Trained sentences: 37000,	total_loss: 0.002773,	reconstruction_loss: 0.002773,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:08:17 logger.DCASE_dev_bearing:INFO Epoch 6 Done,	total_loss: 0.002844,	reconstruction_loss: 0.002844,	Time: 0.0 hr,	
+2024-12-29 23:08:17 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:08:26 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002799,	reconstruction_loss: 0.002799,	Time: 9.343560218811035 s	
+2024-12-29 23:08:26 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0027986785862594843
+2024-12-29 23:08:26 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0027986785862594843, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-6.step-378
+2024-12-29 23:08:26 logger.DCASE_dev_bearing:INFO Epoch 7 start, lr 0.0009000000000000001
+2024-12-29 23:08:27 logger.DCASE_dev_bearing:INFO Epoch: 7,	Trained sentences: 38000,	total_loss: 0.002711,	reconstruction_loss: 0.002711,	lr: 0.00090000,	elapse: 0.7 s
+2024-12-29 23:08:30 logger.DCASE_dev_bearing:INFO Epoch: 7,	Trained sentences: 39000,	total_loss: 0.002816,	reconstruction_loss: 0.002816,	lr: 0.00090000,	elapse: 3.5 s
+2024-12-29 23:08:34 logger.DCASE_dev_bearing:INFO Epoch: 7,	Trained sentences: 40000,	total_loss: 0.002824,	reconstruction_loss: 0.002824,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:08:37 logger.DCASE_dev_bearing:INFO Epoch: 7,	Trained sentences: 41000,	total_loss: 0.002807,	reconstruction_loss: 0.002807,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:08:41 logger.DCASE_dev_bearing:INFO Epoch: 7,	Trained sentences: 42000,	total_loss: 0.002732,	reconstruction_loss: 0.002732,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:08:44 logger.DCASE_dev_bearing:INFO Epoch: 7,	Trained sentences: 43000,	total_loss: 0.002674,	reconstruction_loss: 0.002674,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:08:48 logger.DCASE_dev_bearing:INFO Epoch: 7,	Trained sentences: 44000,	total_loss: 0.002678,	reconstruction_loss: 0.002678,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:08:48 logger.DCASE_dev_bearing:INFO Epoch 7 Done,	total_loss: 0.002750,	reconstruction_loss: 0.002750,	Time: 0.0 hr,	
+2024-12-29 23:08:48 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:08:57 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002703,	reconstruction_loss: 0.002703,	Time: 9.308013677597046 s	
+2024-12-29 23:08:57 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0027030387427657843
+2024-12-29 23:08:57 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0027030387427657843, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-7.step-441
+2024-12-29 23:08:57 logger.DCASE_dev_bearing:INFO Epoch 8 start, lr 0.0009000000000000001
+2024-12-29 23:09:00 logger.DCASE_dev_bearing:INFO Epoch: 8,	Trained sentences: 45000,	total_loss: 0.002692,	reconstruction_loss: 0.002692,	lr: 0.00090000,	elapse: 3.3 s
+2024-12-29 23:09:04 logger.DCASE_dev_bearing:INFO Epoch: 8,	Trained sentences: 46000,	total_loss: 0.002782,	reconstruction_loss: 0.002782,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:09:07 logger.DCASE_dev_bearing:INFO Epoch: 8,	Trained sentences: 47000,	total_loss: 0.002655,	reconstruction_loss: 0.002655,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:09:11 logger.DCASE_dev_bearing:INFO Epoch: 8,	Trained sentences: 48000,	total_loss: 0.002709,	reconstruction_loss: 0.002709,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:09:14 logger.DCASE_dev_bearing:INFO Epoch: 8,	Trained sentences: 49000,	total_loss: 0.002594,	reconstruction_loss: 0.002594,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:09:18 logger.DCASE_dev_bearing:INFO Epoch: 8,	Trained sentences: 50000,	total_loss: 0.002574,	reconstruction_loss: 0.002574,	lr: 0.00090000,	elapse: 3.4 s
+2024-12-29 23:09:19 logger.DCASE_dev_bearing:INFO Epoch 8 Done,	total_loss: 0.002659,	reconstruction_loss: 0.002659,	Time: 0.0 hr,	
+2024-12-29 23:09:19 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:09:28 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002628,	reconstruction_loss: 0.002628,	Time: 9.349831581115723 s	
+2024-12-29 23:09:28 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0026278600562363863
+2024-12-29 23:09:28 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0026278600562363863, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-8.step-504
+2024-12-29 23:09:28 logger.DCASE_dev_bearing:INFO Epoch 9 start, lr 0.0009000000000000001
+2024-12-29 23:09:31 logger.DCASE_dev_bearing:INFO Epoch: 9,	Trained sentences: 51000,	total_loss: 0.002627,	reconstruction_loss: 0.002627,	lr: 0.00081000,	elapse: 2.3 s
+2024-12-29 23:09:34 logger.DCASE_dev_bearing:INFO Epoch: 9,	Trained sentences: 52000,	total_loss: 0.002706,	reconstruction_loss: 0.002706,	lr: 0.00081000,	elapse: 3.5 s
+2024-12-29 23:09:38 logger.DCASE_dev_bearing:INFO Epoch: 9,	Trained sentences: 53000,	total_loss: 0.002627,	reconstruction_loss: 0.002627,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:09:41 logger.DCASE_dev_bearing:INFO Epoch: 9,	Trained sentences: 54000,	total_loss: 0.002634,	reconstruction_loss: 0.002634,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:09:44 logger.DCASE_dev_bearing:INFO Epoch: 9,	Trained sentences: 55000,	total_loss: 0.002517,	reconstruction_loss: 0.002517,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:09:48 logger.DCASE_dev_bearing:INFO Epoch: 9,	Trained sentences: 56000,	total_loss: 0.002534,	reconstruction_loss: 0.002534,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:09:50 logger.DCASE_dev_bearing:INFO Epoch 9 Done,	total_loss: 0.002600,	reconstruction_loss: 0.002600,	Time: 0.0 hr,	
+2024-12-29 23:09:50 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:09:59 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002590,	reconstruction_loss: 0.002590,	Time: 9.158476829528809 s	
+2024-12-29 23:09:59 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0025900688488036394
+2024-12-29 23:09:59 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0025900688488036394, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-9.step-567
+2024-12-29 23:09:59 logger.DCASE_dev_bearing:INFO Epoch 10 start, lr 0.0008100000000000001
+2024-12-29 23:10:01 logger.DCASE_dev_bearing:INFO Epoch: 10,	Trained sentences: 57000,	total_loss: 0.002555,	reconstruction_loss: 0.002555,	lr: 0.00081000,	elapse: 1.2 s
+2024-12-29 23:10:04 logger.DCASE_dev_bearing:INFO Epoch: 10,	Trained sentences: 58000,	total_loss: 0.002628,	reconstruction_loss: 0.002628,	lr: 0.00081000,	elapse: 3.6 s
+2024-12-29 23:10:07 logger.DCASE_dev_bearing:INFO Epoch: 10,	Trained sentences: 59000,	total_loss: 0.002622,	reconstruction_loss: 0.002622,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:10:11 logger.DCASE_dev_bearing:INFO Epoch: 10,	Trained sentences: 60000,	total_loss: 0.002599,	reconstruction_loss: 0.002599,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:10:14 logger.DCASE_dev_bearing:INFO Epoch: 10,	Trained sentences: 61000,	total_loss: 0.002547,	reconstruction_loss: 0.002547,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:10:18 logger.DCASE_dev_bearing:INFO Epoch: 10,	Trained sentences: 62000,	total_loss: 0.002506,	reconstruction_loss: 0.002506,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:10:21 logger.DCASE_dev_bearing:INFO Epoch: 10,	Trained sentences: 63000,	total_loss: 0.002510,	reconstruction_loss: 0.002510,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:10:21 logger.DCASE_dev_bearing:INFO Epoch 10 Done,	total_loss: 0.002568,	reconstruction_loss: 0.002568,	Time: 0.0 hr,	
+2024-12-29 23:10:21 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:10:30 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002562,	reconstruction_loss: 0.002562,	Time: 9.073065519332886 s	
+2024-12-29 23:10:30 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0025618451181799173
+2024-12-29 23:10:30 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0025618451181799173, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-10.step-630
+2024-12-29 23:10:30 logger.DCASE_dev_bearing:INFO Epoch 11 start, lr 0.0008100000000000001
+2024-12-29 23:10:34 logger.DCASE_dev_bearing:INFO Epoch: 11,	Trained sentences: 64000,	total_loss: 0.002559,	reconstruction_loss: 0.002559,	lr: 0.00081000,	elapse: 3.8 s
+2024-12-29 23:10:37 logger.DCASE_dev_bearing:INFO Epoch: 11,	Trained sentences: 65000,	total_loss: 0.002638,	reconstruction_loss: 0.002638,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:10:41 logger.DCASE_dev_bearing:INFO Epoch: 11,	Trained sentences: 66000,	total_loss: 0.002556,	reconstruction_loss: 0.002556,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:10:44 logger.DCASE_dev_bearing:INFO Epoch: 11,	Trained sentences: 67000,	total_loss: 0.002575,	reconstruction_loss: 0.002575,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:10:47 logger.DCASE_dev_bearing:INFO Epoch: 11,	Trained sentences: 68000,	total_loss: 0.002496,	reconstruction_loss: 0.002496,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:10:51 logger.DCASE_dev_bearing:INFO Epoch: 11,	Trained sentences: 69000,	total_loss: 0.002498,	reconstruction_loss: 0.002498,	lr: 0.00081000,	elapse: 3.6 s
+2024-12-29 23:10:52 logger.DCASE_dev_bearing:INFO Epoch 11 Done,	total_loss: 0.002544,	reconstruction_loss: 0.002544,	Time: 0.0 hr,	
+2024-12-29 23:10:52 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:11:02 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002537,	reconstruction_loss: 0.002537,	Time: 9.442765235900879 s	
+2024-12-29 23:11:02 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0025373303797096014
+2024-12-29 23:11:02 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0025373303797096014, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-11.step-693
+2024-12-29 23:11:02 logger.DCASE_dev_bearing:INFO Epoch 12 start, lr 0.0008100000000000001
+2024-12-29 23:11:04 logger.DCASE_dev_bearing:INFO Epoch: 12,	Trained sentences: 70000,	total_loss: 0.002544,	reconstruction_loss: 0.002544,	lr: 0.00081000,	elapse: 2.5 s
+2024-12-29 23:11:07 logger.DCASE_dev_bearing:INFO Epoch: 12,	Trained sentences: 71000,	total_loss: 0.002622,	reconstruction_loss: 0.002622,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:11:11 logger.DCASE_dev_bearing:INFO Epoch: 12,	Trained sentences: 72000,	total_loss: 0.002504,	reconstruction_loss: 0.002504,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:11:14 logger.DCASE_dev_bearing:INFO Epoch: 12,	Trained sentences: 73000,	total_loss: 0.002562,	reconstruction_loss: 0.002562,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:11:18 logger.DCASE_dev_bearing:INFO Epoch: 12,	Trained sentences: 74000,	total_loss: 0.002458,	reconstruction_loss: 0.002458,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:11:21 logger.DCASE_dev_bearing:INFO Epoch: 12,	Trained sentences: 75000,	total_loss: 0.002429,	reconstruction_loss: 0.002429,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:11:23 logger.DCASE_dev_bearing:INFO Epoch 12 Done,	total_loss: 0.002513,	reconstruction_loss: 0.002513,	Time: 0.0 hr,	
+2024-12-29 23:11:23 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:11:32 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002500,	reconstruction_loss: 0.002500,	Time: 9.209413766860962 s	
+2024-12-29 23:11:32 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0024997417349368334
+2024-12-29 23:11:32 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0024997417349368334, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-12.step-756
+2024-12-29 23:11:32 logger.DCASE_dev_bearing:INFO Epoch 13 start, lr 0.0008100000000000001
+2024-12-29 23:11:34 logger.DCASE_dev_bearing:INFO Epoch: 13,	Trained sentences: 76000,	total_loss: 0.002475,	reconstruction_loss: 0.002475,	lr: 0.00081000,	elapse: 1.6 s
+2024-12-29 23:11:37 logger.DCASE_dev_bearing:INFO Epoch: 13,	Trained sentences: 77000,	total_loss: 0.002545,	reconstruction_loss: 0.002545,	lr: 0.00081000,	elapse: 3.6 s
+2024-12-29 23:11:41 logger.DCASE_dev_bearing:INFO Epoch: 13,	Trained sentences: 78000,	total_loss: 0.002536,	reconstruction_loss: 0.002536,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:11:44 logger.DCASE_dev_bearing:INFO Epoch: 13,	Trained sentences: 79000,	total_loss: 0.002544,	reconstruction_loss: 0.002544,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:11:48 logger.DCASE_dev_bearing:INFO Epoch: 13,	Trained sentences: 80000,	total_loss: 0.002419,	reconstruction_loss: 0.002419,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:11:51 logger.DCASE_dev_bearing:INFO Epoch: 13,	Trained sentences: 81000,	total_loss: 0.002418,	reconstruction_loss: 0.002418,	lr: 0.00081000,	elapse: 3.4 s
+2024-12-29 23:11:54 logger.DCASE_dev_bearing:INFO Epoch 13 Done,	total_loss: 0.002481,	reconstruction_loss: 0.002481,	Time: 0.0 hr,	
+2024-12-29 23:11:54 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:12:03 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002476,	reconstruction_loss: 0.002476,	Time: 9.295459270477295 s	
+2024-12-29 23:12:03 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0024762419052422047
+2024-12-29 23:12:03 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0024762419052422047, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-13.step-819
+2024-12-29 23:12:03 logger.DCASE_dev_bearing:INFO Epoch 14 start, lr 0.0008100000000000001
+2024-12-29 23:12:04 logger.DCASE_dev_bearing:INFO Epoch: 14,	Trained sentences: 82000,	total_loss: 0.002351,	reconstruction_loss: 0.002351,	lr: 0.00072900,	elapse: 0.4 s
+2024-12-29 23:12:07 logger.DCASE_dev_bearing:INFO Epoch: 14,	Trained sentences: 83000,	total_loss: 0.002479,	reconstruction_loss: 0.002479,	lr: 0.00072900,	elapse: 3.5 s
+2024-12-29 23:12:10 logger.DCASE_dev_bearing:INFO Epoch: 14,	Trained sentences: 84000,	total_loss: 0.002536,	reconstruction_loss: 0.002536,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:12:14 logger.DCASE_dev_bearing:INFO Epoch: 14,	Trained sentences: 85000,	total_loss: 0.002520,	reconstruction_loss: 0.002520,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:12:17 logger.DCASE_dev_bearing:INFO Epoch: 14,	Trained sentences: 86000,	total_loss: 0.002441,	reconstruction_loss: 0.002441,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:12:21 logger.DCASE_dev_bearing:INFO Epoch: 14,	Trained sentences: 87000,	total_loss: 0.002379,	reconstruction_loss: 0.002379,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:12:24 logger.DCASE_dev_bearing:INFO Epoch: 14,	Trained sentences: 88000,	total_loss: 0.002415,	reconstruction_loss: 0.002415,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:12:25 logger.DCASE_dev_bearing:INFO Epoch 14 Done,	total_loss: 0.002455,	reconstruction_loss: 0.002455,	Time: 0.0 hr,	
+2024-12-29 23:12:25 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:12:34 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002442,	reconstruction_loss: 0.002442,	Time: 9.413848638534546 s	
+2024-12-29 23:12:34 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0024424961302429438
+2024-12-29 23:12:34 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0024424961302429438, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-14.step-882
+2024-12-29 23:12:34 logger.DCASE_dev_bearing:INFO Epoch 15 start, lr 0.0007290000000000002
+2024-12-29 23:12:37 logger.DCASE_dev_bearing:INFO Epoch: 15,	Trained sentences: 89000,	total_loss: 0.002418,	reconstruction_loss: 0.002418,	lr: 0.00072900,	elapse: 2.7 s
+2024-12-29 23:12:40 logger.DCASE_dev_bearing:INFO Epoch: 15,	Trained sentences: 90000,	total_loss: 0.002534,	reconstruction_loss: 0.002534,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:12:44 logger.DCASE_dev_bearing:INFO Epoch: 15,	Trained sentences: 91000,	total_loss: 0.002423,	reconstruction_loss: 0.002423,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:12:47 logger.DCASE_dev_bearing:INFO Epoch: 15,	Trained sentences: 92000,	total_loss: 0.002463,	reconstruction_loss: 0.002463,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:12:50 logger.DCASE_dev_bearing:INFO Epoch: 15,	Trained sentences: 93000,	total_loss: 0.002349,	reconstruction_loss: 0.002349,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:12:54 logger.DCASE_dev_bearing:INFO Epoch: 15,	Trained sentences: 94000,	total_loss: 0.002371,	reconstruction_loss: 0.002371,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:12:55 logger.DCASE_dev_bearing:INFO Epoch 15 Done,	total_loss: 0.002422,	reconstruction_loss: 0.002422,	Time: 0.0 hr,	
+2024-12-29 23:12:55 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:13:04 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002418,	reconstruction_loss: 0.002418,	Time: 9.060439825057983 s	
+2024-12-29 23:13:04 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002418143441900611
+2024-12-29 23:13:04 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002418143441900611, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-15.step-945
+2024-12-29 23:13:04 logger.DCASE_dev_bearing:INFO Epoch 16 start, lr 0.0007290000000000002
+2024-12-29 23:13:06 logger.DCASE_dev_bearing:INFO Epoch: 16,	Trained sentences: 95000,	total_loss: 0.002394,	reconstruction_loss: 0.002394,	lr: 0.00072900,	elapse: 2.0 s
+2024-12-29 23:13:10 logger.DCASE_dev_bearing:INFO Epoch: 16,	Trained sentences: 96000,	total_loss: 0.002474,	reconstruction_loss: 0.002474,	lr: 0.00072900,	elapse: 3.6 s
+2024-12-29 23:13:13 logger.DCASE_dev_bearing:INFO Epoch: 16,	Trained sentences: 97000,	total_loss: 0.002427,	reconstruction_loss: 0.002427,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:13:17 logger.DCASE_dev_bearing:INFO Epoch: 16,	Trained sentences: 98000,	total_loss: 0.002454,	reconstruction_loss: 0.002454,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:13:20 logger.DCASE_dev_bearing:INFO Epoch: 16,	Trained sentences: 99000,	total_loss: 0.002325,	reconstruction_loss: 0.002325,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:13:23 logger.DCASE_dev_bearing:INFO Epoch: 16,	Trained sentences: 100000,	total_loss: 0.002347,	reconstruction_loss: 0.002347,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:13:26 logger.DCASE_dev_bearing:INFO Epoch 16 Done,	total_loss: 0.002396,	reconstruction_loss: 0.002396,	Time: 0.0 hr,	
+2024-12-29 23:13:26 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:13:35 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002390,	reconstruction_loss: 0.002390,	Time: 9.105115413665771 s	
+2024-12-29 23:13:35 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0023901481181383133
+2024-12-29 23:13:35 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0023901481181383133, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-16.step-1008
+2024-12-29 23:13:35 logger.DCASE_dev_bearing:INFO Epoch 17 start, lr 0.0007290000000000002
+2024-12-29 23:13:36 logger.DCASE_dev_bearing:INFO Epoch: 17,	Trained sentences: 101000,	total_loss: 0.002310,	reconstruction_loss: 0.002310,	lr: 0.00072900,	elapse: 0.7 s
+2024-12-29 23:13:39 logger.DCASE_dev_bearing:INFO Epoch: 17,	Trained sentences: 102000,	total_loss: 0.002408,	reconstruction_loss: 0.002408,	lr: 0.00072900,	elapse: 3.5 s
+2024-12-29 23:13:43 logger.DCASE_dev_bearing:INFO Epoch: 17,	Trained sentences: 103000,	total_loss: 0.002415,	reconstruction_loss: 0.002415,	lr: 0.00072900,	elapse: 3.3 s
+2024-12-29 23:13:46 logger.DCASE_dev_bearing:INFO Epoch: 17,	Trained sentences: 104000,	total_loss: 0.002410,	reconstruction_loss: 0.002410,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:13:50 logger.DCASE_dev_bearing:INFO Epoch: 17,	Trained sentences: 105000,	total_loss: 0.002352,	reconstruction_loss: 0.002352,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:13:53 logger.DCASE_dev_bearing:INFO Epoch: 17,	Trained sentences: 106000,	total_loss: 0.002306,	reconstruction_loss: 0.002306,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:13:56 logger.DCASE_dev_bearing:INFO Epoch: 17,	Trained sentences: 107000,	total_loss: 0.002322,	reconstruction_loss: 0.002322,	lr: 0.00072900,	elapse: 3.3 s
+2024-12-29 23:13:57 logger.DCASE_dev_bearing:INFO Epoch 17 Done,	total_loss: 0.002364,	reconstruction_loss: 0.002364,	Time: 0.0 hr,	
+2024-12-29 23:13:57 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:14:06 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002359,	reconstruction_loss: 0.002359,	Time: 9.154366493225098 s	
+2024-12-29 23:14:06 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002358580008149147
+2024-12-29 23:14:06 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002358580008149147, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-17.step-1071
+2024-12-29 23:14:06 logger.DCASE_dev_bearing:INFO Epoch 18 start, lr 0.0007290000000000002
+2024-12-29 23:14:09 logger.DCASE_dev_bearing:INFO Epoch: 18,	Trained sentences: 108000,	total_loss: 0.002350,	reconstruction_loss: 0.002350,	lr: 0.00072900,	elapse: 3.2 s
+2024-12-29 23:14:12 logger.DCASE_dev_bearing:INFO Epoch: 18,	Trained sentences: 109000,	total_loss: 0.002433,	reconstruction_loss: 0.002433,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:14:16 logger.DCASE_dev_bearing:INFO Epoch: 18,	Trained sentences: 110000,	total_loss: 0.002331,	reconstruction_loss: 0.002331,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:14:19 logger.DCASE_dev_bearing:INFO Epoch: 18,	Trained sentences: 111000,	total_loss: 0.002378,	reconstruction_loss: 0.002378,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:14:22 logger.DCASE_dev_bearing:INFO Epoch: 18,	Trained sentences: 112000,	total_loss: 0.002304,	reconstruction_loss: 0.002304,	lr: 0.00072900,	elapse: 3.4 s
+2024-12-29 23:14:26 logger.DCASE_dev_bearing:INFO Epoch: 18,	Trained sentences: 113000,	total_loss: 0.002283,	reconstruction_loss: 0.002283,	lr: 0.00072900,	elapse: 3.3 s
+2024-12-29 23:14:27 logger.DCASE_dev_bearing:INFO Epoch 18 Done,	total_loss: 0.002341,	reconstruction_loss: 0.002341,	Time: 0.0 hr,	
+2024-12-29 23:14:27 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:14:36 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002339,	reconstruction_loss: 0.002339,	Time: 9.192667722702026 s	
+2024-12-29 23:14:36 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0023391079157590866
+2024-12-29 23:14:36 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0023391079157590866, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-18.step-1134
+2024-12-29 23:14:36 logger.DCASE_dev_bearing:INFO Epoch 19 start, lr 0.0007290000000000002
+2024-12-29 23:14:38 logger.DCASE_dev_bearing:INFO Epoch: 19,	Trained sentences: 114000,	total_loss: 0.002304,	reconstruction_loss: 0.002304,	lr: 0.00065610,	elapse: 2.1 s
+2024-12-29 23:14:42 logger.DCASE_dev_bearing:INFO Epoch: 19,	Trained sentences: 115000,	total_loss: 0.002406,	reconstruction_loss: 0.002406,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:14:45 logger.DCASE_dev_bearing:INFO Epoch: 19,	Trained sentences: 116000,	total_loss: 0.002336,	reconstruction_loss: 0.002336,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:14:48 logger.DCASE_dev_bearing:INFO Epoch: 19,	Trained sentences: 117000,	total_loss: 0.002345,	reconstruction_loss: 0.002345,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:14:52 logger.DCASE_dev_bearing:INFO Epoch: 19,	Trained sentences: 118000,	total_loss: 0.002248,	reconstruction_loss: 0.002248,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:14:55 logger.DCASE_dev_bearing:INFO Epoch: 19,	Trained sentences: 119000,	total_loss: 0.002259,	reconstruction_loss: 0.002259,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:14:58 logger.DCASE_dev_bearing:INFO Epoch 19 Done,	total_loss: 0.002314,	reconstruction_loss: 0.002314,	Time: 0.0 hr,	
+2024-12-29 23:14:58 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:15:07 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002310,	reconstruction_loss: 0.002310,	Time: 9.299316167831421 s	
+2024-12-29 23:15:07 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0023104865103960037
+2024-12-29 23:15:07 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0023104865103960037, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-19.step-1197
+2024-12-29 23:15:07 logger.DCASE_dev_bearing:INFO Epoch 20 start, lr 0.0006561000000000001
+2024-12-29 23:15:08 logger.DCASE_dev_bearing:INFO Epoch: 20,	Trained sentences: 120000,	total_loss: 0.002281,	reconstruction_loss: 0.002281,	lr: 0.00065610,	elapse: 1.0 s
+2024-12-29 23:15:11 logger.DCASE_dev_bearing:INFO Epoch: 20,	Trained sentences: 121000,	total_loss: 0.002329,	reconstruction_loss: 0.002329,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:15:15 logger.DCASE_dev_bearing:INFO Epoch: 20,	Trained sentences: 122000,	total_loss: 0.002338,	reconstruction_loss: 0.002338,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:15:18 logger.DCASE_dev_bearing:INFO Epoch: 20,	Trained sentences: 123000,	total_loss: 0.002321,	reconstruction_loss: 0.002321,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:15:21 logger.DCASE_dev_bearing:INFO Epoch: 20,	Trained sentences: 124000,	total_loss: 0.002278,	reconstruction_loss: 0.002278,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:15:25 logger.DCASE_dev_bearing:INFO Epoch: 20,	Trained sentences: 125000,	total_loss: 0.002237,	reconstruction_loss: 0.002237,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:15:28 logger.DCASE_dev_bearing:INFO Epoch: 20,	Trained sentences: 126000,	total_loss: 0.002251,	reconstruction_loss: 0.002251,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:15:28 logger.DCASE_dev_bearing:INFO Epoch 20 Done,	total_loss: 0.002292,	reconstruction_loss: 0.002292,	Time: 0.0 hr,	
+2024-12-29 23:15:28 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:15:37 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002300,	reconstruction_loss: 0.002300,	Time: 9.221495628356934 s	
+2024-12-29 23:15:37 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0023000005166977644
+2024-12-29 23:15:37 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0023000005166977644, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-20.step-1260
+2024-12-29 23:15:37 logger.DCASE_dev_bearing:INFO Epoch 21 start, lr 0.0006561000000000001
+2024-12-29 23:15:41 logger.DCASE_dev_bearing:INFO Epoch: 21,	Trained sentences: 127000,	total_loss: 0.002298,	reconstruction_loss: 0.002298,	lr: 0.00065610,	elapse: 3.5 s
+2024-12-29 23:15:44 logger.DCASE_dev_bearing:INFO Epoch: 21,	Trained sentences: 128000,	total_loss: 0.002361,	reconstruction_loss: 0.002361,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:15:48 logger.DCASE_dev_bearing:INFO Epoch: 21,	Trained sentences: 129000,	total_loss: 0.002290,	reconstruction_loss: 0.002290,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:15:51 logger.DCASE_dev_bearing:INFO Epoch: 21,	Trained sentences: 130000,	total_loss: 0.002300,	reconstruction_loss: 0.002300,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:15:54 logger.DCASE_dev_bearing:INFO Epoch: 21,	Trained sentences: 131000,	total_loss: 0.002247,	reconstruction_loss: 0.002247,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:15:58 logger.DCASE_dev_bearing:INFO Epoch: 21,	Trained sentences: 132000,	total_loss: 0.002249,	reconstruction_loss: 0.002249,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:15:59 logger.DCASE_dev_bearing:INFO Epoch 21 Done,	total_loss: 0.002283,	reconstruction_loss: 0.002283,	Time: 0.0 hr,	
+2024-12-29 23:15:59 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:16:08 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002290,	reconstruction_loss: 0.002290,	Time: 9.17025375366211 s	
+2024-12-29 23:16:08 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002290376229211688
+2024-12-29 23:16:08 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002290376229211688, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-21.step-1323
+2024-12-29 23:16:08 logger.DCASE_dev_bearing:INFO Epoch 22 start, lr 0.0006561000000000001
+2024-12-29 23:16:10 logger.DCASE_dev_bearing:INFO Epoch: 22,	Trained sentences: 133000,	total_loss: 0.002298,	reconstruction_loss: 0.002298,	lr: 0.00065610,	elapse: 2.5 s
+2024-12-29 23:16:14 logger.DCASE_dev_bearing:INFO Epoch: 22,	Trained sentences: 134000,	total_loss: 0.002358,	reconstruction_loss: 0.002358,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:16:17 logger.DCASE_dev_bearing:INFO Epoch: 22,	Trained sentences: 135000,	total_loss: 0.002258,	reconstruction_loss: 0.002258,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:16:21 logger.DCASE_dev_bearing:INFO Epoch: 22,	Trained sentences: 136000,	total_loss: 0.002313,	reconstruction_loss: 0.002313,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:16:24 logger.DCASE_dev_bearing:INFO Epoch: 22,	Trained sentences: 137000,	total_loss: 0.002233,	reconstruction_loss: 0.002233,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:16:27 logger.DCASE_dev_bearing:INFO Epoch: 22,	Trained sentences: 138000,	total_loss: 0.002203,	reconstruction_loss: 0.002203,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:16:29 logger.DCASE_dev_bearing:INFO Epoch 22 Done,	total_loss: 0.002273,	reconstruction_loss: 0.002273,	Time: 0.0 hr,	
+2024-12-29 23:16:29 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:16:39 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002283,	reconstruction_loss: 0.002283,	Time: 9.416808128356934 s	
+2024-12-29 23:16:39 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002282923087477684
+2024-12-29 23:16:39 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002282923087477684, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-22.step-1386
+2024-12-29 23:16:39 logger.DCASE_dev_bearing:INFO Epoch 23 start, lr 0.0006561000000000001
+2024-12-29 23:16:40 logger.DCASE_dev_bearing:INFO Epoch: 23,	Trained sentences: 139000,	total_loss: 0.002279,	reconstruction_loss: 0.002279,	lr: 0.00065610,	elapse: 1.4 s
+2024-12-29 23:16:44 logger.DCASE_dev_bearing:INFO Epoch: 23,	Trained sentences: 140000,	total_loss: 0.002312,	reconstruction_loss: 0.002312,	lr: 0.00065610,	elapse: 3.5 s
+2024-12-29 23:16:47 logger.DCASE_dev_bearing:INFO Epoch: 23,	Trained sentences: 141000,	total_loss: 0.002310,	reconstruction_loss: 0.002310,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:16:50 logger.DCASE_dev_bearing:INFO Epoch: 23,	Trained sentences: 142000,	total_loss: 0.002320,	reconstruction_loss: 0.002320,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:16:54 logger.DCASE_dev_bearing:INFO Epoch: 23,	Trained sentences: 143000,	total_loss: 0.002215,	reconstruction_loss: 0.002215,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:16:57 logger.DCASE_dev_bearing:INFO Epoch: 23,	Trained sentences: 144000,	total_loss: 0.002211,	reconstruction_loss: 0.002211,	lr: 0.00065610,	elapse: 3.4 s
+2024-12-29 23:17:00 logger.DCASE_dev_bearing:INFO Epoch 23 Done,	total_loss: 0.002266,	reconstruction_loss: 0.002266,	Time: 0.0 hr,	
+2024-12-29 23:17:00 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:17:09 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002277,	reconstruction_loss: 0.002277,	Time: 9.2595374584198 s	
+2024-12-29 23:17:09 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0022768911439925432
+2024-12-29 23:17:09 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0022768911439925432, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-23.step-1449
+2024-12-29 23:17:09 logger.DCASE_dev_bearing:INFO Epoch 24 start, lr 0.0006561000000000001
+2024-12-29 23:17:10 logger.DCASE_dev_bearing:INFO Epoch: 24,	Trained sentences: 145000,	total_loss: 0.002153,	reconstruction_loss: 0.002153,	lr: 0.00059049,	elapse: 0.4 s
+2024-12-29 23:17:13 logger.DCASE_dev_bearing:INFO Epoch: 24,	Trained sentences: 146000,	total_loss: 0.002278,	reconstruction_loss: 0.002278,	lr: 0.00059049,	elapse: 3.5 s
+2024-12-29 23:17:17 logger.DCASE_dev_bearing:INFO Epoch: 24,	Trained sentences: 147000,	total_loss: 0.002324,	reconstruction_loss: 0.002324,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:17:20 logger.DCASE_dev_bearing:INFO Epoch: 24,	Trained sentences: 148000,	total_loss: 0.002315,	reconstruction_loss: 0.002315,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:17:23 logger.DCASE_dev_bearing:INFO Epoch: 24,	Trained sentences: 149000,	total_loss: 0.002250,	reconstruction_loss: 0.002250,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:17:27 logger.DCASE_dev_bearing:INFO Epoch: 24,	Trained sentences: 150000,	total_loss: 0.002201,	reconstruction_loss: 0.002201,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:17:30 logger.DCASE_dev_bearing:INFO Epoch: 24,	Trained sentences: 151000,	total_loss: 0.002234,	reconstruction_loss: 0.002234,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:17:31 logger.DCASE_dev_bearing:INFO Epoch 24 Done,	total_loss: 0.002261,	reconstruction_loss: 0.002261,	Time: 0.0 hr,	
+2024-12-29 23:17:31 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:17:40 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002274,	reconstruction_loss: 0.002274,	Time: 9.314293384552002 s	
+2024-12-29 23:17:40 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002274459460750222
+2024-12-29 23:17:40 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002274459460750222, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-24.step-1512
+2024-12-29 23:17:40 logger.DCASE_dev_bearing:INFO Epoch 25 start, lr 0.00059049
+2024-12-29 23:17:43 logger.DCASE_dev_bearing:INFO Epoch: 25,	Trained sentences: 152000,	total_loss: 0.002251,	reconstruction_loss: 0.002251,	lr: 0.00059049,	elapse: 2.9 s
+2024-12-29 23:17:46 logger.DCASE_dev_bearing:INFO Epoch: 25,	Trained sentences: 153000,	total_loss: 0.002349,	reconstruction_loss: 0.002349,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:17:50 logger.DCASE_dev_bearing:INFO Epoch: 25,	Trained sentences: 154000,	total_loss: 0.002251,	reconstruction_loss: 0.002251,	lr: 0.00059049,	elapse: 3.3 s
+2024-12-29 23:17:53 logger.DCASE_dev_bearing:INFO Epoch: 25,	Trained sentences: 155000,	total_loss: 0.002290,	reconstruction_loss: 0.002290,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:17:57 logger.DCASE_dev_bearing:INFO Epoch: 25,	Trained sentences: 156000,	total_loss: 0.002203,	reconstruction_loss: 0.002203,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:18:00 logger.DCASE_dev_bearing:INFO Epoch: 25,	Trained sentences: 157000,	total_loss: 0.002214,	reconstruction_loss: 0.002214,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:18:02 logger.DCASE_dev_bearing:INFO Epoch 25 Done,	total_loss: 0.002257,	reconstruction_loss: 0.002257,	Time: 0.0 hr,	
+2024-12-29 23:18:02 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:18:11 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002270,	reconstruction_loss: 0.002270,	Time: 9.232340812683105 s	
+2024-12-29 23:18:11 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0022701662965118885
+2024-12-29 23:18:11 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0022701662965118885, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-25.step-1575
+2024-12-29 23:18:11 logger.DCASE_dev_bearing:INFO Epoch 26 start, lr 0.00059049
+2024-12-29 23:18:12 logger.DCASE_dev_bearing:INFO Epoch: 26,	Trained sentences: 158000,	total_loss: 0.002253,	reconstruction_loss: 0.002253,	lr: 0.00059049,	elapse: 1.7 s
+2024-12-29 23:18:16 logger.DCASE_dev_bearing:INFO Epoch: 26,	Trained sentences: 159000,	total_loss: 0.002316,	reconstruction_loss: 0.002316,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:18:19 logger.DCASE_dev_bearing:INFO Epoch: 26,	Trained sentences: 160000,	total_loss: 0.002270,	reconstruction_loss: 0.002270,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:18:23 logger.DCASE_dev_bearing:INFO Epoch: 26,	Trained sentences: 161000,	total_loss: 0.002303,	reconstruction_loss: 0.002303,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:18:26 logger.DCASE_dev_bearing:INFO Epoch: 26,	Trained sentences: 162000,	total_loss: 0.002200,	reconstruction_loss: 0.002200,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:18:29 logger.DCASE_dev_bearing:INFO Epoch: 26,	Trained sentences: 163000,	total_loss: 0.002213,	reconstruction_loss: 0.002213,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:18:32 logger.DCASE_dev_bearing:INFO Epoch 26 Done,	total_loss: 0.002253,	reconstruction_loss: 0.002253,	Time: 0.0 hr,	
+2024-12-29 23:18:32 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:18:41 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002266,	reconstruction_loss: 0.002266,	Time: 9.155718564987183 s	
+2024-12-29 23:18:41 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0022662312258034945
+2024-12-29 23:18:41 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0022662312258034945, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-26.step-1638
+2024-12-29 23:18:41 logger.DCASE_dev_bearing:INFO Epoch 27 start, lr 0.00059049
+2024-12-29 23:18:42 logger.DCASE_dev_bearing:INFO Epoch: 27,	Trained sentences: 164000,	total_loss: 0.002214,	reconstruction_loss: 0.002214,	lr: 0.00059049,	elapse: 0.8 s
+2024-12-29 23:18:46 logger.DCASE_dev_bearing:INFO Epoch: 27,	Trained sentences: 165000,	total_loss: 0.002281,	reconstruction_loss: 0.002281,	lr: 0.00059049,	elapse: 3.7 s
+2024-12-29 23:18:49 logger.DCASE_dev_bearing:INFO Epoch: 27,	Trained sentences: 166000,	total_loss: 0.002291,	reconstruction_loss: 0.002291,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:18:53 logger.DCASE_dev_bearing:INFO Epoch: 27,	Trained sentences: 167000,	total_loss: 0.002290,	reconstruction_loss: 0.002290,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:18:56 logger.DCASE_dev_bearing:INFO Epoch: 27,	Trained sentences: 168000,	total_loss: 0.002236,	reconstruction_loss: 0.002236,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:18:59 logger.DCASE_dev_bearing:INFO Epoch: 27,	Trained sentences: 169000,	total_loss: 0.002204,	reconstruction_loss: 0.002204,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:19:03 logger.DCASE_dev_bearing:INFO Epoch: 27,	Trained sentences: 170000,	total_loss: 0.002219,	reconstruction_loss: 0.002219,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:19:03 logger.DCASE_dev_bearing:INFO Epoch 27 Done,	total_loss: 0.002250,	reconstruction_loss: 0.002250,	Time: 0.0 hr,	
+2024-12-29 23:19:03 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:19:12 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002263,	reconstruction_loss: 0.002263,	Time: 9.05846905708313 s	
+2024-12-29 23:19:12 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002262788824737072
+2024-12-29 23:19:12 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002262788824737072, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-27.step-1701
+2024-12-29 23:19:12 logger.DCASE_dev_bearing:INFO Epoch 28 start, lr 0.00059049
+2024-12-29 23:19:15 logger.DCASE_dev_bearing:INFO Epoch: 28,	Trained sentences: 171000,	total_loss: 0.002258,	reconstruction_loss: 0.002258,	lr: 0.00059049,	elapse: 3.3 s
+2024-12-29 23:19:19 logger.DCASE_dev_bearing:INFO Epoch: 28,	Trained sentences: 172000,	total_loss: 0.002330,	reconstruction_loss: 0.002330,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:19:22 logger.DCASE_dev_bearing:INFO Epoch: 28,	Trained sentences: 173000,	total_loss: 0.002233,	reconstruction_loss: 0.002233,	lr: 0.00059049,	elapse: 3.3 s
+2024-12-29 23:19:25 logger.DCASE_dev_bearing:INFO Epoch: 28,	Trained sentences: 174000,	total_loss: 0.002279,	reconstruction_loss: 0.002279,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:19:29 logger.DCASE_dev_bearing:INFO Epoch: 28,	Trained sentences: 175000,	total_loss: 0.002215,	reconstruction_loss: 0.002215,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:19:32 logger.DCASE_dev_bearing:INFO Epoch: 28,	Trained sentences: 176000,	total_loss: 0.002197,	reconstruction_loss: 0.002197,	lr: 0.00059049,	elapse: 3.4 s
+2024-12-29 23:19:34 logger.DCASE_dev_bearing:INFO Epoch 28 Done,	total_loss: 0.002247,	reconstruction_loss: 0.002247,	Time: 0.0 hr,	
+2024-12-29 23:19:34 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:19:43 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002260,	reconstruction_loss: 0.002260,	Time: 9.215627193450928 s	
+2024-12-29 23:19:43 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0022596358321607113
+2024-12-29 23:19:43 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0022596358321607113, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-28.step-1764
+2024-12-29 23:19:43 logger.DCASE_dev_bearing:INFO Epoch 29 start, lr 0.00059049
+2024-12-29 23:19:45 logger.DCASE_dev_bearing:INFO Epoch: 29,	Trained sentences: 177000,	total_loss: 0.002233,	reconstruction_loss: 0.002233,	lr: 0.00053144,	elapse: 2.3 s
+2024-12-29 23:19:48 logger.DCASE_dev_bearing:INFO Epoch: 29,	Trained sentences: 178000,	total_loss: 0.002325,	reconstruction_loss: 0.002325,	lr: 0.00053144,	elapse: 3.5 s
+2024-12-29 23:19:52 logger.DCASE_dev_bearing:INFO Epoch: 29,	Trained sentences: 179000,	total_loss: 0.002260,	reconstruction_loss: 0.002260,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:19:55 logger.DCASE_dev_bearing:INFO Epoch: 29,	Trained sentences: 180000,	total_loss: 0.002275,	reconstruction_loss: 0.002275,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:19:59 logger.DCASE_dev_bearing:INFO Epoch: 29,	Trained sentences: 181000,	total_loss: 0.002182,	reconstruction_loss: 0.002182,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:20:02 logger.DCASE_dev_bearing:INFO Epoch: 29,	Trained sentences: 182000,	total_loss: 0.002195,	reconstruction_loss: 0.002195,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:20:04 logger.DCASE_dev_bearing:INFO Epoch 29 Done,	total_loss: 0.002243,	reconstruction_loss: 0.002243,	Time: 0.0 hr,	
+2024-12-29 23:20:04 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:20:14 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002260,	reconstruction_loss: 0.002260,	Time: 9.300405025482178 s	
+2024-12-29 23:20:14 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002260243520140648
+2024-12-29 23:20:14 logger.DCASE_dev_bearing:INFO Epoch 30 start, lr 0.000531441
+2024-12-29 23:20:15 logger.DCASE_dev_bearing:INFO Epoch: 30,	Trained sentences: 183000,	total_loss: 0.002239,	reconstruction_loss: 0.002239,	lr: 0.00053144,	elapse: 1.1 s
+2024-12-29 23:20:18 logger.DCASE_dev_bearing:INFO Epoch: 30,	Trained sentences: 184000,	total_loss: 0.002273,	reconstruction_loss: 0.002273,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:20:21 logger.DCASE_dev_bearing:INFO Epoch: 30,	Trained sentences: 185000,	total_loss: 0.002283,	reconstruction_loss: 0.002283,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:20:25 logger.DCASE_dev_bearing:INFO Epoch: 30,	Trained sentences: 186000,	total_loss: 0.002267,	reconstruction_loss: 0.002267,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:20:28 logger.DCASE_dev_bearing:INFO Epoch: 30,	Trained sentences: 187000,	total_loss: 0.002228,	reconstruction_loss: 0.002228,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:20:32 logger.DCASE_dev_bearing:INFO Epoch: 30,	Trained sentences: 188000,	total_loss: 0.002187,	reconstruction_loss: 0.002187,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:20:35 logger.DCASE_dev_bearing:INFO Epoch: 30,	Trained sentences: 189000,	total_loss: 0.002202,	reconstruction_loss: 0.002202,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:20:35 logger.DCASE_dev_bearing:INFO Epoch 30 Done,	total_loss: 0.002240,	reconstruction_loss: 0.002240,	Time: 0.0 hr,	
+2024-12-29 23:20:35 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:20:44 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002257,	reconstruction_loss: 0.002257,	Time: 9.088303804397583 s	
+2024-12-29 23:20:44 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002257254207506776
+2024-12-29 23:20:44 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002257254207506776, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-30.step-1890
+2024-12-29 23:20:44 logger.DCASE_dev_bearing:INFO Epoch 31 start, lr 0.000531441
+2024-12-29 23:20:48 logger.DCASE_dev_bearing:INFO Epoch: 31,	Trained sentences: 190000,	total_loss: 0.002241,	reconstruction_loss: 0.002241,	lr: 0.00053144,	elapse: 3.5 s
+2024-12-29 23:20:51 logger.DCASE_dev_bearing:INFO Epoch: 31,	Trained sentences: 191000,	total_loss: 0.002313,	reconstruction_loss: 0.002313,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:20:54 logger.DCASE_dev_bearing:INFO Epoch: 31,	Trained sentences: 192000,	total_loss: 0.002244,	reconstruction_loss: 0.002244,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:20:58 logger.DCASE_dev_bearing:INFO Epoch: 31,	Trained sentences: 193000,	total_loss: 0.002253,	reconstruction_loss: 0.002253,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:21:01 logger.DCASE_dev_bearing:INFO Epoch: 31,	Trained sentences: 194000,	total_loss: 0.002205,	reconstruction_loss: 0.002205,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:21:04 logger.DCASE_dev_bearing:INFO Epoch: 31,	Trained sentences: 195000,	total_loss: 0.002202,	reconstruction_loss: 0.002202,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:21:05 logger.DCASE_dev_bearing:INFO Epoch 31 Done,	total_loss: 0.002235,	reconstruction_loss: 0.002235,	Time: 0.0 hr,	
+2024-12-29 23:21:05 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:21:15 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002249,	reconstruction_loss: 0.002249,	Time: 9.242573499679565 s	
+2024-12-29 23:21:15 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002249410143122077
+2024-12-29 23:21:15 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002249410143122077, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-31.step-1953
+2024-12-29 23:21:15 logger.DCASE_dev_bearing:INFO Epoch 32 start, lr 0.000531441
+2024-12-29 23:21:17 logger.DCASE_dev_bearing:INFO Epoch: 32,	Trained sentences: 196000,	total_loss: 0.002243,	reconstruction_loss: 0.002243,	lr: 0.00053144,	elapse: 2.5 s
+2024-12-29 23:21:21 logger.DCASE_dev_bearing:INFO Epoch: 32,	Trained sentences: 197000,	total_loss: 0.002317,	reconstruction_loss: 0.002317,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:21:24 logger.DCASE_dev_bearing:INFO Epoch: 32,	Trained sentences: 198000,	total_loss: 0.002209,	reconstruction_loss: 0.002209,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:21:27 logger.DCASE_dev_bearing:INFO Epoch: 32,	Trained sentences: 199000,	total_loss: 0.002262,	reconstruction_loss: 0.002262,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:21:31 logger.DCASE_dev_bearing:INFO Epoch: 32,	Trained sentences: 200000,	total_loss: 0.002180,	reconstruction_loss: 0.002180,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:21:34 logger.DCASE_dev_bearing:INFO Epoch: 32,	Trained sentences: 201000,	total_loss: 0.002148,	reconstruction_loss: 0.002148,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:21:36 logger.DCASE_dev_bearing:INFO Epoch 32 Done,	total_loss: 0.002222,	reconstruction_loss: 0.002222,	Time: 0.0 hr,	
+2024-12-29 23:21:36 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:21:45 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002230,	reconstruction_loss: 0.002230,	Time: 9.345482349395752 s	
+2024-12-29 23:21:45 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0022302032448351383
+2024-12-29 23:21:45 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0022302032448351383, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-32.step-2016
+2024-12-29 23:21:45 logger.DCASE_dev_bearing:INFO Epoch 33 start, lr 0.000531441
+2024-12-29 23:21:47 logger.DCASE_dev_bearing:INFO Epoch: 33,	Trained sentences: 202000,	total_loss: 0.002213,	reconstruction_loss: 0.002213,	lr: 0.00053144,	elapse: 1.6 s
+2024-12-29 23:21:51 logger.DCASE_dev_bearing:INFO Epoch: 33,	Trained sentences: 203000,	total_loss: 0.002250,	reconstruction_loss: 0.002250,	lr: 0.00053144,	elapse: 3.6 s
+2024-12-29 23:21:54 logger.DCASE_dev_bearing:INFO Epoch: 33,	Trained sentences: 204000,	total_loss: 0.002256,	reconstruction_loss: 0.002256,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:21:57 logger.DCASE_dev_bearing:INFO Epoch: 33,	Trained sentences: 205000,	total_loss: 0.002258,	reconstruction_loss: 0.002258,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:22:01 logger.DCASE_dev_bearing:INFO Epoch: 33,	Trained sentences: 206000,	total_loss: 0.002167,	reconstruction_loss: 0.002167,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:22:04 logger.DCASE_dev_bearing:INFO Epoch: 33,	Trained sentences: 207000,	total_loss: 0.002149,	reconstruction_loss: 0.002149,	lr: 0.00053144,	elapse: 3.4 s
+2024-12-29 23:22:07 logger.DCASE_dev_bearing:INFO Epoch 33 Done,	total_loss: 0.002207,	reconstruction_loss: 0.002207,	Time: 0.0 hr,	
+2024-12-29 23:22:07 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:22:16 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002221,	reconstruction_loss: 0.002221,	Time: 9.307888507843018 s	
+2024-12-29 23:22:16 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002221295377239585
+2024-12-29 23:22:16 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002221295377239585, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-33.step-2079
+2024-12-29 23:22:16 logger.DCASE_dev_bearing:INFO Epoch 34 start, lr 0.000531441
+2024-12-29 23:22:17 logger.DCASE_dev_bearing:INFO Epoch: 34,	Trained sentences: 208000,	total_loss: 0.002101,	reconstruction_loss: 0.002101,	lr: 0.00047830,	elapse: 0.4 s
+2024-12-29 23:22:21 logger.DCASE_dev_bearing:INFO Epoch: 34,	Trained sentences: 209000,	total_loss: 0.002210,	reconstruction_loss: 0.002210,	lr: 0.00047830,	elapse: 3.6 s
+2024-12-29 23:22:24 logger.DCASE_dev_bearing:INFO Epoch: 34,	Trained sentences: 210000,	total_loss: 0.002266,	reconstruction_loss: 0.002266,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:22:27 logger.DCASE_dev_bearing:INFO Epoch: 34,	Trained sentences: 211000,	total_loss: 0.002251,	reconstruction_loss: 0.002251,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:22:31 logger.DCASE_dev_bearing:INFO Epoch: 34,	Trained sentences: 212000,	total_loss: 0.002195,	reconstruction_loss: 0.002195,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:22:34 logger.DCASE_dev_bearing:INFO Epoch: 34,	Trained sentences: 213000,	total_loss: 0.002136,	reconstruction_loss: 0.002136,	lr: 0.00047830,	elapse: 3.3 s
+2024-12-29 23:22:37 logger.DCASE_dev_bearing:INFO Epoch: 34,	Trained sentences: 214000,	total_loss: 0.002169,	reconstruction_loss: 0.002169,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:22:38 logger.DCASE_dev_bearing:INFO Epoch 34 Done,	total_loss: 0.002199,	reconstruction_loss: 0.002199,	Time: 0.0 hr,	
+2024-12-29 23:22:38 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:22:47 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002223,	reconstruction_loss: 0.002223,	Time: 9.420288324356079 s	
+2024-12-29 23:22:47 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002223036251962185
+2024-12-29 23:22:48 logger.DCASE_dev_bearing:INFO Epoch 35 start, lr 0.0004782969000000001
+2024-12-29 23:22:50 logger.DCASE_dev_bearing:INFO Epoch: 35,	Trained sentences: 215000,	total_loss: 0.002185,	reconstruction_loss: 0.002185,	lr: 0.00047830,	elapse: 2.8 s
+2024-12-29 23:22:54 logger.DCASE_dev_bearing:INFO Epoch: 35,	Trained sentences: 216000,	total_loss: 0.002289,	reconstruction_loss: 0.002289,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:22:57 logger.DCASE_dev_bearing:INFO Epoch: 35,	Trained sentences: 217000,	total_loss: 0.002188,	reconstruction_loss: 0.002188,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:23:00 logger.DCASE_dev_bearing:INFO Epoch: 35,	Trained sentences: 218000,	total_loss: 0.002234,	reconstruction_loss: 0.002234,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:23:04 logger.DCASE_dev_bearing:INFO Epoch: 35,	Trained sentences: 219000,	total_loss: 0.002135,	reconstruction_loss: 0.002135,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:23:07 logger.DCASE_dev_bearing:INFO Epoch: 35,	Trained sentences: 220000,	total_loss: 0.002150,	reconstruction_loss: 0.002150,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:23:09 logger.DCASE_dev_bearing:INFO Epoch 35 Done,	total_loss: 0.002194,	reconstruction_loss: 0.002194,	Time: 0.0 hr,	
+2024-12-29 23:23:09 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:23:18 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002216,	reconstruction_loss: 0.002216,	Time: 9.414534091949463 s	
+2024-12-29 23:23:18 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0022155242040753365
+2024-12-29 23:23:18 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0022155242040753365, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-35.step-2205
+2024-12-29 23:23:18 logger.DCASE_dev_bearing:INFO Epoch 36 start, lr 0.0004782969000000001
+2024-12-29 23:23:20 logger.DCASE_dev_bearing:INFO Epoch: 36,	Trained sentences: 221000,	total_loss: 0.002185,	reconstruction_loss: 0.002185,	lr: 0.00047830,	elapse: 1.8 s
+2024-12-29 23:23:24 logger.DCASE_dev_bearing:INFO Epoch: 36,	Trained sentences: 222000,	total_loss: 0.002249,	reconstruction_loss: 0.002249,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:23:27 logger.DCASE_dev_bearing:INFO Epoch: 36,	Trained sentences: 223000,	total_loss: 0.002213,	reconstruction_loss: 0.002213,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:23:30 logger.DCASE_dev_bearing:INFO Epoch: 36,	Trained sentences: 224000,	total_loss: 0.002240,	reconstruction_loss: 0.002240,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:23:34 logger.DCASE_dev_bearing:INFO Epoch: 36,	Trained sentences: 225000,	total_loss: 0.002140,	reconstruction_loss: 0.002140,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:23:37 logger.DCASE_dev_bearing:INFO Epoch: 36,	Trained sentences: 226000,	total_loss: 0.002149,	reconstruction_loss: 0.002149,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:23:40 logger.DCASE_dev_bearing:INFO Epoch 36 Done,	total_loss: 0.002190,	reconstruction_loss: 0.002190,	Time: 0.0 hr,	
+2024-12-29 23:23:40 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:23:49 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002215,	reconstruction_loss: 0.002215,	Time: 9.340992212295532 s	
+2024-12-29 23:23:49 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.00221476168371737
+2024-12-29 23:23:49 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.00221476168371737, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-36.step-2268
+2024-12-29 23:23:49 logger.DCASE_dev_bearing:INFO Epoch 37 start, lr 0.0004782969000000001
+2024-12-29 23:23:50 logger.DCASE_dev_bearing:INFO Epoch: 37,	Trained sentences: 227000,	total_loss: 0.002145,	reconstruction_loss: 0.002145,	lr: 0.00047830,	elapse: 0.7 s
+2024-12-29 23:23:53 logger.DCASE_dev_bearing:INFO Epoch: 37,	Trained sentences: 228000,	total_loss: 0.002215,	reconstruction_loss: 0.002215,	lr: 0.00047830,	elapse: 3.5 s
+2024-12-29 23:23:57 logger.DCASE_dev_bearing:INFO Epoch: 37,	Trained sentences: 229000,	total_loss: 0.002233,	reconstruction_loss: 0.002233,	lr: 0.00047830,	elapse: 3.3 s
+2024-12-29 23:24:00 logger.DCASE_dev_bearing:INFO Epoch: 37,	Trained sentences: 230000,	total_loss: 0.002228,	reconstruction_loss: 0.002228,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:24:03 logger.DCASE_dev_bearing:INFO Epoch: 37,	Trained sentences: 231000,	total_loss: 0.002180,	reconstruction_loss: 0.002180,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:24:07 logger.DCASE_dev_bearing:INFO Epoch: 37,	Trained sentences: 232000,	total_loss: 0.002138,	reconstruction_loss: 0.002138,	lr: 0.00047830,	elapse: 3.3 s
+2024-12-29 23:24:10 logger.DCASE_dev_bearing:INFO Epoch: 37,	Trained sentences: 233000,	total_loss: 0.002156,	reconstruction_loss: 0.002156,	lr: 0.00047830,	elapse: 3.3 s
+2024-12-29 23:24:10 logger.DCASE_dev_bearing:INFO Epoch 37 Done,	total_loss: 0.002188,	reconstruction_loss: 0.002188,	Time: 0.0 hr,	
+2024-12-29 23:24:10 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:24:20 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002212,	reconstruction_loss: 0.002212,	Time: 9.39452052116394 s	
+2024-12-29 23:24:20 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002211623592302203
+2024-12-29 23:24:20 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002211623592302203, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-37.step-2331
+2024-12-29 23:24:20 logger.DCASE_dev_bearing:INFO Epoch 38 start, lr 0.0004782969000000001
+2024-12-29 23:24:23 logger.DCASE_dev_bearing:INFO Epoch: 38,	Trained sentences: 234000,	total_loss: 0.002192,	reconstruction_loss: 0.002192,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:24:27 logger.DCASE_dev_bearing:INFO Epoch: 38,	Trained sentences: 235000,	total_loss: 0.002270,	reconstruction_loss: 0.002270,	lr: 0.00047830,	elapse: 3.5 s
+2024-12-29 23:24:30 logger.DCASE_dev_bearing:INFO Epoch: 38,	Trained sentences: 236000,	total_loss: 0.002171,	reconstruction_loss: 0.002171,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:24:33 logger.DCASE_dev_bearing:INFO Epoch: 38,	Trained sentences: 237000,	total_loss: 0.002226,	reconstruction_loss: 0.002226,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:24:37 logger.DCASE_dev_bearing:INFO Epoch: 38,	Trained sentences: 238000,	total_loss: 0.002148,	reconstruction_loss: 0.002148,	lr: 0.00047830,	elapse: 3.4 s
+2024-12-29 23:24:40 logger.DCASE_dev_bearing:INFO Epoch: 38,	Trained sentences: 239000,	total_loss: 0.002133,	reconstruction_loss: 0.002133,	lr: 0.00047830,	elapse: 3.3 s
+2024-12-29 23:24:41 logger.DCASE_dev_bearing:INFO Epoch 38 Done,	total_loss: 0.002185,	reconstruction_loss: 0.002185,	Time: 0.0 hr,	
+2024-12-29 23:24:41 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:24:50 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002209,	reconstruction_loss: 0.002209,	Time: 9.144130229949951 s	
+2024-12-29 23:24:50 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002209024503827095
+2024-12-29 23:24:50 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002209024503827095, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-38.step-2394
+2024-12-29 23:24:50 logger.DCASE_dev_bearing:INFO Epoch 39 start, lr 0.0004782969000000001
+2024-12-29 23:24:53 logger.DCASE_dev_bearing:INFO Epoch: 39,	Trained sentences: 240000,	total_loss: 0.002168,	reconstruction_loss: 0.002168,	lr: 0.00043047,	elapse: 2.1 s
+2024-12-29 23:24:56 logger.DCASE_dev_bearing:INFO Epoch: 39,	Trained sentences: 241000,	total_loss: 0.002266,	reconstruction_loss: 0.002266,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:24:59 logger.DCASE_dev_bearing:INFO Epoch: 39,	Trained sentences: 242000,	total_loss: 0.002198,	reconstruction_loss: 0.002198,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:25:03 logger.DCASE_dev_bearing:INFO Epoch: 39,	Trained sentences: 243000,	total_loss: 0.002213,	reconstruction_loss: 0.002213,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:25:06 logger.DCASE_dev_bearing:INFO Epoch: 39,	Trained sentences: 244000,	total_loss: 0.002126,	reconstruction_loss: 0.002126,	lr: 0.00043047,	elapse: 3.3 s
+2024-12-29 23:25:09 logger.DCASE_dev_bearing:INFO Epoch: 39,	Trained sentences: 245000,	total_loss: 0.002133,	reconstruction_loss: 0.002133,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:25:12 logger.DCASE_dev_bearing:INFO Epoch 39 Done,	total_loss: 0.002182,	reconstruction_loss: 0.002182,	Time: 0.0 hr,	
+2024-12-29 23:25:12 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:25:21 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002208,	reconstruction_loss: 0.002208,	Time: 9.044927835464478 s	
+2024-12-29 23:25:21 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0022079255431890488
+2024-12-29 23:25:21 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0022079255431890488, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-39.step-2457
+2024-12-29 23:25:21 logger.DCASE_dev_bearing:INFO Epoch 40 start, lr 0.0004304672100000001
+2024-12-29 23:25:22 logger.DCASE_dev_bearing:INFO Epoch: 40,	Trained sentences: 246000,	total_loss: 0.002178,	reconstruction_loss: 0.002178,	lr: 0.00043047,	elapse: 1.2 s
+2024-12-29 23:25:26 logger.DCASE_dev_bearing:INFO Epoch: 40,	Trained sentences: 247000,	total_loss: 0.002209,	reconstruction_loss: 0.002209,	lr: 0.00043047,	elapse: 3.6 s
+2024-12-29 23:25:29 logger.DCASE_dev_bearing:INFO Epoch: 40,	Trained sentences: 248000,	total_loss: 0.002227,	reconstruction_loss: 0.002227,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:25:32 logger.DCASE_dev_bearing:INFO Epoch: 40,	Trained sentences: 249000,	total_loss: 0.002206,	reconstruction_loss: 0.002206,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:25:36 logger.DCASE_dev_bearing:INFO Epoch: 40,	Trained sentences: 250000,	total_loss: 0.002173,	reconstruction_loss: 0.002173,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:25:39 logger.DCASE_dev_bearing:INFO Epoch: 40,	Trained sentences: 251000,	total_loss: 0.002126,	reconstruction_loss: 0.002126,	lr: 0.00043047,	elapse: 3.3 s
+2024-12-29 23:25:42 logger.DCASE_dev_bearing:INFO Epoch: 40,	Trained sentences: 252000,	total_loss: 0.002141,	reconstruction_loss: 0.002141,	lr: 0.00043047,	elapse: 3.3 s
+2024-12-29 23:25:42 logger.DCASE_dev_bearing:INFO Epoch 40 Done,	total_loss: 0.002180,	reconstruction_loss: 0.002180,	Time: 0.0 hr,	
+2024-12-29 23:25:42 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:25:52 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002204,	reconstruction_loss: 0.002204,	Time: 9.320194721221924 s	
+2024-12-29 23:25:52 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0022044864017516375
+2024-12-29 23:25:52 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0022044864017516375, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-40.step-2520
+2024-12-29 23:25:52 logger.DCASE_dev_bearing:INFO Epoch 41 start, lr 0.0004304672100000001
+2024-12-29 23:25:56 logger.DCASE_dev_bearing:INFO Epoch: 41,	Trained sentences: 253000,	total_loss: 0.002180,	reconstruction_loss: 0.002180,	lr: 0.00043047,	elapse: 3.7 s
+2024-12-29 23:25:59 logger.DCASE_dev_bearing:INFO Epoch: 41,	Trained sentences: 254000,	total_loss: 0.002258,	reconstruction_loss: 0.002258,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:26:02 logger.DCASE_dev_bearing:INFO Epoch: 41,	Trained sentences: 255000,	total_loss: 0.002185,	reconstruction_loss: 0.002185,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:26:06 logger.DCASE_dev_bearing:INFO Epoch: 41,	Trained sentences: 256000,	total_loss: 0.002205,	reconstruction_loss: 0.002205,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:26:09 logger.DCASE_dev_bearing:INFO Epoch: 41,	Trained sentences: 257000,	total_loss: 0.002146,	reconstruction_loss: 0.002146,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:26:12 logger.DCASE_dev_bearing:INFO Epoch: 41,	Trained sentences: 258000,	total_loss: 0.002145,	reconstruction_loss: 0.002145,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:26:13 logger.DCASE_dev_bearing:INFO Epoch 41 Done,	total_loss: 0.002179,	reconstruction_loss: 0.002179,	Time: 0.0 hr,	
+2024-12-29 23:26:13 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:26:23 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002203,	reconstruction_loss: 0.002203,	Time: 9.229177474975586 s	
+2024-12-29 23:26:23 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002203152747824788
+2024-12-29 23:26:23 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002203152747824788, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-41.step-2583
+2024-12-29 23:26:23 logger.DCASE_dev_bearing:INFO Epoch 42 start, lr 0.0004304672100000001
+2024-12-29 23:26:25 logger.DCASE_dev_bearing:INFO Epoch: 42,	Trained sentences: 259000,	total_loss: 0.002188,	reconstruction_loss: 0.002188,	lr: 0.00043047,	elapse: 2.4 s
+2024-12-29 23:26:28 logger.DCASE_dev_bearing:INFO Epoch: 42,	Trained sentences: 260000,	total_loss: 0.002262,	reconstruction_loss: 0.002262,	lr: 0.00043047,	elapse: 3.3 s
+2024-12-29 23:26:32 logger.DCASE_dev_bearing:INFO Epoch: 42,	Trained sentences: 261000,	total_loss: 0.002163,	reconstruction_loss: 0.002163,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:26:35 logger.DCASE_dev_bearing:INFO Epoch: 42,	Trained sentences: 262000,	total_loss: 0.002218,	reconstruction_loss: 0.002218,	lr: 0.00043047,	elapse: 3.3 s
+2024-12-29 23:26:38 logger.DCASE_dev_bearing:INFO Epoch: 42,	Trained sentences: 263000,	total_loss: 0.002146,	reconstruction_loss: 0.002146,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:26:42 logger.DCASE_dev_bearing:INFO Epoch: 42,	Trained sentences: 264000,	total_loss: 0.002109,	reconstruction_loss: 0.002109,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:26:44 logger.DCASE_dev_bearing:INFO Epoch 42 Done,	total_loss: 0.002177,	reconstruction_loss: 0.002177,	Time: 0.0 hr,	
+2024-12-29 23:26:44 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:26:53 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002201,	reconstruction_loss: 0.002201,	Time: 9.220179319381714 s	
+2024-12-29 23:26:53 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0022013725247234106
+2024-12-29 23:26:53 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0022013725247234106, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-42.step-2646
+2024-12-29 23:26:53 logger.DCASE_dev_bearing:INFO Epoch 43 start, lr 0.0004304672100000001
+2024-12-29 23:26:54 logger.DCASE_dev_bearing:INFO Epoch: 43,	Trained sentences: 265000,	total_loss: 0.002176,	reconstruction_loss: 0.002176,	lr: 0.00043047,	elapse: 1.4 s
+2024-12-29 23:26:58 logger.DCASE_dev_bearing:INFO Epoch: 43,	Trained sentences: 266000,	total_loss: 0.002216,	reconstruction_loss: 0.002216,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:27:01 logger.DCASE_dev_bearing:INFO Epoch: 43,	Trained sentences: 267000,	total_loss: 0.002223,	reconstruction_loss: 0.002223,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:27:05 logger.DCASE_dev_bearing:INFO Epoch: 43,	Trained sentences: 268000,	total_loss: 0.002235,	reconstruction_loss: 0.002235,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:27:08 logger.DCASE_dev_bearing:INFO Epoch: 43,	Trained sentences: 269000,	total_loss: 0.002134,	reconstruction_loss: 0.002134,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:27:11 logger.DCASE_dev_bearing:INFO Epoch: 43,	Trained sentences: 270000,	total_loss: 0.002121,	reconstruction_loss: 0.002121,	lr: 0.00043047,	elapse: 3.4 s
+2024-12-29 23:27:14 logger.DCASE_dev_bearing:INFO Epoch 43 Done,	total_loss: 0.002177,	reconstruction_loss: 0.002177,	Time: 0.0 hr,	
+2024-12-29 23:27:14 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:27:24 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002202,	reconstruction_loss: 0.002202,	Time: 9.74638032913208 s	
+2024-12-29 23:27:24 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002202393487095833
+2024-12-29 23:27:24 logger.DCASE_dev_bearing:INFO Epoch 44 start, lr 0.0004304672100000001
+2024-12-29 23:27:24 logger.DCASE_dev_bearing:INFO Epoch: 44,	Trained sentences: 271000,	total_loss: 0.002079,	reconstruction_loss: 0.002079,	lr: 0.00038742,	elapse: 0.3 s
+2024-12-29 23:27:28 logger.DCASE_dev_bearing:INFO Epoch: 44,	Trained sentences: 272000,	total_loss: 0.002183,	reconstruction_loss: 0.002183,	lr: 0.00038742,	elapse: 3.5 s
+2024-12-29 23:27:31 logger.DCASE_dev_bearing:INFO Epoch: 44,	Trained sentences: 273000,	total_loss: 0.002241,	reconstruction_loss: 0.002241,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:27:35 logger.DCASE_dev_bearing:INFO Epoch: 44,	Trained sentences: 274000,	total_loss: 0.002233,	reconstruction_loss: 0.002233,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:27:38 logger.DCASE_dev_bearing:INFO Epoch: 44,	Trained sentences: 275000,	total_loss: 0.002169,	reconstruction_loss: 0.002169,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:27:41 logger.DCASE_dev_bearing:INFO Epoch: 44,	Trained sentences: 276000,	total_loss: 0.002113,	reconstruction_loss: 0.002113,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:27:45 logger.DCASE_dev_bearing:INFO Epoch: 44,	Trained sentences: 277000,	total_loss: 0.002145,	reconstruction_loss: 0.002145,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:27:45 logger.DCASE_dev_bearing:INFO Epoch 44 Done,	total_loss: 0.002175,	reconstruction_loss: 0.002175,	Time: 0.0 hr,	
+2024-12-29 23:27:45 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:27:55 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002199,	reconstruction_loss: 0.002199,	Time: 9.28407907485962 s	
+2024-12-29 23:27:55 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021994600538164377
+2024-12-29 23:27:55 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021994600538164377, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-44.step-2772
+2024-12-29 23:27:55 logger.DCASE_dev_bearing:INFO Epoch 45 start, lr 0.0003874204890000001
+2024-12-29 23:27:58 logger.DCASE_dev_bearing:INFO Epoch: 45,	Trained sentences: 278000,	total_loss: 0.002161,	reconstruction_loss: 0.002161,	lr: 0.00038742,	elapse: 2.8 s
+2024-12-29 23:28:01 logger.DCASE_dev_bearing:INFO Epoch: 45,	Trained sentences: 279000,	total_loss: 0.002267,	reconstruction_loss: 0.002267,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:28:04 logger.DCASE_dev_bearing:INFO Epoch: 45,	Trained sentences: 280000,	total_loss: 0.002169,	reconstruction_loss: 0.002169,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:28:08 logger.DCASE_dev_bearing:INFO Epoch: 45,	Trained sentences: 281000,	total_loss: 0.002218,	reconstruction_loss: 0.002218,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:28:11 logger.DCASE_dev_bearing:INFO Epoch: 45,	Trained sentences: 282000,	total_loss: 0.002115,	reconstruction_loss: 0.002115,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:28:14 logger.DCASE_dev_bearing:INFO Epoch: 45,	Trained sentences: 283000,	total_loss: 0.002131,	reconstruction_loss: 0.002131,	lr: 0.00038742,	elapse: 3.3 s
+2024-12-29 23:28:16 logger.DCASE_dev_bearing:INFO Epoch 45 Done,	total_loss: 0.002174,	reconstruction_loss: 0.002174,	Time: 0.0 hr,	
+2024-12-29 23:28:16 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:28:25 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002198,	reconstruction_loss: 0.002198,	Time: 9.023368835449219 s	
+2024-12-29 23:28:25 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021977159194648266
+2024-12-29 23:28:25 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021977159194648266, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-45.step-2835
+2024-12-29 23:28:25 logger.DCASE_dev_bearing:INFO Epoch 46 start, lr 0.0003874204890000001
+2024-12-29 23:28:27 logger.DCASE_dev_bearing:INFO Epoch: 46,	Trained sentences: 284000,	total_loss: 0.002164,	reconstruction_loss: 0.002164,	lr: 0.00038742,	elapse: 1.7 s
+2024-12-29 23:28:30 logger.DCASE_dev_bearing:INFO Epoch: 46,	Trained sentences: 285000,	total_loss: 0.002231,	reconstruction_loss: 0.002231,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:28:34 logger.DCASE_dev_bearing:INFO Epoch: 46,	Trained sentences: 286000,	total_loss: 0.002194,	reconstruction_loss: 0.002194,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:28:37 logger.DCASE_dev_bearing:INFO Epoch: 46,	Trained sentences: 287000,	total_loss: 0.002228,	reconstruction_loss: 0.002228,	lr: 0.00038742,	elapse: 3.3 s
+2024-12-29 23:28:40 logger.DCASE_dev_bearing:INFO Epoch: 46,	Trained sentences: 288000,	total_loss: 0.002119,	reconstruction_loss: 0.002119,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:28:44 logger.DCASE_dev_bearing:INFO Epoch: 46,	Trained sentences: 289000,	total_loss: 0.002131,	reconstruction_loss: 0.002131,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:28:46 logger.DCASE_dev_bearing:INFO Epoch 46 Done,	total_loss: 0.002172,	reconstruction_loss: 0.002172,	Time: 0.0 hr,	
+2024-12-29 23:28:46 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:28:55 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002197,	reconstruction_loss: 0.002197,	Time: 9.087271690368652 s	
+2024-12-29 23:28:55 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002196515677496791
+2024-12-29 23:28:55 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002196515677496791, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-46.step-2898
+2024-12-29 23:28:55 logger.DCASE_dev_bearing:INFO Epoch 47 start, lr 0.0003874204890000001
+2024-12-29 23:28:56 logger.DCASE_dev_bearing:INFO Epoch: 47,	Trained sentences: 290000,	total_loss: 0.002126,	reconstruction_loss: 0.002126,	lr: 0.00038742,	elapse: 0.9 s
+2024-12-29 23:29:00 logger.DCASE_dev_bearing:INFO Epoch: 47,	Trained sentences: 291000,	total_loss: 0.002197,	reconstruction_loss: 0.002197,	lr: 0.00038742,	elapse: 3.6 s
+2024-12-29 23:29:03 logger.DCASE_dev_bearing:INFO Epoch: 47,	Trained sentences: 292000,	total_loss: 0.002216,	reconstruction_loss: 0.002216,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:29:07 logger.DCASE_dev_bearing:INFO Epoch: 47,	Trained sentences: 293000,	total_loss: 0.002216,	reconstruction_loss: 0.002216,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:29:10 logger.DCASE_dev_bearing:INFO Epoch: 47,	Trained sentences: 294000,	total_loss: 0.002162,	reconstruction_loss: 0.002162,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:29:13 logger.DCASE_dev_bearing:INFO Epoch: 47,	Trained sentences: 295000,	total_loss: 0.002120,	reconstruction_loss: 0.002120,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:29:17 logger.DCASE_dev_bearing:INFO Epoch: 47,	Trained sentences: 296000,	total_loss: 0.002140,	reconstruction_loss: 0.002140,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:29:17 logger.DCASE_dev_bearing:INFO Epoch 47 Done,	total_loss: 0.002171,	reconstruction_loss: 0.002171,	Time: 0.0 hr,	
+2024-12-29 23:29:17 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:29:26 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002195,	reconstruction_loss: 0.002195,	Time: 9.102177143096924 s	
+2024-12-29 23:29:26 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021952243987470865
+2024-12-29 23:29:26 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021952243987470865, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-47.step-2961
+2024-12-29 23:29:26 logger.DCASE_dev_bearing:INFO Epoch 48 start, lr 0.0003874204890000001
+2024-12-29 23:29:30 logger.DCASE_dev_bearing:INFO Epoch: 48,	Trained sentences: 297000,	total_loss: 0.002175,	reconstruction_loss: 0.002175,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:29:33 logger.DCASE_dev_bearing:INFO Epoch: 48,	Trained sentences: 298000,	total_loss: 0.002255,	reconstruction_loss: 0.002255,	lr: 0.00038742,	elapse: 3.5 s
+2024-12-29 23:29:36 logger.DCASE_dev_bearing:INFO Epoch: 48,	Trained sentences: 299000,	total_loss: 0.002156,	reconstruction_loss: 0.002156,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:29:40 logger.DCASE_dev_bearing:INFO Epoch: 48,	Trained sentences: 300000,	total_loss: 0.002215,	reconstruction_loss: 0.002215,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:29:43 logger.DCASE_dev_bearing:INFO Epoch: 48,	Trained sentences: 301000,	total_loss: 0.002133,	reconstruction_loss: 0.002133,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:29:47 logger.DCASE_dev_bearing:INFO Epoch: 48,	Trained sentences: 302000,	total_loss: 0.002117,	reconstruction_loss: 0.002117,	lr: 0.00038742,	elapse: 3.4 s
+2024-12-29 23:29:48 logger.DCASE_dev_bearing:INFO Epoch 48 Done,	total_loss: 0.002170,	reconstruction_loss: 0.002170,	Time: 0.0 hr,	
+2024-12-29 23:29:48 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:29:57 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002194,	reconstruction_loss: 0.002194,	Time: 9.23324179649353 s	
+2024-12-29 23:29:57 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002193962223827839
+2024-12-29 23:29:57 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002193962223827839, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-48.step-3024
+2024-12-29 23:29:57 logger.DCASE_dev_bearing:INFO Epoch 49 start, lr 0.0003874204890000001
+2024-12-29 23:29:59 logger.DCASE_dev_bearing:INFO Epoch: 49,	Trained sentences: 303000,	total_loss: 0.002152,	reconstruction_loss: 0.002152,	lr: 0.00034868,	elapse: 2.1 s
+2024-12-29 23:30:03 logger.DCASE_dev_bearing:INFO Epoch: 49,	Trained sentences: 304000,	total_loss: 0.002250,	reconstruction_loss: 0.002250,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:30:06 logger.DCASE_dev_bearing:INFO Epoch: 49,	Trained sentences: 305000,	total_loss: 0.002185,	reconstruction_loss: 0.002185,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:30:10 logger.DCASE_dev_bearing:INFO Epoch: 49,	Trained sentences: 306000,	total_loss: 0.002206,	reconstruction_loss: 0.002206,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:30:13 logger.DCASE_dev_bearing:INFO Epoch: 49,	Trained sentences: 307000,	total_loss: 0.002110,	reconstruction_loss: 0.002110,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:30:16 logger.DCASE_dev_bearing:INFO Epoch: 49,	Trained sentences: 308000,	total_loss: 0.002119,	reconstruction_loss: 0.002119,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:30:19 logger.DCASE_dev_bearing:INFO Epoch 49 Done,	total_loss: 0.002169,	reconstruction_loss: 0.002169,	Time: 0.0 hr,	
+2024-12-29 23:30:19 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:30:28 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002192,	reconstruction_loss: 0.002192,	Time: 9.302418231964111 s	
+2024-12-29 23:30:28 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021917540580034256
+2024-12-29 23:30:28 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021917540580034256, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-49.step-3087
+2024-12-29 23:30:28 logger.DCASE_dev_bearing:INFO Epoch 50 start, lr 0.0003486784401000001
+2024-12-29 23:30:29 logger.DCASE_dev_bearing:INFO Epoch: 50,	Trained sentences: 309000,	total_loss: 0.002163,	reconstruction_loss: 0.002163,	lr: 0.00034868,	elapse: 1.3 s
+2024-12-29 23:30:33 logger.DCASE_dev_bearing:INFO Epoch: 50,	Trained sentences: 310000,	total_loss: 0.002195,	reconstruction_loss: 0.002195,	lr: 0.00034868,	elapse: 3.6 s
+2024-12-29 23:30:36 logger.DCASE_dev_bearing:INFO Epoch: 50,	Trained sentences: 311000,	total_loss: 0.002213,	reconstruction_loss: 0.002213,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:30:40 logger.DCASE_dev_bearing:INFO Epoch: 50,	Trained sentences: 312000,	total_loss: 0.002198,	reconstruction_loss: 0.002198,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:30:43 logger.DCASE_dev_bearing:INFO Epoch: 50,	Trained sentences: 313000,	total_loss: 0.002159,	reconstruction_loss: 0.002159,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:30:46 logger.DCASE_dev_bearing:INFO Epoch: 50,	Trained sentences: 314000,	total_loss: 0.002112,	reconstruction_loss: 0.002112,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:30:50 logger.DCASE_dev_bearing:INFO Epoch: 50,	Trained sentences: 315000,	total_loss: 0.002128,	reconstruction_loss: 0.002128,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:30:50 logger.DCASE_dev_bearing:INFO Epoch 50 Done,	total_loss: 0.002167,	reconstruction_loss: 0.002167,	Time: 0.0 hr,	
+2024-12-29 23:30:50 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:30:59 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002190,	reconstruction_loss: 0.002190,	Time: 9.1906898021698 s	
+2024-12-29 23:30:59 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.00219014473259449
+2024-12-29 23:30:59 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.00219014473259449, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-50.step-3150
+2024-12-29 23:30:59 logger.DCASE_dev_bearing:INFO Epoch 51 start, lr 0.0003486784401000001
+2024-12-29 23:31:02 logger.DCASE_dev_bearing:INFO Epoch: 51,	Trained sentences: 316000,	total_loss: 0.002165,	reconstruction_loss: 0.002165,	lr: 0.00034868,	elapse: 3.5 s
+2024-12-29 23:31:06 logger.DCASE_dev_bearing:INFO Epoch: 51,	Trained sentences: 317000,	total_loss: 0.002244,	reconstruction_loss: 0.002244,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:31:09 logger.DCASE_dev_bearing:INFO Epoch: 51,	Trained sentences: 318000,	total_loss: 0.002177,	reconstruction_loss: 0.002177,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:31:13 logger.DCASE_dev_bearing:INFO Epoch: 51,	Trained sentences: 319000,	total_loss: 0.002191,	reconstruction_loss: 0.002191,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:31:16 logger.DCASE_dev_bearing:INFO Epoch: 51,	Trained sentences: 320000,	total_loss: 0.002132,	reconstruction_loss: 0.002132,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:31:19 logger.DCASE_dev_bearing:INFO Epoch: 51,	Trained sentences: 321000,	total_loss: 0.002129,	reconstruction_loss: 0.002129,	lr: 0.00034868,	elapse: 3.3 s
+2024-12-29 23:31:20 logger.DCASE_dev_bearing:INFO Epoch 51 Done,	total_loss: 0.002166,	reconstruction_loss: 0.002166,	Time: 0.0 hr,	
+2024-12-29 23:31:20 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:31:29 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002188,	reconstruction_loss: 0.002188,	Time: 9.23051404953003 s	
+2024-12-29 23:31:29 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002187706995755434
+2024-12-29 23:31:29 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002187706995755434, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-51.step-3213
+2024-12-29 23:31:29 logger.DCASE_dev_bearing:INFO Epoch 52 start, lr 0.0003486784401000001
+2024-12-29 23:31:32 logger.DCASE_dev_bearing:INFO Epoch: 52,	Trained sentences: 322000,	total_loss: 0.002173,	reconstruction_loss: 0.002173,	lr: 0.00034868,	elapse: 2.7 s
+2024-12-29 23:31:36 logger.DCASE_dev_bearing:INFO Epoch: 52,	Trained sentences: 323000,	total_loss: 0.002247,	reconstruction_loss: 0.002247,	lr: 0.00034868,	elapse: 3.5 s
+2024-12-29 23:31:39 logger.DCASE_dev_bearing:INFO Epoch: 52,	Trained sentences: 324000,	total_loss: 0.002148,	reconstruction_loss: 0.002148,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:31:42 logger.DCASE_dev_bearing:INFO Epoch: 52,	Trained sentences: 325000,	total_loss: 0.002208,	reconstruction_loss: 0.002208,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:31:46 logger.DCASE_dev_bearing:INFO Epoch: 52,	Trained sentences: 326000,	total_loss: 0.002128,	reconstruction_loss: 0.002128,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:31:49 logger.DCASE_dev_bearing:INFO Epoch: 52,	Trained sentences: 327000,	total_loss: 0.002091,	reconstruction_loss: 0.002091,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:31:51 logger.DCASE_dev_bearing:INFO Epoch 52 Done,	total_loss: 0.002162,	reconstruction_loss: 0.002162,	Time: 0.0 hr,	
+2024-12-29 23:31:51 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:32:00 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002181,	reconstruction_loss: 0.002181,	Time: 9.274444580078125 s	
+2024-12-29 23:32:00 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021814873907715082
+2024-12-29 23:32:00 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021814873907715082, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-52.step-3276
+2024-12-29 23:32:00 logger.DCASE_dev_bearing:INFO Epoch 53 start, lr 0.0003486784401000001
+2024-12-29 23:32:02 logger.DCASE_dev_bearing:INFO Epoch: 53,	Trained sentences: 328000,	total_loss: 0.002157,	reconstruction_loss: 0.002157,	lr: 0.00034868,	elapse: 1.4 s
+2024-12-29 23:32:05 logger.DCASE_dev_bearing:INFO Epoch: 53,	Trained sentences: 329000,	total_loss: 0.002196,	reconstruction_loss: 0.002196,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:32:09 logger.DCASE_dev_bearing:INFO Epoch: 53,	Trained sentences: 330000,	total_loss: 0.002201,	reconstruction_loss: 0.002201,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:32:12 logger.DCASE_dev_bearing:INFO Epoch: 53,	Trained sentences: 331000,	total_loss: 0.002210,	reconstruction_loss: 0.002210,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:32:15 logger.DCASE_dev_bearing:INFO Epoch: 53,	Trained sentences: 332000,	total_loss: 0.002108,	reconstruction_loss: 0.002108,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:32:19 logger.DCASE_dev_bearing:INFO Epoch: 53,	Trained sentences: 333000,	total_loss: 0.002094,	reconstruction_loss: 0.002094,	lr: 0.00034868,	elapse: 3.4 s
+2024-12-29 23:32:22 logger.DCASE_dev_bearing:INFO Epoch 53 Done,	total_loss: 0.002153,	reconstruction_loss: 0.002153,	Time: 0.0 hr,	
+2024-12-29 23:32:22 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:32:31 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002169,	reconstruction_loss: 0.002169,	Time: 9.20912790298462 s	
+2024-12-29 23:32:31 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021689217537641525
+2024-12-29 23:32:31 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021689217537641525, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-53.step-3339
+2024-12-29 23:32:31 logger.DCASE_dev_bearing:INFO Epoch 54 start, lr 0.0003486784401000001
+2024-12-29 23:32:31 logger.DCASE_dev_bearing:INFO Epoch: 54,	Trained sentences: 334000,	total_loss: 0.002048,	reconstruction_loss: 0.002048,	lr: 0.00031381,	elapse: 0.3 s
+2024-12-29 23:32:35 logger.DCASE_dev_bearing:INFO Epoch: 54,	Trained sentences: 335000,	total_loss: 0.002153,	reconstruction_loss: 0.002153,	lr: 0.00031381,	elapse: 3.5 s
+2024-12-29 23:32:38 logger.DCASE_dev_bearing:INFO Epoch: 54,	Trained sentences: 336000,	total_loss: 0.002208,	reconstruction_loss: 0.002208,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:32:41 logger.DCASE_dev_bearing:INFO Epoch: 54,	Trained sentences: 337000,	total_loss: 0.002198,	reconstruction_loss: 0.002198,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:32:45 logger.DCASE_dev_bearing:INFO Epoch: 54,	Trained sentences: 338000,	total_loss: 0.002135,	reconstruction_loss: 0.002135,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:32:48 logger.DCASE_dev_bearing:INFO Epoch: 54,	Trained sentences: 339000,	total_loss: 0.002079,	reconstruction_loss: 0.002079,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:32:52 logger.DCASE_dev_bearing:INFO Epoch: 54,	Trained sentences: 340000,	total_loss: 0.002108,	reconstruction_loss: 0.002108,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:32:52 logger.DCASE_dev_bearing:INFO Epoch 54 Done,	total_loss: 0.002141,	reconstruction_loss: 0.002141,	Time: 0.0 hr,	
+2024-12-29 23:32:52 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:33:02 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002159,	reconstruction_loss: 0.002159,	Time: 9.368601322174072 s	
+2024-12-29 23:33:02 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021588096860796213
+2024-12-29 23:33:02 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021588096860796213, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-54.step-3402
+2024-12-29 23:33:02 logger.DCASE_dev_bearing:INFO Epoch 55 start, lr 0.0003138105960900001
+2024-12-29 23:33:04 logger.DCASE_dev_bearing:INFO Epoch: 55,	Trained sentences: 341000,	total_loss: 0.002123,	reconstruction_loss: 0.002123,	lr: 0.00031381,	elapse: 2.8 s
+2024-12-29 23:33:08 logger.DCASE_dev_bearing:INFO Epoch: 55,	Trained sentences: 342000,	total_loss: 0.002227,	reconstruction_loss: 0.002227,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:33:11 logger.DCASE_dev_bearing:INFO Epoch: 55,	Trained sentences: 343000,	total_loss: 0.002129,	reconstruction_loss: 0.002129,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:33:15 logger.DCASE_dev_bearing:INFO Epoch: 55,	Trained sentences: 344000,	total_loss: 0.002176,	reconstruction_loss: 0.002176,	lr: 0.00031381,	elapse: 3.3 s
+2024-12-29 23:33:18 logger.DCASE_dev_bearing:INFO Epoch: 55,	Trained sentences: 345000,	total_loss: 0.002077,	reconstruction_loss: 0.002077,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:33:21 logger.DCASE_dev_bearing:INFO Epoch: 55,	Trained sentences: 346000,	total_loss: 0.002090,	reconstruction_loss: 0.002090,	lr: 0.00031381,	elapse: 3.3 s
+2024-12-29 23:33:23 logger.DCASE_dev_bearing:INFO Epoch 55 Done,	total_loss: 0.002134,	reconstruction_loss: 0.002134,	Time: 0.0 hr,	
+2024-12-29 23:33:23 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:33:32 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002154,	reconstruction_loss: 0.002154,	Time: 9.389214277267456 s	
+2024-12-29 23:33:32 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002153802663087845
+2024-12-29 23:33:32 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002153802663087845, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-55.step-3465
+2024-12-29 23:33:32 logger.DCASE_dev_bearing:INFO Epoch 56 start, lr 0.0003138105960900001
+2024-12-29 23:33:34 logger.DCASE_dev_bearing:INFO Epoch: 56,	Trained sentences: 347000,	total_loss: 0.002123,	reconstruction_loss: 0.002123,	lr: 0.00031381,	elapse: 2.0 s
+2024-12-29 23:33:38 logger.DCASE_dev_bearing:INFO Epoch: 56,	Trained sentences: 348000,	total_loss: 0.002187,	reconstruction_loss: 0.002187,	lr: 0.00031381,	elapse: 3.5 s
+2024-12-29 23:33:41 logger.DCASE_dev_bearing:INFO Epoch: 56,	Trained sentences: 349000,	total_loss: 0.002150,	reconstruction_loss: 0.002150,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:33:45 logger.DCASE_dev_bearing:INFO Epoch: 56,	Trained sentences: 350000,	total_loss: 0.002188,	reconstruction_loss: 0.002188,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:33:48 logger.DCASE_dev_bearing:INFO Epoch: 56,	Trained sentences: 351000,	total_loss: 0.002077,	reconstruction_loss: 0.002077,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:33:51 logger.DCASE_dev_bearing:INFO Epoch: 56,	Trained sentences: 352000,	total_loss: 0.002087,	reconstruction_loss: 0.002087,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:33:54 logger.DCASE_dev_bearing:INFO Epoch 56 Done,	total_loss: 0.002130,	reconstruction_loss: 0.002130,	Time: 0.0 hr,	
+2024-12-29 23:33:54 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:34:03 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002151,	reconstruction_loss: 0.002151,	Time: 9.098761081695557 s	
+2024-12-29 23:34:03 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021507013589143753
+2024-12-29 23:34:03 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021507013589143753, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-56.step-3528
+2024-12-29 23:34:03 logger.DCASE_dev_bearing:INFO Epoch 57 start, lr 0.0003138105960900001
+2024-12-29 23:34:04 logger.DCASE_dev_bearing:INFO Epoch: 57,	Trained sentences: 353000,	total_loss: 0.002083,	reconstruction_loss: 0.002083,	lr: 0.00031381,	elapse: 0.7 s
+2024-12-29 23:34:07 logger.DCASE_dev_bearing:INFO Epoch: 57,	Trained sentences: 354000,	total_loss: 0.002152,	reconstruction_loss: 0.002152,	lr: 0.00031381,	elapse: 3.5 s
+2024-12-29 23:34:11 logger.DCASE_dev_bearing:INFO Epoch: 57,	Trained sentences: 355000,	total_loss: 0.002169,	reconstruction_loss: 0.002169,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:34:14 logger.DCASE_dev_bearing:INFO Epoch: 57,	Trained sentences: 356000,	total_loss: 0.002170,	reconstruction_loss: 0.002170,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:34:17 logger.DCASE_dev_bearing:INFO Epoch: 57,	Trained sentences: 357000,	total_loss: 0.002122,	reconstruction_loss: 0.002122,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:34:21 logger.DCASE_dev_bearing:INFO Epoch: 57,	Trained sentences: 358000,	total_loss: 0.002075,	reconstruction_loss: 0.002075,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:34:24 logger.DCASE_dev_bearing:INFO Epoch: 57,	Trained sentences: 359000,	total_loss: 0.002095,	reconstruction_loss: 0.002095,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:34:24 logger.DCASE_dev_bearing:INFO Epoch 57 Done,	total_loss: 0.002127,	reconstruction_loss: 0.002127,	Time: 0.0 hr,	
+2024-12-29 23:34:24 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:34:34 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002148,	reconstruction_loss: 0.002148,	Time: 9.415743112564087 s	
+2024-12-29 23:34:34 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002148245694115758
+2024-12-29 23:34:34 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002148245694115758, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-57.step-3591
+2024-12-29 23:34:34 logger.DCASE_dev_bearing:INFO Epoch 58 start, lr 0.0003138105960900001
+2024-12-29 23:34:37 logger.DCASE_dev_bearing:INFO Epoch: 58,	Trained sentences: 360000,	total_loss: 0.002129,	reconstruction_loss: 0.002129,	lr: 0.00031381,	elapse: 3.1 s
+2024-12-29 23:34:40 logger.DCASE_dev_bearing:INFO Epoch: 58,	Trained sentences: 361000,	total_loss: 0.002206,	reconstruction_loss: 0.002206,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:34:44 logger.DCASE_dev_bearing:INFO Epoch: 58,	Trained sentences: 362000,	total_loss: 0.002109,	reconstruction_loss: 0.002109,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:34:47 logger.DCASE_dev_bearing:INFO Epoch: 58,	Trained sentences: 363000,	total_loss: 0.002171,	reconstruction_loss: 0.002171,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:34:50 logger.DCASE_dev_bearing:INFO Epoch: 58,	Trained sentences: 364000,	total_loss: 0.002088,	reconstruction_loss: 0.002088,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:34:54 logger.DCASE_dev_bearing:INFO Epoch: 58,	Trained sentences: 365000,	total_loss: 0.002071,	reconstruction_loss: 0.002071,	lr: 0.00031381,	elapse: 3.4 s
+2024-12-29 23:34:55 logger.DCASE_dev_bearing:INFO Epoch 58 Done,	total_loss: 0.002124,	reconstruction_loss: 0.002124,	Time: 0.0 hr,	
+2024-12-29 23:34:55 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:35:04 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002146,	reconstruction_loss: 0.002146,	Time: 9.315279722213745 s	
+2024-12-29 23:35:04 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021462333388626575
+2024-12-29 23:35:04 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021462333388626575, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-58.step-3654
+2024-12-29 23:35:04 logger.DCASE_dev_bearing:INFO Epoch 59 start, lr 0.0003138105960900001
+2024-12-29 23:35:07 logger.DCASE_dev_bearing:INFO Epoch: 59,	Trained sentences: 366000,	total_loss: 0.002106,	reconstruction_loss: 0.002106,	lr: 0.00028243,	elapse: 2.3 s
+2024-12-29 23:35:10 logger.DCASE_dev_bearing:INFO Epoch: 59,	Trained sentences: 367000,	total_loss: 0.002201,	reconstruction_loss: 0.002201,	lr: 0.00028243,	elapse: 3.5 s
+2024-12-29 23:35:14 logger.DCASE_dev_bearing:INFO Epoch: 59,	Trained sentences: 368000,	total_loss: 0.002136,	reconstruction_loss: 0.002136,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:35:17 logger.DCASE_dev_bearing:INFO Epoch: 59,	Trained sentences: 369000,	total_loss: 0.002162,	reconstruction_loss: 0.002162,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:35:20 logger.DCASE_dev_bearing:INFO Epoch: 59,	Trained sentences: 370000,	total_loss: 0.002065,	reconstruction_loss: 0.002065,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:35:24 logger.DCASE_dev_bearing:INFO Epoch: 59,	Trained sentences: 371000,	total_loss: 0.002072,	reconstruction_loss: 0.002072,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:35:26 logger.DCASE_dev_bearing:INFO Epoch 59 Done,	total_loss: 0.002122,	reconstruction_loss: 0.002122,	Time: 0.0 hr,	
+2024-12-29 23:35:26 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:35:36 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002145,	reconstruction_loss: 0.002145,	Time: 9.441026210784912 s	
+2024-12-29 23:35:36 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021445390302687883
+2024-12-29 23:35:36 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021445390302687883, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-59.step-3717
+2024-12-29 23:35:36 logger.DCASE_dev_bearing:INFO Epoch 60 start, lr 0.0002824295364810001
+2024-12-29 23:35:37 logger.DCASE_dev_bearing:INFO Epoch: 60,	Trained sentences: 372000,	total_loss: 0.002115,	reconstruction_loss: 0.002115,	lr: 0.00028243,	elapse: 1.1 s
+2024-12-29 23:35:40 logger.DCASE_dev_bearing:INFO Epoch: 60,	Trained sentences: 373000,	total_loss: 0.002147,	reconstruction_loss: 0.002147,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:35:43 logger.DCASE_dev_bearing:INFO Epoch: 60,	Trained sentences: 374000,	total_loss: 0.002164,	reconstruction_loss: 0.002164,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:35:47 logger.DCASE_dev_bearing:INFO Epoch: 60,	Trained sentences: 375000,	total_loss: 0.002150,	reconstruction_loss: 0.002150,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:35:50 logger.DCASE_dev_bearing:INFO Epoch: 60,	Trained sentences: 376000,	total_loss: 0.002116,	reconstruction_loss: 0.002116,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:35:54 logger.DCASE_dev_bearing:INFO Epoch: 60,	Trained sentences: 377000,	total_loss: 0.002066,	reconstruction_loss: 0.002066,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:35:57 logger.DCASE_dev_bearing:INFO Epoch: 60,	Trained sentences: 378000,	total_loss: 0.002081,	reconstruction_loss: 0.002081,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:35:57 logger.DCASE_dev_bearing:INFO Epoch 60 Done,	total_loss: 0.002120,	reconstruction_loss: 0.002120,	Time: 0.0 hr,	
+2024-12-29 23:35:57 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:36:06 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002147,	reconstruction_loss: 0.002147,	Time: 9.162429571151733 s	
+2024-12-29 23:36:06 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021474198438227177
+2024-12-29 23:36:06 logger.DCASE_dev_bearing:INFO Epoch 61 start, lr 0.0002824295364810001
+2024-12-29 23:36:10 logger.DCASE_dev_bearing:INFO Epoch: 61,	Trained sentences: 379000,	total_loss: 0.002118,	reconstruction_loss: 0.002118,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:36:13 logger.DCASE_dev_bearing:INFO Epoch: 61,	Trained sentences: 380000,	total_loss: 0.002195,	reconstruction_loss: 0.002195,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:36:16 logger.DCASE_dev_bearing:INFO Epoch: 61,	Trained sentences: 381000,	total_loss: 0.002129,	reconstruction_loss: 0.002129,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:36:20 logger.DCASE_dev_bearing:INFO Epoch: 61,	Trained sentences: 382000,	total_loss: 0.002147,	reconstruction_loss: 0.002147,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:36:23 logger.DCASE_dev_bearing:INFO Epoch: 61,	Trained sentences: 383000,	total_loss: 0.002086,	reconstruction_loss: 0.002086,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:36:26 logger.DCASE_dev_bearing:INFO Epoch: 61,	Trained sentences: 384000,	total_loss: 0.002084,	reconstruction_loss: 0.002084,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:36:27 logger.DCASE_dev_bearing:INFO Epoch 61 Done,	total_loss: 0.002119,	reconstruction_loss: 0.002119,	Time: 0.0 hr,	
+2024-12-29 23:36:27 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:36:37 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002146,	reconstruction_loss: 0.002146,	Time: 9.391652822494507 s	
+2024-12-29 23:36:37 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021462913136929274
+2024-12-29 23:36:37 logger.DCASE_dev_bearing:INFO Epoch 62 start, lr 0.0002824295364810001
+2024-12-29 23:36:39 logger.DCASE_dev_bearing:INFO Epoch: 62,	Trained sentences: 385000,	total_loss: 0.002127,	reconstruction_loss: 0.002127,	lr: 0.00028243,	elapse: 2.5 s
+2024-12-29 23:36:43 logger.DCASE_dev_bearing:INFO Epoch: 62,	Trained sentences: 386000,	total_loss: 0.002198,	reconstruction_loss: 0.002198,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:36:46 logger.DCASE_dev_bearing:INFO Epoch: 62,	Trained sentences: 387000,	total_loss: 0.002102,	reconstruction_loss: 0.002102,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:36:49 logger.DCASE_dev_bearing:INFO Epoch: 62,	Trained sentences: 388000,	total_loss: 0.002166,	reconstruction_loss: 0.002166,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:36:53 logger.DCASE_dev_bearing:INFO Epoch: 62,	Trained sentences: 389000,	total_loss: 0.002085,	reconstruction_loss: 0.002085,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:36:56 logger.DCASE_dev_bearing:INFO Epoch: 62,	Trained sentences: 390000,	total_loss: 0.002049,	reconstruction_loss: 0.002049,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:36:58 logger.DCASE_dev_bearing:INFO Epoch 62 Done,	total_loss: 0.002118,	reconstruction_loss: 0.002118,	Time: 0.0 hr,	
+2024-12-29 23:36:58 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:37:08 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002145,	reconstruction_loss: 0.002145,	Time: 9.491580486297607 s	
+2024-12-29 23:37:08 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021452372893691063
+2024-12-29 23:37:08 logger.DCASE_dev_bearing:INFO Epoch 63 start, lr 0.0002824295364810001
+2024-12-29 23:37:09 logger.DCASE_dev_bearing:INFO Epoch: 63,	Trained sentences: 391000,	total_loss: 0.002115,	reconstruction_loss: 0.002115,	lr: 0.00028243,	elapse: 1.6 s
+2024-12-29 23:37:13 logger.DCASE_dev_bearing:INFO Epoch: 63,	Trained sentences: 392000,	total_loss: 0.002155,	reconstruction_loss: 0.002155,	lr: 0.00028243,	elapse: 3.6 s
+2024-12-29 23:37:16 logger.DCASE_dev_bearing:INFO Epoch: 63,	Trained sentences: 393000,	total_loss: 0.002160,	reconstruction_loss: 0.002160,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:37:19 logger.DCASE_dev_bearing:INFO Epoch: 63,	Trained sentences: 394000,	total_loss: 0.002172,	reconstruction_loss: 0.002172,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:37:23 logger.DCASE_dev_bearing:INFO Epoch: 63,	Trained sentences: 395000,	total_loss: 0.002078,	reconstruction_loss: 0.002078,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:37:26 logger.DCASE_dev_bearing:INFO Epoch: 63,	Trained sentences: 396000,	total_loss: 0.002062,	reconstruction_loss: 0.002062,	lr: 0.00028243,	elapse: 3.4 s
+2024-12-29 23:37:29 logger.DCASE_dev_bearing:INFO Epoch 63 Done,	total_loss: 0.002116,	reconstruction_loss: 0.002116,	Time: 0.0 hr,	
+2024-12-29 23:37:29 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:37:39 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002144,	reconstruction_loss: 0.002144,	Time: 9.261484861373901 s	
+2024-12-29 23:37:39 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002144251251593232
+2024-12-29 23:37:39 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002144251251593232, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-63.step-3969
+2024-12-29 23:37:39 logger.DCASE_dev_bearing:INFO Epoch 64 start, lr 0.0002824295364810001
+2024-12-29 23:37:39 logger.DCASE_dev_bearing:INFO Epoch: 64,	Trained sentences: 397000,	total_loss: 0.002019,	reconstruction_loss: 0.002019,	lr: 0.00025419,	elapse: 0.4 s
+2024-12-29 23:37:42 logger.DCASE_dev_bearing:INFO Epoch: 64,	Trained sentences: 398000,	total_loss: 0.002122,	reconstruction_loss: 0.002122,	lr: 0.00025419,	elapse: 3.5 s
+2024-12-29 23:37:46 logger.DCASE_dev_bearing:INFO Epoch: 64,	Trained sentences: 399000,	total_loss: 0.002178,	reconstruction_loss: 0.002178,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:37:49 logger.DCASE_dev_bearing:INFO Epoch: 64,	Trained sentences: 400000,	total_loss: 0.002171,	reconstruction_loss: 0.002171,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:37:52 logger.DCASE_dev_bearing:INFO Epoch: 64,	Trained sentences: 401000,	total_loss: 0.002113,	reconstruction_loss: 0.002113,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:37:56 logger.DCASE_dev_bearing:INFO Epoch: 64,	Trained sentences: 402000,	total_loss: 0.002055,	reconstruction_loss: 0.002055,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:37:59 logger.DCASE_dev_bearing:INFO Epoch: 64,	Trained sentences: 403000,	total_loss: 0.002086,	reconstruction_loss: 0.002086,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:38:00 logger.DCASE_dev_bearing:INFO Epoch 64 Done,	total_loss: 0.002115,	reconstruction_loss: 0.002115,	Time: 0.0 hr,	
+2024-12-29 23:38:00 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:38:09 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002145,	reconstruction_loss: 0.002145,	Time: 9.223682165145874 s	
+2024-12-29 23:38:09 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021447110921144485
+2024-12-29 23:38:09 logger.DCASE_dev_bearing:INFO Epoch 65 start, lr 0.0002541865828329001
+2024-12-29 23:38:12 logger.DCASE_dev_bearing:INFO Epoch: 65,	Trained sentences: 404000,	total_loss: 0.002101,	reconstruction_loss: 0.002101,	lr: 0.00025419,	elapse: 2.8 s
+2024-12-29 23:38:15 logger.DCASE_dev_bearing:INFO Epoch: 65,	Trained sentences: 405000,	total_loss: 0.002205,	reconstruction_loss: 0.002205,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:38:19 logger.DCASE_dev_bearing:INFO Epoch: 65,	Trained sentences: 406000,	total_loss: 0.002110,	reconstruction_loss: 0.002110,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:38:22 logger.DCASE_dev_bearing:INFO Epoch: 65,	Trained sentences: 407000,	total_loss: 0.002160,	reconstruction_loss: 0.002160,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:38:25 logger.DCASE_dev_bearing:INFO Epoch: 65,	Trained sentences: 408000,	total_loss: 0.002058,	reconstruction_loss: 0.002058,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:38:29 logger.DCASE_dev_bearing:INFO Epoch: 65,	Trained sentences: 409000,	total_loss: 0.002072,	reconstruction_loss: 0.002072,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:38:30 logger.DCASE_dev_bearing:INFO Epoch 65 Done,	total_loss: 0.002115,	reconstruction_loss: 0.002115,	Time: 0.0 hr,	
+2024-12-29 23:38:30 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:38:40 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002144,	reconstruction_loss: 0.002144,	Time: 9.320187330245972 s	
+2024-12-29 23:38:40 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021442631259560585
+2024-12-29 23:38:40 logger.DCASE_dev_bearing:INFO Epoch 66 start, lr 0.0002541865828329001
+2024-12-29 23:38:42 logger.DCASE_dev_bearing:INFO Epoch: 66,	Trained sentences: 410000,	total_loss: 0.002106,	reconstruction_loss: 0.002106,	lr: 0.00025419,	elapse: 1.8 s
+2024-12-29 23:38:45 logger.DCASE_dev_bearing:INFO Epoch: 66,	Trained sentences: 411000,	total_loss: 0.002170,	reconstruction_loss: 0.002170,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:38:48 logger.DCASE_dev_bearing:INFO Epoch: 66,	Trained sentences: 412000,	total_loss: 0.002133,	reconstruction_loss: 0.002133,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:38:52 logger.DCASE_dev_bearing:INFO Epoch: 66,	Trained sentences: 413000,	total_loss: 0.002171,	reconstruction_loss: 0.002171,	lr: 0.00025419,	elapse: 3.3 s
+2024-12-29 23:38:55 logger.DCASE_dev_bearing:INFO Epoch: 66,	Trained sentences: 414000,	total_loss: 0.002061,	reconstruction_loss: 0.002061,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:38:58 logger.DCASE_dev_bearing:INFO Epoch: 66,	Trained sentences: 415000,	total_loss: 0.002073,	reconstruction_loss: 0.002073,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:39:01 logger.DCASE_dev_bearing:INFO Epoch 66 Done,	total_loss: 0.002114,	reconstruction_loss: 0.002114,	Time: 0.0 hr,	
+2024-12-29 23:39:01 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:39:10 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002143,	reconstruction_loss: 0.002143,	Time: 9.15571928024292 s	
+2024-12-29 23:39:10 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021434936206787825
+2024-12-29 23:39:10 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021434936206787825, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-66.step-4158
+2024-12-29 23:39:10 logger.DCASE_dev_bearing:INFO Epoch 67 start, lr 0.0002541865828329001
+2024-12-29 23:39:11 logger.DCASE_dev_bearing:INFO Epoch: 67,	Trained sentences: 416000,	total_loss: 0.002067,	reconstruction_loss: 0.002067,	lr: 0.00025419,	elapse: 0.7 s
+2024-12-29 23:39:14 logger.DCASE_dev_bearing:INFO Epoch: 67,	Trained sentences: 417000,	total_loss: 0.002139,	reconstruction_loss: 0.002139,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:39:18 logger.DCASE_dev_bearing:INFO Epoch: 67,	Trained sentences: 418000,	total_loss: 0.002155,	reconstruction_loss: 0.002155,	lr: 0.00025419,	elapse: 3.3 s
+2024-12-29 23:39:21 logger.DCASE_dev_bearing:INFO Epoch: 67,	Trained sentences: 419000,	total_loss: 0.002156,	reconstruction_loss: 0.002156,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:39:25 logger.DCASE_dev_bearing:INFO Epoch: 67,	Trained sentences: 420000,	total_loss: 0.002107,	reconstruction_loss: 0.002107,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:39:28 logger.DCASE_dev_bearing:INFO Epoch: 67,	Trained sentences: 421000,	total_loss: 0.002062,	reconstruction_loss: 0.002062,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:39:31 logger.DCASE_dev_bearing:INFO Epoch: 67,	Trained sentences: 422000,	total_loss: 0.002083,	reconstruction_loss: 0.002083,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:39:32 logger.DCASE_dev_bearing:INFO Epoch 67 Done,	total_loss: 0.002113,	reconstruction_loss: 0.002113,	Time: 0.0 hr,	
+2024-12-29 23:39:32 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:39:41 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002143,	reconstruction_loss: 0.002143,	Time: 9.041351795196533 s	
+2024-12-29 23:39:41 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002142557641491294
+2024-12-29 23:39:41 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002142557641491294, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-67.step-4221
+2024-12-29 23:39:41 logger.DCASE_dev_bearing:INFO Epoch 68 start, lr 0.0002541865828329001
+2024-12-29 23:39:44 logger.DCASE_dev_bearing:INFO Epoch: 68,	Trained sentences: 423000,	total_loss: 0.002117,	reconstruction_loss: 0.002117,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:39:48 logger.DCASE_dev_bearing:INFO Epoch: 68,	Trained sentences: 424000,	total_loss: 0.002194,	reconstruction_loss: 0.002194,	lr: 0.00025419,	elapse: 3.5 s
+2024-12-29 23:39:51 logger.DCASE_dev_bearing:INFO Epoch: 68,	Trained sentences: 425000,	total_loss: 0.002098,	reconstruction_loss: 0.002098,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:39:54 logger.DCASE_dev_bearing:INFO Epoch: 68,	Trained sentences: 426000,	total_loss: 0.002157,	reconstruction_loss: 0.002157,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:39:58 logger.DCASE_dev_bearing:INFO Epoch: 68,	Trained sentences: 427000,	total_loss: 0.002077,	reconstruction_loss: 0.002077,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:40:01 logger.DCASE_dev_bearing:INFO Epoch: 68,	Trained sentences: 428000,	total_loss: 0.002059,	reconstruction_loss: 0.002059,	lr: 0.00025419,	elapse: 3.4 s
+2024-12-29 23:40:02 logger.DCASE_dev_bearing:INFO Epoch 68 Done,	total_loss: 0.002112,	reconstruction_loss: 0.002112,	Time: 0.0 hr,	
+2024-12-29 23:40:02 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:40:12 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002142,	reconstruction_loss: 0.002142,	Time: 9.370946407318115 s	
+2024-12-29 23:40:12 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002141551813110709
+2024-12-29 23:40:12 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002141551813110709, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-68.step-4284
+2024-12-29 23:40:12 logger.DCASE_dev_bearing:INFO Epoch 69 start, lr 0.0002541865828329001
+2024-12-29 23:40:14 logger.DCASE_dev_bearing:INFO Epoch: 69,	Trained sentences: 429000,	total_loss: 0.002096,	reconstruction_loss: 0.002096,	lr: 0.00022877,	elapse: 2.1 s
+2024-12-29 23:40:17 logger.DCASE_dev_bearing:INFO Epoch: 69,	Trained sentences: 430000,	total_loss: 0.002190,	reconstruction_loss: 0.002190,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:40:21 logger.DCASE_dev_bearing:INFO Epoch: 69,	Trained sentences: 431000,	total_loss: 0.002127,	reconstruction_loss: 0.002127,	lr: 0.00022877,	elapse: 3.3 s
+2024-12-29 23:40:24 logger.DCASE_dev_bearing:INFO Epoch: 69,	Trained sentences: 432000,	total_loss: 0.002150,	reconstruction_loss: 0.002150,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:40:27 logger.DCASE_dev_bearing:INFO Epoch: 69,	Trained sentences: 433000,	total_loss: 0.002054,	reconstruction_loss: 0.002054,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:40:31 logger.DCASE_dev_bearing:INFO Epoch: 69,	Trained sentences: 434000,	total_loss: 0.002063,	reconstruction_loss: 0.002063,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:40:33 logger.DCASE_dev_bearing:INFO Epoch 69 Done,	total_loss: 0.002112,	reconstruction_loss: 0.002112,	Time: 0.0 hr,	
+2024-12-29 23:40:33 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:40:42 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002140,	reconstruction_loss: 0.002140,	Time: 9.291944026947021 s	
+2024-12-29 23:40:42 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021396023221313953
+2024-12-29 23:40:42 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021396023221313953, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-69.step-4347
+2024-12-29 23:40:42 logger.DCASE_dev_bearing:INFO Epoch 70 start, lr 0.0002287679245496101
+2024-12-29 23:40:44 logger.DCASE_dev_bearing:INFO Epoch: 70,	Trained sentences: 435000,	total_loss: 0.002107,	reconstruction_loss: 0.002107,	lr: 0.00022877,	elapse: 1.2 s
+2024-12-29 23:40:47 logger.DCASE_dev_bearing:INFO Epoch: 70,	Trained sentences: 436000,	total_loss: 0.002138,	reconstruction_loss: 0.002138,	lr: 0.00022877,	elapse: 3.5 s
+2024-12-29 23:40:51 logger.DCASE_dev_bearing:INFO Epoch: 70,	Trained sentences: 437000,	total_loss: 0.002155,	reconstruction_loss: 0.002155,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:40:54 logger.DCASE_dev_bearing:INFO Epoch: 70,	Trained sentences: 438000,	total_loss: 0.002140,	reconstruction_loss: 0.002140,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:40:57 logger.DCASE_dev_bearing:INFO Epoch: 70,	Trained sentences: 439000,	total_loss: 0.002104,	reconstruction_loss: 0.002104,	lr: 0.00022877,	elapse: 3.3 s
+2024-12-29 23:41:01 logger.DCASE_dev_bearing:INFO Epoch: 70,	Trained sentences: 440000,	total_loss: 0.002056,	reconstruction_loss: 0.002056,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:41:04 logger.DCASE_dev_bearing:INFO Epoch: 70,	Trained sentences: 441000,	total_loss: 0.002073,	reconstruction_loss: 0.002073,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:41:04 logger.DCASE_dev_bearing:INFO Epoch 70 Done,	total_loss: 0.002111,	reconstruction_loss: 0.002111,	Time: 0.0 hr,	
+2024-12-29 23:41:04 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:41:13 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002138,	reconstruction_loss: 0.002138,	Time: 9.091068983078003 s	
+2024-12-29 23:41:13 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021384102292358875
+2024-12-29 23:41:13 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021384102292358875, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-70.step-4410
+2024-12-29 23:41:13 logger.DCASE_dev_bearing:INFO Epoch 71 start, lr 0.0002287679245496101
+2024-12-29 23:41:16 logger.DCASE_dev_bearing:INFO Epoch: 71,	Trained sentences: 442000,	total_loss: 0.002110,	reconstruction_loss: 0.002110,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:41:20 logger.DCASE_dev_bearing:INFO Epoch: 71,	Trained sentences: 443000,	total_loss: 0.002187,	reconstruction_loss: 0.002187,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:41:23 logger.DCASE_dev_bearing:INFO Epoch: 71,	Trained sentences: 444000,	total_loss: 0.002120,	reconstruction_loss: 0.002120,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:41:27 logger.DCASE_dev_bearing:INFO Epoch: 71,	Trained sentences: 445000,	total_loss: 0.002137,	reconstruction_loss: 0.002137,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:41:30 logger.DCASE_dev_bearing:INFO Epoch: 71,	Trained sentences: 446000,	total_loss: 0.002077,	reconstruction_loss: 0.002077,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:41:33 logger.DCASE_dev_bearing:INFO Epoch: 71,	Trained sentences: 447000,	total_loss: 0.002075,	reconstruction_loss: 0.002075,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:41:34 logger.DCASE_dev_bearing:INFO Epoch 71 Done,	total_loss: 0.002110,	reconstruction_loss: 0.002110,	Time: 0.0 hr,	
+2024-12-29 23:41:34 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:41:43 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002138,	reconstruction_loss: 0.002138,	Time: 9.172352313995361 s	
+2024-12-29 23:41:43 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002137647243216634
+2024-12-29 23:41:43 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002137647243216634, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-71.step-4473
+2024-12-29 23:41:43 logger.DCASE_dev_bearing:INFO Epoch 72 start, lr 0.0002287679245496101
+2024-12-29 23:41:46 logger.DCASE_dev_bearing:INFO Epoch: 72,	Trained sentences: 448000,	total_loss: 0.002119,	reconstruction_loss: 0.002119,	lr: 0.00022877,	elapse: 2.7 s
+2024-12-29 23:41:50 logger.DCASE_dev_bearing:INFO Epoch: 72,	Trained sentences: 449000,	total_loss: 0.002191,	reconstruction_loss: 0.002191,	lr: 0.00022877,	elapse: 3.5 s
+2024-12-29 23:41:53 logger.DCASE_dev_bearing:INFO Epoch: 72,	Trained sentences: 450000,	total_loss: 0.002095,	reconstruction_loss: 0.002095,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:41:56 logger.DCASE_dev_bearing:INFO Epoch: 72,	Trained sentences: 451000,	total_loss: 0.002157,	reconstruction_loss: 0.002157,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:42:00 logger.DCASE_dev_bearing:INFO Epoch: 72,	Trained sentences: 452000,	total_loss: 0.002076,	reconstruction_loss: 0.002076,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:42:03 logger.DCASE_dev_bearing:INFO Epoch: 72,	Trained sentences: 453000,	total_loss: 0.002042,	reconstruction_loss: 0.002042,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:42:05 logger.DCASE_dev_bearing:INFO Epoch 72 Done,	total_loss: 0.002110,	reconstruction_loss: 0.002110,	Time: 0.0 hr,	
+2024-12-29 23:42:05 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:42:14 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002137,	reconstruction_loss: 0.002137,	Time: 9.338400840759277 s	
+2024-12-29 23:42:14 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002136994618922472
+2024-12-29 23:42:14 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002136994618922472, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-72.step-4536
+2024-12-29 23:42:14 logger.DCASE_dev_bearing:INFO Epoch 73 start, lr 0.0002287679245496101
+2024-12-29 23:42:16 logger.DCASE_dev_bearing:INFO Epoch: 73,	Trained sentences: 454000,	total_loss: 0.002108,	reconstruction_loss: 0.002108,	lr: 0.00022877,	elapse: 1.4 s
+2024-12-29 23:42:19 logger.DCASE_dev_bearing:INFO Epoch: 73,	Trained sentences: 455000,	total_loss: 0.002148,	reconstruction_loss: 0.002148,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:42:23 logger.DCASE_dev_bearing:INFO Epoch: 73,	Trained sentences: 456000,	total_loss: 0.002153,	reconstruction_loss: 0.002153,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:42:26 logger.DCASE_dev_bearing:INFO Epoch: 73,	Trained sentences: 457000,	total_loss: 0.002164,	reconstruction_loss: 0.002164,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:42:29 logger.DCASE_dev_bearing:INFO Epoch: 73,	Trained sentences: 458000,	total_loss: 0.002069,	reconstruction_loss: 0.002069,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:42:33 logger.DCASE_dev_bearing:INFO Epoch: 73,	Trained sentences: 459000,	total_loss: 0.002054,	reconstruction_loss: 0.002054,	lr: 0.00022877,	elapse: 3.4 s
+2024-12-29 23:42:36 logger.DCASE_dev_bearing:INFO Epoch 73 Done,	total_loss: 0.002109,	reconstruction_loss: 0.002109,	Time: 0.0 hr,	
+2024-12-29 23:42:36 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:42:45 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002136,	reconstruction_loss: 0.002136,	Time: 9.16581130027771 s	
+2024-12-29 23:42:45 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002136392518877983
+2024-12-29 23:42:45 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002136392518877983, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-73.step-4599
+2024-12-29 23:42:45 logger.DCASE_dev_bearing:INFO Epoch 74 start, lr 0.0002287679245496101
+2024-12-29 23:42:45 logger.DCASE_dev_bearing:INFO Epoch: 74,	Trained sentences: 460000,	total_loss: 0.002012,	reconstruction_loss: 0.002012,	lr: 0.00020589,	elapse: 0.4 s
+2024-12-29 23:42:49 logger.DCASE_dev_bearing:INFO Epoch: 74,	Trained sentences: 461000,	total_loss: 0.002116,	reconstruction_loss: 0.002116,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:42:52 logger.DCASE_dev_bearing:INFO Epoch: 74,	Trained sentences: 462000,	total_loss: 0.002172,	reconstruction_loss: 0.002172,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:42:55 logger.DCASE_dev_bearing:INFO Epoch: 74,	Trained sentences: 463000,	total_loss: 0.002164,	reconstruction_loss: 0.002164,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:42:59 logger.DCASE_dev_bearing:INFO Epoch: 74,	Trained sentences: 464000,	total_loss: 0.002105,	reconstruction_loss: 0.002105,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:43:02 logger.DCASE_dev_bearing:INFO Epoch: 74,	Trained sentences: 465000,	total_loss: 0.002047,	reconstruction_loss: 0.002047,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:43:06 logger.DCASE_dev_bearing:INFO Epoch: 74,	Trained sentences: 466000,	total_loss: 0.002078,	reconstruction_loss: 0.002078,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:43:06 logger.DCASE_dev_bearing:INFO Epoch 74 Done,	total_loss: 0.002108,	reconstruction_loss: 0.002108,	Time: 0.0 hr,	
+2024-12-29 23:43:06 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:43:16 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002136,	reconstruction_loss: 0.002136,	Time: 9.325135469436646 s	
+2024-12-29 23:43:16 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002135963412001729
+2024-12-29 23:43:16 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002135963412001729, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-74.step-4662
+2024-12-29 23:43:16 logger.DCASE_dev_bearing:INFO Epoch 75 start, lr 0.0002058911320946491
+2024-12-29 23:43:18 logger.DCASE_dev_bearing:INFO Epoch: 75,	Trained sentences: 467000,	total_loss: 0.002094,	reconstruction_loss: 0.002094,	lr: 0.00020589,	elapse: 2.8 s
+2024-12-29 23:43:22 logger.DCASE_dev_bearing:INFO Epoch: 75,	Trained sentences: 468000,	total_loss: 0.002199,	reconstruction_loss: 0.002199,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:43:25 logger.DCASE_dev_bearing:INFO Epoch: 75,	Trained sentences: 469000,	total_loss: 0.002103,	reconstruction_loss: 0.002103,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:43:29 logger.DCASE_dev_bearing:INFO Epoch: 75,	Trained sentences: 470000,	total_loss: 0.002152,	reconstruction_loss: 0.002152,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:43:32 logger.DCASE_dev_bearing:INFO Epoch: 75,	Trained sentences: 471000,	total_loss: 0.002050,	reconstruction_loss: 0.002050,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:43:35 logger.DCASE_dev_bearing:INFO Epoch: 75,	Trained sentences: 472000,	total_loss: 0.002066,	reconstruction_loss: 0.002066,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:43:37 logger.DCASE_dev_bearing:INFO Epoch 75 Done,	total_loss: 0.002108,	reconstruction_loss: 0.002108,	Time: 0.0 hr,	
+2024-12-29 23:43:37 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:43:46 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002136,	reconstruction_loss: 0.002136,	Time: 9.27992844581604 s	
+2024-12-29 23:43:46 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021356067154556513
+2024-12-29 23:43:46 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021356067154556513, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-75.step-4725
+2024-12-29 23:43:46 logger.DCASE_dev_bearing:INFO Epoch 76 start, lr 0.0002058911320946491
+2024-12-29 23:43:48 logger.DCASE_dev_bearing:INFO Epoch: 76,	Trained sentences: 473000,	total_loss: 0.002098,	reconstruction_loss: 0.002098,	lr: 0.00020589,	elapse: 1.9 s
+2024-12-29 23:43:52 logger.DCASE_dev_bearing:INFO Epoch: 76,	Trained sentences: 474000,	total_loss: 0.002165,	reconstruction_loss: 0.002165,	lr: 0.00020589,	elapse: 3.5 s
+2024-12-29 23:43:55 logger.DCASE_dev_bearing:INFO Epoch: 76,	Trained sentences: 475000,	total_loss: 0.002127,	reconstruction_loss: 0.002127,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:43:58 logger.DCASE_dev_bearing:INFO Epoch: 76,	Trained sentences: 476000,	total_loss: 0.002164,	reconstruction_loss: 0.002164,	lr: 0.00020589,	elapse: 3.3 s
+2024-12-29 23:44:02 logger.DCASE_dev_bearing:INFO Epoch: 76,	Trained sentences: 477000,	total_loss: 0.002053,	reconstruction_loss: 0.002053,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:44:05 logger.DCASE_dev_bearing:INFO Epoch: 76,	Trained sentences: 478000,	total_loss: 0.002066,	reconstruction_loss: 0.002066,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:44:08 logger.DCASE_dev_bearing:INFO Epoch 76 Done,	total_loss: 0.002107,	reconstruction_loss: 0.002107,	Time: 0.0 hr,	
+2024-12-29 23:44:08 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:44:17 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002135,	reconstruction_loss: 0.002135,	Time: 9.06611967086792 s	
+2024-12-29 23:44:17 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002135179005563259
+2024-12-29 23:44:17 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002135179005563259, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-76.step-4788
+2024-12-29 23:44:17 logger.DCASE_dev_bearing:INFO Epoch 77 start, lr 0.0002058911320946491
+2024-12-29 23:44:18 logger.DCASE_dev_bearing:INFO Epoch: 77,	Trained sentences: 479000,	total_loss: 0.002059,	reconstruction_loss: 0.002059,	lr: 0.00020589,	elapse: 0.7 s
+2024-12-29 23:44:21 logger.DCASE_dev_bearing:INFO Epoch: 77,	Trained sentences: 480000,	total_loss: 0.002133,	reconstruction_loss: 0.002133,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:44:24 logger.DCASE_dev_bearing:INFO Epoch: 77,	Trained sentences: 481000,	total_loss: 0.002150,	reconstruction_loss: 0.002150,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:44:28 logger.DCASE_dev_bearing:INFO Epoch: 77,	Trained sentences: 482000,	total_loss: 0.002150,	reconstruction_loss: 0.002150,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:44:31 logger.DCASE_dev_bearing:INFO Epoch: 77,	Trained sentences: 483000,	total_loss: 0.002100,	reconstruction_loss: 0.002100,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:44:34 logger.DCASE_dev_bearing:INFO Epoch: 77,	Trained sentences: 484000,	total_loss: 0.002055,	reconstruction_loss: 0.002055,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:44:38 logger.DCASE_dev_bearing:INFO Epoch: 77,	Trained sentences: 485000,	total_loss: 0.002077,	reconstruction_loss: 0.002077,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:44:38 logger.DCASE_dev_bearing:INFO Epoch 77 Done,	total_loss: 0.002107,	reconstruction_loss: 0.002107,	Time: 0.0 hr,	
+2024-12-29 23:44:38 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:44:47 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002135,	reconstruction_loss: 0.002135,	Time: 9.229306936264038 s	
+2024-12-29 23:44:47 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002134723123162985
+2024-12-29 23:44:47 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002134723123162985, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-77.step-4851
+2024-12-29 23:44:47 logger.DCASE_dev_bearing:INFO Epoch 78 start, lr 0.0002058911320946491
+2024-12-29 23:44:51 logger.DCASE_dev_bearing:INFO Epoch: 78,	Trained sentences: 486000,	total_loss: 0.002111,	reconstruction_loss: 0.002111,	lr: 0.00020589,	elapse: 3.1 s
+2024-12-29 23:44:54 logger.DCASE_dev_bearing:INFO Epoch: 78,	Trained sentences: 487000,	total_loss: 0.002189,	reconstruction_loss: 0.002189,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:44:57 logger.DCASE_dev_bearing:INFO Epoch: 78,	Trained sentences: 488000,	total_loss: 0.002093,	reconstruction_loss: 0.002093,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:45:01 logger.DCASE_dev_bearing:INFO Epoch: 78,	Trained sentences: 489000,	total_loss: 0.002150,	reconstruction_loss: 0.002150,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:45:04 logger.DCASE_dev_bearing:INFO Epoch: 78,	Trained sentences: 490000,	total_loss: 0.002070,	reconstruction_loss: 0.002070,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:45:07 logger.DCASE_dev_bearing:INFO Epoch: 78,	Trained sentences: 491000,	total_loss: 0.002053,	reconstruction_loss: 0.002053,	lr: 0.00020589,	elapse: 3.4 s
+2024-12-29 23:45:09 logger.DCASE_dev_bearing:INFO Epoch 78 Done,	total_loss: 0.002106,	reconstruction_loss: 0.002106,	Time: 0.0 hr,	
+2024-12-29 23:45:09 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:45:18 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002134,	reconstruction_loss: 0.002134,	Time: 9.26886510848999 s	
+2024-12-29 23:45:18 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021342590916901827
+2024-12-29 23:45:18 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021342590916901827, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-78.step-4914
+2024-12-29 23:45:18 logger.DCASE_dev_bearing:INFO Epoch 79 start, lr 0.0002058911320946491
+2024-12-29 23:45:20 logger.DCASE_dev_bearing:INFO Epoch: 79,	Trained sentences: 492000,	total_loss: 0.002089,	reconstruction_loss: 0.002089,	lr: 0.00018530,	elapse: 2.3 s
+2024-12-29 23:45:24 logger.DCASE_dev_bearing:INFO Epoch: 79,	Trained sentences: 493000,	total_loss: 0.002185,	reconstruction_loss: 0.002185,	lr: 0.00018530,	elapse: 3.5 s
+2024-12-29 23:45:27 logger.DCASE_dev_bearing:INFO Epoch: 79,	Trained sentences: 494000,	total_loss: 0.002122,	reconstruction_loss: 0.002122,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:45:30 logger.DCASE_dev_bearing:INFO Epoch: 79,	Trained sentences: 495000,	total_loss: 0.002144,	reconstruction_loss: 0.002144,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:45:34 logger.DCASE_dev_bearing:INFO Epoch: 79,	Trained sentences: 496000,	total_loss: 0.002047,	reconstruction_loss: 0.002047,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:45:37 logger.DCASE_dev_bearing:INFO Epoch: 79,	Trained sentences: 497000,	total_loss: 0.002057,	reconstruction_loss: 0.002057,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:45:40 logger.DCASE_dev_bearing:INFO Epoch 79 Done,	total_loss: 0.002106,	reconstruction_loss: 0.002106,	Time: 0.0 hr,	
+2024-12-29 23:45:40 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:45:49 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002132,	reconstruction_loss: 0.002132,	Time: 9.286398649215698 s	
+2024-12-29 23:45:49 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.00213237083517015
+2024-12-29 23:45:49 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.00213237083517015, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-79.step-4977
+2024-12-29 23:45:49 logger.DCASE_dev_bearing:INFO Epoch 80 start, lr 0.00018530201888518417
+2024-12-29 23:45:50 logger.DCASE_dev_bearing:INFO Epoch: 80,	Trained sentences: 498000,	total_loss: 0.002098,	reconstruction_loss: 0.002098,	lr: 0.00018530,	elapse: 1.2 s
+2024-12-29 23:45:54 logger.DCASE_dev_bearing:INFO Epoch: 80,	Trained sentences: 499000,	total_loss: 0.002133,	reconstruction_loss: 0.002133,	lr: 0.00018530,	elapse: 3.6 s
+2024-12-29 23:45:57 logger.DCASE_dev_bearing:INFO Epoch: 80,	Trained sentences: 500000,	total_loss: 0.002149,	reconstruction_loss: 0.002149,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:46:00 logger.DCASE_dev_bearing:INFO Epoch: 80,	Trained sentences: 501000,	total_loss: 0.002135,	reconstruction_loss: 0.002135,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:46:04 logger.DCASE_dev_bearing:INFO Epoch: 80,	Trained sentences: 502000,	total_loss: 0.002098,	reconstruction_loss: 0.002098,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:46:07 logger.DCASE_dev_bearing:INFO Epoch: 80,	Trained sentences: 503000,	total_loss: 0.002051,	reconstruction_loss: 0.002051,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:46:11 logger.DCASE_dev_bearing:INFO Epoch: 80,	Trained sentences: 504000,	total_loss: 0.002068,	reconstruction_loss: 0.002068,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:46:11 logger.DCASE_dev_bearing:INFO Epoch 80 Done,	total_loss: 0.002105,	reconstruction_loss: 0.002105,	Time: 0.0 hr,	
+2024-12-29 23:46:11 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:46:20 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002132,	reconstruction_loss: 0.002132,	Time: 9.517266750335693 s	
+2024-12-29 23:46:20 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021319338120520115
+2024-12-29 23:46:20 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021319338120520115, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-80.step-5040
+2024-12-29 23:46:20 logger.DCASE_dev_bearing:INFO Epoch 81 start, lr 0.00018530201888518417
+2024-12-29 23:46:24 logger.DCASE_dev_bearing:INFO Epoch: 81,	Trained sentences: 505000,	total_loss: 0.002104,	reconstruction_loss: 0.002104,	lr: 0.00018530,	elapse: 3.5 s
+2024-12-29 23:46:27 logger.DCASE_dev_bearing:INFO Epoch: 81,	Trained sentences: 506000,	total_loss: 0.002182,	reconstruction_loss: 0.002182,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:46:30 logger.DCASE_dev_bearing:INFO Epoch: 81,	Trained sentences: 507000,	total_loss: 0.002115,	reconstruction_loss: 0.002115,	lr: 0.00018530,	elapse: 3.3 s
+2024-12-29 23:46:34 logger.DCASE_dev_bearing:INFO Epoch: 81,	Trained sentences: 508000,	total_loss: 0.002132,	reconstruction_loss: 0.002132,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:46:37 logger.DCASE_dev_bearing:INFO Epoch: 81,	Trained sentences: 509000,	total_loss: 0.002072,	reconstruction_loss: 0.002072,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:46:40 logger.DCASE_dev_bearing:INFO Epoch: 81,	Trained sentences: 510000,	total_loss: 0.002070,	reconstruction_loss: 0.002070,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:46:41 logger.DCASE_dev_bearing:INFO Epoch 81 Done,	total_loss: 0.002105,	reconstruction_loss: 0.002105,	Time: 0.0 hr,	
+2024-12-29 23:46:41 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:46:50 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002131,	reconstruction_loss: 0.002131,	Time: 9.07446002960205 s	
+2024-12-29 23:46:50 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021314802579581738
+2024-12-29 23:46:50 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021314802579581738, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-81.step-5103
+2024-12-29 23:46:50 logger.DCASE_dev_bearing:INFO Epoch 82 start, lr 0.00018530201888518417
+2024-12-29 23:46:53 logger.DCASE_dev_bearing:INFO Epoch: 82,	Trained sentences: 511000,	total_loss: 0.002113,	reconstruction_loss: 0.002113,	lr: 0.00018530,	elapse: 2.5 s
+2024-12-29 23:46:56 logger.DCASE_dev_bearing:INFO Epoch: 82,	Trained sentences: 512000,	total_loss: 0.002186,	reconstruction_loss: 0.002186,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:47:00 logger.DCASE_dev_bearing:INFO Epoch: 82,	Trained sentences: 513000,	total_loss: 0.002091,	reconstruction_loss: 0.002091,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:47:03 logger.DCASE_dev_bearing:INFO Epoch: 82,	Trained sentences: 514000,	total_loss: 0.002152,	reconstruction_loss: 0.002152,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:47:06 logger.DCASE_dev_bearing:INFO Epoch: 82,	Trained sentences: 515000,	total_loss: 0.002071,	reconstruction_loss: 0.002071,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:47:10 logger.DCASE_dev_bearing:INFO Epoch: 82,	Trained sentences: 516000,	total_loss: 0.002037,	reconstruction_loss: 0.002037,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:47:12 logger.DCASE_dev_bearing:INFO Epoch 82 Done,	total_loss: 0.002105,	reconstruction_loss: 0.002105,	Time: 0.0 hr,	
+2024-12-29 23:47:12 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:47:21 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002131,	reconstruction_loss: 0.002131,	Time: 9.008119344711304 s	
+2024-12-29 23:47:21 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002131053479388356
+2024-12-29 23:47:21 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002131053479388356, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-82.step-5166
+2024-12-29 23:47:21 logger.DCASE_dev_bearing:INFO Epoch 83 start, lr 0.00018530201888518417
+2024-12-29 23:47:22 logger.DCASE_dev_bearing:INFO Epoch: 83,	Trained sentences: 517000,	total_loss: 0.002101,	reconstruction_loss: 0.002101,	lr: 0.00018530,	elapse: 1.6 s
+2024-12-29 23:47:26 logger.DCASE_dev_bearing:INFO Epoch: 83,	Trained sentences: 518000,	total_loss: 0.002144,	reconstruction_loss: 0.002144,	lr: 0.00018530,	elapse: 3.6 s
+2024-12-29 23:47:29 logger.DCASE_dev_bearing:INFO Epoch: 83,	Trained sentences: 519000,	total_loss: 0.002148,	reconstruction_loss: 0.002148,	lr: 0.00018530,	elapse: 3.4 s
+2024-12-29 23:47:33 logger.DCASE_dev_bearing:INFO Epoch: 83,	Trained sentences: 520000,	total_loss: 0.002160,	reconstruction_loss: 0.002160,	lr: 0.00018530,	elapse: 3.3 s
+2024-12-29 23:47:36 logger.DCASE_dev_bearing:INFO Epoch: 83,	Trained sentences: 521000,	total_loss: 0.002064,	reconstruction_loss: 0.002064,	lr: 0.00018530,	elapse: 3.3 s
+2024-12-29 23:47:39 logger.DCASE_dev_bearing:INFO Epoch: 83,	Trained sentences: 522000,	total_loss: 0.002049,	reconstruction_loss: 0.002049,	lr: 0.00018530,	elapse: 3.3 s
+2024-12-29 23:47:42 logger.DCASE_dev_bearing:INFO Epoch 83 Done,	total_loss: 0.002104,	reconstruction_loss: 0.002104,	Time: 0.0 hr,	
+2024-12-29 23:47:42 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:47:52 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002131,	reconstruction_loss: 0.002131,	Time: 9.219128847122192 s	
+2024-12-29 23:47:52 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002130645327270031
+2024-12-29 23:47:52 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002130645327270031, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-83.step-5229
+2024-12-29 23:47:52 logger.DCASE_dev_bearing:INFO Epoch 84 start, lr 0.00018530201888518417
+2024-12-29 23:47:52 logger.DCASE_dev_bearing:INFO Epoch: 84,	Trained sentences: 523000,	total_loss: 0.002005,	reconstruction_loss: 0.002005,	lr: 0.00016677,	elapse: 0.4 s
+2024-12-29 23:47:55 logger.DCASE_dev_bearing:INFO Epoch: 84,	Trained sentences: 524000,	total_loss: 0.002111,	reconstruction_loss: 0.002111,	lr: 0.00016677,	elapse: 3.5 s
+2024-12-29 23:47:59 logger.DCASE_dev_bearing:INFO Epoch: 84,	Trained sentences: 525000,	total_loss: 0.002168,	reconstruction_loss: 0.002168,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:48:02 logger.DCASE_dev_bearing:INFO Epoch: 84,	Trained sentences: 526000,	total_loss: 0.002160,	reconstruction_loss: 0.002160,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:48:06 logger.DCASE_dev_bearing:INFO Epoch: 84,	Trained sentences: 527000,	total_loss: 0.002100,	reconstruction_loss: 0.002100,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:48:09 logger.DCASE_dev_bearing:INFO Epoch: 84,	Trained sentences: 528000,	total_loss: 0.002043,	reconstruction_loss: 0.002043,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:48:12 logger.DCASE_dev_bearing:INFO Epoch: 84,	Trained sentences: 529000,	total_loss: 0.002074,	reconstruction_loss: 0.002074,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:48:13 logger.DCASE_dev_bearing:INFO Epoch 84 Done,	total_loss: 0.002104,	reconstruction_loss: 0.002104,	Time: 0.0 hr,	
+2024-12-29 23:48:13 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:48:22 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002130,	reconstruction_loss: 0.002130,	Time: 9.332000255584717 s	
+2024-12-29 23:48:22 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.00212977547198534
+2024-12-29 23:48:22 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.00212977547198534, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-84.step-5292
+2024-12-29 23:48:22 logger.DCASE_dev_bearing:INFO Epoch 85 start, lr 0.00016677181699666576
+2024-12-29 23:48:25 logger.DCASE_dev_bearing:INFO Epoch: 85,	Trained sentences: 530000,	total_loss: 0.002088,	reconstruction_loss: 0.002088,	lr: 0.00016677,	elapse: 3.0 s
+2024-12-29 23:48:29 logger.DCASE_dev_bearing:INFO Epoch: 85,	Trained sentences: 531000,	total_loss: 0.002194,	reconstruction_loss: 0.002194,	lr: 0.00016677,	elapse: 3.5 s
+2024-12-29 23:48:32 logger.DCASE_dev_bearing:INFO Epoch: 85,	Trained sentences: 532000,	total_loss: 0.002100,	reconstruction_loss: 0.002100,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:48:36 logger.DCASE_dev_bearing:INFO Epoch: 85,	Trained sentences: 533000,	total_loss: 0.002147,	reconstruction_loss: 0.002147,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:48:39 logger.DCASE_dev_bearing:INFO Epoch: 85,	Trained sentences: 534000,	total_loss: 0.002046,	reconstruction_loss: 0.002046,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:48:42 logger.DCASE_dev_bearing:INFO Epoch: 85,	Trained sentences: 535000,	total_loss: 0.002062,	reconstruction_loss: 0.002062,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:48:44 logger.DCASE_dev_bearing:INFO Epoch 85 Done,	total_loss: 0.002103,	reconstruction_loss: 0.002103,	Time: 0.0 hr,	
+2024-12-29 23:48:44 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:48:53 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002129,	reconstruction_loss: 0.002129,	Time: 9.047468662261963 s	
+2024-12-29 23:48:53 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021294341422617435
+2024-12-29 23:48:53 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021294341422617435, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-85.step-5355
+2024-12-29 23:48:53 logger.DCASE_dev_bearing:INFO Epoch 86 start, lr 0.00016677181699666576
+2024-12-29 23:48:55 logger.DCASE_dev_bearing:INFO Epoch: 86,	Trained sentences: 536000,	total_loss: 0.002091,	reconstruction_loss: 0.002091,	lr: 0.00016677,	elapse: 1.8 s
+2024-12-29 23:48:58 logger.DCASE_dev_bearing:INFO Epoch: 86,	Trained sentences: 537000,	total_loss: 0.002161,	reconstruction_loss: 0.002161,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:49:02 logger.DCASE_dev_bearing:INFO Epoch: 86,	Trained sentences: 538000,	total_loss: 0.002123,	reconstruction_loss: 0.002123,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:49:05 logger.DCASE_dev_bearing:INFO Epoch: 86,	Trained sentences: 539000,	total_loss: 0.002159,	reconstruction_loss: 0.002159,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:49:08 logger.DCASE_dev_bearing:INFO Epoch: 86,	Trained sentences: 540000,	total_loss: 0.002049,	reconstruction_loss: 0.002049,	lr: 0.00016677,	elapse: 3.3 s
+2024-12-29 23:49:12 logger.DCASE_dev_bearing:INFO Epoch: 86,	Trained sentences: 541000,	total_loss: 0.002061,	reconstruction_loss: 0.002061,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:49:14 logger.DCASE_dev_bearing:INFO Epoch 86 Done,	total_loss: 0.002103,	reconstruction_loss: 0.002103,	Time: 0.0 hr,	
+2024-12-29 23:49:14 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:49:23 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002129,	reconstruction_loss: 0.002129,	Time: 9.123627424240112 s	
+2024-12-29 23:49:23 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002129127038642764
+2024-12-29 23:49:23 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002129127038642764, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-86.step-5418
+2024-12-29 23:49:23 logger.DCASE_dev_bearing:INFO Epoch 87 start, lr 0.00016677181699666576
+2024-12-29 23:49:24 logger.DCASE_dev_bearing:INFO Epoch: 87,	Trained sentences: 542000,	total_loss: 0.002054,	reconstruction_loss: 0.002054,	lr: 0.00016677,	elapse: 0.9 s
+2024-12-29 23:49:28 logger.DCASE_dev_bearing:INFO Epoch: 87,	Trained sentences: 543000,	total_loss: 0.002128,	reconstruction_loss: 0.002128,	lr: 0.00016677,	elapse: 3.6 s
+2024-12-29 23:49:31 logger.DCASE_dev_bearing:INFO Epoch: 87,	Trained sentences: 544000,	total_loss: 0.002145,	reconstruction_loss: 0.002145,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:49:35 logger.DCASE_dev_bearing:INFO Epoch: 87,	Trained sentences: 545000,	total_loss: 0.002146,	reconstruction_loss: 0.002146,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:49:38 logger.DCASE_dev_bearing:INFO Epoch: 87,	Trained sentences: 546000,	total_loss: 0.002095,	reconstruction_loss: 0.002095,	lr: 0.00016677,	elapse: 3.3 s
+2024-12-29 23:49:41 logger.DCASE_dev_bearing:INFO Epoch: 87,	Trained sentences: 547000,	total_loss: 0.002050,	reconstruction_loss: 0.002050,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:49:45 logger.DCASE_dev_bearing:INFO Epoch: 87,	Trained sentences: 548000,	total_loss: 0.002073,	reconstruction_loss: 0.002073,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:49:45 logger.DCASE_dev_bearing:INFO Epoch 87 Done,	total_loss: 0.002102,	reconstruction_loss: 0.002102,	Time: 0.0 hr,	
+2024-12-29 23:49:45 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:49:54 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002129,	reconstruction_loss: 0.002129,	Time: 9.239581823348999 s	
+2024-12-29 23:49:54 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021288199350237846
+2024-12-29 23:49:54 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021288199350237846, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-87.step-5481
+2024-12-29 23:49:54 logger.DCASE_dev_bearing:INFO Epoch 88 start, lr 0.00016677181699666576
+2024-12-29 23:49:57 logger.DCASE_dev_bearing:INFO Epoch: 88,	Trained sentences: 549000,	total_loss: 0.002106,	reconstruction_loss: 0.002106,	lr: 0.00016677,	elapse: 3.1 s
+2024-12-29 23:50:01 logger.DCASE_dev_bearing:INFO Epoch: 88,	Trained sentences: 550000,	total_loss: 0.002184,	reconstruction_loss: 0.002184,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:50:04 logger.DCASE_dev_bearing:INFO Epoch: 88,	Trained sentences: 551000,	total_loss: 0.002090,	reconstruction_loss: 0.002090,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:50:08 logger.DCASE_dev_bearing:INFO Epoch: 88,	Trained sentences: 552000,	total_loss: 0.002145,	reconstruction_loss: 0.002145,	lr: 0.00016677,	elapse: 3.3 s
+2024-12-29 23:50:11 logger.DCASE_dev_bearing:INFO Epoch: 88,	Trained sentences: 553000,	total_loss: 0.002066,	reconstruction_loss: 0.002066,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:50:14 logger.DCASE_dev_bearing:INFO Epoch: 88,	Trained sentences: 554000,	total_loss: 0.002049,	reconstruction_loss: 0.002049,	lr: 0.00016677,	elapse: 3.4 s
+2024-12-29 23:50:16 logger.DCASE_dev_bearing:INFO Epoch 88 Done,	total_loss: 0.002102,	reconstruction_loss: 0.002102,	Time: 0.0 hr,	
+2024-12-29 23:50:16 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:50:25 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002129,	reconstruction_loss: 0.002129,	Time: 9.496835708618164 s	
+2024-12-29 23:50:25 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021285098046064377
+2024-12-29 23:50:25 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021285098046064377, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-88.step-5544
+2024-12-29 23:50:25 logger.DCASE_dev_bearing:INFO Epoch 89 start, lr 0.00016677181699666576
+2024-12-29 23:50:27 logger.DCASE_dev_bearing:INFO Epoch: 89,	Trained sentences: 555000,	total_loss: 0.002083,	reconstruction_loss: 0.002083,	lr: 0.00015009,	elapse: 2.1 s
+2024-12-29 23:50:31 logger.DCASE_dev_bearing:INFO Epoch: 89,	Trained sentences: 556000,	total_loss: 0.002181,	reconstruction_loss: 0.002181,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:50:34 logger.DCASE_dev_bearing:INFO Epoch: 89,	Trained sentences: 557000,	total_loss: 0.002119,	reconstruction_loss: 0.002119,	lr: 0.00015009,	elapse: 3.3 s
+2024-12-29 23:50:37 logger.DCASE_dev_bearing:INFO Epoch: 89,	Trained sentences: 558000,	total_loss: 0.002140,	reconstruction_loss: 0.002140,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:50:41 logger.DCASE_dev_bearing:INFO Epoch: 89,	Trained sentences: 559000,	total_loss: 0.002043,	reconstruction_loss: 0.002043,	lr: 0.00015009,	elapse: 3.3 s
+2024-12-29 23:50:44 logger.DCASE_dev_bearing:INFO Epoch: 89,	Trained sentences: 560000,	total_loss: 0.002052,	reconstruction_loss: 0.002052,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:50:46 logger.DCASE_dev_bearing:INFO Epoch 89 Done,	total_loss: 0.002102,	reconstruction_loss: 0.002102,	Time: 0.0 hr,	
+2024-12-29 23:50:46 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:50:55 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002128,	reconstruction_loss: 0.002128,	Time: 9.073872804641724 s	
+2024-12-29 23:50:55 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021278373897075653
+2024-12-29 23:50:55 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021278373897075653, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-89.step-5607
+2024-12-29 23:50:55 logger.DCASE_dev_bearing:INFO Epoch 90 start, lr 0.00015009463529699917
+2024-12-29 23:50:56 logger.DCASE_dev_bearing:INFO Epoch: 90,	Trained sentences: 561000,	total_loss: 0.002093,	reconstruction_loss: 0.002093,	lr: 0.00015009,	elapse: 1.0 s
+2024-12-29 23:51:00 logger.DCASE_dev_bearing:INFO Epoch: 90,	Trained sentences: 562000,	total_loss: 0.002129,	reconstruction_loss: 0.002129,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:51:03 logger.DCASE_dev_bearing:INFO Epoch: 90,	Trained sentences: 563000,	total_loss: 0.002146,	reconstruction_loss: 0.002146,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:51:07 logger.DCASE_dev_bearing:INFO Epoch: 90,	Trained sentences: 564000,	total_loss: 0.002132,	reconstruction_loss: 0.002132,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:51:10 logger.DCASE_dev_bearing:INFO Epoch: 90,	Trained sentences: 565000,	total_loss: 0.002093,	reconstruction_loss: 0.002093,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:51:13 logger.DCASE_dev_bearing:INFO Epoch: 90,	Trained sentences: 566000,	total_loss: 0.002046,	reconstruction_loss: 0.002046,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:51:17 logger.DCASE_dev_bearing:INFO Epoch: 90,	Trained sentences: 567000,	total_loss: 0.002064,	reconstruction_loss: 0.002064,	lr: 0.00015009,	elapse: 3.3 s
+2024-12-29 23:51:17 logger.DCASE_dev_bearing:INFO Epoch 90 Done,	total_loss: 0.002101,	reconstruction_loss: 0.002101,	Time: 0.0 hr,	
+2024-12-29 23:51:17 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:51:26 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002128,	reconstruction_loss: 0.002128,	Time: 9.115622282028198 s	
+2024-12-29 23:51:26 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021275747567415237
+2024-12-29 23:51:26 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021275747567415237, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-90.step-5670
+2024-12-29 23:51:26 logger.DCASE_dev_bearing:INFO Epoch 91 start, lr 0.00015009463529699917
+2024-12-29 23:51:29 logger.DCASE_dev_bearing:INFO Epoch: 91,	Trained sentences: 568000,	total_loss: 0.002100,	reconstruction_loss: 0.002100,	lr: 0.00015009,	elapse: 3.5 s
+2024-12-29 23:51:33 logger.DCASE_dev_bearing:INFO Epoch: 91,	Trained sentences: 569000,	total_loss: 0.002177,	reconstruction_loss: 0.002177,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:51:36 logger.DCASE_dev_bearing:INFO Epoch: 91,	Trained sentences: 570000,	total_loss: 0.002112,	reconstruction_loss: 0.002112,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:51:39 logger.DCASE_dev_bearing:INFO Epoch: 91,	Trained sentences: 571000,	total_loss: 0.002127,	reconstruction_loss: 0.002127,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:51:43 logger.DCASE_dev_bearing:INFO Epoch: 91,	Trained sentences: 572000,	total_loss: 0.002068,	reconstruction_loss: 0.002068,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:51:46 logger.DCASE_dev_bearing:INFO Epoch: 91,	Trained sentences: 573000,	total_loss: 0.002065,	reconstruction_loss: 0.002065,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:51:47 logger.DCASE_dev_bearing:INFO Epoch 91 Done,	total_loss: 0.002101,	reconstruction_loss: 0.002101,	Time: 0.0 hr,	
+2024-12-29 23:51:47 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:51:56 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002127,	reconstruction_loss: 0.002127,	Time: 9.288235187530518 s	
+2024-12-29 23:51:56 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002127317013218999
+2024-12-29 23:51:56 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002127317013218999, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-91.step-5733
+2024-12-29 23:51:56 logger.DCASE_dev_bearing:INFO Epoch 92 start, lr 0.00015009463529699917
+2024-12-29 23:51:59 logger.DCASE_dev_bearing:INFO Epoch: 92,	Trained sentences: 574000,	total_loss: 0.002108,	reconstruction_loss: 0.002108,	lr: 0.00015009,	elapse: 2.6 s
+2024-12-29 23:52:02 logger.DCASE_dev_bearing:INFO Epoch: 92,	Trained sentences: 575000,	total_loss: 0.002182,	reconstruction_loss: 0.002182,	lr: 0.00015009,	elapse: 3.5 s
+2024-12-29 23:52:06 logger.DCASE_dev_bearing:INFO Epoch: 92,	Trained sentences: 576000,	total_loss: 0.002088,	reconstruction_loss: 0.002088,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:52:09 logger.DCASE_dev_bearing:INFO Epoch: 92,	Trained sentences: 577000,	total_loss: 0.002147,	reconstruction_loss: 0.002147,	lr: 0.00015009,	elapse: 3.3 s
+2024-12-29 23:52:13 logger.DCASE_dev_bearing:INFO Epoch: 92,	Trained sentences: 578000,	total_loss: 0.002067,	reconstruction_loss: 0.002067,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:52:16 logger.DCASE_dev_bearing:INFO Epoch: 92,	Trained sentences: 579000,	total_loss: 0.002033,	reconstruction_loss: 0.002033,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:52:18 logger.DCASE_dev_bearing:INFO Epoch 92 Done,	total_loss: 0.002101,	reconstruction_loss: 0.002101,	Time: 0.0 hr,	
+2024-12-29 23:52:18 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:52:27 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002127,	reconstruction_loss: 0.002127,	Time: 8.99485158920288 s	
+2024-12-29 23:52:27 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021270418073982
+2024-12-29 23:52:27 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021270418073982, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-92.step-5796
+2024-12-29 23:52:27 logger.DCASE_dev_bearing:INFO Epoch 93 start, lr 0.00015009463529699917
+2024-12-29 23:52:29 logger.DCASE_dev_bearing:INFO Epoch: 93,	Trained sentences: 580000,	total_loss: 0.002096,	reconstruction_loss: 0.002096,	lr: 0.00015009,	elapse: 1.6 s
+2024-12-29 23:52:32 logger.DCASE_dev_bearing:INFO Epoch: 93,	Trained sentences: 581000,	total_loss: 0.002140,	reconstruction_loss: 0.002140,	lr: 0.00015009,	elapse: 3.5 s
+2024-12-29 23:52:35 logger.DCASE_dev_bearing:INFO Epoch: 93,	Trained sentences: 582000,	total_loss: 0.002145,	reconstruction_loss: 0.002145,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:52:39 logger.DCASE_dev_bearing:INFO Epoch: 93,	Trained sentences: 583000,	total_loss: 0.002156,	reconstruction_loss: 0.002156,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:52:42 logger.DCASE_dev_bearing:INFO Epoch: 93,	Trained sentences: 584000,	total_loss: 0.002059,	reconstruction_loss: 0.002059,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:52:46 logger.DCASE_dev_bearing:INFO Epoch: 93,	Trained sentences: 585000,	total_loss: 0.002045,	reconstruction_loss: 0.002045,	lr: 0.00015009,	elapse: 3.4 s
+2024-12-29 23:52:49 logger.DCASE_dev_bearing:INFO Epoch 93 Done,	total_loss: 0.002100,	reconstruction_loss: 0.002100,	Time: 0.0 hr,	
+2024-12-29 23:52:49 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:52:58 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002127,	reconstruction_loss: 0.002127,	Time: 9.127206563949585 s	
+2024-12-29 23:52:58 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021267500706017017
+2024-12-29 23:52:58 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021267500706017017, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-93.step-5859
+2024-12-29 23:52:58 logger.DCASE_dev_bearing:INFO Epoch 94 start, lr 0.00015009463529699917
+2024-12-29 23:52:58 logger.DCASE_dev_bearing:INFO Epoch: 94,	Trained sentences: 586000,	total_loss: 0.002002,	reconstruction_loss: 0.002002,	lr: 0.00013509,	elapse: 0.4 s
+2024-12-29 23:53:02 logger.DCASE_dev_bearing:INFO Epoch: 94,	Trained sentences: 587000,	total_loss: 0.002107,	reconstruction_loss: 0.002107,	lr: 0.00013509,	elapse: 3.7 s
+2024-12-29 23:53:05 logger.DCASE_dev_bearing:INFO Epoch: 94,	Trained sentences: 588000,	total_loss: 0.002164,	reconstruction_loss: 0.002164,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:53:09 logger.DCASE_dev_bearing:INFO Epoch: 94,	Trained sentences: 589000,	total_loss: 0.002157,	reconstruction_loss: 0.002157,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:53:12 logger.DCASE_dev_bearing:INFO Epoch: 94,	Trained sentences: 590000,	total_loss: 0.002095,	reconstruction_loss: 0.002095,	lr: 0.00013509,	elapse: 3.3 s
+2024-12-29 23:53:15 logger.DCASE_dev_bearing:INFO Epoch: 94,	Trained sentences: 591000,	total_loss: 0.002039,	reconstruction_loss: 0.002039,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:53:19 logger.DCASE_dev_bearing:INFO Epoch: 94,	Trained sentences: 592000,	total_loss: 0.002069,	reconstruction_loss: 0.002069,	lr: 0.00013509,	elapse: 3.3 s
+2024-12-29 23:53:19 logger.DCASE_dev_bearing:INFO Epoch 94 Done,	total_loss: 0.002100,	reconstruction_loss: 0.002100,	Time: 0.0 hr,	
+2024-12-29 23:53:19 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:53:28 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002126,	reconstruction_loss: 0.002126,	Time: 9.142548561096191 s	
+2024-12-29 23:53:28 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002126176841557026
+2024-12-29 23:53:28 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002126176841557026, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-94.step-5922
+2024-12-29 23:53:28 logger.DCASE_dev_bearing:INFO Epoch 95 start, lr 0.0001350851717672993
+2024-12-29 23:53:31 logger.DCASE_dev_bearing:INFO Epoch: 95,	Trained sentences: 593000,	total_loss: 0.002085,	reconstruction_loss: 0.002085,	lr: 0.00013509,	elapse: 2.8 s
+2024-12-29 23:53:35 logger.DCASE_dev_bearing:INFO Epoch: 95,	Trained sentences: 594000,	total_loss: 0.002191,	reconstruction_loss: 0.002191,	lr: 0.00013509,	elapse: 3.3 s
+2024-12-29 23:53:38 logger.DCASE_dev_bearing:INFO Epoch: 95,	Trained sentences: 595000,	total_loss: 0.002097,	reconstruction_loss: 0.002097,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:53:41 logger.DCASE_dev_bearing:INFO Epoch: 95,	Trained sentences: 596000,	total_loss: 0.002143,	reconstruction_loss: 0.002143,	lr: 0.00013509,	elapse: 3.3 s
+2024-12-29 23:53:45 logger.DCASE_dev_bearing:INFO Epoch: 95,	Trained sentences: 597000,	total_loss: 0.002042,	reconstruction_loss: 0.002042,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:53:48 logger.DCASE_dev_bearing:INFO Epoch: 95,	Trained sentences: 598000,	total_loss: 0.002058,	reconstruction_loss: 0.002058,	lr: 0.00013509,	elapse: 3.3 s
+2024-12-29 23:53:50 logger.DCASE_dev_bearing:INFO Epoch 95 Done,	total_loss: 0.002099,	reconstruction_loss: 0.002099,	Time: 0.0 hr,	
+2024-12-29 23:53:50 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:53:59 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002124,	reconstruction_loss: 0.002124,	Time: 9.096251964569092 s	
+2024-12-29 23:53:59 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021242033690214157
+2024-12-29 23:53:59 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021242033690214157, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-95.step-5985
+2024-12-29 23:53:59 logger.DCASE_dev_bearing:INFO Epoch 96 start, lr 0.0001350851717672993
+2024-12-29 23:54:00 logger.DCASE_dev_bearing:INFO Epoch: 96,	Trained sentences: 599000,	total_loss: 0.002087,	reconstruction_loss: 0.002087,	lr: 0.00013509,	elapse: 1.7 s
+2024-12-29 23:54:04 logger.DCASE_dev_bearing:INFO Epoch: 96,	Trained sentences: 600000,	total_loss: 0.002158,	reconstruction_loss: 0.002158,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:54:07 logger.DCASE_dev_bearing:INFO Epoch: 96,	Trained sentences: 601000,	total_loss: 0.002120,	reconstruction_loss: 0.002120,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:54:11 logger.DCASE_dev_bearing:INFO Epoch: 96,	Trained sentences: 602000,	total_loss: 0.002156,	reconstruction_loss: 0.002156,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:54:14 logger.DCASE_dev_bearing:INFO Epoch: 96,	Trained sentences: 603000,	total_loss: 0.002045,	reconstruction_loss: 0.002045,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:54:17 logger.DCASE_dev_bearing:INFO Epoch: 96,	Trained sentences: 604000,	total_loss: 0.002058,	reconstruction_loss: 0.002058,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:54:20 logger.DCASE_dev_bearing:INFO Epoch 96 Done,	total_loss: 0.002099,	reconstruction_loss: 0.002099,	Time: 0.0 hr,	
+2024-12-29 23:54:20 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:54:29 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002124,	reconstruction_loss: 0.002124,	Time: 9.032263994216919 s	
+2024-12-29 23:54:29 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002123902551829815
+2024-12-29 23:54:29 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002123902551829815, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-96.step-6048
+2024-12-29 23:54:29 logger.DCASE_dev_bearing:INFO Epoch 97 start, lr 0.0001350851717672993
+2024-12-29 23:54:30 logger.DCASE_dev_bearing:INFO Epoch: 97,	Trained sentences: 605000,	total_loss: 0.002050,	reconstruction_loss: 0.002050,	lr: 0.00013509,	elapse: 0.7 s
+2024-12-29 23:54:33 logger.DCASE_dev_bearing:INFO Epoch: 97,	Trained sentences: 606000,	total_loss: 0.002124,	reconstruction_loss: 0.002124,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:54:36 logger.DCASE_dev_bearing:INFO Epoch: 97,	Trained sentences: 607000,	total_loss: 0.002142,	reconstruction_loss: 0.002142,	lr: 0.00013509,	elapse: 3.3 s
+2024-12-29 23:54:40 logger.DCASE_dev_bearing:INFO Epoch: 97,	Trained sentences: 608000,	total_loss: 0.002143,	reconstruction_loss: 0.002143,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:54:43 logger.DCASE_dev_bearing:INFO Epoch: 97,	Trained sentences: 609000,	total_loss: 0.002091,	reconstruction_loss: 0.002091,	lr: 0.00013509,	elapse: 3.3 s
+2024-12-29 23:54:47 logger.DCASE_dev_bearing:INFO Epoch: 97,	Trained sentences: 610000,	total_loss: 0.002046,	reconstruction_loss: 0.002046,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:54:50 logger.DCASE_dev_bearing:INFO Epoch: 97,	Trained sentences: 611000,	total_loss: 0.002069,	reconstruction_loss: 0.002069,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:54:50 logger.DCASE_dev_bearing:INFO Epoch 97 Done,	total_loss: 0.002099,	reconstruction_loss: 0.002099,	Time: 0.0 hr,	
+2024-12-29 23:54:50 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:54:59 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002124,	reconstruction_loss: 0.002124,	Time: 9.155682802200317 s	
+2024-12-29 23:54:59 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002123558893799782
+2024-12-29 23:54:59 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002123558893799782, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-97.step-6111
+2024-12-29 23:54:59 logger.DCASE_dev_bearing:INFO Epoch 98 start, lr 0.0001350851717672993
+2024-12-29 23:55:03 logger.DCASE_dev_bearing:INFO Epoch: 98,	Trained sentences: 612000,	total_loss: 0.002102,	reconstruction_loss: 0.002102,	lr: 0.00013509,	elapse: 3.1 s
+2024-12-29 23:55:06 logger.DCASE_dev_bearing:INFO Epoch: 98,	Trained sentences: 613000,	total_loss: 0.002181,	reconstruction_loss: 0.002181,	lr: 0.00013509,	elapse: 3.3 s
+2024-12-29 23:55:09 logger.DCASE_dev_bearing:INFO Epoch: 98,	Trained sentences: 614000,	total_loss: 0.002087,	reconstruction_loss: 0.002087,	lr: 0.00013509,	elapse: 3.3 s
+2024-12-29 23:55:13 logger.DCASE_dev_bearing:INFO Epoch: 98,	Trained sentences: 615000,	total_loss: 0.002141,	reconstruction_loss: 0.002141,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:55:16 logger.DCASE_dev_bearing:INFO Epoch: 98,	Trained sentences: 616000,	total_loss: 0.002062,	reconstruction_loss: 0.002062,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:55:19 logger.DCASE_dev_bearing:INFO Epoch: 98,	Trained sentences: 617000,	total_loss: 0.002045,	reconstruction_loss: 0.002045,	lr: 0.00013509,	elapse: 3.4 s
+2024-12-29 23:55:21 logger.DCASE_dev_bearing:INFO Epoch 98 Done,	total_loss: 0.002098,	reconstruction_loss: 0.002098,	Time: 0.0 hr,	
+2024-12-29 23:55:21 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:55:30 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002123,	reconstruction_loss: 0.002123,	Time: 9.11476469039917 s	
+2024-12-29 23:55:30 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021231588907539845
+2024-12-29 23:55:30 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021231588907539845, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-98.step-6174
+2024-12-29 23:55:30 logger.DCASE_dev_bearing:INFO Epoch 99 start, lr 0.0001350851717672993
+2024-12-29 23:55:32 logger.DCASE_dev_bearing:INFO Epoch: 99,	Trained sentences: 618000,	total_loss: 0.002080,	reconstruction_loss: 0.002080,	lr: 0.00012158,	elapse: 2.3 s
+2024-12-29 23:55:36 logger.DCASE_dev_bearing:INFO Epoch: 99,	Trained sentences: 619000,	total_loss: 0.002177,	reconstruction_loss: 0.002177,	lr: 0.00012158,	elapse: 3.5 s
+2024-12-29 23:55:39 logger.DCASE_dev_bearing:INFO Epoch: 99,	Trained sentences: 620000,	total_loss: 0.002116,	reconstruction_loss: 0.002116,	lr: 0.00012158,	elapse: 3.4 s
+2024-12-29 23:55:42 logger.DCASE_dev_bearing:INFO Epoch: 99,	Trained sentences: 621000,	total_loss: 0.002136,	reconstruction_loss: 0.002136,	lr: 0.00012158,	elapse: 3.4 s
+2024-12-29 23:55:46 logger.DCASE_dev_bearing:INFO Epoch: 99,	Trained sentences: 622000,	total_loss: 0.002039,	reconstruction_loss: 0.002039,	lr: 0.00012158,	elapse: 3.4 s
+2024-12-29 23:55:49 logger.DCASE_dev_bearing:INFO Epoch: 99,	Trained sentences: 623000,	total_loss: 0.002048,	reconstruction_loss: 0.002048,	lr: 0.00012158,	elapse: 3.4 s
+2024-12-29 23:55:51 logger.DCASE_dev_bearing:INFO Epoch 99 Done,	total_loss: 0.002098,	reconstruction_loss: 0.002098,	Time: 0.0 hr,	
+2024-12-29 23:55:51 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:56:00 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002123,	reconstruction_loss: 0.002123,	Time: 9.160894632339478 s	
+2024-12-29 23:56:00 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.0021225435193628073
+2024-12-29 23:56:00 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.0021225435193628073, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-99.step-6237
+2024-12-29 23:56:00 logger.DCASE_dev_bearing:INFO Epoch 100 start, lr 0.00012157665459056935
+2024-12-29 23:56:02 logger.DCASE_dev_bearing:INFO Epoch: 100,	Trained sentences: 624000,	total_loss: 0.002089,	reconstruction_loss: 0.002089,	lr: 0.00012158,	elapse: 1.1 s
+2024-12-29 23:56:05 logger.DCASE_dev_bearing:INFO Epoch: 100,	Trained sentences: 625000,	total_loss: 0.002125,	reconstruction_loss: 0.002125,	lr: 0.00012158,	elapse: 3.4 s
+2024-12-29 23:56:08 logger.DCASE_dev_bearing:INFO Epoch: 100,	Trained sentences: 626000,	total_loss: 0.002142,	reconstruction_loss: 0.002142,	lr: 0.00012158,	elapse: 3.4 s
+2024-12-29 23:56:12 logger.DCASE_dev_bearing:INFO Epoch: 100,	Trained sentences: 627000,	total_loss: 0.002128,	reconstruction_loss: 0.002128,	lr: 0.00012158,	elapse: 3.4 s
+2024-12-29 23:56:15 logger.DCASE_dev_bearing:INFO Epoch: 100,	Trained sentences: 628000,	total_loss: 0.002089,	reconstruction_loss: 0.002089,	lr: 0.00012158,	elapse: 3.4 s
+2024-12-29 23:56:18 logger.DCASE_dev_bearing:INFO Epoch: 100,	Trained sentences: 629000,	total_loss: 0.002042,	reconstruction_loss: 0.002042,	lr: 0.00012158,	elapse: 3.4 s
+2024-12-29 23:56:22 logger.DCASE_dev_bearing:INFO Epoch: 100,	Trained sentences: 630000,	total_loss: 0.002060,	reconstruction_loss: 0.002060,	lr: 0.00012158,	elapse: 3.4 s
+2024-12-29 23:56:22 logger.DCASE_dev_bearing:INFO Epoch 100 Done,	total_loss: 0.002097,	reconstruction_loss: 0.002097,	Time: 0.0 hr,	
+2024-12-29 23:56:22 logger.DCASE_dev_bearing:INFO Start Validation
+2024-12-29 23:56:31 logger.DCASE_dev_bearing:INFO Validation Done,	total_loss: 0.002122,	reconstruction_loss: 0.002122,	Time: 9.175794839859009 s	
+2024-12-29 23:56:31 logger.DCASE_dev_bearing:INFO reduced valid loss: 0.002122020348906517
+2024-12-29 23:56:31 logger.DCASE_dev_bearing:INFO new best_valid_loss: 0.002122020348906517, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-29 23:56:31 logger.DCASE_dev_bearing:INFO Training finished
+2024-12-30 16:46:27 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-30 16:46:27 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-30 16:46:27 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-30 16:46:27 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-30 16:46:27 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-30 16:47:17 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-30 16:47:17 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-30 16:47:17 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-30 16:47:17 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-30 16:47:17 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-30 21:27:05 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-30 21:27:05 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-30 21:27:06 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-30 21:27:06 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-30 21:27:06 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-30 21:31:42 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-30 21:31:42 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-30 21:31:42 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-30 21:31:42 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-30 21:31:42 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-30 21:33:20 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-30 21:33:20 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-30 21:33:20 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-30 21:33:20 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-30 21:33:20 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:15:20 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:15:20 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:15:20 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:15:20 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:15:20 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:16:04 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:16:04 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:16:05 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:16:05 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:16:05 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:16:44 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:16:44 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:16:45 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:16:45 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:16:45 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:29:38 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:29:38 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:29:38 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:29:38 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:29:38 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:30:37 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:30:37 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:30:37 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:30:37 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:30:37 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:31:47 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:31:47 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:31:47 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:31:47 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:31:47 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:36:31 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:36:31 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:36:31 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:36:31 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:36:31 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:36:54 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:36:54 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:36:54 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:36:54 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:36:54 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:38:47 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:38:47 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:38:47 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:38:47 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:38:47 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:39:27 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:39:27 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:39:27 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:39:27 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:39:27 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:40:51 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:40:51 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:40:51 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:40:51 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:40:51 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:41:50 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:41:50 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:41:50 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:41:50 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:41:50 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:44:17 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:44:17 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:44:17 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:44:17 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:44:17 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:44:45 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:44:45 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:44:45 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:44:45 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:44:45 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:52:49 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:52:49 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:52:49 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:52:49 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:52:49 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:56:37 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:56:37 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:56:37 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:56:37 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:56:37 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 01:59:35 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 01:59:35 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 01:59:35 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 01:59:35 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 01:59:35 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 11:34:11 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 11:34:11 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 11:34:12 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 11:34:12 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 11:34:12 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 11:44:31 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 11:44:31 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 11:44:31 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 11:44:31 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 11:44:31 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 11:44:49 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 11:44:49 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 11:44:49 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 11:44:49 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 11:44:49 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 11:48:53 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 11:48:53 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 11:48:53 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 11:48:53 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 11:48:53 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 11:49:52 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 11:49:52 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 11:49:52 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 11:49:52 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 11:49:52 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 11:50:18 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 11:50:18 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 11:50:18 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 11:50:18 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 11:50:18 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 11:52:19 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 11:52:19 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 11:52:19 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 11:52:19 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 11:52:19 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 12:24:01 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 12:24:01 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 12:24:01 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 12:24:01 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 12:24:01 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 12:39:32 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 12:39:32 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 12:39:33 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 12:39:33 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 12:39:33 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2024-12-31 12:40:33 logger.DCASE_dev_bearing:INFO Random initialize model
+2024-12-31 12:40:33 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2024-12-31 12:40:33 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2024-12-31 12:40:33 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2024-12-31 12:40:33 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2025-01-01 21:34:18 logger.DCASE_dev_bearing:INFO Random initialize model
+2025-01-01 21:34:18 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-01 21:34:18 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-01 21:34:18 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2025-01-01 21:34:18 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2025-01-02 17:30:11 logger.DCASE_dev_bearing:INFO Random initialize model
+2025-01-02 17:30:11 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-02 17:30:11 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-02 17:30:11 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2025-01-02 17:30:11 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
