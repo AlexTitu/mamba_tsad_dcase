@@ -55,7 +55,7 @@ def calculate_total_score(auc_values, pauc_values):
 
 
 # switching off autograd for eval
-def test_loop(model, data_loader, steps, device):
+def test_loop(model, data_loader, steps, window_length, stride, num_windows_per_file, device):
     scores = {
         'normal': {'source': [], 'target': []},
         'anomalous': {'source': [], 'target': []}
@@ -63,35 +63,54 @@ def test_loop(model, data_loader, steps, device):
     # set the model in eval mode
     model.eval()  # Set model to evaluation mode
     total_test_loss = 0
-    with torch.no_grad():
-        for real_signal, target_signal, tags, origin in data_loader:
-            hidden = None  # Reset hidden state for each file
-            batch_loss = 0
-            label = tags[0].item()
-            origin = origin[0]
-            for fragment_index in range(len(real_signal)):  # Sequential windows per file
-                # Move data to device
-                real_signal_fragment = real_signal[fragment_index].unsqueeze(0).to(device)
-                target_signal_fragment = target_signal[fragment_index].unsqueeze(0).to(device)
-                # Forward pass
-                res = model(real_signal_fragment, hidden=hidden)  # Pass hidden state
-                reconstructed = res["x"]  # Reconstructed output
-                hidden = res["hidden"]  # Update hidden state for the next window
+    # start valid
+    for real_signal, target_signal, label, origin in data_loader:
+        hidden = None
+        real_signal = real_signal.to(device)
+        target_signal = target_signal.to(device)
+        with torch.no_grad():
+            # Prepare lists to hold predictions and ground-truth windows
+            predictions = []
+            ground_truths = []
 
-                batch_loss += mse_loss(reconstructed, target_signal_fragment)
-            batch_loss = batch_loss / 10
-            total_test_loss += batch_loss
-            if origin == 'source':
-                if label == 0:
-                    scores['normal']['source'].append(batch_loss)
-                else:
-                    scores['anomalous']['source'].append(batch_loss)
-            else:
-                if label == 0:
-                    scores['normal']['target'].append(batch_loss)
-                else:
-                    scores['anomalous']['target'].append(batch_loss)
+            for window_index in range(num_windows_per_file):
+                start = window_index * stride
+                end = start + window_length
 
+                # Extract the window
+                window_input = real_signal[:, start:end]
+                window_target = target_signal[:, start:end]
+
+                if hidden is not None:
+                    res = model(window_input, hidden)
+                else:
+                    res = model(window_input)
+
+                hidden = getattr(res, "hidden", None)
+                # Append results and targets for concatenation
+                predictions.append(res["x"])  # Adjust if key differs
+                ground_truths.append(window_target)
+
+            # Concatenate predictions and ground-truths along the time dimension
+            concatenated_predictions = torch.cat(predictions, dim=1)  # Shape: (batch_size, full_length)
+            concatenated_ground_truths = torch.cat(ground_truths, dim=1)
+
+            # Shape: (batch_size, full_length)
+            squared_differences = (concatenated_predictions - concatenated_ground_truths) ** 2
+            # Compute MSE for each item in the batch
+            mse_per_item = torch.mean(squared_differences, dim=(1, 2))  # Shape: (batch_size,)
+            for item_index in range(len(label)):
+                if origin[item_index] == 'source':
+                    if label[item_index] == 0:
+                        scores['normal']['source'].append(mse_per_item[item_index].cpu().detach().item())
+                    else:
+                        scores['anomalous']['source'].append(mse_per_item[item_index].cpu().detach().item())
+                else:
+                    if label[item_index] == 0:
+                        scores['normal']['target'].append(mse_per_item[item_index].cpu().detach().item())
+                    else:
+                        scores['anomalous']['target'].append(mse_per_item[item_index].cpu().detach().item())
+            total_test_loss += torch.mean(mse_per_item)
     print(f"Total loss mean: {total_test_loss/steps}")
 
     return scores
@@ -136,11 +155,12 @@ def test_model(models_dir, model, test_window_length, machine_name, device):
                                            standardize=False, extension='.npy', is_testing=True)
     print(f'Number of test Samples: {len(dev_test_dataset)}')
 
-    testDataLoader = DataLoader(dev_test_dataset, batch_size=9)
+    testDataLoader = DataLoader(dev_test_dataset, batch_size=30)
 
-    testSteps = len(testDataLoader.dataset) // 9
+    testSteps = len(testDataLoader.dataset) // 30
 
-    scores = test_loop(model, testDataLoader, testSteps, device)
+    scores = test_loop(model, testDataLoader, testSteps, dev_test_dataset.window_length, dev_test_dataset.stride,
+                       dev_test_dataset.num_windows_per_file, device)
 
     # Calculate pAUC across both domains for each machine type
     all_normal_scores = scores['normal']['source'] + scores['normal']['target']

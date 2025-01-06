@@ -1,0 +1,684 @@
+2025-01-05 17:41:41 logger.DCASE_dev_gearbox_per_file:INFO Random initialize model
+2025-01-05 17:41:41 logger.DCASE_dev_gearbox_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 17:41:41 logger.DCASE_dev_gearbox_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 17:41:41 logger.DCASE_dev_gearbox_per_file:INFO no checkpoint, start training from scratch
+2025-01-05 17:41:41 logger.DCASE_dev_gearbox_per_file:INFO Epoch 1 start, lr 0.001
+2025-01-05 17:42:04 logger.DCASE_dev_gearbox_per_file:INFO Epoch 1 Done,	total_loss: 0.006234,	reconstruction_loss: 0.006234,	Time: 0.0 hr,	
+2025-01-05 17:42:04 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:42:13 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.005932,	reconstruction_loss: 0.005932,	Time: 8.877269506454468 s	
+2025-01-05 17:42:13 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.005931679159402847
+2025-01-05 17:42:13 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.005931679159402847, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-1.step-7
+2025-01-05 17:42:13 logger.DCASE_dev_gearbox_per_file:INFO Epoch 2 start, lr 0.001
+2025-01-05 17:42:22 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 2,	Trained sentences: 1000,	total_loss: 0.005842,	reconstruction_loss: 0.005842,	lr: 0.00100000,	elapse: 9.7 s
+2025-01-05 17:42:35 logger.DCASE_dev_gearbox_per_file:INFO Epoch 2 Done,	total_loss: 0.005690,	reconstruction_loss: 0.005690,	Time: 0.0 hr,	
+2025-01-05 17:42:35 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:42:44 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.005315,	reconstruction_loss: 0.005315,	Time: 8.699333429336548 s	
+2025-01-05 17:42:44 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.005315106362104416
+2025-01-05 17:42:44 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.005315106362104416, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-2.step-14
+2025-01-05 17:42:44 logger.DCASE_dev_gearbox_per_file:INFO Epoch 3 start, lr 0.001
+2025-01-05 17:43:03 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 3,	Trained sentences: 2000,	total_loss: 0.005217,	reconstruction_loss: 0.005217,	lr: 0.00100000,	elapse: 19.4 s
+2025-01-05 17:43:07 logger.DCASE_dev_gearbox_per_file:INFO Epoch 3 Done,	total_loss: 0.005201,	reconstruction_loss: 0.005201,	Time: 0.0 hr,	
+2025-01-05 17:43:07 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:43:15 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.004964,	reconstruction_loss: 0.004964,	Time: 8.727152109146118 s	
+2025-01-05 17:43:15 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.004963994026184082
+2025-01-05 17:43:15 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.004963994026184082, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-3.step-21
+2025-01-05 17:43:15 logger.DCASE_dev_gearbox_per_file:INFO Epoch 4 start, lr 0.001
+2025-01-05 17:43:38 logger.DCASE_dev_gearbox_per_file:INFO Epoch 4 Done,	total_loss: 0.004920,	reconstruction_loss: 0.004920,	Time: 0.0 hr,	
+2025-01-05 17:43:38 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:43:47 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.004741,	reconstruction_loss: 0.004741,	Time: 8.57882571220398 s	
+2025-01-05 17:43:47 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.004741229582577944
+2025-01-05 17:43:47 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.004741229582577944, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-4.step-28
+2025-01-05 17:43:47 logger.DCASE_dev_gearbox_per_file:INFO Epoch 5 start, lr 0.0009000000000000001
+2025-01-05 17:43:53 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 5,	Trained sentences: 3000,	total_loss: 0.004720,	reconstruction_loss: 0.004720,	lr: 0.00090000,	elapse: 6.5 s
+2025-01-05 17:44:10 logger.DCASE_dev_gearbox_per_file:INFO Epoch 5 Done,	total_loss: 0.004791,	reconstruction_loss: 0.004791,	Time: 0.0 hr,	
+2025-01-05 17:44:10 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:44:18 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.004619,	reconstruction_loss: 0.004619,	Time: 8.6972496509552 s	
+2025-01-05 17:44:18 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.004618943203240633
+2025-01-05 17:44:18 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.004618943203240633, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-5.step-35
+2025-01-05 17:44:18 logger.DCASE_dev_gearbox_per_file:INFO Epoch 6 start, lr 0.0009000000000000001
+2025-01-05 17:44:34 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 6,	Trained sentences: 4000,	total_loss: 0.004838,	reconstruction_loss: 0.004838,	lr: 0.00090000,	elapse: 16.2 s
+2025-01-05 17:44:41 logger.DCASE_dev_gearbox_per_file:INFO Epoch 6 Done,	total_loss: 0.004797,	reconstruction_loss: 0.004797,	Time: 0.0 hr,	
+2025-01-05 17:44:41 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:44:49 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.004608,	reconstruction_loss: 0.004608,	Time: 8.629337787628174 s	
+2025-01-05 17:44:49 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.004608016461133957
+2025-01-05 17:44:49 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.004608016461133957, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-6.step-42
+2025-01-05 17:44:49 logger.DCASE_dev_gearbox_per_file:INFO Epoch 7 start, lr 0.0009000000000000001
+2025-01-05 17:45:12 logger.DCASE_dev_gearbox_per_file:INFO Epoch 7 Done,	total_loss: 0.004706,	reconstruction_loss: 0.004706,	Time: 0.0 hr,	
+2025-01-05 17:45:12 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:45:21 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.004431,	reconstruction_loss: 0.004431,	Time: 8.641269445419312 s	
+2025-01-05 17:45:21 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.004430653527379036
+2025-01-05 17:45:21 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.004430653527379036, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-7.step-49
+2025-01-05 17:45:21 logger.DCASE_dev_gearbox_per_file:INFO Epoch 8 start, lr 0.0009000000000000001
+2025-01-05 17:45:24 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 8,	Trained sentences: 5000,	total_loss: 0.004992,	reconstruction_loss: 0.004992,	lr: 0.00090000,	elapse: 3.4 s
+2025-01-05 17:45:43 logger.DCASE_dev_gearbox_per_file:INFO Epoch 8 Done,	total_loss: 0.004560,	reconstruction_loss: 0.004560,	Time: 0.0 hr,	
+2025-01-05 17:45:43 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:45:52 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.004312,	reconstruction_loss: 0.004312,	Time: 8.54835844039917 s	
+2025-01-05 17:45:52 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0043121990747749805
+2025-01-05 17:45:52 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0043121990747749805, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-8.step-56
+2025-01-05 17:45:52 logger.DCASE_dev_gearbox_per_file:INFO Epoch 9 start, lr 0.0009000000000000001
+2025-01-05 17:46:05 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 9,	Trained sentences: 6000,	total_loss: 0.004443,	reconstruction_loss: 0.004443,	lr: 0.00081000,	elapse: 13.0 s
+2025-01-05 17:46:14 logger.DCASE_dev_gearbox_per_file:INFO Epoch 9 Done,	total_loss: 0.004414,	reconstruction_loss: 0.004414,	Time: 0.0 hr,	
+2025-01-05 17:46:14 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:46:23 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.004226,	reconstruction_loss: 0.004226,	Time: 8.763465404510498 s	
+2025-01-05 17:46:23 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.004225554410368204
+2025-01-05 17:46:23 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.004225554410368204, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-9.step-63
+2025-01-05 17:46:23 logger.DCASE_dev_gearbox_per_file:INFO Epoch 10 start, lr 0.0008100000000000001
+2025-01-05 17:46:46 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 10,	Trained sentences: 7000,	total_loss: 0.004310,	reconstruction_loss: 0.004310,	lr: 0.00081000,	elapse: 22.8 s
+2025-01-05 17:46:46 logger.DCASE_dev_gearbox_per_file:INFO Epoch 10 Done,	total_loss: 0.004310,	reconstruction_loss: 0.004310,	Time: 0.0 hr,	
+2025-01-05 17:46:46 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:46:54 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.004171,	reconstruction_loss: 0.004171,	Time: 8.465714931488037 s	
+2025-01-05 17:46:54 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.004170791711658239
+2025-01-05 17:46:54 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.004170791711658239, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-10.step-70
+2025-01-05 17:46:54 logger.DCASE_dev_gearbox_per_file:INFO Epoch 11 start, lr 0.0008100000000000001
+2025-01-05 17:47:17 logger.DCASE_dev_gearbox_per_file:INFO Epoch 11 Done,	total_loss: 0.004249,	reconstruction_loss: 0.004249,	Time: 0.0 hr,	
+2025-01-05 17:47:17 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:47:26 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.004127,	reconstruction_loss: 0.004127,	Time: 8.646406888961792 s	
+2025-01-05 17:47:26 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.004126765765249729
+2025-01-05 17:47:26 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.004126765765249729, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-11.step-77
+2025-01-05 17:47:26 logger.DCASE_dev_gearbox_per_file:INFO Epoch 12 start, lr 0.0008100000000000001
+2025-01-05 17:47:35 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 12,	Trained sentences: 8000,	total_loss: 0.004171,	reconstruction_loss: 0.004171,	lr: 0.00081000,	elapse: 9.6 s
+2025-01-05 17:47:48 logger.DCASE_dev_gearbox_per_file:INFO Epoch 12 Done,	total_loss: 0.004201,	reconstruction_loss: 0.004201,	Time: 0.0 hr,	
+2025-01-05 17:47:48 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:47:56 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.004090,	reconstruction_loss: 0.004090,	Time: 8.513262510299683 s	
+2025-01-05 17:47:56 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.004089642781764269
+2025-01-05 17:47:56 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.004089642781764269, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-12.step-84
+2025-01-05 17:47:56 logger.DCASE_dev_gearbox_per_file:INFO Epoch 13 start, lr 0.0008100000000000001
+2025-01-05 17:48:16 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 13,	Trained sentences: 9000,	total_loss: 0.004185,	reconstruction_loss: 0.004185,	lr: 0.00081000,	elapse: 19.1 s
+2025-01-05 17:48:19 logger.DCASE_dev_gearbox_per_file:INFO Epoch 13 Done,	total_loss: 0.004177,	reconstruction_loss: 0.004177,	Time: 0.0 hr,	
+2025-01-05 17:48:19 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:48:27 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.004056,	reconstruction_loss: 0.004056,	Time: 8.49423336982727 s	
+2025-01-05 17:48:27 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.004056104924529791
+2025-01-05 17:48:27 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.004056104924529791, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-13.step-91
+2025-01-05 17:48:27 logger.DCASE_dev_gearbox_per_file:INFO Epoch 14 start, lr 0.0008100000000000001
+2025-01-05 17:48:50 logger.DCASE_dev_gearbox_per_file:INFO Epoch 14 Done,	total_loss: 0.004144,	reconstruction_loss: 0.004144,	Time: 0.0 hr,	
+2025-01-05 17:48:50 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:48:58 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.004027,	reconstruction_loss: 0.004027,	Time: 8.620601177215576 s	
+2025-01-05 17:48:58 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.004027150571346283
+2025-01-05 17:48:58 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.004027150571346283, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-14.step-98
+2025-01-05 17:48:58 logger.DCASE_dev_gearbox_per_file:INFO Epoch 15 start, lr 0.0007290000000000002
+2025-01-05 17:49:05 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 15,	Trained sentences: 10000,	total_loss: 0.004110,	reconstruction_loss: 0.004110,	lr: 0.00072900,	elapse: 6.5 s
+2025-01-05 17:49:20 logger.DCASE_dev_gearbox_per_file:INFO Epoch 15 Done,	total_loss: 0.004114,	reconstruction_loss: 0.004114,	Time: 0.0 hr,	
+2025-01-05 17:49:20 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:49:29 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003999,	reconstruction_loss: 0.003999,	Time: 8.653793334960938 s	
+2025-01-05 17:49:29 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003998929169028997
+2025-01-05 17:49:29 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003998929169028997, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-15.step-105
+2025-01-05 17:49:29 logger.DCASE_dev_gearbox_per_file:INFO Epoch 16 start, lr 0.0007290000000000002
+2025-01-05 17:49:45 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 16,	Trained sentences: 11000,	total_loss: 0.004106,	reconstruction_loss: 0.004106,	lr: 0.00072900,	elapse: 16.1 s
+2025-01-05 17:49:52 logger.DCASE_dev_gearbox_per_file:INFO Epoch 16 Done,	total_loss: 0.004107,	reconstruction_loss: 0.004107,	Time: 0.0 hr,	
+2025-01-05 17:49:52 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:50:00 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003971,	reconstruction_loss: 0.003971,	Time: 8.518231630325317 s	
+2025-01-05 17:50:00 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0039711277931928635
+2025-01-05 17:50:00 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0039711277931928635, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-16.step-112
+2025-01-05 17:50:00 logger.DCASE_dev_gearbox_per_file:INFO Epoch 17 start, lr 0.0007290000000000002
+2025-01-05 17:50:23 logger.DCASE_dev_gearbox_per_file:INFO Epoch 17 Done,	total_loss: 0.004076,	reconstruction_loss: 0.004076,	Time: 0.0 hr,	
+2025-01-05 17:50:23 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:50:32 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003944,	reconstruction_loss: 0.003944,	Time: 8.710293292999268 s	
+2025-01-05 17:50:32 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.00394357880577445
+2025-01-05 17:50:32 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.00394357880577445, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-17.step-119
+2025-01-05 17:50:32 logger.DCASE_dev_gearbox_per_file:INFO Epoch 18 start, lr 0.0007290000000000002
+2025-01-05 17:50:35 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 18,	Trained sentences: 12000,	total_loss: 0.004002,	reconstruction_loss: 0.004002,	lr: 0.00072900,	elapse: 3.4 s
+2025-01-05 17:50:54 logger.DCASE_dev_gearbox_per_file:INFO Epoch 18 Done,	total_loss: 0.004040,	reconstruction_loss: 0.004040,	Time: 0.0 hr,	
+2025-01-05 17:50:54 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:51:03 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003917,	reconstruction_loss: 0.003917,	Time: 8.650652170181274 s	
+2025-01-05 17:51:03 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003916664514690638
+2025-01-05 17:51:03 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003916664514690638, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-18.step-126
+2025-01-05 17:51:03 logger.DCASE_dev_gearbox_per_file:INFO Epoch 19 start, lr 0.0007290000000000002
+2025-01-05 17:51:16 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 19,	Trained sentences: 13000,	total_loss: 0.003982,	reconstruction_loss: 0.003982,	lr: 0.00065610,	elapse: 13.0 s
+2025-01-05 17:51:25 logger.DCASE_dev_gearbox_per_file:INFO Epoch 19 Done,	total_loss: 0.003999,	reconstruction_loss: 0.003999,	Time: 0.0 hr,	
+2025-01-05 17:51:25 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:51:34 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003893,	reconstruction_loss: 0.003893,	Time: 8.854023694992065 s	
+2025-01-05 17:51:34 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003893124870955944
+2025-01-05 17:51:34 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003893124870955944, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-19.step-133
+2025-01-05 17:51:34 logger.DCASE_dev_gearbox_per_file:INFO Epoch 20 start, lr 0.0006561000000000001
+2025-01-05 17:51:57 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 20,	Trained sentences: 14000,	total_loss: 0.003975,	reconstruction_loss: 0.003975,	lr: 0.00065610,	elapse: 22.6 s
+2025-01-05 17:51:57 logger.DCASE_dev_gearbox_per_file:INFO Epoch 20 Done,	total_loss: 0.003975,	reconstruction_loss: 0.003975,	Time: 0.0 hr,	
+2025-01-05 17:51:57 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:52:05 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003871,	reconstruction_loss: 0.003871,	Time: 8.559646844863892 s	
+2025-01-05 17:52:05 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003871147520840168
+2025-01-05 17:52:05 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003871147520840168, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-20.step-140
+2025-01-05 17:52:05 logger.DCASE_dev_gearbox_per_file:INFO Epoch 21 start, lr 0.0006561000000000001
+2025-01-05 17:52:28 logger.DCASE_dev_gearbox_per_file:INFO Epoch 21 Done,	total_loss: 0.003945,	reconstruction_loss: 0.003945,	Time: 0.0 hr,	
+2025-01-05 17:52:28 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:52:36 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003850,	reconstruction_loss: 0.003850,	Time: 8.539671659469604 s	
+2025-01-05 17:52:36 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0038499285001307726
+2025-01-05 17:52:36 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0038499285001307726, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-21.step-147
+2025-01-05 17:52:36 logger.DCASE_dev_gearbox_per_file:INFO Epoch 22 start, lr 0.0006561000000000001
+2025-01-05 17:52:46 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 22,	Trained sentences: 15000,	total_loss: 0.003891,	reconstruction_loss: 0.003891,	lr: 0.00065610,	elapse: 9.3 s
+2025-01-05 17:52:59 logger.DCASE_dev_gearbox_per_file:INFO Epoch 22 Done,	total_loss: 0.003923,	reconstruction_loss: 0.003923,	Time: 0.0 hr,	
+2025-01-05 17:52:59 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:53:07 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003829,	reconstruction_loss: 0.003829,	Time: 8.605931043624878 s	
+2025-01-05 17:53:07 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003828854998573661
+2025-01-05 17:53:07 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003828854998573661, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-22.step-154
+2025-01-05 17:53:07 logger.DCASE_dev_gearbox_per_file:INFO Epoch 23 start, lr 0.0006561000000000001
+2025-01-05 17:53:26 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 23,	Trained sentences: 16000,	total_loss: 0.003908,	reconstruction_loss: 0.003908,	lr: 0.00065610,	elapse: 19.3 s
+2025-01-05 17:53:30 logger.DCASE_dev_gearbox_per_file:INFO Epoch 23 Done,	total_loss: 0.003901,	reconstruction_loss: 0.003901,	Time: 0.0 hr,	
+2025-01-05 17:53:30 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:53:38 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003808,	reconstruction_loss: 0.003808,	Time: 8.765510559082031 s	
+2025-01-05 17:53:38 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.00380822760052979
+2025-01-05 17:53:38 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.00380822760052979, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-23.step-161
+2025-01-05 17:53:38 logger.DCASE_dev_gearbox_per_file:INFO Epoch 24 start, lr 0.0006561000000000001
+2025-01-05 17:54:01 logger.DCASE_dev_gearbox_per_file:INFO Epoch 24 Done,	total_loss: 0.003881,	reconstruction_loss: 0.003881,	Time: 0.0 hr,	
+2025-01-05 17:54:01 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:54:10 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003789,	reconstruction_loss: 0.003789,	Time: 8.763794898986816 s	
+2025-01-05 17:54:10 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003789467504248023
+2025-01-05 17:54:10 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003789467504248023, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-24.step-168
+2025-01-05 17:54:10 logger.DCASE_dev_gearbox_per_file:INFO Epoch 25 start, lr 0.00059049
+2025-01-05 17:54:17 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 25,	Trained sentences: 17000,	total_loss: 0.003836,	reconstruction_loss: 0.003836,	lr: 0.00059049,	elapse: 6.6 s
+2025-01-05 17:54:33 logger.DCASE_dev_gearbox_per_file:INFO Epoch 25 Done,	total_loss: 0.003862,	reconstruction_loss: 0.003862,	Time: 0.0 hr,	
+2025-01-05 17:54:33 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:54:42 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003771,	reconstruction_loss: 0.003771,	Time: 8.703834056854248 s	
+2025-01-05 17:54:42 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003770745126530528
+2025-01-05 17:54:42 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003770745126530528, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-25.step-175
+2025-01-05 17:54:42 logger.DCASE_dev_gearbox_per_file:INFO Epoch 26 start, lr 0.00059049
+2025-01-05 17:54:58 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 26,	Trained sentences: 18000,	total_loss: 0.003830,	reconstruction_loss: 0.003830,	lr: 0.00059049,	elapse: 16.4 s
+2025-01-05 17:55:04 logger.DCASE_dev_gearbox_per_file:INFO Epoch 26 Done,	total_loss: 0.003842,	reconstruction_loss: 0.003842,	Time: 0.0 hr,	
+2025-01-05 17:55:04 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:55:13 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003752,	reconstruction_loss: 0.003752,	Time: 8.848523616790771 s	
+2025-01-05 17:55:13 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0037517359014600515
+2025-01-05 17:55:13 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0037517359014600515, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-26.step-182
+2025-01-05 17:55:13 logger.DCASE_dev_gearbox_per_file:INFO Epoch 27 start, lr 0.00059049
+2025-01-05 17:55:36 logger.DCASE_dev_gearbox_per_file:INFO Epoch 27 Done,	total_loss: 0.003823,	reconstruction_loss: 0.003823,	Time: 0.0 hr,	
+2025-01-05 17:55:36 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:55:44 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003732,	reconstruction_loss: 0.003732,	Time: 8.786500215530396 s	
+2025-01-05 17:55:44 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0037322426214814186
+2025-01-05 17:55:44 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0037322426214814186, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-27.step-189
+2025-01-05 17:55:44 logger.DCASE_dev_gearbox_per_file:INFO Epoch 28 start, lr 0.00059049
+2025-01-05 17:55:48 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 28,	Trained sentences: 19000,	total_loss: 0.003772,	reconstruction_loss: 0.003772,	lr: 0.00059049,	elapse: 3.4 s
+2025-01-05 17:56:07 logger.DCASE_dev_gearbox_per_file:INFO Epoch 28 Done,	total_loss: 0.003802,	reconstruction_loss: 0.003802,	Time: 0.0 hr,	
+2025-01-05 17:56:07 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:56:16 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003713,	reconstruction_loss: 0.003713,	Time: 8.753998756408691 s	
+2025-01-05 17:56:16 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003712831763550639
+2025-01-05 17:56:16 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003712831763550639, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-28.step-196
+2025-01-05 17:56:16 logger.DCASE_dev_gearbox_per_file:INFO Epoch 29 start, lr 0.00059049
+2025-01-05 17:56:29 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 29,	Trained sentences: 20000,	total_loss: 0.003761,	reconstruction_loss: 0.003761,	lr: 0.00053144,	elapse: 13.0 s
+2025-01-05 17:56:38 logger.DCASE_dev_gearbox_per_file:INFO Epoch 29 Done,	total_loss: 0.003783,	reconstruction_loss: 0.003783,	Time: 0.0 hr,	
+2025-01-05 17:56:38 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:56:47 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003696,	reconstruction_loss: 0.003696,	Time: 8.893203735351562 s	
+2025-01-05 17:56:47 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003695693565532565
+2025-01-05 17:56:47 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003695693565532565, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-29.step-203
+2025-01-05 17:56:47 logger.DCASE_dev_gearbox_per_file:INFO Epoch 30 start, lr 0.000531441
+2025-01-05 17:57:10 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 30,	Trained sentences: 21000,	total_loss: 0.003766,	reconstruction_loss: 0.003766,	lr: 0.00053144,	elapse: 22.8 s
+2025-01-05 17:57:10 logger.DCASE_dev_gearbox_per_file:INFO Epoch 30 Done,	total_loss: 0.003766,	reconstruction_loss: 0.003766,	Time: 0.0 hr,	
+2025-01-05 17:57:10 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:57:19 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003679,	reconstruction_loss: 0.003679,	Time: 8.667548418045044 s	
+2025-01-05 17:57:19 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0036792748142033815
+2025-01-05 17:57:19 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0036792748142033815, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-30.step-210
+2025-01-05 17:57:19 logger.DCASE_dev_gearbox_per_file:INFO Epoch 31 start, lr 0.000531441
+2025-01-05 17:57:42 logger.DCASE_dev_gearbox_per_file:INFO Epoch 31 Done,	total_loss: 0.003749,	reconstruction_loss: 0.003749,	Time: 0.0 hr,	
+2025-01-05 17:57:42 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:57:50 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003664,	reconstruction_loss: 0.003664,	Time: 8.900699138641357 s	
+2025-01-05 17:57:50 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0036635498981922865
+2025-01-05 17:57:50 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0036635498981922865, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-31.step-217
+2025-01-05 17:57:50 logger.DCASE_dev_gearbox_per_file:INFO Epoch 32 start, lr 0.000531441
+2025-01-05 17:58:00 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 32,	Trained sentences: 22000,	total_loss: 0.003670,	reconstruction_loss: 0.003670,	lr: 0.00053144,	elapse: 9.7 s
+2025-01-05 17:58:13 logger.DCASE_dev_gearbox_per_file:INFO Epoch 32 Done,	total_loss: 0.003720,	reconstruction_loss: 0.003720,	Time: 0.0 hr,	
+2025-01-05 17:58:13 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:58:22 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003648,	reconstruction_loss: 0.003648,	Time: 8.83804988861084 s	
+2025-01-05 17:58:22 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0036482226569205523
+2025-01-05 17:58:22 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0036482226569205523, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-32.step-224
+2025-01-05 17:58:22 logger.DCASE_dev_gearbox_per_file:INFO Epoch 33 start, lr 0.000531441
+2025-01-05 17:58:42 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 33,	Trained sentences: 23000,	total_loss: 0.003725,	reconstruction_loss: 0.003725,	lr: 0.00053144,	elapse: 19.5 s
+2025-01-05 17:58:45 logger.DCASE_dev_gearbox_per_file:INFO Epoch 33 Done,	total_loss: 0.003718,	reconstruction_loss: 0.003718,	Time: 0.0 hr,	
+2025-01-05 17:58:45 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:58:54 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003632,	reconstruction_loss: 0.003632,	Time: 8.820400476455688 s	
+2025-01-05 17:58:54 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0036322809755802155
+2025-01-05 17:58:54 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0036322809755802155, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-33.step-231
+2025-01-05 17:58:54 logger.DCASE_dev_gearbox_per_file:INFO Epoch 34 start, lr 0.000531441
+2025-01-05 17:59:16 logger.DCASE_dev_gearbox_per_file:INFO Epoch 34 Done,	total_loss: 0.003702,	reconstruction_loss: 0.003702,	Time: 0.0 hr,	
+2025-01-05 17:59:16 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:59:25 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003619,	reconstruction_loss: 0.003619,	Time: 8.859274625778198 s	
+2025-01-05 17:59:25 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003618807764723897
+2025-01-05 17:59:25 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003618807764723897, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-34.step-238
+2025-01-05 17:59:25 logger.DCASE_dev_gearbox_per_file:INFO Epoch 35 start, lr 0.0004782969000000001
+2025-01-05 17:59:32 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 35,	Trained sentences: 24000,	total_loss: 0.003664,	reconstruction_loss: 0.003664,	lr: 0.00047830,	elapse: 6.5 s
+2025-01-05 17:59:48 logger.DCASE_dev_gearbox_per_file:INFO Epoch 35 Done,	total_loss: 0.003688,	reconstruction_loss: 0.003688,	Time: 0.0 hr,	
+2025-01-05 17:59:48 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 17:59:57 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003605,	reconstruction_loss: 0.003605,	Time: 8.77997875213623 s	
+2025-01-05 17:59:57 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0036053427029401064
+2025-01-05 17:59:57 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0036053427029401064, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-35.step-245
+2025-01-05 17:59:57 logger.DCASE_dev_gearbox_per_file:INFO Epoch 36 start, lr 0.0004782969000000001
+2025-01-05 18:00:13 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 36,	Trained sentences: 25000,	total_loss: 0.003662,	reconstruction_loss: 0.003662,	lr: 0.00047830,	elapse: 16.1 s
+2025-01-05 18:00:19 logger.DCASE_dev_gearbox_per_file:INFO Epoch 36 Done,	total_loss: 0.003674,	reconstruction_loss: 0.003674,	Time: 0.0 hr,	
+2025-01-05 18:00:19 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:00:28 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003592,	reconstruction_loss: 0.003592,	Time: 8.783561944961548 s	
+2025-01-05 18:00:28 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003591649467125535
+2025-01-05 18:00:28 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003591649467125535, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-36.step-252
+2025-01-05 18:00:28 logger.DCASE_dev_gearbox_per_file:INFO Epoch 37 start, lr 0.0004782969000000001
+2025-01-05 18:00:51 logger.DCASE_dev_gearbox_per_file:INFO Epoch 37 Done,	total_loss: 0.003660,	reconstruction_loss: 0.003660,	Time: 0.0 hr,	
+2025-01-05 18:00:51 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:00:59 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003578,	reconstruction_loss: 0.003578,	Time: 8.54903531074524 s	
+2025-01-05 18:00:59 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003577880561351776
+2025-01-05 18:00:59 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003577880561351776, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-37.step-259
+2025-01-05 18:00:59 logger.DCASE_dev_gearbox_per_file:INFO Epoch 38 start, lr 0.0004782969000000001
+2025-01-05 18:01:02 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 38,	Trained sentences: 26000,	total_loss: 0.003529,	reconstruction_loss: 0.003529,	lr: 0.00047830,	elapse: 3.3 s
+2025-01-05 18:01:21 logger.DCASE_dev_gearbox_per_file:INFO Epoch 38 Done,	total_loss: 0.003632,	reconstruction_loss: 0.003632,	Time: 0.0 hr,	
+2025-01-05 18:01:21 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:01:30 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003564,	reconstruction_loss: 0.003564,	Time: 8.686893224716187 s	
+2025-01-05 18:01:30 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.00356426858343184
+2025-01-05 18:01:30 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.00356426858343184, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-38.step-266
+2025-01-05 18:01:30 logger.DCASE_dev_gearbox_per_file:INFO Epoch 39 start, lr 0.0004782969000000001
+2025-01-05 18:01:43 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 39,	Trained sentences: 27000,	total_loss: 0.003611,	reconstruction_loss: 0.003611,	lr: 0.00043047,	elapse: 13.2 s
+2025-01-05 18:01:53 logger.DCASE_dev_gearbox_per_file:INFO Epoch 39 Done,	total_loss: 0.003632,	reconstruction_loss: 0.003632,	Time: 0.0 hr,	
+2025-01-05 18:01:53 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:02:01 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003551,	reconstruction_loss: 0.003551,	Time: 8.61756157875061 s	
+2025-01-05 18:02:01 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003550789086148143
+2025-01-05 18:02:01 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003550789086148143, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-39.step-273
+2025-01-05 18:02:01 logger.DCASE_dev_gearbox_per_file:INFO Epoch 40 start, lr 0.0004304672100000001
+2025-01-05 18:02:24 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 40,	Trained sentences: 28000,	total_loss: 0.003617,	reconstruction_loss: 0.003617,	lr: 0.00043047,	elapse: 22.7 s
+2025-01-05 18:02:24 logger.DCASE_dev_gearbox_per_file:INFO Epoch 40 Done,	total_loss: 0.003617,	reconstruction_loss: 0.003617,	Time: 0.0 hr,	
+2025-01-05 18:02:24 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:02:33 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003538,	reconstruction_loss: 0.003538,	Time: 8.604464054107666 s	
+2025-01-05 18:02:33 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0035376660525798798
+2025-01-05 18:02:33 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0035376660525798798, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-40.step-280
+2025-01-05 18:02:33 logger.DCASE_dev_gearbox_per_file:INFO Epoch 41 start, lr 0.0004304672100000001
+2025-01-05 18:02:55 logger.DCASE_dev_gearbox_per_file:INFO Epoch 41 Done,	total_loss: 0.003604,	reconstruction_loss: 0.003604,	Time: 0.0 hr,	
+2025-01-05 18:02:55 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:03:04 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003524,	reconstruction_loss: 0.003524,	Time: 8.692955255508423 s	
+2025-01-05 18:03:04 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003524262458086014
+2025-01-05 18:03:04 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003524262458086014, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-41.step-287
+2025-01-05 18:03:04 logger.DCASE_dev_gearbox_per_file:INFO Epoch 42 start, lr 0.0004304672100000001
+2025-01-05 18:03:14 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 42,	Trained sentences: 29000,	total_loss: 0.003530,	reconstruction_loss: 0.003530,	lr: 0.00043047,	elapse: 9.7 s
+2025-01-05 18:03:27 logger.DCASE_dev_gearbox_per_file:INFO Epoch 42 Done,	total_loss: 0.003577,	reconstruction_loss: 0.003577,	Time: 0.0 hr,	
+2025-01-05 18:03:27 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:03:35 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003510,	reconstruction_loss: 0.003510,	Time: 8.618134260177612 s	
+2025-01-05 18:03:35 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003510088659822941
+2025-01-05 18:03:35 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003510088659822941, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-42.step-294
+2025-01-05 18:03:35 logger.DCASE_dev_gearbox_per_file:INFO Epoch 43 start, lr 0.0004304672100000001
+2025-01-05 18:03:55 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 43,	Trained sentences: 30000,	total_loss: 0.003582,	reconstruction_loss: 0.003582,	lr: 0.00043047,	elapse: 19.4 s
+2025-01-05 18:03:58 logger.DCASE_dev_gearbox_per_file:INFO Epoch 43 Done,	total_loss: 0.003575,	reconstruction_loss: 0.003575,	Time: 0.0 hr,	
+2025-01-05 18:03:58 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:04:07 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003496,	reconstruction_loss: 0.003496,	Time: 8.801511764526367 s	
+2025-01-05 18:04:07 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003495546756312251
+2025-01-05 18:04:07 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003495546756312251, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-43.step-301
+2025-01-05 18:04:07 logger.DCASE_dev_gearbox_per_file:INFO Epoch 44 start, lr 0.0004304672100000001
+2025-01-05 18:04:30 logger.DCASE_dev_gearbox_per_file:INFO Epoch 44 Done,	total_loss: 0.003560,	reconstruction_loss: 0.003560,	Time: 0.0 hr,	
+2025-01-05 18:04:30 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:04:38 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003482,	reconstruction_loss: 0.003482,	Time: 8.579107284545898 s	
+2025-01-05 18:04:38 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0034824442118406296
+2025-01-05 18:04:38 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0034824442118406296, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-44.step-308
+2025-01-05 18:04:38 logger.DCASE_dev_gearbox_per_file:INFO Epoch 45 start, lr 0.0003874204890000001
+2025-01-05 18:04:45 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 45,	Trained sentences: 31000,	total_loss: 0.003528,	reconstruction_loss: 0.003528,	lr: 0.00038742,	elapse: 6.6 s
+2025-01-05 18:05:01 logger.DCASE_dev_gearbox_per_file:INFO Epoch 45 Done,	total_loss: 0.003546,	reconstruction_loss: 0.003546,	Time: 0.0 hr,	
+2025-01-05 18:05:01 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:05:09 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003469,	reconstruction_loss: 0.003469,	Time: 8.671746492385864 s	
+2025-01-05 18:05:09 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0034690455067902803
+2025-01-05 18:05:10 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0034690455067902803, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-45.step-315
+2025-01-05 18:05:10 logger.DCASE_dev_gearbox_per_file:INFO Epoch 46 start, lr 0.0003874204890000001
+2025-01-05 18:05:26 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 46,	Trained sentences: 32000,	total_loss: 0.003505,	reconstruction_loss: 0.003505,	lr: 0.00038742,	elapse: 16.3 s
+2025-01-05 18:05:32 logger.DCASE_dev_gearbox_per_file:INFO Epoch 46 Done,	total_loss: 0.003519,	reconstruction_loss: 0.003519,	Time: 0.0 hr,	
+2025-01-05 18:05:32 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:05:41 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003455,	reconstruction_loss: 0.003455,	Time: 8.732109069824219 s	
+2025-01-05 18:05:41 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0034553774166852236
+2025-01-05 18:05:41 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0034553774166852236, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-46.step-322
+2025-01-05 18:05:41 logger.DCASE_dev_gearbox_per_file:INFO Epoch 47 start, lr 0.0003874204890000001
+2025-01-05 18:06:04 logger.DCASE_dev_gearbox_per_file:INFO Epoch 47 Done,	total_loss: 0.003518,	reconstruction_loss: 0.003518,	Time: 0.0 hr,	
+2025-01-05 18:06:04 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:06:13 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003442,	reconstruction_loss: 0.003442,	Time: 8.730636835098267 s	
+2025-01-05 18:06:13 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0034415647387504578
+2025-01-05 18:06:13 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0034415647387504578, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-47.step-329
+2025-01-05 18:06:13 logger.DCASE_dev_gearbox_per_file:INFO Epoch 48 start, lr 0.0003874204890000001
+2025-01-05 18:06:16 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 48,	Trained sentences: 33000,	total_loss: 0.003490,	reconstruction_loss: 0.003490,	lr: 0.00038742,	elapse: 3.4 s
+2025-01-05 18:06:35 logger.DCASE_dev_gearbox_per_file:INFO Epoch 48 Done,	total_loss: 0.003503,	reconstruction_loss: 0.003503,	Time: 0.0 hr,	
+2025-01-05 18:06:35 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:06:44 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003428,	reconstruction_loss: 0.003428,	Time: 8.804158210754395 s	
+2025-01-05 18:06:44 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0034283024724572897
+2025-01-05 18:06:44 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0034283024724572897, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-48.step-336
+2025-01-05 18:06:44 logger.DCASE_dev_gearbox_per_file:INFO Epoch 49 start, lr 0.0003874204890000001
+2025-01-05 18:06:57 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 49,	Trained sentences: 34000,	total_loss: 0.003474,	reconstruction_loss: 0.003474,	lr: 0.00034868,	elapse: 13.0 s
+2025-01-05 18:07:07 logger.DCASE_dev_gearbox_per_file:INFO Epoch 49 Done,	total_loss: 0.003490,	reconstruction_loss: 0.003490,	Time: 0.0 hr,	
+2025-01-05 18:07:07 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:07:15 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003416,	reconstruction_loss: 0.003416,	Time: 8.738243579864502 s	
+2025-01-05 18:07:15 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.00341635849326849
+2025-01-05 18:07:15 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.00341635849326849, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-49.step-343
+2025-01-05 18:07:15 logger.DCASE_dev_gearbox_per_file:INFO Epoch 50 start, lr 0.0003486784401000001
+2025-01-05 18:07:38 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 50,	Trained sentences: 35000,	total_loss: 0.003464,	reconstruction_loss: 0.003464,	lr: 0.00034868,	elapse: 22.5 s
+2025-01-05 18:07:38 logger.DCASE_dev_gearbox_per_file:INFO Epoch 50 Done,	total_loss: 0.003464,	reconstruction_loss: 0.003464,	Time: 0.0 hr,	
+2025-01-05 18:07:38 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:07:47 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003405,	reconstruction_loss: 0.003405,	Time: 8.697072505950928 s	
+2025-01-05 18:07:47 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0034046422224491835
+2025-01-05 18:07:47 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0034046422224491835, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-50.step-350
+2025-01-05 18:07:47 logger.DCASE_dev_gearbox_per_file:INFO Epoch 51 start, lr 0.0003486784401000001
+2025-01-05 18:08:09 logger.DCASE_dev_gearbox_per_file:INFO Epoch 51 Done,	total_loss: 0.003452,	reconstruction_loss: 0.003452,	Time: 0.0 hr,	
+2025-01-05 18:08:09 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:08:18 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003393,	reconstruction_loss: 0.003393,	Time: 8.733529806137085 s	
+2025-01-05 18:08:18 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0033928968477994204
+2025-01-05 18:08:18 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0033928968477994204, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-51.step-357
+2025-01-05 18:08:18 logger.DCASE_dev_gearbox_per_file:INFO Epoch 52 start, lr 0.0003486784401000001
+2025-01-05 18:08:28 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 52,	Trained sentences: 36000,	total_loss: 0.003429,	reconstruction_loss: 0.003429,	lr: 0.00034868,	elapse: 9.7 s
+2025-01-05 18:08:41 logger.DCASE_dev_gearbox_per_file:INFO Epoch 52 Done,	total_loss: 0.003454,	reconstruction_loss: 0.003454,	Time: 0.0 hr,	
+2025-01-05 18:08:41 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:08:50 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003382,	reconstruction_loss: 0.003382,	Time: 8.81663703918457 s	
+2025-01-05 18:08:50 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003381521673873067
+2025-01-05 18:08:50 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003381521673873067, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-52.step-364
+2025-01-05 18:08:50 logger.DCASE_dev_gearbox_per_file:INFO Epoch 53 start, lr 0.0003486784401000001
+2025-01-05 18:09:09 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 53,	Trained sentences: 37000,	total_loss: 0.003449,	reconstruction_loss: 0.003449,	lr: 0.00034868,	elapse: 19.1 s
+2025-01-05 18:09:12 logger.DCASE_dev_gearbox_per_file:INFO Epoch 53 Done,	total_loss: 0.003442,	reconstruction_loss: 0.003442,	Time: 0.0 hr,	
+2025-01-05 18:09:12 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:09:21 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003371,	reconstruction_loss: 0.003371,	Time: 8.710284233093262 s	
+2025-01-05 18:09:21 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003370641963556409
+2025-01-05 18:09:21 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003370641963556409, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-53.step-371
+2025-01-05 18:09:21 logger.DCASE_dev_gearbox_per_file:INFO Epoch 54 start, lr 0.0003486784401000001
+2025-01-05 18:09:43 logger.DCASE_dev_gearbox_per_file:INFO Epoch 54 Done,	total_loss: 0.003417,	reconstruction_loss: 0.003417,	Time: 0.0 hr,	
+2025-01-05 18:09:43 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:09:52 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003361,	reconstruction_loss: 0.003361,	Time: 8.815797090530396 s	
+2025-01-05 18:09:52 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003360854694619775
+2025-01-05 18:09:52 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003360854694619775, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-54.step-378
+2025-01-05 18:09:52 logger.DCASE_dev_gearbox_per_file:INFO Epoch 55 start, lr 0.0003138105960900001
+2025-01-05 18:09:59 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 55,	Trained sentences: 38000,	total_loss: 0.003361,	reconstruction_loss: 0.003361,	lr: 0.00031381,	elapse: 6.5 s
+2025-01-05 18:10:15 logger.DCASE_dev_gearbox_per_file:INFO Epoch 55 Done,	total_loss: 0.003407,	reconstruction_loss: 0.003407,	Time: 0.0 hr,	
+2025-01-05 18:10:15 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:10:23 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003351,	reconstruction_loss: 0.003351,	Time: 8.727663516998291 s	
+2025-01-05 18:10:23 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0033511004876345396
+2025-01-05 18:10:23 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0033511004876345396, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-55.step-385
+2025-01-05 18:10:23 logger.DCASE_dev_gearbox_per_file:INFO Epoch 56 start, lr 0.0003138105960900001
+2025-01-05 18:10:39 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 56,	Trained sentences: 39000,	total_loss: 0.003403,	reconstruction_loss: 0.003403,	lr: 0.00031381,	elapse: 16.1 s
+2025-01-05 18:10:46 logger.DCASE_dev_gearbox_per_file:INFO Epoch 56 Done,	total_loss: 0.003411,	reconstruction_loss: 0.003411,	Time: 0.0 hr,	
+2025-01-05 18:10:46 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:10:55 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003342,	reconstruction_loss: 0.003342,	Time: 8.600776672363281 s	
+2025-01-05 18:10:55 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003341622417792678
+2025-01-05 18:10:55 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003341622417792678, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-56.step-392
+2025-01-05 18:10:55 logger.DCASE_dev_gearbox_per_file:INFO Epoch 57 start, lr 0.0003138105960900001
+2025-01-05 18:11:17 logger.DCASE_dev_gearbox_per_file:INFO Epoch 57 Done,	total_loss: 0.003401,	reconstruction_loss: 0.003401,	Time: 0.0 hr,	
+2025-01-05 18:11:17 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:11:26 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003333,	reconstruction_loss: 0.003333,	Time: 8.758525133132935 s	
+2025-01-05 18:11:26 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0033326465636491776
+2025-01-05 18:11:26 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0033326465636491776, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-57.step-399
+2025-01-05 18:11:26 logger.DCASE_dev_gearbox_per_file:INFO Epoch 58 start, lr 0.0003138105960900001
+2025-01-05 18:11:29 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 58,	Trained sentences: 40000,	total_loss: 0.003290,	reconstruction_loss: 0.003290,	lr: 0.00031381,	elapse: 3.4 s
+2025-01-05 18:11:49 logger.DCASE_dev_gearbox_per_file:INFO Epoch 58 Done,	total_loss: 0.003378,	reconstruction_loss: 0.003378,	Time: 0.0 hr,	
+2025-01-05 18:11:49 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:11:58 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003324,	reconstruction_loss: 0.003324,	Time: 8.811972856521606 s	
+2025-01-05 18:11:58 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003323944052681327
+2025-01-05 18:11:58 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003323944052681327, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-58.step-406
+2025-01-05 18:11:58 logger.DCASE_dev_gearbox_per_file:INFO Epoch 59 start, lr 0.0003138105960900001
+2025-01-05 18:12:11 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 59,	Trained sentences: 41000,	total_loss: 0.003344,	reconstruction_loss: 0.003344,	lr: 0.00028243,	elapse: 13.0 s
+2025-01-05 18:12:20 logger.DCASE_dev_gearbox_per_file:INFO Epoch 59 Done,	total_loss: 0.003369,	reconstruction_loss: 0.003369,	Time: 0.0 hr,	
+2025-01-05 18:12:20 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:12:29 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003316,	reconstruction_loss: 0.003316,	Time: 8.679662227630615 s	
+2025-01-05 18:12:29 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003315948648378253
+2025-01-05 18:12:29 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003315948648378253, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-59.step-413
+2025-01-05 18:12:29 logger.DCASE_dev_gearbox_per_file:INFO Epoch 60 start, lr 0.0002824295364810001
+2025-01-05 18:12:51 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 60,	Trained sentences: 42000,	total_loss: 0.003375,	reconstruction_loss: 0.003375,	lr: 0.00028243,	elapse: 22.3 s
+2025-01-05 18:12:51 logger.DCASE_dev_gearbox_per_file:INFO Epoch 60 Done,	total_loss: 0.003375,	reconstruction_loss: 0.003375,	Time: 0.0 hr,	
+2025-01-05 18:12:51 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:13:00 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003308,	reconstruction_loss: 0.003308,	Time: 8.7271089553833 s	
+2025-01-05 18:13:00 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0033081360161304474
+2025-01-05 18:13:00 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0033081360161304474, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-60.step-420
+2025-01-05 18:13:00 logger.DCASE_dev_gearbox_per_file:INFO Epoch 61 start, lr 0.0002824295364810001
+2025-01-05 18:13:23 logger.DCASE_dev_gearbox_per_file:INFO Epoch 61 Done,	total_loss: 0.003367,	reconstruction_loss: 0.003367,	Time: 0.0 hr,	
+2025-01-05 18:13:23 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:13:31 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003301,	reconstruction_loss: 0.003301,	Time: 8.654256105422974 s	
+2025-01-05 18:13:31 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0033006633166223764
+2025-01-05 18:13:31 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0033006633166223764, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-61.step-427
+2025-01-05 18:13:31 logger.DCASE_dev_gearbox_per_file:INFO Epoch 62 start, lr 0.0002824295364810001
+2025-01-05 18:13:41 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 62,	Trained sentences: 43000,	total_loss: 0.003302,	reconstruction_loss: 0.003302,	lr: 0.00028243,	elapse: 9.8 s
+2025-01-05 18:13:54 logger.DCASE_dev_gearbox_per_file:INFO Epoch 62 Done,	total_loss: 0.003345,	reconstruction_loss: 0.003345,	Time: 0.0 hr,	
+2025-01-05 18:13:54 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:14:03 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003293,	reconstruction_loss: 0.003293,	Time: 8.919928789138794 s	
+2025-01-05 18:14:03 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0032932639587670565
+2025-01-05 18:14:03 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0032932639587670565, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-62.step-434
+2025-01-05 18:14:03 logger.DCASE_dev_gearbox_per_file:INFO Epoch 63 start, lr 0.0002824295364810001
+2025-01-05 18:14:22 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 63,	Trained sentences: 44000,	total_loss: 0.003342,	reconstruction_loss: 0.003342,	lr: 0.00028243,	elapse: 19.5 s
+2025-01-05 18:14:25 logger.DCASE_dev_gearbox_per_file:INFO Epoch 63 Done,	total_loss: 0.003337,	reconstruction_loss: 0.003337,	Time: 0.0 hr,	
+2025-01-05 18:14:25 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:14:34 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003286,	reconstruction_loss: 0.003286,	Time: 8.537997484207153 s	
+2025-01-05 18:14:34 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0032855148892849684
+2025-01-05 18:14:34 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0032855148892849684, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-63.step-441
+2025-01-05 18:14:34 logger.DCASE_dev_gearbox_per_file:INFO Epoch 64 start, lr 0.0002824295364810001
+2025-01-05 18:14:56 logger.DCASE_dev_gearbox_per_file:INFO Epoch 64 Done,	total_loss: 0.003344,	reconstruction_loss: 0.003344,	Time: 0.0 hr,	
+2025-01-05 18:14:56 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:15:05 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003279,	reconstruction_loss: 0.003279,	Time: 8.55515742301941 s	
+2025-01-05 18:15:05 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.00327852345071733
+2025-01-05 18:15:05 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.00327852345071733, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-64.step-448
+2025-01-05 18:15:05 logger.DCASE_dev_gearbox_per_file:INFO Epoch 65 start, lr 0.0002541865828329001
+2025-01-05 18:15:11 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 65,	Trained sentences: 45000,	total_loss: 0.003328,	reconstruction_loss: 0.003328,	lr: 0.00025419,	elapse: 6.4 s
+2025-01-05 18:15:27 logger.DCASE_dev_gearbox_per_file:INFO Epoch 65 Done,	total_loss: 0.003336,	reconstruction_loss: 0.003336,	Time: 0.0 hr,	
+2025-01-05 18:15:27 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:15:36 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003272,	reconstruction_loss: 0.003272,	Time: 8.896225690841675 s	
+2025-01-05 18:15:36 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0032717185094952583
+2025-01-05 18:15:36 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0032717185094952583, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-65.step-455
+2025-01-05 18:15:36 logger.DCASE_dev_gearbox_per_file:INFO Epoch 66 start, lr 0.0002541865828329001
+2025-01-05 18:15:53 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 66,	Trained sentences: 46000,	total_loss: 0.003302,	reconstruction_loss: 0.003302,	lr: 0.00025419,	elapse: 16.4 s
+2025-01-05 18:15:59 logger.DCASE_dev_gearbox_per_file:INFO Epoch 66 Done,	total_loss: 0.003315,	reconstruction_loss: 0.003315,	Time: 0.0 hr,	
+2025-01-05 18:15:59 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:16:08 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003265,	reconstruction_loss: 0.003265,	Time: 8.646903991699219 s	
+2025-01-05 18:16:08 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0032649983186274767
+2025-01-05 18:16:08 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0032649983186274767, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-66.step-462
+2025-01-05 18:16:08 logger.DCASE_dev_gearbox_per_file:INFO Epoch 67 start, lr 0.0002541865828329001
+2025-01-05 18:16:31 logger.DCASE_dev_gearbox_per_file:INFO Epoch 67 Done,	total_loss: 0.003307,	reconstruction_loss: 0.003307,	Time: 0.0 hr,	
+2025-01-05 18:16:31 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:16:39 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003258,	reconstruction_loss: 0.003258,	Time: 8.591963291168213 s	
+2025-01-05 18:16:39 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0032580476254224777
+2025-01-05 18:16:39 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0032580476254224777, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-67.step-469
+2025-01-05 18:16:39 logger.DCASE_dev_gearbox_per_file:INFO Epoch 68 start, lr 0.0002541865828329001
+2025-01-05 18:16:43 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 68,	Trained sentences: 47000,	total_loss: 0.003319,	reconstruction_loss: 0.003319,	lr: 0.00025419,	elapse: 3.4 s
+2025-01-05 18:17:02 logger.DCASE_dev_gearbox_per_file:INFO Epoch 68 Done,	total_loss: 0.003315,	reconstruction_loss: 0.003315,	Time: 0.0 hr,	
+2025-01-05 18:17:02 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:17:11 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003251,	reconstruction_loss: 0.003251,	Time: 8.564185619354248 s	
+2025-01-05 18:17:11 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0032512641046196222
+2025-01-05 18:17:11 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0032512641046196222, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-68.step-476
+2025-01-05 18:17:11 logger.DCASE_dev_gearbox_per_file:INFO Epoch 69 start, lr 0.0002541865828329001
+2025-01-05 18:17:24 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 69,	Trained sentences: 48000,	total_loss: 0.003269,	reconstruction_loss: 0.003269,	lr: 0.00022877,	elapse: 12.9 s
+2025-01-05 18:17:33 logger.DCASE_dev_gearbox_per_file:INFO Epoch 69 Done,	total_loss: 0.003294,	reconstruction_loss: 0.003294,	Time: 0.0 hr,	
+2025-01-05 18:17:33 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:17:42 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003246,	reconstruction_loss: 0.003246,	Time: 8.669717073440552 s	
+2025-01-05 18:17:42 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0032456356566399336
+2025-01-05 18:17:42 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0032456356566399336, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-69.step-483
+2025-01-05 18:17:42 logger.DCASE_dev_gearbox_per_file:INFO Epoch 70 start, lr 0.0002287679245496101
+2025-01-05 18:18:04 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 70,	Trained sentences: 49000,	total_loss: 0.003302,	reconstruction_loss: 0.003302,	lr: 0.00022877,	elapse: 22.7 s
+2025-01-05 18:18:04 logger.DCASE_dev_gearbox_per_file:INFO Epoch 70 Done,	total_loss: 0.003302,	reconstruction_loss: 0.003302,	Time: 0.0 hr,	
+2025-01-05 18:18:04 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:18:13 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003240,	reconstruction_loss: 0.003240,	Time: 8.825697898864746 s	
+2025-01-05 18:18:13 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003239568555727601
+2025-01-05 18:18:13 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003239568555727601, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-70.step-490
+2025-01-05 18:18:13 logger.DCASE_dev_gearbox_per_file:INFO Epoch 71 start, lr 0.0002287679245496101
+2025-01-05 18:18:36 logger.DCASE_dev_gearbox_per_file:INFO Epoch 71 Done,	total_loss: 0.003281,	reconstruction_loss: 0.003281,	Time: 0.0 hr,	
+2025-01-05 18:18:36 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:18:44 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003234,	reconstruction_loss: 0.003234,	Time: 8.53599214553833 s	
+2025-01-05 18:18:44 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0032340583857148886
+2025-01-05 18:18:44 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0032340583857148886, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-71.step-497
+2025-01-05 18:18:44 logger.DCASE_dev_gearbox_per_file:INFO Epoch 72 start, lr 0.0002287679245496101
+2025-01-05 18:18:54 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 72,	Trained sentences: 50000,	total_loss: 0.003268,	reconstruction_loss: 0.003268,	lr: 0.00022877,	elapse: 9.9 s
+2025-01-05 18:19:07 logger.DCASE_dev_gearbox_per_file:INFO Epoch 72 Done,	total_loss: 0.003290,	reconstruction_loss: 0.003290,	Time: 0.0 hr,	
+2025-01-05 18:19:07 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:19:16 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003228,	reconstruction_loss: 0.003228,	Time: 8.698032140731812 s	
+2025-01-05 18:19:16 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0032282881438732147
+2025-01-05 18:19:16 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0032282881438732147, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-72.step-504
+2025-01-05 18:19:16 logger.DCASE_dev_gearbox_per_file:INFO Epoch 73 start, lr 0.0002287679245496101
+2025-01-05 18:19:35 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 73,	Trained sentences: 51000,	total_loss: 0.003274,	reconstruction_loss: 0.003274,	lr: 0.00022877,	elapse: 19.7 s
+2025-01-05 18:19:39 logger.DCASE_dev_gearbox_per_file:INFO Epoch 73 Done,	total_loss: 0.003269,	reconstruction_loss: 0.003269,	Time: 0.0 hr,	
+2025-01-05 18:19:39 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:19:47 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003223,	reconstruction_loss: 0.003223,	Time: 8.775618314743042 s	
+2025-01-05 18:19:47 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0032229230273514986
+2025-01-05 18:19:47 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0032229230273514986, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-73.step-511
+2025-01-05 18:19:47 logger.DCASE_dev_gearbox_per_file:INFO Epoch 74 start, lr 0.0002287679245496101
+2025-01-05 18:20:10 logger.DCASE_dev_gearbox_per_file:INFO Epoch 74 Done,	total_loss: 0.003279,	reconstruction_loss: 0.003279,	Time: 0.0 hr,	
+2025-01-05 18:20:10 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:20:19 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003218,	reconstruction_loss: 0.003218,	Time: 8.877756357192993 s	
+2025-01-05 18:20:19 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003217762103304267
+2025-01-05 18:20:19 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003217762103304267, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-74.step-518
+2025-01-05 18:20:19 logger.DCASE_dev_gearbox_per_file:INFO Epoch 75 start, lr 0.0002058911320946491
+2025-01-05 18:20:25 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 75,	Trained sentences: 52000,	total_loss: 0.003214,	reconstruction_loss: 0.003214,	lr: 0.00020589,	elapse: 6.5 s
+2025-01-05 18:20:41 logger.DCASE_dev_gearbox_per_file:INFO Epoch 75 Done,	total_loss: 0.003259,	reconstruction_loss: 0.003259,	Time: 0.0 hr,	
+2025-01-05 18:20:41 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:20:50 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003213,	reconstruction_loss: 0.003213,	Time: 8.72691297531128 s	
+2025-01-05 18:20:50 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0032130584586411715
+2025-01-05 18:20:50 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0032130584586411715, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-75.step-525
+2025-01-05 18:20:50 logger.DCASE_dev_gearbox_per_file:INFO Epoch 76 start, lr 0.0002058911320946491
+2025-01-05 18:21:06 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 76,	Trained sentences: 53000,	total_loss: 0.003262,	reconstruction_loss: 0.003262,	lr: 0.00020589,	elapse: 16.0 s
+2025-01-05 18:21:13 logger.DCASE_dev_gearbox_per_file:INFO Epoch 76 Done,	total_loss: 0.003268,	reconstruction_loss: 0.003268,	Time: 0.0 hr,	
+2025-01-05 18:21:13 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:21:21 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003208,	reconstruction_loss: 0.003208,	Time: 8.643770217895508 s	
+2025-01-05 18:21:21 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003207704983651638
+2025-01-05 18:21:21 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003207704983651638, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-76.step-532
+2025-01-05 18:21:21 logger.DCASE_dev_gearbox_per_file:INFO Epoch 77 start, lr 0.0002058911320946491
+2025-01-05 18:21:44 logger.DCASE_dev_gearbox_per_file:INFO Epoch 77 Done,	total_loss: 0.003248,	reconstruction_loss: 0.003248,	Time: 0.0 hr,	
+2025-01-05 18:21:44 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:21:53 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003203,	reconstruction_loss: 0.003203,	Time: 8.81264066696167 s	
+2025-01-05 18:21:53 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.00320278643630445
+2025-01-05 18:21:53 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.00320278643630445, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-77.step-539
+2025-01-05 18:21:53 logger.DCASE_dev_gearbox_per_file:INFO Epoch 78 start, lr 0.0002058911320946491
+2025-01-05 18:21:56 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 78,	Trained sentences: 54000,	total_loss: 0.003265,	reconstruction_loss: 0.003265,	lr: 0.00020589,	elapse: 3.3 s
+2025-01-05 18:22:16 logger.DCASE_dev_gearbox_per_file:INFO Epoch 78 Done,	total_loss: 0.003258,	reconstruction_loss: 0.003258,	Time: 0.0 hr,	
+2025-01-05 18:22:16 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:22:24 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003197,	reconstruction_loss: 0.003197,	Time: 8.615885496139526 s	
+2025-01-05 18:22:24 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003197404555976391
+2025-01-05 18:22:24 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003197404555976391, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-78.step-546
+2025-01-05 18:22:24 logger.DCASE_dev_gearbox_per_file:INFO Epoch 79 start, lr 0.0002058911320946491
+2025-01-05 18:22:37 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 79,	Trained sentences: 55000,	total_loss: 0.003240,	reconstruction_loss: 0.003240,	lr: 0.00018530,	elapse: 13.0 s
+2025-01-05 18:22:47 logger.DCASE_dev_gearbox_per_file:INFO Epoch 79 Done,	total_loss: 0.003252,	reconstruction_loss: 0.003252,	Time: 0.0 hr,	
+2025-01-05 18:22:47 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:22:56 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003193,	reconstruction_loss: 0.003193,	Time: 8.759603500366211 s	
+2025-01-05 18:22:56 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.00319272861815989
+2025-01-05 18:22:56 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.00319272861815989, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-79.step-553
+2025-01-05 18:22:56 logger.DCASE_dev_gearbox_per_file:INFO Epoch 80 start, lr 0.00018530201888518417
+2025-01-05 18:23:18 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 80,	Trained sentences: 56000,	total_loss: 0.003232,	reconstruction_loss: 0.003232,	lr: 0.00018530,	elapse: 22.4 s
+2025-01-05 18:23:18 logger.DCASE_dev_gearbox_per_file:INFO Epoch 80 Done,	total_loss: 0.003232,	reconstruction_loss: 0.003232,	Time: 0.0 hr,	
+2025-01-05 18:23:18 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:23:27 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003188,	reconstruction_loss: 0.003188,	Time: 8.72935152053833 s	
+2025-01-05 18:23:27 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003188356524333358
+2025-01-05 18:23:27 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003188356524333358, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-80.step-560
+2025-01-05 18:23:27 logger.DCASE_dev_gearbox_per_file:INFO Epoch 81 start, lr 0.00018530201888518417
+2025-01-05 18:23:49 logger.DCASE_dev_gearbox_per_file:INFO Epoch 81 Done,	total_loss: 0.003243,	reconstruction_loss: 0.003243,	Time: 0.0 hr,	
+2025-01-05 18:23:49 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:23:58 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003183,	reconstruction_loss: 0.003183,	Time: 8.723446130752563 s	
+2025-01-05 18:23:58 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003183220513164997
+2025-01-05 18:23:58 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003183220513164997, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-81.step-567
+2025-01-05 18:23:58 logger.DCASE_dev_gearbox_per_file:INFO Epoch 82 start, lr 0.00018530201888518417
+2025-01-05 18:24:08 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 82,	Trained sentences: 57000,	total_loss: 0.003215,	reconstruction_loss: 0.003215,	lr: 0.00018530,	elapse: 9.7 s
+2025-01-05 18:24:21 logger.DCASE_dev_gearbox_per_file:INFO Epoch 82 Done,	total_loss: 0.003237,	reconstruction_loss: 0.003237,	Time: 0.0 hr,	
+2025-01-05 18:24:21 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:24:29 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003178,	reconstruction_loss: 0.003178,	Time: 8.664930820465088 s	
+2025-01-05 18:24:29 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031783534213900566
+2025-01-05 18:24:29 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0031783534213900566, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-82.step-574
+2025-01-05 18:24:29 logger.DCASE_dev_gearbox_per_file:INFO Epoch 83 start, lr 0.00018530201888518417
+2025-01-05 18:24:49 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 83,	Trained sentences: 58000,	total_loss: 0.003222,	reconstruction_loss: 0.003222,	lr: 0.00018530,	elapse: 19.5 s
+2025-01-05 18:24:52 logger.DCASE_dev_gearbox_per_file:INFO Epoch 83 Done,	total_loss: 0.003217,	reconstruction_loss: 0.003217,	Time: 0.0 hr,	
+2025-01-05 18:24:52 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:25:01 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003174,	reconstruction_loss: 0.003174,	Time: 8.726308107376099 s	
+2025-01-05 18:25:01 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031738467514514923
+2025-01-05 18:25:01 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0031738467514514923, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-83.step-581
+2025-01-05 18:25:01 logger.DCASE_dev_gearbox_per_file:INFO Epoch 84 start, lr 0.00018530201888518417
+2025-01-05 18:25:23 logger.DCASE_dev_gearbox_per_file:INFO Epoch 84 Done,	total_loss: 0.003228,	reconstruction_loss: 0.003228,	Time: 0.0 hr,	
+2025-01-05 18:25:23 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:25:32 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003169,	reconstruction_loss: 0.003169,	Time: 8.728605031967163 s	
+2025-01-05 18:25:32 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031694916542619467
+2025-01-05 18:25:32 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0031694916542619467, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-84.step-588
+2025-01-05 18:25:32 logger.DCASE_dev_gearbox_per_file:INFO Epoch 85 start, lr 0.00016677181699666576
+2025-01-05 18:25:39 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 85,	Trained sentences: 59000,	total_loss: 0.003216,	reconstruction_loss: 0.003216,	lr: 0.00016677,	elapse: 6.4 s
+2025-01-05 18:25:55 logger.DCASE_dev_gearbox_per_file:INFO Epoch 85 Done,	total_loss: 0.003223,	reconstruction_loss: 0.003223,	Time: 0.0 hr,	
+2025-01-05 18:25:55 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:26:04 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003166,	reconstruction_loss: 0.003166,	Time: 8.643093585968018 s	
+2025-01-05 18:26:04 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031656876672059298
+2025-01-05 18:26:04 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0031656876672059298, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-85.step-595
+2025-01-05 18:26:04 logger.DCASE_dev_gearbox_per_file:INFO Epoch 86 start, lr 0.00016677181699666576
+2025-01-05 18:26:20 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 86,	Trained sentences: 60000,	total_loss: 0.003191,	reconstruction_loss: 0.003191,	lr: 0.00016677,	elapse: 16.1 s
+2025-01-05 18:26:26 logger.DCASE_dev_gearbox_per_file:INFO Epoch 86 Done,	total_loss: 0.003204,	reconstruction_loss: 0.003204,	Time: 0.0 hr,	
+2025-01-05 18:26:26 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:26:35 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003162,	reconstruction_loss: 0.003162,	Time: 8.695207834243774 s	
+2025-01-05 18:26:35 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003162028966471553
+2025-01-05 18:26:35 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003162028966471553, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-86.step-602
+2025-01-05 18:26:35 logger.DCASE_dev_gearbox_per_file:INFO Epoch 87 start, lr 0.00016677181699666576
+2025-01-05 18:26:57 logger.DCASE_dev_gearbox_per_file:INFO Epoch 87 Done,	total_loss: 0.003215,	reconstruction_loss: 0.003215,	Time: 0.0 hr,	
+2025-01-05 18:26:57 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:27:06 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003158,	reconstruction_loss: 0.003158,	Time: 8.795060873031616 s	
+2025-01-05 18:27:06 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031579986680299044
+2025-01-05 18:27:06 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0031579986680299044, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-87.step-609
+2025-01-05 18:27:06 logger.DCASE_dev_gearbox_per_file:INFO Epoch 88 start, lr 0.00016677181699666576
+2025-01-05 18:27:10 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 88,	Trained sentences: 61000,	total_loss: 0.003217,	reconstruction_loss: 0.003217,	lr: 0.00016677,	elapse: 3.3 s
+2025-01-05 18:27:29 logger.DCASE_dev_gearbox_per_file:INFO Epoch 88 Done,	total_loss: 0.003211,	reconstruction_loss: 0.003211,	Time: 0.0 hr,	
+2025-01-05 18:27:29 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:27:37 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003154,	reconstruction_loss: 0.003154,	Time: 8.6303129196167 s	
+2025-01-05 18:27:37 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031542840879410505
+2025-01-05 18:27:37 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0031542840879410505, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-88.step-616
+2025-01-05 18:27:37 logger.DCASE_dev_gearbox_per_file:INFO Epoch 89 start, lr 0.00016677181699666576
+2025-01-05 18:27:50 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 89,	Trained sentences: 62000,	total_loss: 0.003194,	reconstruction_loss: 0.003194,	lr: 0.00015009,	elapse: 12.9 s
+2025-01-05 18:28:00 logger.DCASE_dev_gearbox_per_file:INFO Epoch 89 Done,	total_loss: 0.003207,	reconstruction_loss: 0.003207,	Time: 0.0 hr,	
+2025-01-05 18:28:00 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:28:08 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003151,	reconstruction_loss: 0.003151,	Time: 8.72045087814331 s	
+2025-01-05 18:28:08 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.00315077044069767
+2025-01-05 18:28:08 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.00315077044069767, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-89.step-623
+2025-01-05 18:28:08 logger.DCASE_dev_gearbox_per_file:INFO Epoch 90 start, lr 0.00015009463529699917
+2025-01-05 18:28:31 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 90,	Trained sentences: 63000,	total_loss: 0.003190,	reconstruction_loss: 0.003190,	lr: 0.00015009,	elapse: 22.6 s
+2025-01-05 18:28:31 logger.DCASE_dev_gearbox_per_file:INFO Epoch 90 Done,	total_loss: 0.003190,	reconstruction_loss: 0.003190,	Time: 0.0 hr,	
+2025-01-05 18:28:31 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:28:40 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003148,	reconstruction_loss: 0.003148,	Time: 8.630733251571655 s	
+2025-01-05 18:28:40 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031477389857172966
+2025-01-05 18:28:40 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0031477389857172966, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-90.step-630
+2025-01-05 18:28:40 logger.DCASE_dev_gearbox_per_file:INFO Epoch 91 start, lr 0.00015009463529699917
+2025-01-05 18:29:02 logger.DCASE_dev_gearbox_per_file:INFO Epoch 91 Done,	total_loss: 0.003202,	reconstruction_loss: 0.003202,	Time: 0.0 hr,	
+2025-01-05 18:29:02 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:29:11 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003144,	reconstruction_loss: 0.003144,	Time: 8.5483980178833 s	
+2025-01-05 18:29:11 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031441468745470047
+2025-01-05 18:29:11 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0031441468745470047, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-91.step-637
+2025-01-05 18:29:11 logger.DCASE_dev_gearbox_per_file:INFO Epoch 92 start, lr 0.00015009463529699917
+2025-01-05 18:29:21 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 92,	Trained sentences: 64000,	total_loss: 0.003179,	reconstruction_loss: 0.003179,	lr: 0.00015009,	elapse: 10.0 s
+2025-01-05 18:29:34 logger.DCASE_dev_gearbox_per_file:INFO Epoch 92 Done,	total_loss: 0.003200,	reconstruction_loss: 0.003200,	Time: 0.0 hr,	
+2025-01-05 18:29:34 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:29:42 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003141,	reconstruction_loss: 0.003141,	Time: 8.531774520874023 s	
+2025-01-05 18:29:42 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031405678018927574
+2025-01-05 18:29:42 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0031405678018927574, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-92.step-644
+2025-01-05 18:29:42 logger.DCASE_dev_gearbox_per_file:INFO Epoch 93 start, lr 0.00015009463529699917
+2025-01-05 18:30:02 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 93,	Trained sentences: 65000,	total_loss: 0.003187,	reconstruction_loss: 0.003187,	lr: 0.00015009,	elapse: 19.3 s
+2025-01-05 18:30:05 logger.DCASE_dev_gearbox_per_file:INFO Epoch 93 Done,	total_loss: 0.003183,	reconstruction_loss: 0.003183,	Time: 0.0 hr,	
+2025-01-05 18:30:05 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:30:13 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003139,	reconstruction_loss: 0.003139,	Time: 8.666271924972534 s	
+2025-01-05 18:30:13 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003138519125059247
+2025-01-05 18:30:13 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003138519125059247, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-93.step-651
+2025-01-05 18:30:13 logger.DCASE_dev_gearbox_per_file:INFO Epoch 94 start, lr 0.00015009463529699917
+2025-01-05 18:30:36 logger.DCASE_dev_gearbox_per_file:INFO Epoch 94 Done,	total_loss: 0.003194,	reconstruction_loss: 0.003194,	Time: 0.0 hr,	
+2025-01-05 18:30:36 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:30:45 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003141,	reconstruction_loss: 0.003141,	Time: 8.835124731063843 s	
+2025-01-05 18:30:45 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031405880581587553
+2025-01-05 18:30:45 logger.DCASE_dev_gearbox_per_file:INFO Epoch 95 start, lr 0.0001350851717672993
+2025-01-05 18:30:51 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 95,	Trained sentences: 66000,	total_loss: 0.003133,	reconstruction_loss: 0.003133,	lr: 0.00013509,	elapse: 6.6 s
+2025-01-05 18:31:07 logger.DCASE_dev_gearbox_per_file:INFO Epoch 95 Done,	total_loss: 0.003176,	reconstruction_loss: 0.003176,	Time: 0.0 hr,	
+2025-01-05 18:31:07 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:31:16 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003138,	reconstruction_loss: 0.003138,	Time: 8.839428663253784 s	
+2025-01-05 18:31:16 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003137953346595168
+2025-01-05 18:31:16 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003137953346595168, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-95.step-665
+2025-01-05 18:31:16 logger.DCASE_dev_gearbox_per_file:INFO Epoch 96 start, lr 0.0001350851717672993
+2025-01-05 18:31:32 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 96,	Trained sentences: 67000,	total_loss: 0.003161,	reconstruction_loss: 0.003161,	lr: 0.00013509,	elapse: 16.1 s
+2025-01-05 18:31:38 logger.DCASE_dev_gearbox_per_file:INFO Epoch 96 Done,	total_loss: 0.003173,	reconstruction_loss: 0.003173,	Time: 0.0 hr,	
+2025-01-05 18:31:38 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:31:47 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003132,	reconstruction_loss: 0.003132,	Time: 8.509059429168701 s	
+2025-01-05 18:31:47 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031318587716668844
+2025-01-05 18:31:47 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0031318587716668844, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-96.step-672
+2025-01-05 18:31:47 logger.DCASE_dev_gearbox_per_file:INFO Epoch 97 start, lr 0.0001350851717672993
+2025-01-05 18:32:10 logger.DCASE_dev_gearbox_per_file:INFO Epoch 97 Done,	total_loss: 0.003185,	reconstruction_loss: 0.003185,	Time: 0.0 hr,	
+2025-01-05 18:32:10 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:32:18 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003128,	reconstruction_loss: 0.003128,	Time: 8.549446105957031 s	
+2025-01-05 18:32:18 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031280291732400656
+2025-01-05 18:32:18 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0031280291732400656, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-97.step-679
+2025-01-05 18:32:18 logger.DCASE_dev_gearbox_per_file:INFO Epoch 98 start, lr 0.0001350851717672993
+2025-01-05 18:32:22 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 98,	Trained sentences: 68000,	total_loss: 0.003188,	reconstruction_loss: 0.003188,	lr: 0.00013509,	elapse: 3.3 s
+2025-01-05 18:32:41 logger.DCASE_dev_gearbox_per_file:INFO Epoch 98 Done,	total_loss: 0.003181,	reconstruction_loss: 0.003181,	Time: 0.0 hr,	
+2025-01-05 18:32:41 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:32:49 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003126,	reconstruction_loss: 0.003126,	Time: 8.577762126922607 s	
+2025-01-05 18:32:49 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.0031258556991815567
+2025-01-05 18:32:49 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.0031258556991815567, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-98.step-686
+2025-01-05 18:32:49 logger.DCASE_dev_gearbox_per_file:INFO Epoch 99 start, lr 0.0001350851717672993
+2025-01-05 18:33:02 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 99,	Trained sentences: 69000,	total_loss: 0.003166,	reconstruction_loss: 0.003166,	lr: 0.00012158,	elapse: 12.8 s
+2025-01-05 18:33:12 logger.DCASE_dev_gearbox_per_file:INFO Epoch 99 Done,	total_loss: 0.003179,	reconstruction_loss: 0.003179,	Time: 0.0 hr,	
+2025-01-05 18:33:12 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:33:21 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003124,	reconstruction_loss: 0.003124,	Time: 8.768071413040161 s	
+2025-01-05 18:33:21 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003124459646642208
+2025-01-05 18:33:21 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003124459646642208, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-99.step-693
+2025-01-05 18:33:21 logger.DCASE_dev_gearbox_per_file:INFO Epoch 100 start, lr 0.00012157665459056935
+2025-01-05 18:33:43 logger.DCASE_dev_gearbox_per_file:INFO Epoch: 100,	Trained sentences: 70000,	total_loss: 0.003177,	reconstruction_loss: 0.003177,	lr: 0.00012158,	elapse: 22.5 s
+2025-01-05 18:33:43 logger.DCASE_dev_gearbox_per_file:INFO Epoch 100 Done,	total_loss: 0.003177,	reconstruction_loss: 0.003177,	Time: 0.0 hr,	
+2025-01-05 18:33:43 logger.DCASE_dev_gearbox_per_file:INFO Start Validation
+2025-01-05 18:33:52 logger.DCASE_dev_gearbox_per_file:INFO Validation Done,	total_loss: 0.003123,	reconstruction_loss: 0.003123,	Time: 8.75720477104187 s	
+2025-01-05 18:33:52 logger.DCASE_dev_gearbox_per_file:INFO reduced valid loss: 0.003122991882264614
+2025-01-05 18:33:52 logger.DCASE_dev_gearbox_per_file:INFO new best_valid_loss: 0.003122991882264614, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-100.step-700
+2025-01-05 18:33:52 logger.DCASE_dev_gearbox_per_file:INFO Training finished
+2025-01-05 22:43:48 logger.DCASE_dev_gearbox_per_file:INFO Random initialize model
+2025-01-05 22:43:48 logger.DCASE_dev_gearbox_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 22:43:48 logger.DCASE_dev_gearbox_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 22:43:48 logger.DCASE_dev_gearbox_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\chkpt, Current lr: 0.001
+2025-01-05 22:43:48 logger.DCASE_dev_gearbox_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-100.step-700
+2025-01-06 14:01:30 logger.DCASE_dev_gearbox_per_file:INFO Random initialize model
+2025-01-06 14:01:30 logger.DCASE_dev_gearbox_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-06 14:01:30 logger.DCASE_dev_gearbox_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-06 14:01:30 logger.DCASE_dev_gearbox_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\chkpt, Current lr: 0.001
+2025-01-06 14:01:30 logger.DCASE_dev_gearbox_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_gearbox_per_file\model.epoch-100.step-700

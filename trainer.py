@@ -283,7 +283,7 @@ class Trainer:
         early_stop_count = self.train_conf.get("early_stop_count", 0)
         return early_stop_count > 0 and self.stop_step >= early_stop_count
 
-    def train_one_epoch(self, epoch, h):
+    def train_one_epoch(self, epoch, h, num_windows_per_file, stride, window_length):
         cur_lr = self.optimizer.get_learning_rate()
         self.logger.info("Epoch {} start, lr {}".format(epoch, cur_lr))
 
@@ -297,8 +297,8 @@ class Trainer:
 
         # train mode
         self.model.train()
-        hidden = None
         for batch_data in self.train_loader:
+            hidden = None
             if self.device == "gpu":
                 data, target, labels = [d.cuda() for d in batch_data]
             else:
@@ -307,12 +307,35 @@ class Trainer:
 
             self.global_step += 1
 
-            res = self.model(data, hidden=hidden)
-            hidden = res.get("hidden", None)
-            loss, metrics, counts = self.model.cal_loss(res, target, epoch=epoch)
+            # Prepare lists to hold predictions and ground-truth windows
+            predictions = []
+            ground_truths = []
+
+            for window_index in range(num_windows_per_file):
+                start = window_index * stride
+                end = start + window_length
+
+                # Extract the window
+                window_input = data[:, start:end]
+                window_target = data[:, start:end]
+
+                res = self.model(window_input, hidden=hidden)
+                hidden = res.get("hidden", None)
+                # Append results and targets for concatenation
+                predictions.append(res["x"])  # Adjust if key differs
+                ground_truths.append(window_target)
+
+            # Concatenate predictions and ground-truths along the time dimension
+            concatenated_predictions = torch.cat(predictions, dim=1)  # Shape: (batch_size, full_length)
+            concatenated_ground_truths = torch.cat(ground_truths, dim=1)
+
+            # Compute loss over the entire reconstructed audio
+            loss, metrics, counts = self.model.cal_loss(concatenated_predictions, concatenated_ground_truths,
+                                                        epoch=epoch)
             loss = loss / accum_grad
             loss.backward()
             self.train_metric.update_stat(metrics, counts)
+
             # update
             if self.global_step % accum_grad == 0:
                 self.optimizer.addStep_adjustLR(epoch)
@@ -353,7 +376,7 @@ class Trainer:
         self.logger.info("Epoch {} Done,\t{}\tTime: {:.1f} hr,\t".format(epoch, avg_str, elapsed / 3.6e3))
         # valid
         if self.valid_loader is not None:
-            self.valid(epoch, h)
+            self.valid(epoch, h, num_windows_per_file, stride, window_length)
         else:
             self.save_model_state(epoch)
             self.best_model = path.join(self.output_dir, "best_valid_model")
@@ -361,7 +384,7 @@ class Trainer:
         # save checkpoint
         self.save_chkpt(epoch + 1)
 
-    def valid(self, epoch, h):
+    def valid(self, epoch, h, num_windows_per_file, stride, window_length):
         self.logger.info("Start Validation")
         self.model.eval()
 
@@ -370,20 +393,43 @@ class Trainer:
         valid_start_time = start_time
 
         # start valid
-        hidden = None
         for batch_idx, batch_data in enumerate(self.valid_loader):
+            hidden = None
             if self.device == "gpu":
                 data, target, labels = [d.cuda() for d in batch_data]
             else:
                 data, target, labels = [d.cuda() for d in batch_data]
 
             with torch.no_grad():
-                if hidden is not None:
-                    res = self.model(data, hidden)
-                else:
-                    res = self.model(data)
-                hidden = getattr(res, "hidden", None)
-                loss, metrics, counts = self.model.cal_loss(res, target, epoch=epoch)
+                # Prepare lists to hold predictions and ground-truth windows
+                predictions = []
+                ground_truths = []
+
+                for window_index in range(num_windows_per_file):
+                    start = window_index * stride
+                    end = start + window_length
+
+                    # Extract the window
+                    window_input = data[:, start:end]
+                    window_target = data[:, start:end]
+
+                    if hidden is not None:
+                        res = self.model(window_input, hidden)
+                    else:
+                        res = self.model(window_input)
+
+                    hidden = getattr(res, "hidden", None)
+                    # Append results and targets for concatenation
+                    predictions.append(res["x"])  # Adjust if key differs
+                    ground_truths.append(window_target)
+
+                # Concatenate predictions and ground-truths along the time dimension
+                concatenated_predictions = torch.cat(predictions, dim=1)  # Shape: (batch_size, full_length)
+                concatenated_ground_truths = torch.cat(ground_truths, dim=1)
+
+                # Compute loss over the entire reconstructed audio
+                loss, metrics, counts = self.model.cal_loss(concatenated_predictions, concatenated_ground_truths,
+                                                            epoch=epoch)
 
                 # update state
                 self.valid_metric.update_stat(metrics, counts)
@@ -469,7 +515,8 @@ class Trainer:
             if self.should_early_stop():
                 self.logger.info("Early stopping")
                 break
-            self.train_one_epoch(epoch, h)
+            self.train_one_epoch(epoch, h, self.train_dataset.num_windows_per_file, self.train_dataset.stride,
+                                 self.train_dataset.window_length)
         self.logger.info("Training finished")
         torch.save(h, os.path.join(self.output_dir, "train_loss_history.pt"))
         for handler in list(self.logger.handlers):

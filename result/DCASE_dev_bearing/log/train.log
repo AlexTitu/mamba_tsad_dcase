@@ -1395,3 +1395,9 @@
 2025-01-02 17:30:11 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
 2025-01-02 17:30:11 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
 2025-01-02 17:30:11 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2025-01-04 23:12:24 logger.DCASE_dev_bearing:INFO Random initialize model
+2025-01-04 23:12:24 logger.DCASE_dev_bearing:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-04 23:12:24 logger.DCASE_dev_bearing:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-04 23:12:24 logger.DCASE_dev_bearing:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\chkpt, Current lr: 0.001
+2025-01-04 23:12:24 logger.DCASE_dev_bearing:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing\model.epoch-100.step-6300
+2025-01-04 23:12:24 logger.DCASE_dev_bearing:INFO Training finished

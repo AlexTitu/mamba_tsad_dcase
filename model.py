@@ -188,7 +188,7 @@ class DecomposeMambaSSM(nn.Module):
         return tags
 
     def cal_loss(self, res, target, epoch, **kwargs):
-        x, _ = res.values()
+        x = res
         rec_loss = nn.functional.mse_loss(target, x)
         loss = rec_loss
         metrics = (loss.item(),)

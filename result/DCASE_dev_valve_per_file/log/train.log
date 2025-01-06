@@ -1,0 +1,685 @@
+2025-01-05 21:10:02 logger.DCASE_dev_valve_per_file:INFO Random initialize model
+2025-01-05 21:10:02 logger.DCASE_dev_valve_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 21:10:02 logger.DCASE_dev_valve_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 21:10:02 logger.DCASE_dev_valve_per_file:INFO no checkpoint, start training from scratch
+2025-01-05 21:10:02 logger.DCASE_dev_valve_per_file:INFO Epoch 1 start, lr 0.001
+2025-01-05 21:10:25 logger.DCASE_dev_valve_per_file:INFO Epoch 1 Done,	total_loss: 0.004715,	reconstruction_loss: 0.004715,	Time: 0.0 hr,	
+2025-01-05 21:10:25 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:10:34 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.004359,	reconstruction_loss: 0.004359,	Time: 8.815242290496826 s	
+2025-01-05 21:10:34 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.004359060898423195
+2025-01-05 21:10:34 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.004359060898423195, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-1.step-7
+2025-01-05 21:10:34 logger.DCASE_dev_valve_per_file:INFO Epoch 2 start, lr 0.001
+2025-01-05 21:10:44 logger.DCASE_dev_valve_per_file:INFO Epoch: 2,	Trained sentences: 1000,	total_loss: 0.004374,	reconstruction_loss: 0.004374,	lr: 0.00100000,	elapse: 9.7 s
+2025-01-05 21:10:57 logger.DCASE_dev_valve_per_file:INFO Epoch 2 Done,	total_loss: 0.004248,	reconstruction_loss: 0.004248,	Time: 0.0 hr,	
+2025-01-05 21:10:57 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:11:05 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003931,	reconstruction_loss: 0.003931,	Time: 8.651675701141357 s	
+2025-01-05 21:11:05 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.003930796403437853
+2025-01-05 21:11:05 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.003930796403437853, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-2.step-14
+2025-01-05 21:11:05 logger.DCASE_dev_valve_per_file:INFO Epoch 3 start, lr 0.001
+2025-01-05 21:11:24 logger.DCASE_dev_valve_per_file:INFO Epoch: 3,	Trained sentences: 2000,	total_loss: 0.003921,	reconstruction_loss: 0.003921,	lr: 0.00100000,	elapse: 19.0 s
+2025-01-05 21:11:28 logger.DCASE_dev_valve_per_file:INFO Epoch 3 Done,	total_loss: 0.003905,	reconstruction_loss: 0.003905,	Time: 0.0 hr,	
+2025-01-05 21:11:28 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:11:36 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003724,	reconstruction_loss: 0.003724,	Time: 8.648553133010864 s	
+2025-01-05 21:11:36 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.003724156878888607
+2025-01-05 21:11:36 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.003724156878888607, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-3.step-21
+2025-01-05 21:11:36 logger.DCASE_dev_valve_per_file:INFO Epoch 4 start, lr 0.001
+2025-01-05 21:11:59 logger.DCASE_dev_valve_per_file:INFO Epoch 4 Done,	total_loss: 0.003728,	reconstruction_loss: 0.003728,	Time: 0.0 hr,	
+2025-01-05 21:11:59 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:12:08 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003595,	reconstruction_loss: 0.003595,	Time: 8.856531620025635 s	
+2025-01-05 21:12:08 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.003595256945118308
+2025-01-05 21:12:08 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.003595256945118308, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-4.step-28
+2025-01-05 21:12:08 logger.DCASE_dev_valve_per_file:INFO Epoch 5 start, lr 0.0009000000000000001
+2025-01-05 21:12:14 logger.DCASE_dev_valve_per_file:INFO Epoch: 5,	Trained sentences: 3000,	total_loss: 0.003655,	reconstruction_loss: 0.003655,	lr: 0.00090000,	elapse: 6.6 s
+2025-01-05 21:12:30 logger.DCASE_dev_valve_per_file:INFO Epoch 5 Done,	total_loss: 0.003602,	reconstruction_loss: 0.003602,	Time: 0.0 hr,	
+2025-01-05 21:12:30 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:12:39 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003492,	reconstruction_loss: 0.003492,	Time: 8.861684560775757 s	
+2025-01-05 21:12:39 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.003491879440844059
+2025-01-05 21:12:39 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.003491879440844059, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-5.step-35
+2025-01-05 21:12:39 logger.DCASE_dev_valve_per_file:INFO Epoch 6 start, lr 0.0009000000000000001
+2025-01-05 21:12:56 logger.DCASE_dev_valve_per_file:INFO Epoch: 6,	Trained sentences: 4000,	total_loss: 0.003539,	reconstruction_loss: 0.003539,	lr: 0.00090000,	elapse: 16.4 s
+2025-01-05 21:13:02 logger.DCASE_dev_valve_per_file:INFO Epoch 6 Done,	total_loss: 0.003514,	reconstruction_loss: 0.003514,	Time: 0.0 hr,	
+2025-01-05 21:13:02 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:13:11 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003415,	reconstruction_loss: 0.003415,	Time: 8.856818675994873 s	
+2025-01-05 21:13:11 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.003415280021727085
+2025-01-05 21:13:11 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.003415280021727085, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-6.step-42
+2025-01-05 21:13:11 logger.DCASE_dev_valve_per_file:INFO Epoch 7 start, lr 0.0009000000000000001
+2025-01-05 21:13:34 logger.DCASE_dev_valve_per_file:INFO Epoch 7 Done,	total_loss: 0.003431,	reconstruction_loss: 0.003431,	Time: 0.0 hr,	
+2025-01-05 21:13:34 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:13:43 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003331,	reconstruction_loss: 0.003331,	Time: 8.924219369888306 s	
+2025-01-05 21:13:43 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.003330508479848504
+2025-01-05 21:13:43 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.003330508479848504, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-7.step-49
+2025-01-05 21:13:43 logger.DCASE_dev_valve_per_file:INFO Epoch 8 start, lr 0.0009000000000000001
+2025-01-05 21:13:46 logger.DCASE_dev_valve_per_file:INFO Epoch: 8,	Trained sentences: 5000,	total_loss: 0.003391,	reconstruction_loss: 0.003391,	lr: 0.00090000,	elapse: 3.4 s
+2025-01-05 21:14:05 logger.DCASE_dev_valve_per_file:INFO Epoch 8 Done,	total_loss: 0.003343,	reconstruction_loss: 0.003343,	Time: 0.0 hr,	
+2025-01-05 21:14:05 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:14:14 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003250,	reconstruction_loss: 0.003250,	Time: 8.719260215759277 s	
+2025-01-05 21:14:14 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0032498559448868036
+2025-01-05 21:14:14 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0032498559448868036, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-8.step-56
+2025-01-05 21:14:14 logger.DCASE_dev_valve_per_file:INFO Epoch 9 start, lr 0.0009000000000000001
+2025-01-05 21:14:27 logger.DCASE_dev_valve_per_file:INFO Epoch: 9,	Trained sentences: 6000,	total_loss: 0.003279,	reconstruction_loss: 0.003279,	lr: 0.00081000,	elapse: 12.9 s
+2025-01-05 21:14:36 logger.DCASE_dev_valve_per_file:INFO Epoch 9 Done,	total_loss: 0.003270,	reconstruction_loss: 0.003270,	Time: 0.0 hr,	
+2025-01-05 21:14:36 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:14:45 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003191,	reconstruction_loss: 0.003191,	Time: 8.791220903396606 s	
+2025-01-05 21:14:45 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.003190930699929595
+2025-01-05 21:14:45 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.003190930699929595, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-9.step-63
+2025-01-05 21:14:45 logger.DCASE_dev_valve_per_file:INFO Epoch 10 start, lr 0.0008100000000000001
+2025-01-05 21:15:08 logger.DCASE_dev_valve_per_file:INFO Epoch: 10,	Trained sentences: 7000,	total_loss: 0.003215,	reconstruction_loss: 0.003215,	lr: 0.00081000,	elapse: 22.8 s
+2025-01-05 21:15:08 logger.DCASE_dev_valve_per_file:INFO Epoch 10 Done,	total_loss: 0.003215,	reconstruction_loss: 0.003215,	Time: 0.0 hr,	
+2025-01-05 21:15:08 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:15:17 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003144,	reconstruction_loss: 0.003144,	Time: 8.905396938323975 s	
+2025-01-05 21:15:17 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.003144362010061741
+2025-01-05 21:15:17 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.003144362010061741, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-10.step-70
+2025-01-05 21:15:17 logger.DCASE_dev_valve_per_file:INFO Epoch 11 start, lr 0.0008100000000000001
+2025-01-05 21:15:40 logger.DCASE_dev_valve_per_file:INFO Epoch 11 Done,	total_loss: 0.003171,	reconstruction_loss: 0.003171,	Time: 0.0 hr,	
+2025-01-05 21:15:40 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:15:48 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003106,	reconstruction_loss: 0.003106,	Time: 8.745683908462524 s	
+2025-01-05 21:15:48 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0031062618363648653
+2025-01-05 21:15:48 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0031062618363648653, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-11.step-77
+2025-01-05 21:15:48 logger.DCASE_dev_valve_per_file:INFO Epoch 12 start, lr 0.0008100000000000001
+2025-01-05 21:15:58 logger.DCASE_dev_valve_per_file:INFO Epoch: 12,	Trained sentences: 8000,	total_loss: 0.003113,	reconstruction_loss: 0.003113,	lr: 0.00081000,	elapse: 9.7 s
+2025-01-05 21:16:11 logger.DCASE_dev_valve_per_file:INFO Epoch 12 Done,	total_loss: 0.003133,	reconstruction_loss: 0.003133,	Time: 0.0 hr,	
+2025-01-05 21:16:11 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:16:20 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003072,	reconstruction_loss: 0.003072,	Time: 8.715909004211426 s	
+2025-01-05 21:16:20 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.003071765648201108
+2025-01-05 21:16:20 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.003071765648201108, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-12.step-84
+2025-01-05 21:16:20 logger.DCASE_dev_valve_per_file:INFO Epoch 13 start, lr 0.0008100000000000001
+2025-01-05 21:16:39 logger.DCASE_dev_valve_per_file:INFO Epoch: 13,	Trained sentences: 9000,	total_loss: 0.003097,	reconstruction_loss: 0.003097,	lr: 0.00081000,	elapse: 19.4 s
+2025-01-05 21:16:42 logger.DCASE_dev_valve_per_file:INFO Epoch 13 Done,	total_loss: 0.003098,	reconstruction_loss: 0.003098,	Time: 0.0 hr,	
+2025-01-05 21:16:42 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:16:51 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003039,	reconstruction_loss: 0.003039,	Time: 8.716381549835205 s	
+2025-01-05 21:16:51 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0030389204621315002
+2025-01-05 21:16:51 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0030389204621315002, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-13.step-91
+2025-01-05 21:16:51 logger.DCASE_dev_valve_per_file:INFO Epoch 14 start, lr 0.0008100000000000001
+2025-01-05 21:17:14 logger.DCASE_dev_valve_per_file:INFO Epoch 14 Done,	total_loss: 0.003066,	reconstruction_loss: 0.003066,	Time: 0.0 hr,	
+2025-01-05 21:17:14 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:17:22 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.003011,	reconstruction_loss: 0.003011,	Time: 8.62598204612732 s	
+2025-01-05 21:17:22 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.003010525368154049
+2025-01-05 21:17:22 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.003010525368154049, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-14.step-98
+2025-01-05 21:17:22 logger.DCASE_dev_valve_per_file:INFO Epoch 15 start, lr 0.0007290000000000002
+2025-01-05 21:17:29 logger.DCASE_dev_valve_per_file:INFO Epoch: 15,	Trained sentences: 10000,	total_loss: 0.003039,	reconstruction_loss: 0.003039,	lr: 0.00072900,	elapse: 6.6 s
+2025-01-05 21:17:45 logger.DCASE_dev_valve_per_file:INFO Epoch 15 Done,	total_loss: 0.003037,	reconstruction_loss: 0.003037,	Time: 0.0 hr,	
+2025-01-05 21:17:45 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:17:54 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002983,	reconstruction_loss: 0.002983,	Time: 8.987571477890015 s	
+2025-01-05 21:17:54 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.00298306648619473
+2025-01-05 21:17:54 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.00298306648619473, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-15.step-105
+2025-01-05 21:17:54 logger.DCASE_dev_valve_per_file:INFO Epoch 16 start, lr 0.0007290000000000002
+2025-01-05 21:18:10 logger.DCASE_dev_valve_per_file:INFO Epoch: 16,	Trained sentences: 11000,	total_loss: 0.003022,	reconstruction_loss: 0.003022,	lr: 0.00072900,	elapse: 16.0 s
+2025-01-05 21:18:16 logger.DCASE_dev_valve_per_file:INFO Epoch 16 Done,	total_loss: 0.003009,	reconstruction_loss: 0.003009,	Time: 0.0 hr,	
+2025-01-05 21:18:16 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:18:25 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002956,	reconstruction_loss: 0.002956,	Time: 8.785056829452515 s	
+2025-01-05 21:18:25 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002956148236989975
+2025-01-05 21:18:25 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002956148236989975, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-16.step-112
+2025-01-05 21:18:25 logger.DCASE_dev_valve_per_file:INFO Epoch 17 start, lr 0.0007290000000000002
+2025-01-05 21:18:47 logger.DCASE_dev_valve_per_file:INFO Epoch 17 Done,	total_loss: 0.002981,	reconstruction_loss: 0.002981,	Time: 0.0 hr,	
+2025-01-05 21:18:47 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:18:56 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002929,	reconstruction_loss: 0.002929,	Time: 8.81376314163208 s	
+2025-01-05 21:18:56 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002929088892415166
+2025-01-05 21:18:56 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002929088892415166, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-17.step-119
+2025-01-05 21:18:56 logger.DCASE_dev_valve_per_file:INFO Epoch 18 start, lr 0.0007290000000000002
+2025-01-05 21:18:59 logger.DCASE_dev_valve_per_file:INFO Epoch: 18,	Trained sentences: 12000,	total_loss: 0.002962,	reconstruction_loss: 0.002962,	lr: 0.00072900,	elapse: 3.2 s
+2025-01-05 21:19:19 logger.DCASE_dev_valve_per_file:INFO Epoch 18 Done,	total_loss: 0.002953,	reconstruction_loss: 0.002953,	Time: 0.0 hr,	
+2025-01-05 21:19:19 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:19:28 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002902,	reconstruction_loss: 0.002902,	Time: 8.81344223022461 s	
+2025-01-05 21:19:28 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0029022672679275274
+2025-01-05 21:19:28 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0029022672679275274, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-18.step-126
+2025-01-05 21:19:28 logger.DCASE_dev_valve_per_file:INFO Epoch 19 start, lr 0.0007290000000000002
+2025-01-05 21:19:40 logger.DCASE_dev_valve_per_file:INFO Epoch: 19,	Trained sentences: 13000,	total_loss: 0.002924,	reconstruction_loss: 0.002924,	lr: 0.00065610,	elapse: 12.7 s
+2025-01-05 21:19:50 logger.DCASE_dev_valve_per_file:INFO Epoch 19 Done,	total_loss: 0.002927,	reconstruction_loss: 0.002927,	Time: 0.0 hr,	
+2025-01-05 21:19:50 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:19:59 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002878,	reconstruction_loss: 0.002878,	Time: 8.602069854736328 s	
+2025-01-05 21:19:59 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0028782568406313658
+2025-01-05 21:19:59 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0028782568406313658, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-19.step-133
+2025-01-05 21:19:59 logger.DCASE_dev_valve_per_file:INFO Epoch 20 start, lr 0.0006561000000000001
+2025-01-05 21:20:21 logger.DCASE_dev_valve_per_file:INFO Epoch: 20,	Trained sentences: 14000,	total_loss: 0.002902,	reconstruction_loss: 0.002902,	lr: 0.00065610,	elapse: 22.8 s
+2025-01-05 21:20:21 logger.DCASE_dev_valve_per_file:INFO Epoch 20 Done,	total_loss: 0.002902,	reconstruction_loss: 0.002902,	Time: 0.0 hr,	
+2025-01-05 21:20:21 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:20:30 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002854,	reconstruction_loss: 0.002854,	Time: 8.684693336486816 s	
+2025-01-05 21:20:30 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002854342572391033
+2025-01-05 21:20:30 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002854342572391033, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-20.step-140
+2025-01-05 21:20:30 logger.DCASE_dev_valve_per_file:INFO Epoch 21 start, lr 0.0006561000000000001
+2025-01-05 21:20:53 logger.DCASE_dev_valve_per_file:INFO Epoch 21 Done,	total_loss: 0.002877,	reconstruction_loss: 0.002877,	Time: 0.0 hr,	
+2025-01-05 21:20:53 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:21:02 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002831,	reconstruction_loss: 0.002831,	Time: 8.768537521362305 s	
+2025-01-05 21:21:02 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0028305230662226677
+2025-01-05 21:21:02 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0028305230662226677, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-21.step-147
+2025-01-05 21:21:02 logger.DCASE_dev_valve_per_file:INFO Epoch 22 start, lr 0.0006561000000000001
+2025-01-05 21:21:11 logger.DCASE_dev_valve_per_file:INFO Epoch: 22,	Trained sentences: 15000,	total_loss: 0.002828,	reconstruction_loss: 0.002828,	lr: 0.00065610,	elapse: 9.6 s
+2025-01-05 21:21:24 logger.DCASE_dev_valve_per_file:INFO Epoch 22 Done,	total_loss: 0.002853,	reconstruction_loss: 0.002853,	Time: 0.0 hr,	
+2025-01-05 21:21:24 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:21:33 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002807,	reconstruction_loss: 0.002807,	Time: 8.549232482910156 s	
+2025-01-05 21:21:33 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0028073566500097513
+2025-01-05 21:21:33 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0028073566500097513, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-22.step-154
+2025-01-05 21:21:33 logger.DCASE_dev_valve_per_file:INFO Epoch 23 start, lr 0.0006561000000000001
+2025-01-05 21:21:52 logger.DCASE_dev_valve_per_file:INFO Epoch: 23,	Trained sentences: 16000,	total_loss: 0.002827,	reconstruction_loss: 0.002827,	lr: 0.00065610,	elapse: 19.3 s
+2025-01-05 21:21:55 logger.DCASE_dev_valve_per_file:INFO Epoch 23 Done,	total_loss: 0.002830,	reconstruction_loss: 0.002830,	Time: 0.0 hr,	
+2025-01-05 21:21:55 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:22:04 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002785,	reconstruction_loss: 0.002785,	Time: 8.993537902832031 s	
+2025-01-05 21:22:04 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0027849527541548014
+2025-01-05 21:22:04 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0027849527541548014, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-23.step-161
+2025-01-05 21:22:04 logger.DCASE_dev_valve_per_file:INFO Epoch 24 start, lr 0.0006561000000000001
+2025-01-05 21:22:28 logger.DCASE_dev_valve_per_file:INFO Epoch 24 Done,	total_loss: 0.002808,	reconstruction_loss: 0.002808,	Time: 0.0 hr,	
+2025-01-05 21:22:28 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:22:37 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002766,	reconstruction_loss: 0.002766,	Time: 8.801431655883789 s	
+2025-01-05 21:22:37 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002765713958069682
+2025-01-05 21:22:37 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002765713958069682, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-24.step-168
+2025-01-05 21:22:37 logger.DCASE_dev_valve_per_file:INFO Epoch 25 start, lr 0.00059049
+2025-01-05 21:22:43 logger.DCASE_dev_valve_per_file:INFO Epoch: 25,	Trained sentences: 17000,	total_loss: 0.002783,	reconstruction_loss: 0.002783,	lr: 0.00059049,	elapse: 6.5 s
+2025-01-05 21:22:59 logger.DCASE_dev_valve_per_file:INFO Epoch 25 Done,	total_loss: 0.002788,	reconstruction_loss: 0.002788,	Time: 0.0 hr,	
+2025-01-05 21:22:59 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:23:08 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002747,	reconstruction_loss: 0.002747,	Time: 9.052186012268066 s	
+2025-01-05 21:23:08 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0027472765650600195
+2025-01-05 21:23:08 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0027472765650600195, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-25.step-175
+2025-01-05 21:23:08 logger.DCASE_dev_valve_per_file:INFO Epoch 26 start, lr 0.00059049
+2025-01-05 21:23:25 logger.DCASE_dev_valve_per_file:INFO Epoch: 26,	Trained sentences: 18000,	total_loss: 0.002780,	reconstruction_loss: 0.002780,	lr: 0.00059049,	elapse: 16.3 s
+2025-01-05 21:23:31 logger.DCASE_dev_valve_per_file:INFO Epoch 26 Done,	total_loss: 0.002770,	reconstruction_loss: 0.002770,	Time: 0.0 hr,	
+2025-01-05 21:23:31 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:23:40 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002730,	reconstruction_loss: 0.002730,	Time: 8.750418186187744 s	
+2025-01-05 21:23:40 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0027298980858176947
+2025-01-05 21:23:40 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0027298980858176947, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-26.step-182
+2025-01-05 21:23:40 logger.DCASE_dev_valve_per_file:INFO Epoch 27 start, lr 0.00059049
+2025-01-05 21:24:03 logger.DCASE_dev_valve_per_file:INFO Epoch 27 Done,	total_loss: 0.002752,	reconstruction_loss: 0.002752,	Time: 0.0 hr,	
+2025-01-05 21:24:03 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:24:11 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002714,	reconstruction_loss: 0.002714,	Time: 8.876754999160767 s	
+2025-01-05 21:24:11 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002713647671043873
+2025-01-05 21:24:11 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002713647671043873, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-27.step-189
+2025-01-05 21:24:11 logger.DCASE_dev_valve_per_file:INFO Epoch 28 start, lr 0.00059049
+2025-01-05 21:24:15 logger.DCASE_dev_valve_per_file:INFO Epoch: 28,	Trained sentences: 19000,	total_loss: 0.002739,	reconstruction_loss: 0.002739,	lr: 0.00059049,	elapse: 3.6 s
+2025-01-05 21:24:34 logger.DCASE_dev_valve_per_file:INFO Epoch 28 Done,	total_loss: 0.002736,	reconstruction_loss: 0.002736,	Time: 0.0 hr,	
+2025-01-05 21:24:34 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:24:43 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002698,	reconstruction_loss: 0.002698,	Time: 8.714420557022095 s	
+2025-01-05 21:24:43 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002698376774787903
+2025-01-05 21:24:43 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002698376774787903, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-28.step-196
+2025-01-05 21:24:43 logger.DCASE_dev_valve_per_file:INFO Epoch 29 start, lr 0.00059049
+2025-01-05 21:24:56 logger.DCASE_dev_valve_per_file:INFO Epoch: 29,	Trained sentences: 20000,	total_loss: 0.002717,	reconstruction_loss: 0.002717,	lr: 0.00053144,	elapse: 12.9 s
+2025-01-05 21:25:06 logger.DCASE_dev_valve_per_file:INFO Epoch 29 Done,	total_loss: 0.002721,	reconstruction_loss: 0.002721,	Time: 0.0 hr,	
+2025-01-05 21:25:06 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:25:14 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002685,	reconstruction_loss: 0.002685,	Time: 8.745576620101929 s	
+2025-01-05 21:25:14 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0026854730676859617
+2025-01-05 21:25:14 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0026854730676859617, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-29.step-203
+2025-01-05 21:25:14 logger.DCASE_dev_valve_per_file:INFO Epoch 30 start, lr 0.000531441
+2025-01-05 21:25:37 logger.DCASE_dev_valve_per_file:INFO Epoch: 30,	Trained sentences: 21000,	total_loss: 0.002708,	reconstruction_loss: 0.002708,	lr: 0.00053144,	elapse: 22.5 s
+2025-01-05 21:25:37 logger.DCASE_dev_valve_per_file:INFO Epoch 30 Done,	total_loss: 0.002708,	reconstruction_loss: 0.002708,	Time: 0.0 hr,	
+2025-01-05 21:25:37 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:25:46 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002673,	reconstruction_loss: 0.002673,	Time: 8.753507137298584 s	
+2025-01-05 21:25:46 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002672911388799548
+2025-01-05 21:25:46 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002672911388799548, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-30.step-210
+2025-01-05 21:25:46 logger.DCASE_dev_valve_per_file:INFO Epoch 31 start, lr 0.000531441
+2025-01-05 21:26:08 logger.DCASE_dev_valve_per_file:INFO Epoch 31 Done,	total_loss: 0.002695,	reconstruction_loss: 0.002695,	Time: 0.0 hr,	
+2025-01-05 21:26:08 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:26:17 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002661,	reconstruction_loss: 0.002661,	Time: 8.628413915634155 s	
+2025-01-05 21:26:17 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0026608572807163
+2025-01-05 21:26:17 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0026608572807163, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-31.step-217
+2025-01-05 21:26:17 logger.DCASE_dev_valve_per_file:INFO Epoch 32 start, lr 0.000531441
+2025-01-05 21:26:27 logger.DCASE_dev_valve_per_file:INFO Epoch: 32,	Trained sentences: 22000,	total_loss: 0.002656,	reconstruction_loss: 0.002656,	lr: 0.00053144,	elapse: 9.8 s
+2025-01-05 21:26:40 logger.DCASE_dev_valve_per_file:INFO Epoch 32 Done,	total_loss: 0.002683,	reconstruction_loss: 0.002683,	Time: 0.0 hr,	
+2025-01-05 21:26:40 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:26:49 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002649,	reconstruction_loss: 0.002649,	Time: 8.926438570022583 s	
+2025-01-05 21:26:49 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002649064874276519
+2025-01-05 21:26:49 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002649064874276519, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-32.step-224
+2025-01-05 21:26:49 logger.DCASE_dev_valve_per_file:INFO Epoch 33 start, lr 0.000531441
+2025-01-05 21:27:08 logger.DCASE_dev_valve_per_file:INFO Epoch: 33,	Trained sentences: 23000,	total_loss: 0.002668,	reconstruction_loss: 0.002668,	lr: 0.00053144,	elapse: 19.5 s
+2025-01-05 21:27:12 logger.DCASE_dev_valve_per_file:INFO Epoch 33 Done,	total_loss: 0.002671,	reconstruction_loss: 0.002671,	Time: 0.0 hr,	
+2025-01-05 21:27:12 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:27:21 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002637,	reconstruction_loss: 0.002637,	Time: 8.878514051437378 s	
+2025-01-05 21:27:21 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002637455239892006
+2025-01-05 21:27:21 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002637455239892006, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-33.step-231
+2025-01-05 21:27:21 logger.DCASE_dev_valve_per_file:INFO Epoch 34 start, lr 0.000531441
+2025-01-05 21:27:43 logger.DCASE_dev_valve_per_file:INFO Epoch 34 Done,	total_loss: 0.002659,	reconstruction_loss: 0.002659,	Time: 0.0 hr,	
+2025-01-05 21:27:43 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:27:52 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002627,	reconstruction_loss: 0.002627,	Time: 8.75025463104248 s	
+2025-01-05 21:27:52 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.00262717274017632
+2025-01-05 21:27:52 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.00262717274017632, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-34.step-238
+2025-01-05 21:27:52 logger.DCASE_dev_valve_per_file:INFO Epoch 35 start, lr 0.0004782969000000001
+2025-01-05 21:27:58 logger.DCASE_dev_valve_per_file:INFO Epoch: 35,	Trained sentences: 24000,	total_loss: 0.002639,	reconstruction_loss: 0.002639,	lr: 0.00047830,	elapse: 6.5 s
+2025-01-05 21:28:15 logger.DCASE_dev_valve_per_file:INFO Epoch 35 Done,	total_loss: 0.002649,	reconstruction_loss: 0.002649,	Time: 0.0 hr,	
+2025-01-05 21:28:15 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:28:23 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002617,	reconstruction_loss: 0.002617,	Time: 8.701277494430542 s	
+2025-01-05 21:28:23 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0026168159674853086
+2025-01-05 21:28:23 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0026168159674853086, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-35.step-245
+2025-01-05 21:28:23 logger.DCASE_dev_valve_per_file:INFO Epoch 36 start, lr 0.0004782969000000001
+2025-01-05 21:28:39 logger.DCASE_dev_valve_per_file:INFO Epoch: 36,	Trained sentences: 25000,	total_loss: 0.002647,	reconstruction_loss: 0.002647,	lr: 0.00047830,	elapse: 15.9 s
+2025-01-05 21:28:46 logger.DCASE_dev_valve_per_file:INFO Epoch 36 Done,	total_loss: 0.002638,	reconstruction_loss: 0.002638,	Time: 0.0 hr,	
+2025-01-05 21:28:46 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:28:54 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002607,	reconstruction_loss: 0.002607,	Time: 8.615911960601807 s	
+2025-01-05 21:28:54 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0026067185681313276
+2025-01-05 21:28:54 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0026067185681313276, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-36.step-252
+2025-01-05 21:28:54 logger.DCASE_dev_valve_per_file:INFO Epoch 37 start, lr 0.0004782969000000001
+2025-01-05 21:29:17 logger.DCASE_dev_valve_per_file:INFO Epoch 37 Done,	total_loss: 0.002628,	reconstruction_loss: 0.002628,	Time: 0.0 hr,	
+2025-01-05 21:29:17 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:29:26 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002597,	reconstruction_loss: 0.002597,	Time: 8.955240488052368 s	
+2025-01-05 21:29:26 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0025968702975660563
+2025-01-05 21:29:26 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0025968702975660563, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-37.step-259
+2025-01-05 21:29:26 logger.DCASE_dev_valve_per_file:INFO Epoch 38 start, lr 0.0004782969000000001
+2025-01-05 21:29:29 logger.DCASE_dev_valve_per_file:INFO Epoch: 38,	Trained sentences: 26000,	total_loss: 0.002618,	reconstruction_loss: 0.002618,	lr: 0.00047830,	elapse: 3.3 s
+2025-01-05 21:29:48 logger.DCASE_dev_valve_per_file:INFO Epoch 38 Done,	total_loss: 0.002618,	reconstruction_loss: 0.002618,	Time: 0.0 hr,	
+2025-01-05 21:29:48 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:29:57 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002587,	reconstruction_loss: 0.002587,	Time: 8.78235387802124 s	
+2025-01-05 21:29:57 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002587220398709178
+2025-01-05 21:29:57 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002587220398709178, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-38.step-266
+2025-01-05 21:29:57 logger.DCASE_dev_valve_per_file:INFO Epoch 39 start, lr 0.0004782969000000001
+2025-01-05 21:30:10 logger.DCASE_dev_valve_per_file:INFO Epoch: 39,	Trained sentences: 27000,	total_loss: 0.002603,	reconstruction_loss: 0.002603,	lr: 0.00043047,	elapse: 13.0 s
+2025-01-05 21:30:20 logger.DCASE_dev_valve_per_file:INFO Epoch 39 Done,	total_loss: 0.002608,	reconstruction_loss: 0.002608,	Time: 0.0 hr,	
+2025-01-05 21:30:20 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:30:28 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002579,	reconstruction_loss: 0.002579,	Time: 8.636633396148682 s	
+2025-01-05 21:30:28 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002578748157247901
+2025-01-05 21:30:28 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002578748157247901, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-39.step-273
+2025-01-05 21:30:28 logger.DCASE_dev_valve_per_file:INFO Epoch 40 start, lr 0.0004304672100000001
+2025-01-05 21:30:51 logger.DCASE_dev_valve_per_file:INFO Epoch: 40,	Trained sentences: 28000,	total_loss: 0.002599,	reconstruction_loss: 0.002599,	lr: 0.00043047,	elapse: 22.4 s
+2025-01-05 21:30:51 logger.DCASE_dev_valve_per_file:INFO Epoch 40 Done,	total_loss: 0.002599,	reconstruction_loss: 0.002599,	Time: 0.0 hr,	
+2025-01-05 21:30:51 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:31:00 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002570,	reconstruction_loss: 0.002570,	Time: 8.749059200286865 s	
+2025-01-05 21:31:00 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0025700984988361597
+2025-01-05 21:31:00 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0025700984988361597, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-40.step-280
+2025-01-05 21:31:00 logger.DCASE_dev_valve_per_file:INFO Epoch 41 start, lr 0.0004304672100000001
+2025-01-05 21:31:22 logger.DCASE_dev_valve_per_file:INFO Epoch 41 Done,	total_loss: 0.002590,	reconstruction_loss: 0.002590,	Time: 0.0 hr,	
+2025-01-05 21:31:22 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:31:31 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002561,	reconstruction_loss: 0.002561,	Time: 8.750924825668335 s	
+2025-01-05 21:31:31 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002561315195634961
+2025-01-05 21:31:31 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002561315195634961, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-41.step-287
+2025-01-05 21:31:31 logger.DCASE_dev_valve_per_file:INFO Epoch 42 start, lr 0.0004304672100000001
+2025-01-05 21:31:41 logger.DCASE_dev_valve_per_file:INFO Epoch: 42,	Trained sentences: 29000,	total_loss: 0.002554,	reconstruction_loss: 0.002554,	lr: 0.00043047,	elapse: 9.9 s
+2025-01-05 21:31:54 logger.DCASE_dev_valve_per_file:INFO Epoch 42 Done,	total_loss: 0.002581,	reconstruction_loss: 0.002581,	Time: 0.0 hr,	
+2025-01-05 21:31:54 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:32:03 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002552,	reconstruction_loss: 0.002552,	Time: 8.751035451889038 s	
+2025-01-05 21:32:03 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002552306978031993
+2025-01-05 21:32:03 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002552306978031993, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-42.step-294
+2025-01-05 21:32:03 logger.DCASE_dev_valve_per_file:INFO Epoch 43 start, lr 0.0004304672100000001
+2025-01-05 21:32:22 logger.DCASE_dev_valve_per_file:INFO Epoch: 43,	Trained sentences: 30000,	total_loss: 0.002569,	reconstruction_loss: 0.002569,	lr: 0.00043047,	elapse: 19.3 s
+2025-01-05 21:32:25 logger.DCASE_dev_valve_per_file:INFO Epoch 43 Done,	total_loss: 0.002572,	reconstruction_loss: 0.002572,	Time: 0.0 hr,	
+2025-01-05 21:32:25 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:32:34 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002543,	reconstruction_loss: 0.002543,	Time: 8.899886131286621 s	
+2025-01-05 21:32:34 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002542757196351886
+2025-01-05 21:32:34 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002542757196351886, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-43.step-301
+2025-01-05 21:32:34 logger.DCASE_dev_valve_per_file:INFO Epoch 44 start, lr 0.0004304672100000001
+2025-01-05 21:32:57 logger.DCASE_dev_valve_per_file:INFO Epoch 44 Done,	total_loss: 0.002562,	reconstruction_loss: 0.002562,	Time: 0.0 hr,	
+2025-01-05 21:32:57 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:33:05 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002534,	reconstruction_loss: 0.002534,	Time: 8.543586015701294 s	
+2025-01-05 21:33:05 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002533858409151435
+2025-01-05 21:33:05 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002533858409151435, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-44.step-308
+2025-01-05 21:33:05 logger.DCASE_dev_valve_per_file:INFO Epoch 45 start, lr 0.0003874204890000001
+2025-01-05 21:33:12 logger.DCASE_dev_valve_per_file:INFO Epoch: 45,	Trained sentences: 31000,	total_loss: 0.002542,	reconstruction_loss: 0.002542,	lr: 0.00038742,	elapse: 6.5 s
+2025-01-05 21:33:28 logger.DCASE_dev_valve_per_file:INFO Epoch 45 Done,	total_loss: 0.002553,	reconstruction_loss: 0.002553,	Time: 0.0 hr,	
+2025-01-05 21:33:28 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:33:37 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002524,	reconstruction_loss: 0.002524,	Time: 8.798161506652832 s	
+2025-01-05 21:33:37 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0025244830176234245
+2025-01-05 21:33:37 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0025244830176234245, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-45.step-315
+2025-01-05 21:33:37 logger.DCASE_dev_valve_per_file:INFO Epoch 46 start, lr 0.0003874204890000001
+2025-01-05 21:33:53 logger.DCASE_dev_valve_per_file:INFO Epoch: 46,	Trained sentences: 32000,	total_loss: 0.002551,	reconstruction_loss: 0.002551,	lr: 0.00038742,	elapse: 16.0 s
+2025-01-05 21:33:59 logger.DCASE_dev_valve_per_file:INFO Epoch 46 Done,	total_loss: 0.002543,	reconstruction_loss: 0.002543,	Time: 0.0 hr,	
+2025-01-05 21:33:59 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:34:08 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002515,	reconstruction_loss: 0.002515,	Time: 8.994677782058716 s	
+2025-01-05 21:34:08 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002514661755412817
+2025-01-05 21:34:08 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002514661755412817, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-46.step-322
+2025-01-05 21:34:08 logger.DCASE_dev_valve_per_file:INFO Epoch 47 start, lr 0.0003874204890000001
+2025-01-05 21:34:31 logger.DCASE_dev_valve_per_file:INFO Epoch 47 Done,	total_loss: 0.002533,	reconstruction_loss: 0.002533,	Time: 0.0 hr,	
+2025-01-05 21:34:31 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:34:39 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002505,	reconstruction_loss: 0.002505,	Time: 8.566330432891846 s	
+2025-01-05 21:34:39 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0025047140661627054
+2025-01-05 21:34:39 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0025047140661627054, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-47.step-329
+2025-01-05 21:34:39 logger.DCASE_dev_valve_per_file:INFO Epoch 48 start, lr 0.0003874204890000001
+2025-01-05 21:34:43 logger.DCASE_dev_valve_per_file:INFO Epoch: 48,	Trained sentences: 33000,	total_loss: 0.002522,	reconstruction_loss: 0.002522,	lr: 0.00038742,	elapse: 3.5 s
+2025-01-05 21:35:02 logger.DCASE_dev_valve_per_file:INFO Epoch 48 Done,	total_loss: 0.002522,	reconstruction_loss: 0.002522,	Time: 0.0 hr,	
+2025-01-05 21:35:02 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:35:11 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002494,	reconstruction_loss: 0.002494,	Time: 8.847432851791382 s	
+2025-01-05 21:35:11 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0024943642783910036
+2025-01-05 21:35:11 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0024943642783910036, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-48.step-336
+2025-01-05 21:35:11 logger.DCASE_dev_valve_per_file:INFO Epoch 49 start, lr 0.0003874204890000001
+2025-01-05 21:35:24 logger.DCASE_dev_valve_per_file:INFO Epoch: 49,	Trained sentences: 34000,	total_loss: 0.002507,	reconstruction_loss: 0.002507,	lr: 0.00034868,	elapse: 12.9 s
+2025-01-05 21:35:34 logger.DCASE_dev_valve_per_file:INFO Epoch 49 Done,	total_loss: 0.002512,	reconstruction_loss: 0.002512,	Time: 0.0 hr,	
+2025-01-05 21:35:34 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:35:42 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002485,	reconstruction_loss: 0.002485,	Time: 8.827394962310791 s	
+2025-01-05 21:35:42 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0024847963359206915
+2025-01-05 21:35:42 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0024847963359206915, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-49.step-343
+2025-01-05 21:35:43 logger.DCASE_dev_valve_per_file:INFO Epoch 50 start, lr 0.0003486784401000001
+2025-01-05 21:36:05 logger.DCASE_dev_valve_per_file:INFO Epoch: 50,	Trained sentences: 35000,	total_loss: 0.002502,	reconstruction_loss: 0.002502,	lr: 0.00034868,	elapse: 22.7 s
+2025-01-05 21:36:05 logger.DCASE_dev_valve_per_file:INFO Epoch 50 Done,	total_loss: 0.002502,	reconstruction_loss: 0.002502,	Time: 0.0 hr,	
+2025-01-05 21:36:05 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:36:14 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002475,	reconstruction_loss: 0.002475,	Time: 9.06992506980896 s	
+2025-01-05 21:36:14 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002474976470693946
+2025-01-05 21:36:14 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002474976470693946, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-50.step-350
+2025-01-05 21:36:14 logger.DCASE_dev_valve_per_file:INFO Epoch 51 start, lr 0.0003486784401000001
+2025-01-05 21:36:37 logger.DCASE_dev_valve_per_file:INFO Epoch 51 Done,	total_loss: 0.002492,	reconstruction_loss: 0.002492,	Time: 0.0 hr,	
+2025-01-05 21:36:37 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:36:46 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002465,	reconstruction_loss: 0.002465,	Time: 8.71726942062378 s	
+2025-01-05 21:36:46 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.00246475194580853
+2025-01-05 21:36:46 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.00246475194580853, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-51.step-357
+2025-01-05 21:36:46 logger.DCASE_dev_valve_per_file:INFO Epoch 52 start, lr 0.0003486784401000001
+2025-01-05 21:36:55 logger.DCASE_dev_valve_per_file:INFO Epoch: 52,	Trained sentences: 36000,	total_loss: 0.002455,	reconstruction_loss: 0.002455,	lr: 0.00034868,	elapse: 9.7 s
+2025-01-05 21:37:08 logger.DCASE_dev_valve_per_file:INFO Epoch 52 Done,	total_loss: 0.002481,	reconstruction_loss: 0.002481,	Time: 0.0 hr,	
+2025-01-05 21:37:08 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:37:17 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002454,	reconstruction_loss: 0.002454,	Time: 8.72110915184021 s	
+2025-01-05 21:37:17 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0024544803891330957
+2025-01-05 21:37:17 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0024544803891330957, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-52.step-364
+2025-01-05 21:37:17 logger.DCASE_dev_valve_per_file:INFO Epoch 53 start, lr 0.0003486784401000001
+2025-01-05 21:37:36 logger.DCASE_dev_valve_per_file:INFO Epoch: 53,	Trained sentences: 37000,	total_loss: 0.002468,	reconstruction_loss: 0.002468,	lr: 0.00034868,	elapse: 19.0 s
+2025-01-05 21:37:39 logger.DCASE_dev_valve_per_file:INFO Epoch 53 Done,	total_loss: 0.002471,	reconstruction_loss: 0.002471,	Time: 0.0 hr,	
+2025-01-05 21:37:39 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:37:48 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002444,	reconstruction_loss: 0.002444,	Time: 8.97213888168335 s	
+2025-01-05 21:37:48 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002444265177473426
+2025-01-05 21:37:48 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002444265177473426, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-53.step-371
+2025-01-05 21:37:48 logger.DCASE_dev_valve_per_file:INFO Epoch 54 start, lr 0.0003486784401000001
+2025-01-05 21:38:11 logger.DCASE_dev_valve_per_file:INFO Epoch 54 Done,	total_loss: 0.002461,	reconstruction_loss: 0.002461,	Time: 0.0 hr,	
+2025-01-05 21:38:11 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:38:21 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002435,	reconstruction_loss: 0.002435,	Time: 9.77869725227356 s	
+2025-01-05 21:38:21 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002435187576338649
+2025-01-05 21:38:21 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002435187576338649, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-54.step-378
+2025-01-05 21:38:21 logger.DCASE_dev_valve_per_file:INFO Epoch 55 start, lr 0.0003138105960900001
+2025-01-05 21:38:28 logger.DCASE_dev_valve_per_file:INFO Epoch: 55,	Trained sentences: 38000,	total_loss: 0.002441,	reconstruction_loss: 0.002441,	lr: 0.00031381,	elapse: 6.6 s
+2025-01-05 21:38:44 logger.DCASE_dev_valve_per_file:INFO Epoch 55 Done,	total_loss: 0.002452,	reconstruction_loss: 0.002452,	Time: 0.0 hr,	
+2025-01-05 21:38:44 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:38:53 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002426,	reconstruction_loss: 0.002426,	Time: 8.905018329620361 s	
+2025-01-05 21:38:53 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002426301361992955
+2025-01-05 21:38:53 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002426301361992955, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-55.step-385
+2025-01-05 21:38:53 logger.DCASE_dev_valve_per_file:INFO Epoch 56 start, lr 0.0003138105960900001
+2025-01-05 21:39:09 logger.DCASE_dev_valve_per_file:INFO Epoch: 56,	Trained sentences: 39000,	total_loss: 0.002451,	reconstruction_loss: 0.002451,	lr: 0.00031381,	elapse: 16.1 s
+2025-01-05 21:39:15 logger.DCASE_dev_valve_per_file:INFO Epoch 56 Done,	total_loss: 0.002443,	reconstruction_loss: 0.002443,	Time: 0.0 hr,	
+2025-01-05 21:39:15 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:39:24 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002417,	reconstruction_loss: 0.002417,	Time: 8.820955038070679 s	
+2025-01-05 21:39:24 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0024174090940505266
+2025-01-05 21:39:24 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0024174090940505266, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-56.step-392
+2025-01-05 21:39:24 logger.DCASE_dev_valve_per_file:INFO Epoch 57 start, lr 0.0003138105960900001
+2025-01-05 21:39:47 logger.DCASE_dev_valve_per_file:INFO Epoch 57 Done,	total_loss: 0.002434,	reconstruction_loss: 0.002434,	Time: 0.0 hr,	
+2025-01-05 21:39:47 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:39:55 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002409,	reconstruction_loss: 0.002409,	Time: 8.710731506347656 s	
+2025-01-05 21:39:55 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002408610424026847
+2025-01-05 21:39:55 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002408610424026847, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-57.step-399
+2025-01-05 21:39:55 logger.DCASE_dev_valve_per_file:INFO Epoch 58 start, lr 0.0003138105960900001
+2025-01-05 21:39:59 logger.DCASE_dev_valve_per_file:INFO Epoch: 58,	Trained sentences: 40000,	total_loss: 0.002423,	reconstruction_loss: 0.002423,	lr: 0.00031381,	elapse: 3.3 s
+2025-01-05 21:40:18 logger.DCASE_dev_valve_per_file:INFO Epoch 58 Done,	total_loss: 0.002425,	reconstruction_loss: 0.002425,	Time: 0.0 hr,	
+2025-01-05 21:40:18 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:40:27 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002400,	reconstruction_loss: 0.002400,	Time: 8.658097743988037 s	
+2025-01-05 21:40:27 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0024000084958970547
+2025-01-05 21:40:27 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0024000084958970547, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-58.step-406
+2025-01-05 21:40:27 logger.DCASE_dev_valve_per_file:INFO Epoch 59 start, lr 0.0003138105960900001
+2025-01-05 21:40:40 logger.DCASE_dev_valve_per_file:INFO Epoch: 59,	Trained sentences: 41000,	total_loss: 0.002411,	reconstruction_loss: 0.002411,	lr: 0.00028243,	elapse: 13.2 s
+2025-01-05 21:40:50 logger.DCASE_dev_valve_per_file:INFO Epoch 59 Done,	total_loss: 0.002417,	reconstruction_loss: 0.002417,	Time: 0.0 hr,	
+2025-01-05 21:40:50 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:40:58 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002393,	reconstruction_loss: 0.002393,	Time: 8.74227237701416 s	
+2025-01-05 21:40:58 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002392505295574665
+2025-01-05 21:40:58 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002392505295574665, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-59.step-413
+2025-01-05 21:40:58 logger.DCASE_dev_valve_per_file:INFO Epoch 60 start, lr 0.0002824295364810001
+2025-01-05 21:41:21 logger.DCASE_dev_valve_per_file:INFO Epoch: 60,	Trained sentences: 42000,	total_loss: 0.002409,	reconstruction_loss: 0.002409,	lr: 0.00028243,	elapse: 22.7 s
+2025-01-05 21:41:21 logger.DCASE_dev_valve_per_file:INFO Epoch 60 Done,	total_loss: 0.002409,	reconstruction_loss: 0.002409,	Time: 0.0 hr,	
+2025-01-05 21:41:21 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:41:30 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002385,	reconstruction_loss: 0.002385,	Time: 8.871567487716675 s	
+2025-01-05 21:41:30 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0023852933663874865
+2025-01-05 21:41:30 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0023852933663874865, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-60.step-420
+2025-01-05 21:41:30 logger.DCASE_dev_valve_per_file:INFO Epoch 61 start, lr 0.0002824295364810001
+2025-01-05 21:41:52 logger.DCASE_dev_valve_per_file:INFO Epoch 61 Done,	total_loss: 0.002402,	reconstruction_loss: 0.002402,	Time: 0.0 hr,	
+2025-01-05 21:41:52 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:42:01 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002378,	reconstruction_loss: 0.002378,	Time: 8.720392227172852 s	
+2025-01-05 21:42:01 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002378149889409542
+2025-01-05 21:42:01 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002378149889409542, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-61.step-427
+2025-01-05 21:42:01 logger.DCASE_dev_valve_per_file:INFO Epoch 62 start, lr 0.0002824295364810001
+2025-01-05 21:42:11 logger.DCASE_dev_valve_per_file:INFO Epoch: 62,	Trained sentences: 43000,	total_loss: 0.002368,	reconstruction_loss: 0.002368,	lr: 0.00028243,	elapse: 9.7 s
+2025-01-05 21:42:24 logger.DCASE_dev_valve_per_file:INFO Epoch 62 Done,	total_loss: 0.002394,	reconstruction_loss: 0.002394,	Time: 0.0 hr,	
+2025-01-05 21:42:24 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:42:33 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002371,	reconstruction_loss: 0.002371,	Time: 8.783150672912598 s	
+2025-01-05 21:42:33 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0023711062967777252
+2025-01-05 21:42:33 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0023711062967777252, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-62.step-434
+2025-01-05 21:42:33 logger.DCASE_dev_valve_per_file:INFO Epoch 63 start, lr 0.0002824295364810001
+2025-01-05 21:42:52 logger.DCASE_dev_valve_per_file:INFO Epoch: 63,	Trained sentences: 44000,	total_loss: 0.002384,	reconstruction_loss: 0.002384,	lr: 0.00028243,	elapse: 19.6 s
+2025-01-05 21:42:55 logger.DCASE_dev_valve_per_file:INFO Epoch 63 Done,	total_loss: 0.002387,	reconstruction_loss: 0.002387,	Time: 0.0 hr,	
+2025-01-05 21:42:55 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:43:04 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002364,	reconstruction_loss: 0.002364,	Time: 8.879580974578857 s	
+2025-01-05 21:43:04 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002364338142797351
+2025-01-05 21:43:04 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002364338142797351, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-63.step-441
+2025-01-05 21:43:04 logger.DCASE_dev_valve_per_file:INFO Epoch 64 start, lr 0.0002824295364810001
+2025-01-05 21:43:27 logger.DCASE_dev_valve_per_file:INFO Epoch 64 Done,	total_loss: 0.002381,	reconstruction_loss: 0.002381,	Time: 0.0 hr,	
+2025-01-05 21:43:27 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:43:36 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002359,	reconstruction_loss: 0.002359,	Time: 9.002228021621704 s	
+2025-01-05 21:43:36 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002358619123697281
+2025-01-05 21:43:36 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002358619123697281, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-64.step-448
+2025-01-05 21:43:36 logger.DCASE_dev_valve_per_file:INFO Epoch 65 start, lr 0.0002541865828329001
+2025-01-05 21:43:43 logger.DCASE_dev_valve_per_file:INFO Epoch: 65,	Trained sentences: 45000,	total_loss: 0.002364,	reconstruction_loss: 0.002364,	lr: 0.00025419,	elapse: 6.6 s
+2025-01-05 21:43:59 logger.DCASE_dev_valve_per_file:INFO Epoch 65 Done,	total_loss: 0.002375,	reconstruction_loss: 0.002375,	Time: 0.0 hr,	
+2025-01-05 21:43:59 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:44:08 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002353,	reconstruction_loss: 0.002353,	Time: 8.978614091873169 s	
+2025-01-05 21:44:08 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0023533261846750975
+2025-01-05 21:44:08 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0023533261846750975, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-65.step-455
+2025-01-05 21:44:08 logger.DCASE_dev_valve_per_file:INFO Epoch 66 start, lr 0.0002541865828329001
+2025-01-05 21:44:24 logger.DCASE_dev_valve_per_file:INFO Epoch: 66,	Trained sentences: 46000,	total_loss: 0.002377,	reconstruction_loss: 0.002377,	lr: 0.00025419,	elapse: 16.3 s
+2025-01-05 21:44:31 logger.DCASE_dev_valve_per_file:INFO Epoch 66 Done,	total_loss: 0.002370,	reconstruction_loss: 0.002370,	Time: 0.0 hr,	
+2025-01-05 21:44:31 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:44:39 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002348,	reconstruction_loss: 0.002348,	Time: 8.802227973937988 s	
+2025-01-05 21:44:39 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002348188776522875
+2025-01-05 21:44:39 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002348188776522875, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-66.step-462
+2025-01-05 21:44:39 logger.DCASE_dev_valve_per_file:INFO Epoch 67 start, lr 0.0002541865828329001
+2025-01-05 21:45:02 logger.DCASE_dev_valve_per_file:INFO Epoch 67 Done,	total_loss: 0.002365,	reconstruction_loss: 0.002365,	Time: 0.0 hr,	
+2025-01-05 21:45:02 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:45:11 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002343,	reconstruction_loss: 0.002343,	Time: 8.729247570037842 s	
+2025-01-05 21:45:11 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0023430667351931334
+2025-01-05 21:45:11 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0023430667351931334, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-67.step-469
+2025-01-05 21:45:11 logger.DCASE_dev_valve_per_file:INFO Epoch 68 start, lr 0.0002541865828329001
+2025-01-05 21:45:14 logger.DCASE_dev_valve_per_file:INFO Epoch: 68,	Trained sentences: 47000,	total_loss: 0.002356,	reconstruction_loss: 0.002356,	lr: 0.00025419,	elapse: 3.3 s
+2025-01-05 21:45:33 logger.DCASE_dev_valve_per_file:INFO Epoch 68 Done,	total_loss: 0.002360,	reconstruction_loss: 0.002360,	Time: 0.0 hr,	
+2025-01-05 21:45:33 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:45:42 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002338,	reconstruction_loss: 0.002338,	Time: 8.688790321350098 s	
+2025-01-05 21:45:42 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002338050166144967
+2025-01-05 21:45:42 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002338050166144967, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-68.step-476
+2025-01-05 21:45:42 logger.DCASE_dev_valve_per_file:INFO Epoch 69 start, lr 0.0002541865828329001
+2025-01-05 21:45:55 logger.DCASE_dev_valve_per_file:INFO Epoch: 69,	Trained sentences: 48000,	total_loss: 0.002348,	reconstruction_loss: 0.002348,	lr: 0.00022877,	elapse: 13.0 s
+2025-01-05 21:46:05 logger.DCASE_dev_valve_per_file:INFO Epoch 69 Done,	total_loss: 0.002355,	reconstruction_loss: 0.002355,	Time: 0.0 hr,	
+2025-01-05 21:46:05 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:46:14 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002334,	reconstruction_loss: 0.002334,	Time: 8.952511548995972 s	
+2025-01-05 21:46:14 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0023337502498179674
+2025-01-05 21:46:14 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0023337502498179674, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-69.step-483
+2025-01-05 21:46:14 logger.DCASE_dev_valve_per_file:INFO Epoch 70 start, lr 0.0002287679245496101
+2025-01-05 21:46:36 logger.DCASE_dev_valve_per_file:INFO Epoch: 70,	Trained sentences: 49000,	total_loss: 0.002351,	reconstruction_loss: 0.002351,	lr: 0.00022877,	elapse: 22.4 s
+2025-01-05 21:46:36 logger.DCASE_dev_valve_per_file:INFO Epoch 70 Done,	total_loss: 0.002351,	reconstruction_loss: 0.002351,	Time: 0.0 hr,	
+2025-01-05 21:46:36 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:46:45 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002330,	reconstruction_loss: 0.002330,	Time: 8.754837989807129 s	
+2025-01-05 21:46:45 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0023297949228435755
+2025-01-05 21:46:45 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0023297949228435755, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-70.step-490
+2025-01-05 21:46:45 logger.DCASE_dev_valve_per_file:INFO Epoch 71 start, lr 0.0002287679245496101
+2025-01-05 21:47:08 logger.DCASE_dev_valve_per_file:INFO Epoch 71 Done,	total_loss: 0.002346,	reconstruction_loss: 0.002346,	Time: 0.0 hr,	
+2025-01-05 21:47:08 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:47:16 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002326,	reconstruction_loss: 0.002326,	Time: 8.732797622680664 s	
+2025-01-05 21:47:16 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0023259620647877455
+2025-01-05 21:47:16 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0023259620647877455, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-71.step-497
+2025-01-05 21:47:16 logger.DCASE_dev_valve_per_file:INFO Epoch 72 start, lr 0.0002287679245496101
+2025-01-05 21:47:26 logger.DCASE_dev_valve_per_file:INFO Epoch: 72,	Trained sentences: 50000,	total_loss: 0.002316,	reconstruction_loss: 0.002316,	lr: 0.00022877,	elapse: 9.8 s
+2025-01-05 21:47:39 logger.DCASE_dev_valve_per_file:INFO Epoch 72 Done,	total_loss: 0.002342,	reconstruction_loss: 0.002342,	Time: 0.0 hr,	
+2025-01-05 21:47:39 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:47:48 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002322,	reconstruction_loss: 0.002322,	Time: 8.620949506759644 s	
+2025-01-05 21:47:48 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002322090556845069
+2025-01-05 21:47:48 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002322090556845069, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-72.step-504
+2025-01-05 21:47:48 logger.DCASE_dev_valve_per_file:INFO Epoch 73 start, lr 0.0002287679245496101
+2025-01-05 21:48:07 logger.DCASE_dev_valve_per_file:INFO Epoch: 73,	Trained sentences: 51000,	total_loss: 0.002335,	reconstruction_loss: 0.002335,	lr: 0.00022877,	elapse: 19.2 s
+2025-01-05 21:48:10 logger.DCASE_dev_valve_per_file:INFO Epoch 73 Done,	total_loss: 0.002338,	reconstruction_loss: 0.002338,	Time: 0.0 hr,	
+2025-01-05 21:48:10 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:48:19 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002318,	reconstruction_loss: 0.002318,	Time: 8.98399543762207 s	
+2025-01-05 21:48:19 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0023181838914752007
+2025-01-05 21:48:19 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0023181838914752007, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-73.step-511
+2025-01-05 21:48:19 logger.DCASE_dev_valve_per_file:INFO Epoch 74 start, lr 0.0002287679245496101
+2025-01-05 21:48:42 logger.DCASE_dev_valve_per_file:INFO Epoch 74 Done,	total_loss: 0.002335,	reconstruction_loss: 0.002335,	Time: 0.0 hr,	
+2025-01-05 21:48:42 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:48:50 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002314,	reconstruction_loss: 0.002314,	Time: 8.561897277832031 s	
+2025-01-05 21:48:50 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002314416691660881
+2025-01-05 21:48:50 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002314416691660881, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-74.step-518
+2025-01-05 21:48:50 logger.DCASE_dev_valve_per_file:INFO Epoch 75 start, lr 0.0002058911320946491
+2025-01-05 21:48:57 logger.DCASE_dev_valve_per_file:INFO Epoch: 75,	Trained sentences: 52000,	total_loss: 0.002319,	reconstruction_loss: 0.002319,	lr: 0.00020589,	elapse: 6.5 s
+2025-01-05 21:49:13 logger.DCASE_dev_valve_per_file:INFO Epoch 75 Done,	total_loss: 0.002331,	reconstruction_loss: 0.002331,	Time: 0.0 hr,	
+2025-01-05 21:49:13 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:49:21 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002311,	reconstruction_loss: 0.002311,	Time: 8.616890907287598 s	
+2025-01-05 21:49:21 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0023108618333935738
+2025-01-05 21:49:21 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0023108618333935738, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-75.step-525
+2025-01-05 21:49:21 logger.DCASE_dev_valve_per_file:INFO Epoch 76 start, lr 0.0002058911320946491
+2025-01-05 21:49:38 logger.DCASE_dev_valve_per_file:INFO Epoch: 76,	Trained sentences: 53000,	total_loss: 0.002334,	reconstruction_loss: 0.002334,	lr: 0.00020589,	elapse: 16.1 s
+2025-01-05 21:49:44 logger.DCASE_dev_valve_per_file:INFO Epoch 76 Done,	total_loss: 0.002328,	reconstruction_loss: 0.002328,	Time: 0.0 hr,	
+2025-01-05 21:49:44 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:49:53 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002307,	reconstruction_loss: 0.002307,	Time: 8.664649248123169 s	
+2025-01-05 21:49:53 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002307294402271509
+2025-01-05 21:49:53 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002307294402271509, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-76.step-532
+2025-01-05 21:49:53 logger.DCASE_dev_valve_per_file:INFO Epoch 77 start, lr 0.0002058911320946491
+2025-01-05 21:50:15 logger.DCASE_dev_valve_per_file:INFO Epoch 77 Done,	total_loss: 0.002324,	reconstruction_loss: 0.002324,	Time: 0.0 hr,	
+2025-01-05 21:50:15 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:50:24 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002304,	reconstruction_loss: 0.002304,	Time: 8.861511707305908 s	
+2025-01-05 21:50:24 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0023035877384245396
+2025-01-05 21:50:24 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0023035877384245396, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-77.step-539
+2025-01-05 21:50:24 logger.DCASE_dev_valve_per_file:INFO Epoch 78 start, lr 0.0002058911320946491
+2025-01-05 21:50:27 logger.DCASE_dev_valve_per_file:INFO Epoch: 78,	Trained sentences: 54000,	total_loss: 0.002316,	reconstruction_loss: 0.002316,	lr: 0.00020589,	elapse: 3.3 s
+2025-01-05 21:50:47 logger.DCASE_dev_valve_per_file:INFO Epoch 78 Done,	total_loss: 0.002321,	reconstruction_loss: 0.002321,	Time: 0.0 hr,	
+2025-01-05 21:50:47 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:50:55 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002300,	reconstruction_loss: 0.002300,	Time: 8.815274000167847 s	
+2025-01-05 21:50:55 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022997583728283644
+2025-01-05 21:50:55 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022997583728283644, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-78.step-546
+2025-01-05 21:50:55 logger.DCASE_dev_valve_per_file:INFO Epoch 79 start, lr 0.0002058911320946491
+2025-01-05 21:51:09 logger.DCASE_dev_valve_per_file:INFO Epoch: 79,	Trained sentences: 55000,	total_loss: 0.002311,	reconstruction_loss: 0.002311,	lr: 0.00018530,	elapse: 13.1 s
+2025-01-05 21:51:18 logger.DCASE_dev_valve_per_file:INFO Epoch 79 Done,	total_loss: 0.002317,	reconstruction_loss: 0.002317,	Time: 0.0 hr,	
+2025-01-05 21:51:18 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:51:27 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002296,	reconstruction_loss: 0.002296,	Time: 9.090705871582031 s	
+2025-01-05 21:51:27 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022960195783525705
+2025-01-05 21:51:27 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022960195783525705, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-79.step-553
+2025-01-05 21:51:27 logger.DCASE_dev_valve_per_file:INFO Epoch 80 start, lr 0.00018530201888518417
+2025-01-05 21:51:50 logger.DCASE_dev_valve_per_file:INFO Epoch: 80,	Trained sentences: 56000,	total_loss: 0.002314,	reconstruction_loss: 0.002314,	lr: 0.00018530,	elapse: 22.5 s
+2025-01-05 21:51:50 logger.DCASE_dev_valve_per_file:INFO Epoch 80 Done,	total_loss: 0.002314,	reconstruction_loss: 0.002314,	Time: 0.0 hr,	
+2025-01-05 21:51:50 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:51:58 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002293,	reconstruction_loss: 0.002293,	Time: 8.576219081878662 s	
+2025-01-05 21:51:58 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002292933175340295
+2025-01-05 21:51:58 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002292933175340295, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-80.step-560
+2025-01-05 21:51:58 logger.DCASE_dev_valve_per_file:INFO Epoch 81 start, lr 0.00018530201888518417
+2025-01-05 21:52:21 logger.DCASE_dev_valve_per_file:INFO Epoch 81 Done,	total_loss: 0.002310,	reconstruction_loss: 0.002310,	Time: 0.0 hr,	
+2025-01-05 21:52:21 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:52:30 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002290,	reconstruction_loss: 0.002290,	Time: 8.758963584899902 s	
+2025-01-05 21:52:30 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022898332681506872
+2025-01-05 21:52:30 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022898332681506872, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-81.step-567
+2025-01-05 21:52:30 logger.DCASE_dev_valve_per_file:INFO Epoch 82 start, lr 0.00018530201888518417
+2025-01-05 21:52:40 logger.DCASE_dev_valve_per_file:INFO Epoch: 82,	Trained sentences: 57000,	total_loss: 0.002282,	reconstruction_loss: 0.002282,	lr: 0.00018530,	elapse: 10.1 s
+2025-01-05 21:52:53 logger.DCASE_dev_valve_per_file:INFO Epoch 82 Done,	total_loss: 0.002307,	reconstruction_loss: 0.002307,	Time: 0.0 hr,	
+2025-01-05 21:52:53 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:53:02 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002286,	reconstruction_loss: 0.002286,	Time: 8.839226484298706 s	
+2025-01-05 21:53:02 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022864278871566057
+2025-01-05 21:53:02 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022864278871566057, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-82.step-574
+2025-01-05 21:53:02 logger.DCASE_dev_valve_per_file:INFO Epoch 83 start, lr 0.00018530201888518417
+2025-01-05 21:53:21 logger.DCASE_dev_valve_per_file:INFO Epoch: 83,	Trained sentences: 58000,	total_loss: 0.002300,	reconstruction_loss: 0.002300,	lr: 0.00018530,	elapse: 19.2 s
+2025-01-05 21:53:24 logger.DCASE_dev_valve_per_file:INFO Epoch 83 Done,	total_loss: 0.002303,	reconstruction_loss: 0.002303,	Time: 0.0 hr,	
+2025-01-05 21:53:24 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:53:33 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002283,	reconstruction_loss: 0.002283,	Time: 8.932050228118896 s	
+2025-01-05 21:53:33 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022828581277281046
+2025-01-05 21:53:33 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022828581277281046, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-83.step-581
+2025-01-05 21:53:33 logger.DCASE_dev_valve_per_file:INFO Epoch 84 start, lr 0.00018530201888518417
+2025-01-05 21:53:55 logger.DCASE_dev_valve_per_file:INFO Epoch 84 Done,	total_loss: 0.002300,	reconstruction_loss: 0.002300,	Time: 0.0 hr,	
+2025-01-05 21:53:55 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:54:04 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002280,	reconstruction_loss: 0.002280,	Time: 8.806143999099731 s	
+2025-01-05 21:54:04 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022796003613620996
+2025-01-05 21:54:04 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022796003613620996, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-84.step-588
+2025-01-05 21:54:04 logger.DCASE_dev_valve_per_file:INFO Epoch 85 start, lr 0.00016677181699666576
+2025-01-05 21:54:11 logger.DCASE_dev_valve_per_file:INFO Epoch: 85,	Trained sentences: 59000,	total_loss: 0.002284,	reconstruction_loss: 0.002284,	lr: 0.00016677,	elapse: 6.5 s
+2025-01-05 21:54:27 logger.DCASE_dev_valve_per_file:INFO Epoch 85 Done,	total_loss: 0.002296,	reconstruction_loss: 0.002296,	Time: 0.0 hr,	
+2025-01-05 21:54:27 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:54:35 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002276,	reconstruction_loss: 0.002276,	Time: 8.62804627418518 s	
+2025-01-05 21:54:35 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002276406390592456
+2025-01-05 21:54:35 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002276406390592456, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-85.step-595
+2025-01-05 21:54:35 logger.DCASE_dev_valve_per_file:INFO Epoch 86 start, lr 0.00016677181699666576
+2025-01-05 21:54:52 logger.DCASE_dev_valve_per_file:INFO Epoch: 86,	Trained sentences: 60000,	total_loss: 0.002299,	reconstruction_loss: 0.002299,	lr: 0.00016677,	elapse: 16.2 s
+2025-01-05 21:54:58 logger.DCASE_dev_valve_per_file:INFO Epoch 86 Done,	total_loss: 0.002293,	reconstruction_loss: 0.002293,	Time: 0.0 hr,	
+2025-01-05 21:54:58 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:55:06 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002273,	reconstruction_loss: 0.002273,	Time: 8.579012155532837 s	
+2025-01-05 21:55:06 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022731495555490255
+2025-01-05 21:55:06 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022731495555490255, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-86.step-602
+2025-01-05 21:55:07 logger.DCASE_dev_valve_per_file:INFO Epoch 87 start, lr 0.00016677181699666576
+2025-01-05 21:55:29 logger.DCASE_dev_valve_per_file:INFO Epoch 87 Done,	total_loss: 0.002290,	reconstruction_loss: 0.002290,	Time: 0.0 hr,	
+2025-01-05 21:55:29 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:55:38 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002270,	reconstruction_loss: 0.002270,	Time: 8.769686937332153 s	
+2025-01-05 21:55:38 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022697793319821358
+2025-01-05 21:55:38 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022697793319821358, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-87.step-609
+2025-01-05 21:55:38 logger.DCASE_dev_valve_per_file:INFO Epoch 88 start, lr 0.00016677181699666576
+2025-01-05 21:55:41 logger.DCASE_dev_valve_per_file:INFO Epoch: 88,	Trained sentences: 61000,	total_loss: 0.002283,	reconstruction_loss: 0.002283,	lr: 0.00016677,	elapse: 3.1 s
+2025-01-05 21:56:00 logger.DCASE_dev_valve_per_file:INFO Epoch 88 Done,	total_loss: 0.002286,	reconstruction_loss: 0.002286,	Time: 0.0 hr,	
+2025-01-05 21:56:00 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:56:09 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002266,	reconstruction_loss: 0.002266,	Time: 8.723089456558228 s	
+2025-01-05 21:56:09 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002266331808641553
+2025-01-05 21:56:09 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002266331808641553, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-88.step-616
+2025-01-05 21:56:09 logger.DCASE_dev_valve_per_file:INFO Epoch 89 start, lr 0.00016677181699666576
+2025-01-05 21:56:22 logger.DCASE_dev_valve_per_file:INFO Epoch: 89,	Trained sentences: 62000,	total_loss: 0.002277,	reconstruction_loss: 0.002277,	lr: 0.00015009,	elapse: 13.1 s
+2025-01-05 21:56:32 logger.DCASE_dev_valve_per_file:INFO Epoch 89 Done,	total_loss: 0.002283,	reconstruction_loss: 0.002283,	Time: 0.0 hr,	
+2025-01-05 21:56:32 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:56:40 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002263,	reconstruction_loss: 0.002263,	Time: 8.768112659454346 s	
+2025-01-05 21:56:40 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022631585597991943
+2025-01-05 21:56:40 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022631585597991943, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-89.step-623
+2025-01-05 21:56:40 logger.DCASE_dev_valve_per_file:INFO Epoch 90 start, lr 0.00015009463529699917
+2025-01-05 21:57:03 logger.DCASE_dev_valve_per_file:INFO Epoch: 90,	Trained sentences: 63000,	total_loss: 0.002280,	reconstruction_loss: 0.002280,	lr: 0.00015009,	elapse: 22.7 s
+2025-01-05 21:57:03 logger.DCASE_dev_valve_per_file:INFO Epoch 90 Done,	total_loss: 0.002280,	reconstruction_loss: 0.002280,	Time: 0.0 hr,	
+2025-01-05 21:57:03 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:57:12 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002260,	reconstruction_loss: 0.002260,	Time: 8.690688610076904 s	
+2025-01-05 21:57:12 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022599503863602877
+2025-01-05 21:57:12 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022599503863602877, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-90.step-630
+2025-01-05 21:57:12 logger.DCASE_dev_valve_per_file:INFO Epoch 91 start, lr 0.00015009463529699917
+2025-01-05 21:57:34 logger.DCASE_dev_valve_per_file:INFO Epoch 91 Done,	total_loss: 0.002276,	reconstruction_loss: 0.002276,	Time: 0.0 hr,	
+2025-01-05 21:57:34 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:57:43 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002257,	reconstruction_loss: 0.002257,	Time: 8.689902067184448 s	
+2025-01-05 21:57:43 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022566926199942827
+2025-01-05 21:57:43 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022566926199942827, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-91.step-637
+2025-01-05 21:57:43 logger.DCASE_dev_valve_per_file:INFO Epoch 92 start, lr 0.00015009463529699917
+2025-01-05 21:57:53 logger.DCASE_dev_valve_per_file:INFO Epoch: 92,	Trained sentences: 64000,	total_loss: 0.002248,	reconstruction_loss: 0.002248,	lr: 0.00015009,	elapse: 9.9 s
+2025-01-05 21:58:05 logger.DCASE_dev_valve_per_file:INFO Epoch 92 Done,	total_loss: 0.002273,	reconstruction_loss: 0.002273,	Time: 0.0 hr,	
+2025-01-05 21:58:05 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:58:14 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002253,	reconstruction_loss: 0.002253,	Time: 8.713998079299927 s	
+2025-01-05 21:58:14 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002253406448289752
+2025-01-05 21:58:14 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002253406448289752, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-92.step-644
+2025-01-05 21:58:14 logger.DCASE_dev_valve_per_file:INFO Epoch 93 start, lr 0.00015009463529699917
+2025-01-05 21:58:33 logger.DCASE_dev_valve_per_file:INFO Epoch: 93,	Trained sentences: 65000,	total_loss: 0.002266,	reconstruction_loss: 0.002266,	lr: 0.00015009,	elapse: 19.0 s
+2025-01-05 21:58:36 logger.DCASE_dev_valve_per_file:INFO Epoch 93 Done,	total_loss: 0.002270,	reconstruction_loss: 0.002270,	Time: 0.0 hr,	
+2025-01-05 21:58:36 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:58:45 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002250,	reconstruction_loss: 0.002250,	Time: 8.803682327270508 s	
+2025-01-05 21:58:45 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002250103745609522
+2025-01-05 21:58:45 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002250103745609522, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-93.step-651
+2025-01-05 21:58:45 logger.DCASE_dev_valve_per_file:INFO Epoch 94 start, lr 0.00015009463529699917
+2025-01-05 21:59:08 logger.DCASE_dev_valve_per_file:INFO Epoch 94 Done,	total_loss: 0.002266,	reconstruction_loss: 0.002266,	Time: 0.0 hr,	
+2025-01-05 21:59:08 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:59:16 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002247,	reconstruction_loss: 0.002247,	Time: 8.632319688796997 s	
+2025-01-05 21:59:16 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022471214178949594
+2025-01-05 21:59:16 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022471214178949594, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-94.step-658
+2025-01-05 21:59:16 logger.DCASE_dev_valve_per_file:INFO Epoch 95 start, lr 0.0001350851717672993
+2025-01-05 21:59:23 logger.DCASE_dev_valve_per_file:INFO Epoch: 95,	Trained sentences: 66000,	total_loss: 0.002251,	reconstruction_loss: 0.002251,	lr: 0.00013509,	elapse: 6.5 s
+2025-01-05 21:59:39 logger.DCASE_dev_valve_per_file:INFO Epoch 95 Done,	total_loss: 0.002263,	reconstruction_loss: 0.002263,	Time: 0.0 hr,	
+2025-01-05 21:59:39 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 21:59:47 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002244,	reconstruction_loss: 0.002244,	Time: 8.581765413284302 s	
+2025-01-05 21:59:47 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022441742476075888
+2025-01-05 21:59:47 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022441742476075888, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-95.step-665
+2025-01-05 21:59:47 logger.DCASE_dev_valve_per_file:INFO Epoch 96 start, lr 0.0001350851717672993
+2025-01-05 22:00:03 logger.DCASE_dev_valve_per_file:INFO Epoch: 96,	Trained sentences: 67000,	total_loss: 0.002267,	reconstruction_loss: 0.002267,	lr: 0.00013509,	elapse: 16.0 s
+2025-01-05 22:00:10 logger.DCASE_dev_valve_per_file:INFO Epoch 96 Done,	total_loss: 0.002260,	reconstruction_loss: 0.002260,	Time: 0.0 hr,	
+2025-01-05 22:00:10 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 22:00:19 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002241,	reconstruction_loss: 0.002241,	Time: 8.700427293777466 s	
+2025-01-05 22:00:19 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002241244073957205
+2025-01-05 22:00:19 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002241244073957205, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-96.step-672
+2025-01-05 22:00:19 logger.DCASE_dev_valve_per_file:INFO Epoch 97 start, lr 0.0001350851717672993
+2025-01-05 22:00:41 logger.DCASE_dev_valve_per_file:INFO Epoch 97 Done,	total_loss: 0.002257,	reconstruction_loss: 0.002257,	Time: 0.0 hr,	
+2025-01-05 22:00:41 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 22:00:50 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002238,	reconstruction_loss: 0.002238,	Time: 8.586364984512329 s	
+2025-01-05 22:00:50 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022383478935807943
+2025-01-05 22:00:50 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022383478935807943, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-97.step-679
+2025-01-05 22:00:50 logger.DCASE_dev_valve_per_file:INFO Epoch 98 start, lr 0.0001350851717672993
+2025-01-05 22:00:53 logger.DCASE_dev_valve_per_file:INFO Epoch: 98,	Trained sentences: 68000,	total_loss: 0.002251,	reconstruction_loss: 0.002251,	lr: 0.00013509,	elapse: 3.4 s
+2025-01-05 22:01:12 logger.DCASE_dev_valve_per_file:INFO Epoch 98 Done,	total_loss: 0.002255,	reconstruction_loss: 0.002255,	Time: 0.0 hr,	
+2025-01-05 22:01:12 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 22:01:21 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002235,	reconstruction_loss: 0.002235,	Time: 8.673019409179688 s	
+2025-01-05 22:01:21 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.0022354896645992994
+2025-01-05 22:01:21 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.0022354896645992994, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-98.step-686
+2025-01-05 22:01:21 logger.DCASE_dev_valve_per_file:INFO Epoch 99 start, lr 0.0001350851717672993
+2025-01-05 22:01:34 logger.DCASE_dev_valve_per_file:INFO Epoch: 99,	Trained sentences: 69000,	total_loss: 0.002246,	reconstruction_loss: 0.002246,	lr: 0.00012158,	elapse: 13.1 s
+2025-01-05 22:01:44 logger.DCASE_dev_valve_per_file:INFO Epoch 99 Done,	total_loss: 0.002252,	reconstruction_loss: 0.002252,	Time: 0.0 hr,	
+2025-01-05 22:01:44 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 22:01:52 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002233,	reconstruction_loss: 0.002233,	Time: 8.575505256652832 s	
+2025-01-05 22:01:52 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002232953906059265
+2025-01-05 22:01:52 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002232953906059265, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-99.step-693
+2025-01-05 22:01:52 logger.DCASE_dev_valve_per_file:INFO Epoch 100 start, lr 0.00012157665459056935
+2025-01-05 22:02:15 logger.DCASE_dev_valve_per_file:INFO Epoch: 100,	Trained sentences: 70000,	total_loss: 0.002249,	reconstruction_loss: 0.002249,	lr: 0.00012158,	elapse: 22.5 s
+2025-01-05 22:02:15 logger.DCASE_dev_valve_per_file:INFO Epoch 100 Done,	total_loss: 0.002249,	reconstruction_loss: 0.002249,	Time: 0.0 hr,	
+2025-01-05 22:02:15 logger.DCASE_dev_valve_per_file:INFO Start Validation
+2025-01-05 22:02:24 logger.DCASE_dev_valve_per_file:INFO Validation Done,	total_loss: 0.002230,	reconstruction_loss: 0.002230,	Time: 8.886034488677979 s	
+2025-01-05 22:02:24 logger.DCASE_dev_valve_per_file:INFO reduced valid loss: 0.002230479381978512
+2025-01-05 22:02:24 logger.DCASE_dev_valve_per_file:INFO new best_valid_loss: 0.002230479381978512, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-100.step-700
+2025-01-05 22:02:24 logger.DCASE_dev_valve_per_file:INFO Training finished
+2025-01-05 22:53:25 logger.DCASE_dev_valve_per_file:INFO Random initialize model
+2025-01-05 22:53:25 logger.DCASE_dev_valve_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 22:53:25 logger.DCASE_dev_valve_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 22:53:25 logger.DCASE_dev_valve_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\chkpt, Current lr: 0.001
+2025-01-05 22:53:25 logger.DCASE_dev_valve_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-100.step-700
+2025-01-06 14:02:55 logger.DCASE_dev_valve_per_file:INFO Random initialize model
+2025-01-06 14:02:55 logger.DCASE_dev_valve_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-06 14:02:55 logger.DCASE_dev_valve_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-06 14:02:55 logger.DCASE_dev_valve_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\chkpt, Current lr: 0.001
+2025-01-06 14:02:55 logger.DCASE_dev_valve_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_valve_per_file\model.epoch-100.step-700

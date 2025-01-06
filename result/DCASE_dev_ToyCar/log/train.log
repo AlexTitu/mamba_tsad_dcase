@@ -1237,3 +1237,9 @@
 2025-01-02 18:09:00 logger.DCASE_dev_ToyCar:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
 2025-01-02 18:09:00 logger.DCASE_dev_ToyCar:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_ToyCar\chkpt, Current lr: 0.001
 2025-01-02 18:09:00 logger.DCASE_dev_ToyCar:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_ToyCar\model.epoch-100.step-6300
+2025-01-04 23:12:24 logger.DCASE_dev_ToyCar:INFO Random initialize model
+2025-01-04 23:12:24 logger.DCASE_dev_ToyCar:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-04 23:12:24 logger.DCASE_dev_ToyCar:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-04 23:12:24 logger.DCASE_dev_ToyCar:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_ToyCar\chkpt, Current lr: 0.001
+2025-01-04 23:12:24 logger.DCASE_dev_ToyCar:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_ToyCar\model.epoch-100.step-6300
+2025-01-04 23:12:24 logger.DCASE_dev_ToyCar:INFO Training finished

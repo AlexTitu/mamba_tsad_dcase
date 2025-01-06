@@ -152,28 +152,25 @@ class AudioAnomalyDataset(Dataset):
 
     def __len__(self) -> int:
         """Return the total number of windows across all audio files."""
-        return self.num_windows_per_file * self.total_files
+        return len(self.dataset_source)+len(self.dataset_target)
 
     def __getitem__(self, idx: int) -> Tuple[torch.Tensor, torch.Tensor, int] or tuple[torch.Tensor, torch.Tensor, int, str]:
         """Retrieve a fragment and its label."""
         # Determine which dataset (source or target) the idx belongs to
-        num_source_files = len(self.dataset_source)
-        if idx < num_source_files * self.num_windows_per_file:
+        if idx < len(self.dataset_source):
             # It's in the source dataset
-            file_idx = idx // self.num_windows_per_file
-            path = self.dataset_source[file_idx]
+            path = self.dataset_source[idx]
             origin = 'source'
         else:
             # It's in the target dataset
-            idx -= num_source_files * self.num_windows_per_file  # Adjust index for the target dataset
-            file_idx = idx // self.num_windows_per_file
-            path = self.dataset_target[file_idx]
+            idx -= len(self.dataset_source)  # Adjust index for the target dataset
+            path = self.dataset_target[idx]
             origin = 'target'
 
         if self.extension == '.npy':
             # Directly load precomputed spectrogram
-            signal = np.load(path)  # Shape: (1, 128, 313)
-            signal = np.transpose(np.squeeze(signal, 0))
+            signal = np.load(path)  # Shape: (1, 128, 313) B, M, T
+            signal = np.transpose(np.squeeze(signal, 0))  # Shape: (1, 313, 128) B, T, M
         else:
             # Load the signal
             signal, _ = librosa.load(path, sr=self.sample_rate)
@@ -190,20 +187,12 @@ class AudioAnomalyDataset(Dataset):
             signal = (signal - min_val) / (max_val - min_val)
             signal = signal * (self.scaling_range[1] - self.scaling_range[0]) + self.scaling_range[0]
 
-        # Calculate the local window index in this file
-        local_idx = idx % self.num_windows_per_file
-        start = local_idx * self.stride
-        end = start + self.window_length
-
-        # Extract the window
-        window = signal[start:end]
-
         # Convert to PyTorch tensors
         if self.extension == ".wav":
-            real_signal = torch.tensor(window, dtype=torch.float32).unsqueeze(-1)  # Shape: (window_length, 1)
+            real_signal = torch.tensor(signal, dtype=torch.float32).unsqueeze(-1)  # Shape: (window_length, 1)
             target_signal = real_signal.clone()  # Target is the same as input for anomaly detection
         else:
-            real_signal = torch.tensor(window, dtype=torch.float32) # Shape: (window_length)
+            real_signal = torch.tensor(signal, dtype=torch.float32) # Shape: (window_length)
             target_signal = real_signal.clone()  # Target is the same as input for anomaly detection
 
         # Set the label (assuming anomalies are in 'anomaly' in the path)

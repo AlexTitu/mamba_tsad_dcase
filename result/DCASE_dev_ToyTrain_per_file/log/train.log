@@ -1,0 +1,685 @@
+2025-01-05 20:18:04 logger.DCASE_dev_ToyTrain_per_file:INFO Random initialize model
+2025-01-05 20:18:04 logger.DCASE_dev_ToyTrain_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 20:18:04 logger.DCASE_dev_ToyTrain_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 20:18:04 logger.DCASE_dev_ToyTrain_per_file:INFO no checkpoint, start training from scratch
+2025-01-05 20:18:04 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 1 start, lr 0.001
+2025-01-05 20:18:27 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 1 Done,	total_loss: 0.004251,	reconstruction_loss: 0.004251,	Time: 0.0 hr,	
+2025-01-05 20:18:27 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:18:36 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.003860,	reconstruction_loss: 0.003860,	Time: 8.839711904525757 s	
+2025-01-05 20:18:36 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.003860217286273837
+2025-01-05 20:18:36 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.003860217286273837, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-1.step-7
+2025-01-05 20:18:36 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 2 start, lr 0.001
+2025-01-05 20:18:45 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 2,	Trained sentences: 1000,	total_loss: 0.003844,	reconstruction_loss: 0.003844,	lr: 0.00100000,	elapse: 9.6 s
+2025-01-05 20:18:58 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 2 Done,	total_loss: 0.003643,	reconstruction_loss: 0.003643,	Time: 0.0 hr,	
+2025-01-05 20:18:58 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:19:06 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.003340,	reconstruction_loss: 0.003340,	Time: 8.520028114318848 s	
+2025-01-05 20:19:06 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.003340400755405426
+2025-01-05 20:19:06 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.003340400755405426, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-2.step-14
+2025-01-05 20:19:06 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 3 start, lr 0.001
+2025-01-05 20:19:26 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 3,	Trained sentences: 2000,	total_loss: 0.003304,	reconstruction_loss: 0.003304,	lr: 0.00100000,	elapse: 19.6 s
+2025-01-05 20:19:29 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 3 Done,	total_loss: 0.003276,	reconstruction_loss: 0.003276,	Time: 0.0 hr,	
+2025-01-05 20:19:29 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:19:38 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.003147,	reconstruction_loss: 0.003147,	Time: 8.629054546356201 s	
+2025-01-05 20:19:38 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0031465638894587755
+2025-01-05 20:19:38 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0031465638894587755, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-3.step-21
+2025-01-05 20:19:38 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 4 start, lr 0.001
+2025-01-05 20:20:01 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 4 Done,	total_loss: 0.003121,	reconstruction_loss: 0.003121,	Time: 0.0 hr,	
+2025-01-05 20:20:01 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:20:09 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.003032,	reconstruction_loss: 0.003032,	Time: 8.719468116760254 s	
+2025-01-05 20:20:09 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0030319190118461847
+2025-01-05 20:20:09 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0030319190118461847, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-4.step-28
+2025-01-05 20:20:09 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 5 start, lr 0.0009000000000000001
+2025-01-05 20:20:16 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 5,	Trained sentences: 3000,	total_loss: 0.003081,	reconstruction_loss: 0.003081,	lr: 0.00090000,	elapse: 6.5 s
+2025-01-05 20:20:32 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 5 Done,	total_loss: 0.003026,	reconstruction_loss: 0.003026,	Time: 0.0 hr,	
+2025-01-05 20:20:32 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:20:40 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002961,	reconstruction_loss: 0.002961,	Time: 8.620786428451538 s	
+2025-01-05 20:20:40 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0029608765617012978
+2025-01-05 20:20:40 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0029608765617012978, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-5.step-35
+2025-01-05 20:20:40 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 6 start, lr 0.0009000000000000001
+2025-01-05 20:20:56 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 6,	Trained sentences: 4000,	total_loss: 0.002986,	reconstruction_loss: 0.002986,	lr: 0.00090000,	elapse: 16.1 s
+2025-01-05 20:21:03 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 6 Done,	total_loss: 0.002957,	reconstruction_loss: 0.002957,	Time: 0.0 hr,	
+2025-01-05 20:21:03 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:21:12 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002904,	reconstruction_loss: 0.002904,	Time: 8.57681155204773 s	
+2025-01-05 20:21:12 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002903703600168228
+2025-01-05 20:21:12 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002903703600168228, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-6.step-42
+2025-01-05 20:21:12 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 7 start, lr 0.0009000000000000001
+2025-01-05 20:21:34 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 7 Done,	total_loss: 0.002901,	reconstruction_loss: 0.002901,	Time: 0.0 hr,	
+2025-01-05 20:21:34 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:21:43 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002851,	reconstruction_loss: 0.002851,	Time: 8.5311861038208 s	
+2025-01-05 20:21:43 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002850790275260806
+2025-01-05 20:21:43 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002850790275260806, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-7.step-49
+2025-01-05 20:21:43 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 8 start, lr 0.0009000000000000001
+2025-01-05 20:21:46 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 8,	Trained sentences: 5000,	total_loss: 0.002893,	reconstruction_loss: 0.002893,	lr: 0.00090000,	elapse: 3.5 s
+2025-01-05 20:22:06 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 8 Done,	total_loss: 0.002846,	reconstruction_loss: 0.002846,	Time: 0.0 hr,	
+2025-01-05 20:22:06 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:22:14 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002803,	reconstruction_loss: 0.002803,	Time: 8.640916585922241 s	
+2025-01-05 20:22:14 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002803264884278178
+2025-01-05 20:22:14 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002803264884278178, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-8.step-56
+2025-01-05 20:22:14 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 9 start, lr 0.0009000000000000001
+2025-01-05 20:22:27 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 9,	Trained sentences: 6000,	total_loss: 0.002819,	reconstruction_loss: 0.002819,	lr: 0.00081000,	elapse: 12.9 s
+2025-01-05 20:22:37 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 9 Done,	total_loss: 0.002800,	reconstruction_loss: 0.002800,	Time: 0.0 hr,	
+2025-01-05 20:22:37 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:22:45 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002766,	reconstruction_loss: 0.002766,	Time: 8.633701801300049 s	
+2025-01-05 20:22:45 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002766404999420047
+2025-01-05 20:22:45 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002766404999420047, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-9.step-63
+2025-01-05 20:22:45 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 10 start, lr 0.0008100000000000001
+2025-01-05 20:23:08 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 10,	Trained sentences: 7000,	total_loss: 0.002765,	reconstruction_loss: 0.002765,	lr: 0.00081000,	elapse: 22.5 s
+2025-01-05 20:23:08 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 10 Done,	total_loss: 0.002765,	reconstruction_loss: 0.002765,	Time: 0.0 hr,	
+2025-01-05 20:23:08 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:23:16 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002737,	reconstruction_loss: 0.002737,	Time: 8.713632583618164 s	
+2025-01-05 20:23:16 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0027368750888854265
+2025-01-05 20:23:17 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0027368750888854265, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-10.step-70
+2025-01-05 20:23:17 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 11 start, lr 0.0008100000000000001
+2025-01-05 20:23:39 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 11 Done,	total_loss: 0.002736,	reconstruction_loss: 0.002736,	Time: 0.0 hr,	
+2025-01-05 20:23:39 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:23:48 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002709,	reconstruction_loss: 0.002709,	Time: 8.641824722290039 s	
+2025-01-05 20:23:48 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002709308871999383
+2025-01-05 20:23:48 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002709308871999383, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-11.step-77
+2025-01-05 20:23:48 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 12 start, lr 0.0008100000000000001
+2025-01-05 20:23:58 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 12,	Trained sentences: 8000,	total_loss: 0.002733,	reconstruction_loss: 0.002733,	lr: 0.00081000,	elapse: 9.9 s
+2025-01-05 20:24:11 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 12 Done,	total_loss: 0.002708,	reconstruction_loss: 0.002708,	Time: 0.0 hr,	
+2025-01-05 20:24:11 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:24:19 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002683,	reconstruction_loss: 0.002683,	Time: 8.561167240142822 s	
+2025-01-05 20:24:19 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0026826111134141684
+2025-01-05 20:24:19 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0026826111134141684, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-12.step-84
+2025-01-05 20:24:19 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 13 start, lr 0.0008100000000000001
+2025-01-05 20:24:39 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 13,	Trained sentences: 9000,	total_loss: 0.002692,	reconstruction_loss: 0.002692,	lr: 0.00081000,	elapse: 19.4 s
+2025-01-05 20:24:42 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 13 Done,	total_loss: 0.002681,	reconstruction_loss: 0.002681,	Time: 0.0 hr,	
+2025-01-05 20:24:42 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:24:50 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002657,	reconstruction_loss: 0.002657,	Time: 8.56859302520752 s	
+2025-01-05 20:24:50 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002656979486346245
+2025-01-05 20:24:50 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002656979486346245, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-13.step-91
+2025-01-05 20:24:50 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 14 start, lr 0.0008100000000000001
+2025-01-05 20:25:13 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 14 Done,	total_loss: 0.002656,	reconstruction_loss: 0.002656,	Time: 0.0 hr,	
+2025-01-05 20:25:13 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:25:22 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002634,	reconstruction_loss: 0.002634,	Time: 8.661044359207153 s	
+2025-01-05 20:25:22 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002634400734677911
+2025-01-05 20:25:22 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002634400734677911, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-14.step-98
+2025-01-05 20:25:22 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 15 start, lr 0.0007290000000000002
+2025-01-05 20:25:28 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 15,	Trained sentences: 10000,	total_loss: 0.002652,	reconstruction_loss: 0.002652,	lr: 0.00072900,	elapse: 6.5 s
+2025-01-05 20:25:44 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 15 Done,	total_loss: 0.002633,	reconstruction_loss: 0.002633,	Time: 0.0 hr,	
+2025-01-05 20:25:44 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:25:53 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002613,	reconstruction_loss: 0.002613,	Time: 8.7416353225708 s	
+2025-01-05 20:25:53 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0026128357276320457
+2025-01-05 20:25:53 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0026128357276320457, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-15.step-105
+2025-01-05 20:25:53 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 16 start, lr 0.0007290000000000002
+2025-01-05 20:26:09 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 16,	Trained sentences: 11000,	total_loss: 0.002631,	reconstruction_loss: 0.002631,	lr: 0.00072900,	elapse: 16.3 s
+2025-01-05 20:26:16 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 16 Done,	total_loss: 0.002610,	reconstruction_loss: 0.002610,	Time: 0.0 hr,	
+2025-01-05 20:26:16 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:26:24 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002591,	reconstruction_loss: 0.002591,	Time: 8.507472276687622 s	
+2025-01-05 20:26:24 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0025912581477314234
+2025-01-05 20:26:24 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0025912581477314234, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-16.step-112
+2025-01-05 20:26:24 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 17 start, lr 0.0007290000000000002
+2025-01-05 20:26:47 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 17 Done,	total_loss: 0.002588,	reconstruction_loss: 0.002588,	Time: 0.0 hr,	
+2025-01-05 20:26:47 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:26:55 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002569,	reconstruction_loss: 0.002569,	Time: 8.65835428237915 s	
+2025-01-05 20:26:55 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002569090574979782
+2025-01-05 20:26:55 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002569090574979782, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-17.step-119
+2025-01-05 20:26:55 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 18 start, lr 0.0007290000000000002
+2025-01-05 20:26:59 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 18,	Trained sentences: 12000,	total_loss: 0.002592,	reconstruction_loss: 0.002592,	lr: 0.00072900,	elapse: 3.3 s
+2025-01-05 20:27:18 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 18 Done,	total_loss: 0.002565,	reconstruction_loss: 0.002565,	Time: 0.0 hr,	
+2025-01-05 20:27:18 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:27:26 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002546,	reconstruction_loss: 0.002546,	Time: 8.391037940979004 s	
+2025-01-05 20:27:26 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002546176314353943
+2025-01-05 20:27:26 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002546176314353943, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-18.step-126
+2025-01-05 20:27:26 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 19 start, lr 0.0007290000000000002
+2025-01-05 20:27:39 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 19,	Trained sentences: 13000,	total_loss: 0.002557,	reconstruction_loss: 0.002557,	lr: 0.00065610,	elapse: 12.9 s
+2025-01-05 20:27:49 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 19 Done,	total_loss: 0.002542,	reconstruction_loss: 0.002542,	Time: 0.0 hr,	
+2025-01-05 20:27:49 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:27:57 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002525,	reconstruction_loss: 0.002525,	Time: 8.504535436630249 s	
+2025-01-05 20:27:57 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002524929353967309
+2025-01-05 20:27:57 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002524929353967309, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-19.step-133
+2025-01-05 20:27:57 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 20 start, lr 0.0006561000000000001
+2025-01-05 20:28:20 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 20,	Trained sentences: 14000,	total_loss: 0.002520,	reconstruction_loss: 0.002520,	lr: 0.00065610,	elapse: 22.6 s
+2025-01-05 20:28:20 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 20 Done,	total_loss: 0.002520,	reconstruction_loss: 0.002520,	Time: 0.0 hr,	
+2025-01-05 20:28:20 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:28:28 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002503,	reconstruction_loss: 0.002503,	Time: 8.460536479949951 s	
+2025-01-05 20:28:28 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0025032551493495703
+2025-01-05 20:28:29 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0025032551493495703, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-20.step-140
+2025-01-05 20:28:29 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 21 start, lr 0.0006561000000000001
+2025-01-05 20:28:51 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 21 Done,	total_loss: 0.002498,	reconstruction_loss: 0.002498,	Time: 0.0 hr,	
+2025-01-05 20:28:51 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:29:00 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002481,	reconstruction_loss: 0.002481,	Time: 8.543447256088257 s	
+2025-01-05 20:29:00 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0024814847856760025
+2025-01-05 20:29:00 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0024814847856760025, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-21.step-147
+2025-01-05 20:29:00 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 22 start, lr 0.0006561000000000001
+2025-01-05 20:29:09 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 22,	Trained sentences: 15000,	total_loss: 0.002497,	reconstruction_loss: 0.002497,	lr: 0.00065610,	elapse: 9.8 s
+2025-01-05 20:29:22 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 22 Done,	total_loss: 0.002476,	reconstruction_loss: 0.002476,	Time: 0.0 hr,	
+2025-01-05 20:29:22 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:29:31 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002460,	reconstruction_loss: 0.002460,	Time: 8.722925186157227 s	
+2025-01-05 20:29:31 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002460074843838811
+2025-01-05 20:29:31 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002460074843838811, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-22.step-154
+2025-01-05 20:29:31 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 23 start, lr 0.0006561000000000001
+2025-01-05 20:29:50 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 23,	Trained sentences: 16000,	total_loss: 0.002465,	reconstruction_loss: 0.002465,	lr: 0.00065610,	elapse: 19.2 s
+2025-01-05 20:29:54 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 23 Done,	total_loss: 0.002455,	reconstruction_loss: 0.002455,	Time: 0.0 hr,	
+2025-01-05 20:29:54 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:30:02 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002439,	reconstruction_loss: 0.002439,	Time: 8.622273445129395 s	
+2025-01-05 20:30:02 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0024391794577240944
+2025-01-05 20:30:02 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0024391794577240944, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-23.step-161
+2025-01-05 20:30:02 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 24 start, lr 0.0006561000000000001
+2025-01-05 20:30:25 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 24 Done,	total_loss: 0.002435,	reconstruction_loss: 0.002435,	Time: 0.0 hr,	
+2025-01-05 20:30:25 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:30:33 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002421,	reconstruction_loss: 0.002421,	Time: 8.605016231536865 s	
+2025-01-05 20:30:33 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0024209388066083193
+2025-01-05 20:30:33 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0024209388066083193, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-24.step-168
+2025-01-05 20:30:33 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 25 start, lr 0.00059049
+2025-01-05 20:30:40 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 25,	Trained sentences: 17000,	total_loss: 0.002432,	reconstruction_loss: 0.002432,	lr: 0.00059049,	elapse: 6.5 s
+2025-01-05 20:30:56 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 25 Done,	total_loss: 0.002417,	reconstruction_loss: 0.002417,	Time: 0.0 hr,	
+2025-01-05 20:30:56 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:31:05 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002404,	reconstruction_loss: 0.002404,	Time: 8.762186050415039 s	
+2025-01-05 20:31:05 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0024035607930272818
+2025-01-05 20:31:05 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0024035607930272818, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-25.step-175
+2025-01-05 20:31:05 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 26 start, lr 0.00059049
+2025-01-05 20:31:21 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 26,	Trained sentences: 18000,	total_loss: 0.002419,	reconstruction_loss: 0.002419,	lr: 0.00059049,	elapse: 15.9 s
+2025-01-05 20:31:27 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 26 Done,	total_loss: 0.002400,	reconstruction_loss: 0.002400,	Time: 0.0 hr,	
+2025-01-05 20:31:27 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:31:35 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002387,	reconstruction_loss: 0.002387,	Time: 8.425989627838135 s	
+2025-01-05 20:31:35 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002387210726737976
+2025-01-05 20:31:35 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002387210726737976, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-26.step-182
+2025-01-05 20:31:35 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 27 start, lr 0.00059049
+2025-01-05 20:31:58 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 27 Done,	total_loss: 0.002384,	reconstruction_loss: 0.002384,	Time: 0.0 hr,	
+2025-01-05 20:31:58 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:32:06 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002372,	reconstruction_loss: 0.002372,	Time: 8.571200132369995 s	
+2025-01-05 20:32:06 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002372034825384617
+2025-01-05 20:32:06 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002372034825384617, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-27.step-189
+2025-01-05 20:32:06 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 28 start, lr 0.00059049
+2025-01-05 20:32:10 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 28,	Trained sentences: 19000,	total_loss: 0.002392,	reconstruction_loss: 0.002392,	lr: 0.00059049,	elapse: 3.6 s
+2025-01-05 20:32:30 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 28 Done,	total_loss: 0.002368,	reconstruction_loss: 0.002368,	Time: 0.0 hr,	
+2025-01-05 20:32:30 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:32:38 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002358,	reconstruction_loss: 0.002358,	Time: 8.679729700088501 s	
+2025-01-05 20:32:38 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002357934834435582
+2025-01-05 20:32:38 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002357934834435582, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-28.step-196
+2025-01-05 20:32:38 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 29 start, lr 0.00059049
+2025-01-05 20:32:51 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 29,	Trained sentences: 20000,	total_loss: 0.002368,	reconstruction_loss: 0.002368,	lr: 0.00053144,	elapse: 13.0 s
+2025-01-05 20:33:01 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 29 Done,	total_loss: 0.002355,	reconstruction_loss: 0.002355,	Time: 0.0 hr,	
+2025-01-05 20:33:01 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:33:10 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002346,	reconstruction_loss: 0.002346,	Time: 8.723246574401855 s	
+2025-01-05 20:33:10 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002345870714634657
+2025-01-05 20:33:10 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002345870714634657, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-29.step-203
+2025-01-05 20:33:10 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 30 start, lr 0.000531441
+2025-01-05 20:33:32 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 30,	Trained sentences: 21000,	total_loss: 0.002343,	reconstruction_loss: 0.002343,	lr: 0.00053144,	elapse: 22.3 s
+2025-01-05 20:33:32 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 30 Done,	total_loss: 0.002343,	reconstruction_loss: 0.002343,	Time: 0.0 hr,	
+2025-01-05 20:33:32 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:33:40 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002334,	reconstruction_loss: 0.002334,	Time: 8.60087537765503 s	
+2025-01-05 20:33:40 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0023344478104263544
+2025-01-05 20:33:40 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0023344478104263544, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-30.step-210
+2025-01-05 20:33:40 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 31 start, lr 0.000531441
+2025-01-05 20:34:03 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 31 Done,	total_loss: 0.002331,	reconstruction_loss: 0.002331,	Time: 0.0 hr,	
+2025-01-05 20:34:03 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:34:12 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002323,	reconstruction_loss: 0.002323,	Time: 8.716139078140259 s	
+2025-01-05 20:34:12 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0023233196698129177
+2025-01-05 20:34:12 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0023233196698129177, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-31.step-217
+2025-01-05 20:34:12 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 32 start, lr 0.000531441
+2025-01-05 20:34:21 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 32,	Trained sentences: 22000,	total_loss: 0.002338,	reconstruction_loss: 0.002338,	lr: 0.00053144,	elapse: 9.8 s
+2025-01-05 20:34:34 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 32 Done,	total_loss: 0.002320,	reconstruction_loss: 0.002320,	Time: 0.0 hr,	
+2025-01-05 20:34:34 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:34:43 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002312,	reconstruction_loss: 0.002312,	Time: 8.7240731716156 s	
+2025-01-05 20:34:43 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002312424825504422
+2025-01-05 20:34:43 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002312424825504422, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-32.step-224
+2025-01-05 20:34:43 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 33 start, lr 0.000531441
+2025-01-05 20:35:02 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 33,	Trained sentences: 23000,	total_loss: 0.002318,	reconstruction_loss: 0.002318,	lr: 0.00053144,	elapse: 19.1 s
+2025-01-05 20:35:05 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 33 Done,	total_loss: 0.002309,	reconstruction_loss: 0.002309,	Time: 0.0 hr,	
+2025-01-05 20:35:05 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:35:14 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002301,	reconstruction_loss: 0.002301,	Time: 8.608558177947998 s	
+2025-01-05 20:35:14 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0023014468606561422
+2025-01-05 20:35:14 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0023014468606561422, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-33.step-231
+2025-01-05 20:35:14 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 34 start, lr 0.000531441
+2025-01-05 20:35:37 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 34 Done,	total_loss: 0.002298,	reconstruction_loss: 0.002298,	Time: 0.0 hr,	
+2025-01-05 20:35:37 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:35:45 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002291,	reconstruction_loss: 0.002291,	Time: 8.545793056488037 s	
+2025-01-05 20:35:45 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002291266107931733
+2025-01-05 20:35:45 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002291266107931733, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-34.step-238
+2025-01-05 20:35:45 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 35 start, lr 0.0004782969000000001
+2025-01-05 20:35:52 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 35,	Trained sentences: 24000,	total_loss: 0.002300,	reconstruction_loss: 0.002300,	lr: 0.00047830,	elapse: 6.7 s
+2025-01-05 20:36:08 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 35 Done,	total_loss: 0.002287,	reconstruction_loss: 0.002287,	Time: 0.0 hr,	
+2025-01-05 20:36:08 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:36:17 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002281,	reconstruction_loss: 0.002281,	Time: 8.5884850025177 s	
+2025-01-05 20:36:17 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0022812779061496258
+2025-01-05 20:36:17 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0022812779061496258, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-35.step-245
+2025-01-05 20:36:17 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 36 start, lr 0.0004782969000000001
+2025-01-05 20:36:33 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 36,	Trained sentences: 25000,	total_loss: 0.002295,	reconstruction_loss: 0.002295,	lr: 0.00047830,	elapse: 16.1 s
+2025-01-05 20:36:39 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 36 Done,	total_loss: 0.002277,	reconstruction_loss: 0.002277,	Time: 0.0 hr,	
+2025-01-05 20:36:39 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:36:48 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002271,	reconstruction_loss: 0.002271,	Time: 8.575435876846313 s	
+2025-01-05 20:36:48 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0022710480261594057
+2025-01-05 20:36:48 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0022710480261594057, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-36.step-252
+2025-01-05 20:36:48 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 37 start, lr 0.0004782969000000001
+2025-01-05 20:37:10 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 37 Done,	total_loss: 0.002267,	reconstruction_loss: 0.002267,	Time: 0.0 hr,	
+2025-01-05 20:37:10 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:37:19 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002261,	reconstruction_loss: 0.002261,	Time: 8.546905279159546 s	
+2025-01-05 20:37:19 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002260863780975342
+2025-01-05 20:37:19 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002260863780975342, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-37.step-259
+2025-01-05 20:37:19 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 38 start, lr 0.0004782969000000001
+2025-01-05 20:37:22 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 38,	Trained sentences: 26000,	total_loss: 0.002277,	reconstruction_loss: 0.002277,	lr: 0.00047830,	elapse: 3.4 s
+2025-01-05 20:37:41 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 38 Done,	total_loss: 0.002256,	reconstruction_loss: 0.002256,	Time: 0.0 hr,	
+2025-01-05 20:37:41 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:37:50 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002250,	reconstruction_loss: 0.002250,	Time: 8.547164678573608 s	
+2025-01-05 20:37:50 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002250419929623604
+2025-01-05 20:37:50 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002250419929623604, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-38.step-266
+2025-01-05 20:37:50 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 39 start, lr 0.0004782969000000001
+2025-01-05 20:38:03 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 39,	Trained sentences: 27000,	total_loss: 0.002258,	reconstruction_loss: 0.002258,	lr: 0.00043047,	elapse: 13.3 s
+2025-01-05 20:38:13 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 39 Done,	total_loss: 0.002246,	reconstruction_loss: 0.002246,	Time: 0.0 hr,	
+2025-01-05 20:38:13 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:38:21 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002241,	reconstruction_loss: 0.002241,	Time: 8.614795923233032 s	
+2025-01-05 20:38:21 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0022406221833080053
+2025-01-05 20:38:21 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0022406221833080053, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-39.step-273
+2025-01-05 20:38:21 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 40 start, lr 0.0004304672100000001
+2025-01-05 20:38:44 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 40,	Trained sentences: 28000,	total_loss: 0.002236,	reconstruction_loss: 0.002236,	lr: 0.00043047,	elapse: 22.5 s
+2025-01-05 20:38:44 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 40 Done,	total_loss: 0.002236,	reconstruction_loss: 0.002236,	Time: 0.0 hr,	
+2025-01-05 20:38:44 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:38:53 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002231,	reconstruction_loss: 0.002231,	Time: 8.764095067977905 s	
+2025-01-05 20:38:53 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0022308651823550463
+2025-01-05 20:38:53 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0022308651823550463, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-40.step-280
+2025-01-05 20:38:53 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 41 start, lr 0.0004304672100000001
+2025-01-05 20:39:15 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 41 Done,	total_loss: 0.002226,	reconstruction_loss: 0.002226,	Time: 0.0 hr,	
+2025-01-05 20:39:15 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:39:24 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002221,	reconstruction_loss: 0.002221,	Time: 8.716471910476685 s	
+2025-01-05 20:39:24 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0022207906004041433
+2025-01-05 20:39:24 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0022207906004041433, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-41.step-287
+2025-01-05 20:39:24 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 42 start, lr 0.0004304672100000001
+2025-01-05 20:39:34 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 42,	Trained sentences: 29000,	total_loss: 0.002232,	reconstruction_loss: 0.002232,	lr: 0.00043047,	elapse: 9.6 s
+2025-01-05 20:39:46 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 42 Done,	total_loss: 0.002215,	reconstruction_loss: 0.002215,	Time: 0.0 hr,	
+2025-01-05 20:39:46 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:39:55 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002211,	reconstruction_loss: 0.002211,	Time: 8.470041036605835 s	
+2025-01-05 20:39:55 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0022108571138232946
+2025-01-05 20:39:55 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0022108571138232946, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-42.step-294
+2025-01-05 20:39:55 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 43 start, lr 0.0004304672100000001
+2025-01-05 20:40:14 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 43,	Trained sentences: 30000,	total_loss: 0.002214,	reconstruction_loss: 0.002214,	lr: 0.00043047,	elapse: 19.3 s
+2025-01-05 20:40:17 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 43 Done,	total_loss: 0.002205,	reconstruction_loss: 0.002205,	Time: 0.0 hr,	
+2025-01-05 20:40:17 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:40:26 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002201,	reconstruction_loss: 0.002201,	Time: 8.565712451934814 s	
+2025-01-05 20:40:26 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0022009063977748156
+2025-01-05 20:40:26 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0022009063977748156, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-43.step-301
+2025-01-05 20:40:26 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 44 start, lr 0.0004304672100000001
+2025-01-05 20:40:48 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 44 Done,	total_loss: 0.002196,	reconstruction_loss: 0.002196,	Time: 0.0 hr,	
+2025-01-05 20:40:48 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:40:57 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002192,	reconstruction_loss: 0.002192,	Time: 8.521286249160767 s	
+2025-01-05 20:40:57 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0021921242587268353
+2025-01-05 20:40:57 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0021921242587268353, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-44.step-308
+2025-01-05 20:40:57 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 45 start, lr 0.0003874204890000001
+2025-01-05 20:41:03 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 45,	Trained sentences: 31000,	total_loss: 0.002197,	reconstruction_loss: 0.002197,	lr: 0.00038742,	elapse: 6.5 s
+2025-01-05 20:41:20 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 45 Done,	total_loss: 0.002187,	reconstruction_loss: 0.002187,	Time: 0.0 hr,	
+2025-01-05 20:41:20 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:41:28 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002184,	reconstruction_loss: 0.002184,	Time: 8.57529091835022 s	
+2025-01-05 20:41:28 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0021838361863046885
+2025-01-05 20:41:28 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0021838361863046885, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-45.step-315
+2025-01-05 20:41:28 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 46 start, lr 0.0003874204890000001
+2025-01-05 20:41:44 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 46,	Trained sentences: 32000,	total_loss: 0.002195,	reconstruction_loss: 0.002195,	lr: 0.00038742,	elapse: 16.0 s
+2025-01-05 20:41:51 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 46 Done,	total_loss: 0.002178,	reconstruction_loss: 0.002178,	Time: 0.0 hr,	
+2025-01-05 20:41:51 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:42:00 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002176,	reconstruction_loss: 0.002176,	Time: 8.67371678352356 s	
+2025-01-05 20:42:00 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002175804227590561
+2025-01-05 20:42:00 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002175804227590561, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-46.step-322
+2025-01-05 20:42:00 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 47 start, lr 0.0003874204890000001
+2025-01-05 20:42:22 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 47 Done,	total_loss: 0.002170,	reconstruction_loss: 0.002170,	Time: 0.0 hr,	
+2025-01-05 20:42:22 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:42:31 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002168,	reconstruction_loss: 0.002168,	Time: 8.565895318984985 s	
+2025-01-05 20:42:31 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0021682537626475096
+2025-01-05 20:42:31 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0021682537626475096, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-47.step-329
+2025-01-05 20:42:31 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 48 start, lr 0.0003874204890000001
+2025-01-05 20:42:34 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 48,	Trained sentences: 33000,	total_loss: 0.002182,	reconstruction_loss: 0.002182,	lr: 0.00038742,	elapse: 3.4 s
+2025-01-05 20:42:53 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 48 Done,	total_loss: 0.002163,	reconstruction_loss: 0.002163,	Time: 0.0 hr,	
+2025-01-05 20:42:53 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:43:02 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002161,	reconstruction_loss: 0.002161,	Time: 8.606645584106445 s	
+2025-01-05 20:43:02 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0021609237883239985
+2025-01-05 20:43:02 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0021609237883239985, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-48.step-336
+2025-01-05 20:43:02 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 49 start, lr 0.0003874204890000001
+2025-01-05 20:43:15 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 49,	Trained sentences: 34000,	total_loss: 0.002166,	reconstruction_loss: 0.002166,	lr: 0.00034868,	elapse: 12.9 s
+2025-01-05 20:43:24 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 49 Done,	total_loss: 0.002155,	reconstruction_loss: 0.002155,	Time: 0.0 hr,	
+2025-01-05 20:43:24 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:43:33 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002155,	reconstruction_loss: 0.002155,	Time: 8.570249319076538 s	
+2025-01-05 20:43:33 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0021545151248574257
+2025-01-05 20:43:33 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0021545151248574257, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-49.step-343
+2025-01-05 20:43:33 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 50 start, lr 0.0003486784401000001
+2025-01-05 20:43:55 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 50,	Trained sentences: 35000,	total_loss: 0.002149,	reconstruction_loss: 0.002149,	lr: 0.00034868,	elapse: 22.4 s
+2025-01-05 20:43:55 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 50 Done,	total_loss: 0.002149,	reconstruction_loss: 0.002149,	Time: 0.0 hr,	
+2025-01-05 20:43:55 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:44:04 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002148,	reconstruction_loss: 0.002148,	Time: 8.715255737304688 s	
+2025-01-05 20:44:04 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0021483649034053087
+2025-01-05 20:44:04 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0021483649034053087, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-50.step-350
+2025-01-05 20:44:04 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 51 start, lr 0.0003486784401000001
+2025-01-05 20:44:26 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 51 Done,	total_loss: 0.002142,	reconstruction_loss: 0.002142,	Time: 0.0 hr,	
+2025-01-05 20:44:26 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:44:35 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002142,	reconstruction_loss: 0.002142,	Time: 8.620694160461426 s	
+2025-01-05 20:44:35 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0021422619465738535
+2025-01-05 20:44:35 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0021422619465738535, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-51.step-357
+2025-01-05 20:44:35 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 52 start, lr 0.0003486784401000001
+2025-01-05 20:44:45 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 52,	Trained sentences: 36000,	total_loss: 0.002151,	reconstruction_loss: 0.002151,	lr: 0.00034868,	elapse: 9.6 s
+2025-01-05 20:44:57 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 52 Done,	total_loss: 0.002136,	reconstruction_loss: 0.002136,	Time: 0.0 hr,	
+2025-01-05 20:44:57 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:45:06 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002136,	reconstruction_loss: 0.002136,	Time: 8.551543474197388 s	
+2025-01-05 20:45:06 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0021362013649195433
+2025-01-05 20:45:06 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0021362013649195433, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-52.step-364
+2025-01-05 20:45:06 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 53 start, lr 0.0003486784401000001
+2025-01-05 20:45:25 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 53,	Trained sentences: 37000,	total_loss: 0.002138,	reconstruction_loss: 0.002138,	lr: 0.00034868,	elapse: 19.1 s
+2025-01-05 20:45:28 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 53 Done,	total_loss: 0.002130,	reconstruction_loss: 0.002130,	Time: 0.0 hr,	
+2025-01-05 20:45:28 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:45:37 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002130,	reconstruction_loss: 0.002130,	Time: 8.56040072441101 s	
+2025-01-05 20:45:37 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002130032517015934
+2025-01-05 20:45:37 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002130032517015934, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-53.step-371
+2025-01-05 20:45:37 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 54 start, lr 0.0003486784401000001
+2025-01-05 20:45:59 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 54 Done,	total_loss: 0.002124,	reconstruction_loss: 0.002124,	Time: 0.0 hr,	
+2025-01-05 20:45:59 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:46:08 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002124,	reconstruction_loss: 0.002124,	Time: 8.713265180587769 s	
+2025-01-05 20:46:08 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0021242976654320955
+2025-01-05 20:46:08 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0021242976654320955, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-54.step-378
+2025-01-05 20:46:08 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 55 start, lr 0.0003138105960900001
+2025-01-05 20:46:15 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 55,	Trained sentences: 38000,	total_loss: 0.002127,	reconstruction_loss: 0.002127,	lr: 0.00031381,	elapse: 6.5 s
+2025-01-05 20:46:31 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 55 Done,	total_loss: 0.002118,	reconstruction_loss: 0.002118,	Time: 0.0 hr,	
+2025-01-05 20:46:31 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:46:39 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002118,	reconstruction_loss: 0.002118,	Time: 8.758007049560547 s	
+2025-01-05 20:46:39 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002118461299687624
+2025-01-05 20:46:39 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002118461299687624, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-55.step-385
+2025-01-05 20:46:39 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 56 start, lr 0.0003138105960900001
+2025-01-05 20:46:55 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 56,	Trained sentences: 39000,	total_loss: 0.002127,	reconstruction_loss: 0.002127,	lr: 0.00031381,	elapse: 16.1 s
+2025-01-05 20:47:02 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 56 Done,	total_loss: 0.002112,	reconstruction_loss: 0.002112,	Time: 0.0 hr,	
+2025-01-05 20:47:02 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:47:10 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002113,	reconstruction_loss: 0.002113,	Time: 8.701330423355103 s	
+2025-01-05 20:47:10 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0021125180646777153
+2025-01-05 20:47:10 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0021125180646777153, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-56.step-392
+2025-01-05 20:47:10 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 57 start, lr 0.0003138105960900001
+2025-01-05 20:47:33 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 57 Done,	total_loss: 0.002106,	reconstruction_loss: 0.002106,	Time: 0.0 hr,	
+2025-01-05 20:47:33 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:47:42 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002106,	reconstruction_loss: 0.002106,	Time: 8.568500995635986 s	
+2025-01-05 20:47:42 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0021064896136522293
+2025-01-05 20:47:42 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0021064896136522293, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-57.step-399
+2025-01-05 20:47:42 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 58 start, lr 0.0003138105960900001
+2025-01-05 20:47:45 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 58,	Trained sentences: 40000,	total_loss: 0.002118,	reconstruction_loss: 0.002118,	lr: 0.00031381,	elapse: 3.4 s
+2025-01-05 20:48:04 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 58 Done,	total_loss: 0.002100,	reconstruction_loss: 0.002100,	Time: 0.0 hr,	
+2025-01-05 20:48:04 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:48:13 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002101,	reconstruction_loss: 0.002101,	Time: 8.683528184890747 s	
+2025-01-05 20:48:13 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002100521931424737
+2025-01-05 20:48:13 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002100521931424737, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-58.step-406
+2025-01-05 20:48:13 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 59 start, lr 0.0003138105960900001
+2025-01-05 20:48:26 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 59,	Trained sentences: 41000,	total_loss: 0.002104,	reconstruction_loss: 0.002104,	lr: 0.00028243,	elapse: 13.1 s
+2025-01-05 20:48:36 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 59 Done,	total_loss: 0.002094,	reconstruction_loss: 0.002094,	Time: 0.0 hr,	
+2025-01-05 20:48:36 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:48:44 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002095,	reconstruction_loss: 0.002095,	Time: 8.650997638702393 s	
+2025-01-05 20:48:44 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002095133066177368
+2025-01-05 20:48:44 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002095133066177368, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-59.step-413
+2025-01-05 20:48:44 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 60 start, lr 0.0002824295364810001
+2025-01-05 20:49:07 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 60,	Trained sentences: 42000,	total_loss: 0.002088,	reconstruction_loss: 0.002088,	lr: 0.00028243,	elapse: 22.7 s
+2025-01-05 20:49:07 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 60 Done,	total_loss: 0.002088,	reconstruction_loss: 0.002088,	Time: 0.0 hr,	
+2025-01-05 20:49:07 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:49:16 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002090,	reconstruction_loss: 0.002090,	Time: 8.582712173461914 s	
+2025-01-05 20:49:16 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020897879730910063
+2025-01-05 20:49:16 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020897879730910063, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-60.step-420
+2025-01-05 20:49:16 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 61 start, lr 0.0002824295364810001
+2025-01-05 20:49:38 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 61 Done,	total_loss: 0.002083,	reconstruction_loss: 0.002083,	Time: 0.0 hr,	
+2025-01-05 20:49:38 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:49:47 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002085,	reconstruction_loss: 0.002085,	Time: 8.694454908370972 s	
+2025-01-05 20:49:47 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020845637191087008
+2025-01-05 20:49:47 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020845637191087008, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-61.step-427
+2025-01-05 20:49:47 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 62 start, lr 0.0002824295364810001
+2025-01-05 20:49:57 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 62,	Trained sentences: 43000,	total_loss: 0.002092,	reconstruction_loss: 0.002092,	lr: 0.00028243,	elapse: 9.6 s
+2025-01-05 20:50:10 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 62 Done,	total_loss: 0.002077,	reconstruction_loss: 0.002077,	Time: 0.0 hr,	
+2025-01-05 20:50:10 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:50:18 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002079,	reconstruction_loss: 0.002079,	Time: 8.69718337059021 s	
+2025-01-05 20:50:18 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002079303842037916
+2025-01-05 20:50:18 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002079303842037916, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-62.step-434
+2025-01-05 20:50:18 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 63 start, lr 0.0002824295364810001
+2025-01-05 20:50:38 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 63,	Trained sentences: 44000,	total_loss: 0.002080,	reconstruction_loss: 0.002080,	lr: 0.00028243,	elapse: 19.3 s
+2025-01-05 20:50:41 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 63 Done,	total_loss: 0.002072,	reconstruction_loss: 0.002072,	Time: 0.0 hr,	
+2025-01-05 20:50:41 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:50:50 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002074,	reconstruction_loss: 0.002074,	Time: 8.726788759231567 s	
+2025-01-05 20:50:50 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020741296466439962
+2025-01-05 20:50:50 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020741296466439962, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-63.step-441
+2025-01-05 20:50:50 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 64 start, lr 0.0002824295364810001
+2025-01-05 20:51:12 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 64 Done,	total_loss: 0.002067,	reconstruction_loss: 0.002067,	Time: 0.0 hr,	
+2025-01-05 20:51:12 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:51:20 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002069,	reconstruction_loss: 0.002069,	Time: 8.531265258789062 s	
+2025-01-05 20:51:20 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002069394337013364
+2025-01-05 20:51:20 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002069394337013364, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-64.step-448
+2025-01-05 20:51:20 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 65 start, lr 0.0002541865828329001
+2025-01-05 20:51:27 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 65,	Trained sentences: 45000,	total_loss: 0.002071,	reconstruction_loss: 0.002071,	lr: 0.00025419,	elapse: 6.6 s
+2025-01-05 20:51:43 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 65 Done,	total_loss: 0.002062,	reconstruction_loss: 0.002062,	Time: 0.0 hr,	
+2025-01-05 20:51:43 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:51:52 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002065,	reconstruction_loss: 0.002065,	Time: 8.512227535247803 s	
+2025-01-05 20:51:52 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020645575132220984
+2025-01-05 20:51:52 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020645575132220984, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-65.step-455
+2025-01-05 20:51:52 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 66 start, lr 0.0002541865828329001
+2025-01-05 20:52:08 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 66,	Trained sentences: 46000,	total_loss: 0.002072,	reconstruction_loss: 0.002072,	lr: 0.00025419,	elapse: 16.0 s
+2025-01-05 20:52:14 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 66 Done,	total_loss: 0.002057,	reconstruction_loss: 0.002057,	Time: 0.0 hr,	
+2025-01-05 20:52:14 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:52:23 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002060,	reconstruction_loss: 0.002060,	Time: 8.577946424484253 s	
+2025-01-05 20:52:23 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.00205976446159184
+2025-01-05 20:52:23 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.00205976446159184, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-66.step-462
+2025-01-05 20:52:23 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 67 start, lr 0.0002541865828329001
+2025-01-05 20:52:45 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 67 Done,	total_loss: 0.002052,	reconstruction_loss: 0.002052,	Time: 0.0 hr,	
+2025-01-05 20:52:45 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:52:54 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002055,	reconstruction_loss: 0.002055,	Time: 8.423447370529175 s	
+2025-01-05 20:52:54 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002054803306236863
+2025-01-05 20:52:54 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002054803306236863, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-67.step-469
+2025-01-05 20:52:54 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 68 start, lr 0.0002541865828329001
+2025-01-05 20:52:57 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 68,	Trained sentences: 47000,	total_loss: 0.002065,	reconstruction_loss: 0.002065,	lr: 0.00025419,	elapse: 3.3 s
+2025-01-05 20:53:16 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 68 Done,	total_loss: 0.002047,	reconstruction_loss: 0.002047,	Time: 0.0 hr,	
+2025-01-05 20:53:16 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:53:25 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002050,	reconstruction_loss: 0.002050,	Time: 8.453861951828003 s	
+2025-01-05 20:53:25 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002049842616543174
+2025-01-05 20:53:25 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002049842616543174, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-68.step-476
+2025-01-05 20:53:25 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 69 start, lr 0.0002541865828329001
+2025-01-05 20:53:37 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 69,	Trained sentences: 48000,	total_loss: 0.002053,	reconstruction_loss: 0.002053,	lr: 0.00022877,	elapse: 12.9 s
+2025-01-05 20:53:47 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 69 Done,	total_loss: 0.002043,	reconstruction_loss: 0.002043,	Time: 0.0 hr,	
+2025-01-05 20:53:47 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:53:56 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002045,	reconstruction_loss: 0.002045,	Time: 8.593351125717163 s	
+2025-01-05 20:53:56 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020453266333788633
+2025-01-05 20:53:56 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020453266333788633, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-69.step-483
+2025-01-05 20:53:56 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 70 start, lr 0.0002287679245496101
+2025-01-05 20:54:18 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 70,	Trained sentences: 49000,	total_loss: 0.002038,	reconstruction_loss: 0.002038,	lr: 0.00022877,	elapse: 22.5 s
+2025-01-05 20:54:18 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 70 Done,	total_loss: 0.002038,	reconstruction_loss: 0.002038,	Time: 0.0 hr,	
+2025-01-05 20:54:18 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:54:27 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002041,	reconstruction_loss: 0.002041,	Time: 8.43583369255066 s	
+2025-01-05 20:54:27 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020407098345458508
+2025-01-05 20:54:27 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020407098345458508, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-70.step-490
+2025-01-05 20:54:27 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 71 start, lr 0.0002287679245496101
+2025-01-05 20:54:49 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 71 Done,	total_loss: 0.002033,	reconstruction_loss: 0.002033,	Time: 0.0 hr,	
+2025-01-05 20:54:49 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:54:57 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002036,	reconstruction_loss: 0.002036,	Time: 8.554039716720581 s	
+2025-01-05 20:54:57 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020362285431474447
+2025-01-05 20:54:57 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020362285431474447, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-71.step-497
+2025-01-05 20:54:57 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 72 start, lr 0.0002287679245496101
+2025-01-05 20:55:07 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 72,	Trained sentences: 50000,	total_loss: 0.002043,	reconstruction_loss: 0.002043,	lr: 0.00022877,	elapse: 9.8 s
+2025-01-05 20:55:20 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 72 Done,	total_loss: 0.002029,	reconstruction_loss: 0.002029,	Time: 0.0 hr,	
+2025-01-05 20:55:20 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:55:29 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002032,	reconstruction_loss: 0.002032,	Time: 8.647299528121948 s	
+2025-01-05 20:55:29 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020316930022090673
+2025-01-05 20:55:29 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020316930022090673, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-72.step-504
+2025-01-05 20:55:29 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 73 start, lr 0.0002287679245496101
+2025-01-05 20:55:48 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 73,	Trained sentences: 51000,	total_loss: 0.002032,	reconstruction_loss: 0.002032,	lr: 0.00022877,	elapse: 19.2 s
+2025-01-05 20:55:51 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 73 Done,	total_loss: 0.002024,	reconstruction_loss: 0.002024,	Time: 0.0 hr,	
+2025-01-05 20:55:51 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:55:59 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002027,	reconstruction_loss: 0.002027,	Time: 8.406078815460205 s	
+2025-01-05 20:55:59 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002027214504778385
+2025-01-05 20:55:59 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002027214504778385, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-73.step-511
+2025-01-05 20:55:59 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 74 start, lr 0.0002287679245496101
+2025-01-05 20:56:22 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 74 Done,	total_loss: 0.002020,	reconstruction_loss: 0.002020,	Time: 0.0 hr,	
+2025-01-05 20:56:22 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:56:31 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002023,	reconstruction_loss: 0.002023,	Time: 8.582336187362671 s	
+2025-01-05 20:56:31 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002023271517828107
+2025-01-05 20:56:31 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002023271517828107, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-74.step-518
+2025-01-05 20:56:31 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 75 start, lr 0.0002058911320946491
+2025-01-05 20:56:37 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 75,	Trained sentences: 52000,	total_loss: 0.002024,	reconstruction_loss: 0.002024,	lr: 0.00020589,	elapse: 6.5 s
+2025-01-05 20:56:53 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 75 Done,	total_loss: 0.002016,	reconstruction_loss: 0.002016,	Time: 0.0 hr,	
+2025-01-05 20:56:53 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:57:01 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002019,	reconstruction_loss: 0.002019,	Time: 8.547532558441162 s	
+2025-01-05 20:57:01 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020192572847008705
+2025-01-05 20:57:01 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020192572847008705, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-75.step-525
+2025-01-05 20:57:01 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 76 start, lr 0.0002058911320946491
+2025-01-05 20:57:17 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 76,	Trained sentences: 53000,	total_loss: 0.002026,	reconstruction_loss: 0.002026,	lr: 0.00020589,	elapse: 16.1 s
+2025-01-05 20:57:24 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 76 Done,	total_loss: 0.002012,	reconstruction_loss: 0.002012,	Time: 0.0 hr,	
+2025-01-05 20:57:24 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:57:33 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002015,	reconstruction_loss: 0.002015,	Time: 8.782876014709473 s	
+2025-01-05 20:57:33 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020154353696852922
+2025-01-05 20:57:33 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020154353696852922, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-76.step-532
+2025-01-05 20:57:33 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 77 start, lr 0.0002058911320946491
+2025-01-05 20:57:55 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 77 Done,	total_loss: 0.002008,	reconstruction_loss: 0.002008,	Time: 0.0 hr,	
+2025-01-05 20:57:55 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:58:04 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002012,	reconstruction_loss: 0.002012,	Time: 8.61276650428772 s	
+2025-01-05 20:58:04 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020116933155804873
+2025-01-05 20:58:04 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020116933155804873, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-77.step-539
+2025-01-05 20:58:04 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 78 start, lr 0.0002058911320946491
+2025-01-05 20:58:07 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 78,	Trained sentences: 54000,	total_loss: 0.002020,	reconstruction_loss: 0.002020,	lr: 0.00020589,	elapse: 3.3 s
+2025-01-05 20:58:27 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 78 Done,	total_loss: 0.002004,	reconstruction_loss: 0.002004,	Time: 0.0 hr,	
+2025-01-05 20:58:27 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:58:35 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002008,	reconstruction_loss: 0.002008,	Time: 8.587345600128174 s	
+2025-01-05 20:58:35 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020080178510397673
+2025-01-05 20:58:35 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020080178510397673, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-78.step-546
+2025-01-05 20:58:35 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 79 start, lr 0.0002058911320946491
+2025-01-05 20:58:48 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 79,	Trained sentences: 55000,	total_loss: 0.002010,	reconstruction_loss: 0.002010,	lr: 0.00018530,	elapse: 13.0 s
+2025-01-05 20:58:58 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 79 Done,	total_loss: 0.002001,	reconstruction_loss: 0.002001,	Time: 0.0 hr,	
+2025-01-05 20:58:58 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:59:06 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002005,	reconstruction_loss: 0.002005,	Time: 8.553418636322021 s	
+2025-01-05 20:59:06 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.002004902809858322
+2025-01-05 20:59:06 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.002004902809858322, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-79.step-553
+2025-01-05 20:59:06 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 80 start, lr 0.00018530201888518417
+2025-01-05 20:59:29 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 80,	Trained sentences: 56000,	total_loss: 0.001997,	reconstruction_loss: 0.001997,	lr: 0.00018530,	elapse: 22.8 s
+2025-01-05 20:59:29 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 80 Done,	total_loss: 0.001997,	reconstruction_loss: 0.001997,	Time: 0.0 hr,	
+2025-01-05 20:59:29 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 20:59:37 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.002002,	reconstruction_loss: 0.002002,	Time: 8.554209470748901 s	
+2025-01-05 20:59:37 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0020017463248223066
+2025-01-05 20:59:37 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0020017463248223066, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-80.step-560
+2025-01-05 20:59:37 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 81 start, lr 0.00018530201888518417
+2025-01-05 21:00:00 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 81 Done,	total_loss: 0.001994,	reconstruction_loss: 0.001994,	Time: 0.0 hr,	
+2025-01-05 21:00:00 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:00:09 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001999,	reconstruction_loss: 0.001999,	Time: 8.535613298416138 s	
+2025-01-05 21:00:09 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.001998738618567586
+2025-01-05 21:00:09 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.001998738618567586, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-81.step-567
+2025-01-05 21:00:09 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 82 start, lr 0.00018530201888518417
+2025-01-05 21:00:18 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 82,	Trained sentences: 57000,	total_loss: 0.002005,	reconstruction_loss: 0.002005,	lr: 0.00018530,	elapse: 9.6 s
+2025-01-05 21:00:31 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 82 Done,	total_loss: 0.001991,	reconstruction_loss: 0.001991,	Time: 0.0 hr,	
+2025-01-05 21:00:31 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:00:40 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001996,	reconstruction_loss: 0.001996,	Time: 8.761140823364258 s	
+2025-01-05 21:00:40 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0019958734046667814
+2025-01-05 21:00:40 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0019958734046667814, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-82.step-574
+2025-01-05 21:00:40 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 83 start, lr 0.00018530201888518417
+2025-01-05 21:00:59 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 83,	Trained sentences: 58000,	total_loss: 0.001996,	reconstruction_loss: 0.001996,	lr: 0.00018530,	elapse: 19.5 s
+2025-01-05 21:01:03 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 83 Done,	total_loss: 0.001988,	reconstruction_loss: 0.001988,	Time: 0.0 hr,	
+2025-01-05 21:01:03 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:01:11 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001993,	reconstruction_loss: 0.001993,	Time: 8.584861040115356 s	
+2025-01-05 21:01:11 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.001993046374991536
+2025-01-05 21:01:11 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.001993046374991536, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-83.step-581
+2025-01-05 21:01:11 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 84 start, lr 0.00018530201888518417
+2025-01-05 21:01:34 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 84 Done,	total_loss: 0.001985,	reconstruction_loss: 0.001985,	Time: 0.0 hr,	
+2025-01-05 21:01:34 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:01:43 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001991,	reconstruction_loss: 0.001991,	Time: 8.602940559387207 s	
+2025-01-05 21:01:43 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.001990667311474681
+2025-01-05 21:01:43 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.001990667311474681, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-84.step-588
+2025-01-05 21:01:43 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 85 start, lr 0.00016677181699666576
+2025-01-05 21:01:49 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 85,	Trained sentences: 59000,	total_loss: 0.001990,	reconstruction_loss: 0.001990,	lr: 0.00016677,	elapse: 6.6 s
+2025-01-05 21:02:05 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 85 Done,	total_loss: 0.001983,	reconstruction_loss: 0.001983,	Time: 0.0 hr,	
+2025-01-05 21:02:05 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:02:14 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001988,	reconstruction_loss: 0.001988,	Time: 8.661887645721436 s	
+2025-01-05 21:02:14 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0019882293418049812
+2025-01-05 21:02:14 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0019882293418049812, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-85.step-595
+2025-01-05 21:02:14 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 86 start, lr 0.00016677181699666576
+2025-01-05 21:02:30 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 86,	Trained sentences: 60000,	total_loss: 0.001994,	reconstruction_loss: 0.001994,	lr: 0.00016677,	elapse: 16.2 s
+2025-01-05 21:02:37 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 86 Done,	total_loss: 0.001980,	reconstruction_loss: 0.001980,	Time: 0.0 hr,	
+2025-01-05 21:02:37 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:02:45 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001986,	reconstruction_loss: 0.001986,	Time: 8.75113320350647 s	
+2025-01-05 21:02:45 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.001985851675271988
+2025-01-05 21:02:45 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.001985851675271988, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-86.step-602
+2025-01-05 21:02:45 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 87 start, lr 0.00016677181699666576
+2025-01-05 21:03:08 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 87 Done,	total_loss: 0.001978,	reconstruction_loss: 0.001978,	Time: 0.0 hr,	
+2025-01-05 21:03:08 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:03:17 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001984,	reconstruction_loss: 0.001984,	Time: 8.622758388519287 s	
+2025-01-05 21:03:17 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.001983586000278592
+2025-01-05 21:03:17 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.001983586000278592, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-87.step-609
+2025-01-05 21:03:17 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 88 start, lr 0.00016677181699666576
+2025-01-05 21:03:20 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 88,	Trained sentences: 61000,	total_loss: 0.001991,	reconstruction_loss: 0.001991,	lr: 0.00016677,	elapse: 3.2 s
+2025-01-05 21:03:39 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 88 Done,	total_loss: 0.001976,	reconstruction_loss: 0.001976,	Time: 0.0 hr,	
+2025-01-05 21:03:39 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:03:48 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001981,	reconstruction_loss: 0.001981,	Time: 8.70793104171753 s	
+2025-01-05 21:03:48 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0019813617691397667
+2025-01-05 21:03:48 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0019813617691397667, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-88.step-616
+2025-01-05 21:03:48 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 89 start, lr 0.00016677181699666576
+2025-01-05 21:04:01 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 89,	Trained sentences: 62000,	total_loss: 0.001983,	reconstruction_loss: 0.001983,	lr: 0.00015009,	elapse: 12.9 s
+2025-01-05 21:04:10 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 89 Done,	total_loss: 0.001973,	reconstruction_loss: 0.001973,	Time: 0.0 hr,	
+2025-01-05 21:04:10 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:04:20 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001980,	reconstruction_loss: 0.001980,	Time: 9.721977233886719 s	
+2025-01-05 21:04:20 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.001979519845917821
+2025-01-05 21:04:20 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.001979519845917821, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-89.step-623
+2025-01-05 21:04:20 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 90 start, lr 0.00015009463529699917
+2025-01-05 21:04:42 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 90,	Trained sentences: 63000,	total_loss: 0.001971,	reconstruction_loss: 0.001971,	lr: 0.00015009,	elapse: 22.4 s
+2025-01-05 21:04:42 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 90 Done,	total_loss: 0.001971,	reconstruction_loss: 0.001971,	Time: 0.0 hr,	
+2025-01-05 21:04:42 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:04:51 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001978,	reconstruction_loss: 0.001978,	Time: 8.612481117248535 s	
+2025-01-05 21:04:51 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0019775647670030594
+2025-01-05 21:04:51 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0019775647670030594, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-90.step-630
+2025-01-05 21:04:51 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 91 start, lr 0.00015009463529699917
+2025-01-05 21:05:14 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 91 Done,	total_loss: 0.001969,	reconstruction_loss: 0.001969,	Time: 0.0 hr,	
+2025-01-05 21:05:14 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:05:22 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001976,	reconstruction_loss: 0.001976,	Time: 8.59343409538269 s	
+2025-01-05 21:05:22 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0019755689427256584
+2025-01-05 21:05:22 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0019755689427256584, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-91.step-637
+2025-01-05 21:05:22 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 92 start, lr 0.00015009463529699917
+2025-01-05 21:05:32 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 92,	Trained sentences: 64000,	total_loss: 0.001981,	reconstruction_loss: 0.001981,	lr: 0.00015009,	elapse: 9.7 s
+2025-01-05 21:05:45 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 92 Done,	total_loss: 0.001967,	reconstruction_loss: 0.001967,	Time: 0.0 hr,	
+2025-01-05 21:05:45 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:05:54 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001974,	reconstruction_loss: 0.001974,	Time: 8.503149032592773 s	
+2025-01-05 21:05:54 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.001973642036318779
+2025-01-05 21:05:54 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.001973642036318779, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-92.step-644
+2025-01-05 21:05:54 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 93 start, lr 0.00015009463529699917
+2025-01-05 21:06:13 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 93,	Trained sentences: 65000,	total_loss: 0.001973,	reconstruction_loss: 0.001973,	lr: 0.00015009,	elapse: 19.3 s
+2025-01-05 21:06:16 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 93 Done,	total_loss: 0.001965,	reconstruction_loss: 0.001965,	Time: 0.0 hr,	
+2025-01-05 21:06:16 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:06:25 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001972,	reconstruction_loss: 0.001972,	Time: 8.599132061004639 s	
+2025-01-05 21:06:25 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.001971770077943802
+2025-01-05 21:06:25 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.001971770077943802, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-93.step-651
+2025-01-05 21:06:25 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 94 start, lr 0.00015009463529699917
+2025-01-05 21:06:47 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 94 Done,	total_loss: 0.001963,	reconstruction_loss: 0.001963,	Time: 0.0 hr,	
+2025-01-05 21:06:47 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:06:56 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001970,	reconstruction_loss: 0.001970,	Time: 8.649584770202637 s	
+2025-01-05 21:06:56 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0019703463185578585
+2025-01-05 21:06:56 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0019703463185578585, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-94.step-658
+2025-01-05 21:06:56 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 95 start, lr 0.0001350851717672993
+2025-01-05 21:07:03 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 95,	Trained sentences: 66000,	total_loss: 0.001969,	reconstruction_loss: 0.001969,	lr: 0.00013509,	elapse: 6.6 s
+2025-01-05 21:07:19 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 95 Done,	total_loss: 0.001962,	reconstruction_loss: 0.001962,	Time: 0.0 hr,	
+2025-01-05 21:07:19 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:07:27 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001969,	reconstruction_loss: 0.001969,	Time: 8.790013074874878 s	
+2025-01-05 21:07:27 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0019688515458256006
+2025-01-05 21:07:27 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0019688515458256006, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-95.step-665
+2025-01-05 21:07:27 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 96 start, lr 0.0001350851717672993
+2025-01-05 21:07:44 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 96,	Trained sentences: 67000,	total_loss: 0.001974,	reconstruction_loss: 0.001974,	lr: 0.00013509,	elapse: 16.0 s
+2025-01-05 21:07:50 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 96 Done,	total_loss: 0.001960,	reconstruction_loss: 0.001960,	Time: 0.0 hr,	
+2025-01-05 21:07:50 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:07:58 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001967,	reconstruction_loss: 0.001967,	Time: 8.621376037597656 s	
+2025-01-05 21:07:58 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0019672357011586428
+2025-01-05 21:07:58 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0019672357011586428, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-96.step-672
+2025-01-05 21:07:58 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 97 start, lr 0.0001350851717672993
+2025-01-05 21:08:21 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 97 Done,	total_loss: 0.001958,	reconstruction_loss: 0.001958,	Time: 0.0 hr,	
+2025-01-05 21:08:21 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:08:30 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001966,	reconstruction_loss: 0.001966,	Time: 8.752224922180176 s	
+2025-01-05 21:08:30 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.001965600298717618
+2025-01-05 21:08:30 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.001965600298717618, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-97.step-679
+2025-01-05 21:08:30 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 98 start, lr 0.0001350851717672993
+2025-01-05 21:08:33 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 98,	Trained sentences: 68000,	total_loss: 0.001972,	reconstruction_loss: 0.001972,	lr: 0.00013509,	elapse: 3.3 s
+2025-01-05 21:08:52 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 98 Done,	total_loss: 0.001957,	reconstruction_loss: 0.001957,	Time: 0.0 hr,	
+2025-01-05 21:08:52 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:09:01 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001964,	reconstruction_loss: 0.001964,	Time: 8.586503982543945 s	
+2025-01-05 21:09:01 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0019640158861875534
+2025-01-05 21:09:01 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0019640158861875534, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-98.step-686
+2025-01-05 21:09:01 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 99 start, lr 0.0001350851717672993
+2025-01-05 21:09:14 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 99,	Trained sentences: 69000,	total_loss: 0.001964,	reconstruction_loss: 0.001964,	lr: 0.00012158,	elapse: 13.0 s
+2025-01-05 21:09:23 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 99 Done,	total_loss: 0.001955,	reconstruction_loss: 0.001955,	Time: 0.0 hr,	
+2025-01-05 21:09:23 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:09:32 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001963,	reconstruction_loss: 0.001963,	Time: 8.389498472213745 s	
+2025-01-05 21:09:32 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.001963297836482525
+2025-01-05 21:09:32 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.001963297836482525, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-99.step-693
+2025-01-05 21:09:32 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 100 start, lr 0.00012157665459056935
+2025-01-05 21:09:54 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch: 100,	Trained sentences: 70000,	total_loss: 0.001954,	reconstruction_loss: 0.001954,	lr: 0.00012158,	elapse: 22.4 s
+2025-01-05 21:09:54 logger.DCASE_dev_ToyTrain_per_file:INFO Epoch 100 Done,	total_loss: 0.001954,	reconstruction_loss: 0.001954,	Time: 0.0 hr,	
+2025-01-05 21:09:54 logger.DCASE_dev_ToyTrain_per_file:INFO Start Validation
+2025-01-05 21:10:02 logger.DCASE_dev_ToyTrain_per_file:INFO Validation Done,	total_loss: 0.001963,	reconstruction_loss: 0.001963,	Time: 8.39010739326477 s	
+2025-01-05 21:10:02 logger.DCASE_dev_ToyTrain_per_file:INFO reduced valid loss: 0.0019626962020993233
+2025-01-05 21:10:02 logger.DCASE_dev_ToyTrain_per_file:INFO new best_valid_loss: 0.0019626962020993233, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-100.step-700
+2025-01-05 21:10:02 logger.DCASE_dev_ToyTrain_per_file:INFO Training finished
+2025-01-05 22:51:02 logger.DCASE_dev_ToyTrain_per_file:INFO Random initialize model
+2025-01-05 22:51:02 logger.DCASE_dev_ToyTrain_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 22:51:02 logger.DCASE_dev_ToyTrain_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 22:51:02 logger.DCASE_dev_ToyTrain_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\chkpt, Current lr: 0.001
+2025-01-05 22:51:02 logger.DCASE_dev_ToyTrain_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-100.step-700
+2025-01-06 14:02:34 logger.DCASE_dev_ToyTrain_per_file:INFO Random initialize model
+2025-01-06 14:02:34 logger.DCASE_dev_ToyTrain_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-06 14:02:34 logger.DCASE_dev_ToyTrain_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-06 14:02:34 logger.DCASE_dev_ToyTrain_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\chkpt, Current lr: 0.001
+2025-01-06 14:02:34 logger.DCASE_dev_ToyTrain_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_ToyTrain_per_file\model.epoch-100.step-700

@@ -1,0 +1,741 @@
+2025-01-05 14:40:31 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-05 14:40:31 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 14:40:31 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 14:40:31 logger.DCASE_dev_bearing_per_file:INFO no checkpoint, start training from scratch
+2025-01-05 14:40:31 logger.DCASE_dev_bearing_per_file:INFO Epoch 1 start, lr 0.001
+2025-01-05 14:43:19 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-05 14:43:19 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 14:43:19 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 14:43:19 logger.DCASE_dev_bearing_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\chkpt, Current lr: 0.001
+2025-01-05 14:43:19 logger.DCASE_dev_bearing_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-0.step-0
+2025-01-05 14:43:25 logger.DCASE_dev_bearing_per_file:INFO Epoch 1 start, lr 0.001
+2025-01-05 14:44:39 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-05 14:44:39 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 14:44:39 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 14:44:39 logger.DCASE_dev_bearing_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\chkpt, Current lr: 0.001
+2025-01-05 14:44:39 logger.DCASE_dev_bearing_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-0.step-0
+2025-01-05 14:44:41 logger.DCASE_dev_bearing_per_file:INFO Epoch 1 start, lr 0.001
+2025-01-05 15:36:35 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-05 15:36:35 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 15:36:35 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 15:36:35 logger.DCASE_dev_bearing_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\chkpt, Current lr: 0.001
+2025-01-05 15:36:35 logger.DCASE_dev_bearing_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-0.step-0
+2025-01-05 15:36:42 logger.DCASE_dev_bearing_per_file:INFO Epoch 1 start, lr 0.001
+2025-01-05 15:37:56 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-05 15:37:56 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 15:37:56 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 15:37:56 logger.DCASE_dev_bearing_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\chkpt, Current lr: 0.001
+2025-01-05 15:37:56 logger.DCASE_dev_bearing_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-0.step-0
+2025-01-05 15:37:59 logger.DCASE_dev_bearing_per_file:INFO Epoch 1 start, lr 0.001
+2025-01-05 15:48:22 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-05 15:48:22 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 15:48:22 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 15:48:22 logger.DCASE_dev_bearing_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\chkpt, Current lr: 0.001
+2025-01-05 15:48:22 logger.DCASE_dev_bearing_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-0.step-0
+2025-01-05 15:48:24 logger.DCASE_dev_bearing_per_file:INFO Epoch 1 start, lr 0.001
+2025-01-05 15:56:43 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-05 15:56:43 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 15:56:44 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 15:56:44 logger.DCASE_dev_bearing_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\chkpt, Current lr: 0.001
+2025-01-05 15:56:44 logger.DCASE_dev_bearing_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-0.step-0
+2025-01-05 15:56:44 logger.DCASE_dev_bearing_per_file:INFO Epoch 1 start, lr 0.001
+2025-01-05 15:57:07 logger.DCASE_dev_bearing_per_file:INFO Epoch 1 Done,	total_loss: 0.004815,	reconstruction_loss: 0.004815,	Time: 0.0 hr,	
+2025-01-05 15:57:07 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 15:57:17 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.004569,	reconstruction_loss: 0.004569,	Time: 9.15261697769165 s	
+2025-01-05 15:57:17 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0045686946250498295
+2025-01-05 15:57:17 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0045686946250498295, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-1.step-7
+2025-01-05 15:57:17 logger.DCASE_dev_bearing_per_file:INFO Epoch 2 start, lr 0.001
+2025-01-05 15:57:27 logger.DCASE_dev_bearing_per_file:INFO Epoch: 2,	Trained sentences: 1000,	total_loss: 0.004570,	reconstruction_loss: 0.004570,	lr: 0.00100000,	elapse: 10.1 s
+2025-01-05 15:57:40 logger.DCASE_dev_bearing_per_file:INFO Epoch 2 Done,	total_loss: 0.004420,	reconstruction_loss: 0.004420,	Time: 0.0 hr,	
+2025-01-05 15:57:40 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 15:57:48 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.004213,	reconstruction_loss: 0.004213,	Time: 8.781252384185791 s	
+2025-01-05 15:57:48 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.004213202279061079
+2025-01-05 15:57:48 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.004213202279061079, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-2.step-14
+2025-01-05 15:57:49 logger.DCASE_dev_bearing_per_file:INFO Epoch 3 start, lr 0.001
+2025-01-05 15:58:08 logger.DCASE_dev_bearing_per_file:INFO Epoch: 3,	Trained sentences: 2000,	total_loss: 0.004123,	reconstruction_loss: 0.004123,	lr: 0.00100000,	elapse: 19.7 s
+2025-01-05 15:58:11 logger.DCASE_dev_bearing_per_file:INFO Epoch 3 Done,	total_loss: 0.004099,	reconstruction_loss: 0.004099,	Time: 0.0 hr,	
+2025-01-05 15:58:11 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 15:58:20 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.004003,	reconstruction_loss: 0.004003,	Time: 8.749622106552124 s	
+2025-01-05 15:58:20 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0040033673867583275
+2025-01-05 15:58:20 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0040033673867583275, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-3.step-21
+2025-01-05 15:58:20 logger.DCASE_dev_bearing_per_file:INFO Epoch 4 start, lr 0.001
+2025-01-05 15:58:43 logger.DCASE_dev_bearing_per_file:INFO Epoch 4 Done,	total_loss: 0.003949,	reconstruction_loss: 0.003949,	Time: 0.0 hr,	
+2025-01-05 15:58:43 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 15:58:52 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003900,	reconstruction_loss: 0.003900,	Time: 8.761053562164307 s	
+2025-01-05 15:58:52 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0039003801066428423
+2025-01-05 15:58:52 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0039003801066428423, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-4.step-28
+2025-01-05 15:58:52 logger.DCASE_dev_bearing_per_file:INFO Epoch 5 start, lr 0.0009000000000000001
+2025-01-05 15:58:59 logger.DCASE_dev_bearing_per_file:INFO Epoch: 5,	Trained sentences: 3000,	total_loss: 0.003951,	reconstruction_loss: 0.003951,	lr: 0.00090000,	elapse: 6.8 s
+2025-01-05 15:59:16 logger.DCASE_dev_bearing_per_file:INFO Epoch 5 Done,	total_loss: 0.003866,	reconstruction_loss: 0.003866,	Time: 0.0 hr,	
+2025-01-05 15:59:16 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 15:59:24 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003827,	reconstruction_loss: 0.003827,	Time: 8.775930881500244 s	
+2025-01-05 15:59:24 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003827478736639023
+2025-01-05 15:59:24 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003827478736639023, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-5.step-35
+2025-01-05 15:59:24 logger.DCASE_dev_bearing_per_file:INFO Epoch 6 start, lr 0.0009000000000000001
+2025-01-05 15:59:41 logger.DCASE_dev_bearing_per_file:INFO Epoch: 6,	Trained sentences: 4000,	total_loss: 0.003837,	reconstruction_loss: 0.003837,	lr: 0.00090000,	elapse: 17.0 s
+2025-01-05 15:59:48 logger.DCASE_dev_bearing_per_file:INFO Epoch 6 Done,	total_loss: 0.003793,	reconstruction_loss: 0.003793,	Time: 0.0 hr,	
+2025-01-05 15:59:48 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 15:59:57 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003744,	reconstruction_loss: 0.003744,	Time: 9.139603853225708 s	
+2025-01-05 15:59:57 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003744276240468025
+2025-01-05 15:59:57 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003744276240468025, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-6.step-42
+2025-01-05 15:59:57 logger.DCASE_dev_bearing_per_file:INFO Epoch 7 start, lr 0.0009000000000000001
+2025-01-05 16:00:20 logger.DCASE_dev_bearing_per_file:INFO Epoch 7 Done,	total_loss: 0.003710,	reconstruction_loss: 0.003710,	Time: 0.0 hr,	
+2025-01-05 16:00:20 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:00:28 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003671,	reconstruction_loss: 0.003671,	Time: 8.497761011123657 s	
+2025-01-05 16:00:28 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0036714188754558563
+2025-01-05 16:00:28 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0036714188754558563, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-7.step-49
+2025-01-05 16:00:29 logger.DCASE_dev_bearing_per_file:INFO Epoch 8 start, lr 0.0009000000000000001
+2025-01-05 16:00:32 logger.DCASE_dev_bearing_per_file:INFO Epoch: 8,	Trained sentences: 5000,	total_loss: 0.003664,	reconstruction_loss: 0.003664,	lr: 0.00090000,	elapse: 3.4 s
+2025-01-05 16:00:51 logger.DCASE_dev_bearing_per_file:INFO Epoch 8 Done,	total_loss: 0.003645,	reconstruction_loss: 0.003645,	Time: 0.0 hr,	
+2025-01-05 16:00:51 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:01:00 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003636,	reconstruction_loss: 0.003636,	Time: 8.66215181350708 s	
+2025-01-05 16:01:00 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0036356516648083925
+2025-01-05 16:01:00 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0036356516648083925, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-8.step-56
+2025-01-05 16:01:00 logger.DCASE_dev_bearing_per_file:INFO Epoch 9 start, lr 0.0009000000000000001
+2025-01-05 16:01:13 logger.DCASE_dev_bearing_per_file:INFO Epoch: 9,	Trained sentences: 6000,	total_loss: 0.003670,	reconstruction_loss: 0.003670,	lr: 0.00081000,	elapse: 13.2 s
+2025-01-05 16:01:23 logger.DCASE_dev_bearing_per_file:INFO Epoch 9 Done,	total_loss: 0.003601,	reconstruction_loss: 0.003601,	Time: 0.0 hr,	
+2025-01-05 16:01:23 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:01:32 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003581,	reconstruction_loss: 0.003581,	Time: 8.757344245910645 s	
+2025-01-05 16:01:32 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003580678254365921
+2025-01-05 16:01:32 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003580678254365921, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-9.step-63
+2025-01-05 16:01:32 logger.DCASE_dev_bearing_per_file:INFO Epoch 10 start, lr 0.0008100000000000001
+2025-01-05 16:01:54 logger.DCASE_dev_bearing_per_file:INFO Epoch: 10,	Trained sentences: 7000,	total_loss: 0.003566,	reconstruction_loss: 0.003566,	lr: 0.00081000,	elapse: 22.5 s
+2025-01-05 16:01:54 logger.DCASE_dev_bearing_per_file:INFO Epoch 10 Done,	total_loss: 0.003566,	reconstruction_loss: 0.003566,	Time: 0.0 hr,	
+2025-01-05 16:01:54 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:02:03 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003549,	reconstruction_loss: 0.003549,	Time: 8.53791093826294 s	
+2025-01-05 16:02:03 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003548783017322421
+2025-01-05 16:02:03 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003548783017322421, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-10.step-70
+2025-01-05 16:02:03 logger.DCASE_dev_bearing_per_file:INFO Epoch 11 start, lr 0.0008100000000000001
+2025-01-05 16:02:25 logger.DCASE_dev_bearing_per_file:INFO Epoch 11 Done,	total_loss: 0.003535,	reconstruction_loss: 0.003535,	Time: 0.0 hr,	
+2025-01-05 16:02:25 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:02:34 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003518,	reconstruction_loss: 0.003518,	Time: 8.566931247711182 s	
+2025-01-05 16:02:34 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003518197685480118
+2025-01-05 16:02:34 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003518197685480118, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-11.step-77
+2025-01-05 16:02:34 logger.DCASE_dev_bearing_per_file:INFO Epoch 12 start, lr 0.0008100000000000001
+2025-01-05 16:02:44 logger.DCASE_dev_bearing_per_file:INFO Epoch: 12,	Trained sentences: 8000,	total_loss: 0.003560,	reconstruction_loss: 0.003560,	lr: 0.00081000,	elapse: 10.1 s
+2025-01-05 16:02:57 logger.DCASE_dev_bearing_per_file:INFO Epoch 12 Done,	total_loss: 0.003504,	reconstruction_loss: 0.003504,	Time: 0.0 hr,	
+2025-01-05 16:02:57 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:03:06 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003488,	reconstruction_loss: 0.003488,	Time: 8.753235340118408 s	
+2025-01-05 16:03:06 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0034877334255725145
+2025-01-05 16:03:06 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0034877334255725145, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-12.step-84
+2025-01-05 16:03:06 logger.DCASE_dev_bearing_per_file:INFO Epoch 13 start, lr 0.0008100000000000001
+2025-01-05 16:03:25 logger.DCASE_dev_bearing_per_file:INFO Epoch: 13,	Trained sentences: 9000,	total_loss: 0.003489,	reconstruction_loss: 0.003489,	lr: 0.00081000,	elapse: 19.6 s
+2025-01-05 16:03:29 logger.DCASE_dev_bearing_per_file:INFO Epoch 13 Done,	total_loss: 0.003474,	reconstruction_loss: 0.003474,	Time: 0.0 hr,	
+2025-01-05 16:03:29 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:03:37 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003458,	reconstruction_loss: 0.003458,	Time: 8.563617706298828 s	
+2025-01-05 16:03:37 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003457726212218404
+2025-01-05 16:03:37 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003457726212218404, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-13.step-91
+2025-01-05 16:03:37 logger.DCASE_dev_bearing_per_file:INFO Epoch 14 start, lr 0.0008100000000000001
+2025-01-05 16:04:00 logger.DCASE_dev_bearing_per_file:INFO Epoch 14 Done,	total_loss: 0.003446,	reconstruction_loss: 0.003446,	Time: 0.0 hr,	
+2025-01-05 16:04:00 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:04:09 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003432,	reconstruction_loss: 0.003432,	Time: 8.910964488983154 s	
+2025-01-05 16:04:09 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003432180965319276
+2025-01-05 16:04:09 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003432180965319276, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-14.step-98
+2025-01-05 16:04:09 logger.DCASE_dev_bearing_per_file:INFO Epoch 15 start, lr 0.0007290000000000002
+2025-01-05 16:04:15 logger.DCASE_dev_bearing_per_file:INFO Epoch: 15,	Trained sentences: 10000,	total_loss: 0.003502,	reconstruction_loss: 0.003502,	lr: 0.00072900,	elapse: 6.6 s
+2025-01-05 16:04:31 logger.DCASE_dev_bearing_per_file:INFO Epoch 15 Done,	total_loss: 0.003420,	reconstruction_loss: 0.003420,	Time: 0.0 hr,	
+2025-01-05 16:04:31 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:04:40 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003407,	reconstruction_loss: 0.003407,	Time: 8.638633012771606 s	
+2025-01-05 16:04:40 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0034073845017701387
+2025-01-05 16:04:40 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0034073845017701387, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-15.step-105
+2025-01-05 16:04:40 logger.DCASE_dev_bearing_per_file:INFO Epoch 16 start, lr 0.0007290000000000002
+2025-01-05 16:04:57 logger.DCASE_dev_bearing_per_file:INFO Epoch: 16,	Trained sentences: 11000,	total_loss: 0.003428,	reconstruction_loss: 0.003428,	lr: 0.00072900,	elapse: 16.7 s
+2025-01-05 16:05:03 logger.DCASE_dev_bearing_per_file:INFO Epoch 16 Done,	total_loss: 0.003396,	reconstruction_loss: 0.003396,	Time: 0.0 hr,	
+2025-01-05 16:05:03 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:05:12 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003382,	reconstruction_loss: 0.003382,	Time: 8.889209747314453 s	
+2025-01-05 16:05:12 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003382447175681591
+2025-01-05 16:05:12 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003382447175681591, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-16.step-112
+2025-01-05 16:05:12 logger.DCASE_dev_bearing_per_file:INFO Epoch 17 start, lr 0.0007290000000000002
+2025-01-05 16:05:35 logger.DCASE_dev_bearing_per_file:INFO Epoch 17 Done,	total_loss: 0.003370,	reconstruction_loss: 0.003370,	Time: 0.0 hr,	
+2025-01-05 16:05:35 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:05:44 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003356,	reconstruction_loss: 0.003356,	Time: 8.508879661560059 s	
+2025-01-05 16:05:44 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003356389468535781
+2025-01-05 16:05:44 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003356389468535781, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-17.step-119
+2025-01-05 16:05:44 logger.DCASE_dev_bearing_per_file:INFO Epoch 18 start, lr 0.0007290000000000002
+2025-01-05 16:05:47 logger.DCASE_dev_bearing_per_file:INFO Epoch: 18,	Trained sentences: 12000,	total_loss: 0.003360,	reconstruction_loss: 0.003360,	lr: 0.00072900,	elapse: 3.4 s
+2025-01-05 16:06:07 logger.DCASE_dev_bearing_per_file:INFO Epoch 18 Done,	total_loss: 0.003344,	reconstruction_loss: 0.003344,	Time: 0.0 hr,	
+2025-01-05 16:06:07 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:06:15 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003328,	reconstruction_loss: 0.003328,	Time: 8.567731380462646 s	
+2025-01-05 16:06:15 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0033283981028944254
+2025-01-05 16:06:15 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0033283981028944254, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-18.step-126
+2025-01-05 16:06:15 logger.DCASE_dev_bearing_per_file:INFO Epoch 19 start, lr 0.0007290000000000002
+2025-01-05 16:06:28 logger.DCASE_dev_bearing_per_file:INFO Epoch: 19,	Trained sentences: 13000,	total_loss: 0.003379,	reconstruction_loss: 0.003379,	lr: 0.00065610,	elapse: 13.3 s
+2025-01-05 16:06:38 logger.DCASE_dev_bearing_per_file:INFO Epoch 19 Done,	total_loss: 0.003317,	reconstruction_loss: 0.003317,	Time: 0.0 hr,	
+2025-01-05 16:06:38 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:06:47 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003302,	reconstruction_loss: 0.003302,	Time: 8.719167709350586 s	
+2025-01-05 16:06:47 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0033022041898220778
+2025-01-05 16:06:47 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0033022041898220778, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-19.step-133
+2025-01-05 16:06:47 logger.DCASE_dev_bearing_per_file:INFO Epoch 20 start, lr 0.0006561000000000001
+2025-01-05 16:07:10 logger.DCASE_dev_bearing_per_file:INFO Epoch: 20,	Trained sentences: 14000,	total_loss: 0.003290,	reconstruction_loss: 0.003290,	lr: 0.00065610,	elapse: 23.2 s
+2025-01-05 16:07:10 logger.DCASE_dev_bearing_per_file:INFO Epoch 20 Done,	total_loss: 0.003290,	reconstruction_loss: 0.003290,	Time: 0.0 hr,	
+2025-01-05 16:07:10 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:07:18 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003276,	reconstruction_loss: 0.003276,	Time: 8.449587106704712 s	
+2025-01-05 16:07:18 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0032755595166236162
+2025-01-05 16:07:18 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0032755595166236162, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-20.step-140
+2025-01-05 16:07:18 logger.DCASE_dev_bearing_per_file:INFO Epoch 21 start, lr 0.0006561000000000001
+2025-01-05 16:07:41 logger.DCASE_dev_bearing_per_file:INFO Epoch 21 Done,	total_loss: 0.003263,	reconstruction_loss: 0.003263,	Time: 0.0 hr,	
+2025-01-05 16:07:41 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:07:50 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003249,	reconstruction_loss: 0.003249,	Time: 8.518475532531738 s	
+2025-01-05 16:07:50 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003248658264055848
+2025-01-05 16:07:50 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003248658264055848, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-21.step-147
+2025-01-05 16:07:50 logger.DCASE_dev_bearing_per_file:INFO Epoch 22 start, lr 0.0006561000000000001
+2025-01-05 16:08:00 logger.DCASE_dev_bearing_per_file:INFO Epoch: 22,	Trained sentences: 15000,	total_loss: 0.003289,	reconstruction_loss: 0.003289,	lr: 0.00065610,	elapse: 9.8 s
+2025-01-05 16:08:13 logger.DCASE_dev_bearing_per_file:INFO Epoch 22 Done,	total_loss: 0.003236,	reconstruction_loss: 0.003236,	Time: 0.0 hr,	
+2025-01-05 16:08:13 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:08:21 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003222,	reconstruction_loss: 0.003222,	Time: 8.630626678466797 s	
+2025-01-05 16:08:21 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0032218603882938623
+2025-01-05 16:08:21 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0032218603882938623, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-22.step-154
+2025-01-05 16:08:21 logger.DCASE_dev_bearing_per_file:INFO Epoch 23 start, lr 0.0006561000000000001
+2025-01-05 16:08:41 logger.DCASE_dev_bearing_per_file:INFO Epoch: 23,	Trained sentences: 16000,	total_loss: 0.003224,	reconstruction_loss: 0.003224,	lr: 0.00065610,	elapse: 19.7 s
+2025-01-05 16:08:44 logger.DCASE_dev_bearing_per_file:INFO Epoch 23 Done,	total_loss: 0.003210,	reconstruction_loss: 0.003210,	Time: 0.0 hr,	
+2025-01-05 16:08:44 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:08:53 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003195,	reconstruction_loss: 0.003195,	Time: 8.803817987442017 s	
+2025-01-05 16:08:53 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003195251105353236
+2025-01-05 16:08:53 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003195251105353236, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-23.step-161
+2025-01-05 16:08:53 logger.DCASE_dev_bearing_per_file:INFO Epoch 24 start, lr 0.0006561000000000001
+2025-01-05 16:09:16 logger.DCASE_dev_bearing_per_file:INFO Epoch 24 Done,	total_loss: 0.003184,	reconstruction_loss: 0.003184,	Time: 0.0 hr,	
+2025-01-05 16:09:16 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:09:24 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003172,	reconstruction_loss: 0.003172,	Time: 8.535132884979248 s	
+2025-01-05 16:09:24 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003172215074300766
+2025-01-05 16:09:25 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003172215074300766, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-24.step-168
+2025-01-05 16:09:25 logger.DCASE_dev_bearing_per_file:INFO Epoch 25 start, lr 0.00059049
+2025-01-05 16:09:31 logger.DCASE_dev_bearing_per_file:INFO Epoch: 25,	Trained sentences: 17000,	total_loss: 0.003239,	reconstruction_loss: 0.003239,	lr: 0.00059049,	elapse: 6.5 s
+2025-01-05 16:09:47 logger.DCASE_dev_bearing_per_file:INFO Epoch 25 Done,	total_loss: 0.003161,	reconstruction_loss: 0.003161,	Time: 0.0 hr,	
+2025-01-05 16:09:47 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:09:56 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003150,	reconstruction_loss: 0.003150,	Time: 8.58865475654602 s	
+2025-01-05 16:09:56 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.00314968079328537
+2025-01-05 16:09:56 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.00314968079328537, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-25.step-175
+2025-01-05 16:09:56 logger.DCASE_dev_bearing_per_file:INFO Epoch 26 start, lr 0.00059049
+2025-01-05 16:10:12 logger.DCASE_dev_bearing_per_file:INFO Epoch: 26,	Trained sentences: 18000,	total_loss: 0.003168,	reconstruction_loss: 0.003168,	lr: 0.00059049,	elapse: 16.5 s
+2025-01-05 16:10:19 logger.DCASE_dev_bearing_per_file:INFO Epoch 26 Done,	total_loss: 0.003138,	reconstruction_loss: 0.003138,	Time: 0.0 hr,	
+2025-01-05 16:10:19 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:10:27 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003127,	reconstruction_loss: 0.003127,	Time: 8.694980144500732 s	
+2025-01-05 16:10:27 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0031272543128579855
+2025-01-05 16:10:27 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0031272543128579855, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-26.step-182
+2025-01-05 16:10:27 logger.DCASE_dev_bearing_per_file:INFO Epoch 27 start, lr 0.00059049
+2025-01-05 16:10:50 logger.DCASE_dev_bearing_per_file:INFO Epoch 27 Done,	total_loss: 0.003115,	reconstruction_loss: 0.003115,	Time: 0.0 hr,	
+2025-01-05 16:10:50 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:10:59 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003105,	reconstruction_loss: 0.003105,	Time: 8.426498889923096 s	
+2025-01-05 16:10:59 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003104534698650241
+2025-01-05 16:10:59 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003104534698650241, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-27.step-189
+2025-01-05 16:10:59 logger.DCASE_dev_bearing_per_file:INFO Epoch 28 start, lr 0.00059049
+2025-01-05 16:11:02 logger.DCASE_dev_bearing_per_file:INFO Epoch: 28,	Trained sentences: 19000,	total_loss: 0.003108,	reconstruction_loss: 0.003108,	lr: 0.00059049,	elapse: 3.3 s
+2025-01-05 16:11:21 logger.DCASE_dev_bearing_per_file:INFO Epoch 28 Done,	total_loss: 0.003092,	reconstruction_loss: 0.003092,	Time: 0.0 hr,	
+2025-01-05 16:11:21 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:11:30 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003081,	reconstruction_loss: 0.003081,	Time: 8.582053899765015 s	
+2025-01-05 16:11:30 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0030811282340437174
+2025-01-05 16:11:30 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0030811282340437174, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-28.step-196
+2025-01-05 16:11:30 logger.DCASE_dev_bearing_per_file:INFO Epoch 29 start, lr 0.00059049
+2025-01-05 16:11:44 logger.DCASE_dev_bearing_per_file:INFO Epoch: 29,	Trained sentences: 20000,	total_loss: 0.003127,	reconstruction_loss: 0.003127,	lr: 0.00053144,	elapse: 13.5 s
+2025-01-05 16:11:53 logger.DCASE_dev_bearing_per_file:INFO Epoch 29 Done,	total_loss: 0.003069,	reconstruction_loss: 0.003069,	Time: 0.0 hr,	
+2025-01-05 16:11:53 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:12:02 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003059,	reconstruction_loss: 0.003059,	Time: 8.723732233047485 s	
+2025-01-05 16:12:02 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.003059328766539693
+2025-01-05 16:12:02 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.003059328766539693, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-29.step-203
+2025-01-05 16:12:02 logger.DCASE_dev_bearing_per_file:INFO Epoch 30 start, lr 0.000531441
+2025-01-05 16:12:25 logger.DCASE_dev_bearing_per_file:INFO Epoch: 30,	Trained sentences: 21000,	total_loss: 0.003047,	reconstruction_loss: 0.003047,	lr: 0.00053144,	elapse: 22.8 s
+2025-01-05 16:12:25 logger.DCASE_dev_bearing_per_file:INFO Epoch 30 Done,	total_loss: 0.003047,	reconstruction_loss: 0.003047,	Time: 0.0 hr,	
+2025-01-05 16:12:25 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:12:33 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003037,	reconstruction_loss: 0.003037,	Time: 8.571032524108887 s	
+2025-01-05 16:12:33 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0030368866864591837
+2025-01-05 16:12:33 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0030368866864591837, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-30.step-210
+2025-01-05 16:12:33 logger.DCASE_dev_bearing_per_file:INFO Epoch 31 start, lr 0.000531441
+2025-01-05 16:12:56 logger.DCASE_dev_bearing_per_file:INFO Epoch 31 Done,	total_loss: 0.003024,	reconstruction_loss: 0.003024,	Time: 0.0 hr,	
+2025-01-05 16:12:56 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:13:05 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.003014,	reconstruction_loss: 0.003014,	Time: 8.78648328781128 s	
+2025-01-05 16:13:05 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0030137032736092806
+2025-01-05 16:13:05 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0030137032736092806, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-31.step-217
+2025-01-05 16:13:05 logger.DCASE_dev_bearing_per_file:INFO Epoch 32 start, lr 0.000531441
+2025-01-05 16:13:15 logger.DCASE_dev_bearing_per_file:INFO Epoch: 32,	Trained sentences: 22000,	total_loss: 0.003052,	reconstruction_loss: 0.003052,	lr: 0.00053144,	elapse: 9.9 s
+2025-01-05 16:13:28 logger.DCASE_dev_bearing_per_file:INFO Epoch 32 Done,	total_loss: 0.003002,	reconstruction_loss: 0.003002,	Time: 0.0 hr,	
+2025-01-05 16:13:28 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:13:37 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002990,	reconstruction_loss: 0.002990,	Time: 8.558266639709473 s	
+2025-01-05 16:13:37 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0029896709602326155
+2025-01-05 16:13:37 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0029896709602326155, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-32.step-224
+2025-01-05 16:13:37 logger.DCASE_dev_bearing_per_file:INFO Epoch 33 start, lr 0.000531441
+2025-01-05 16:13:57 logger.DCASE_dev_bearing_per_file:INFO Epoch: 33,	Trained sentences: 23000,	total_loss: 0.002993,	reconstruction_loss: 0.002993,	lr: 0.00053144,	elapse: 19.8 s
+2025-01-05 16:14:00 logger.DCASE_dev_bearing_per_file:INFO Epoch 33 Done,	total_loss: 0.002979,	reconstruction_loss: 0.002979,	Time: 0.0 hr,	
+2025-01-05 16:14:00 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:14:09 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002965,	reconstruction_loss: 0.002965,	Time: 8.970860242843628 s	
+2025-01-05 16:14:09 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002964986255392432
+2025-01-05 16:14:09 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002964986255392432, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-33.step-231
+2025-01-05 16:14:09 logger.DCASE_dev_bearing_per_file:INFO Epoch 34 start, lr 0.000531441
+2025-01-05 16:14:32 logger.DCASE_dev_bearing_per_file:INFO Epoch 34 Done,	total_loss: 0.002958,	reconstruction_loss: 0.002958,	Time: 0.0 hr,	
+2025-01-05 16:14:32 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:14:40 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002943,	reconstruction_loss: 0.002943,	Time: 8.571667432785034 s	
+2025-01-05 16:14:40 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0029429749120026827
+2025-01-05 16:14:40 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0029429749120026827, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-34.step-238
+2025-01-05 16:14:40 logger.DCASE_dev_bearing_per_file:INFO Epoch 35 start, lr 0.0004782969000000001
+2025-01-05 16:14:47 logger.DCASE_dev_bearing_per_file:INFO Epoch: 35,	Trained sentences: 24000,	total_loss: 0.003007,	reconstruction_loss: 0.003007,	lr: 0.00047830,	elapse: 6.5 s
+2025-01-05 16:15:03 logger.DCASE_dev_bearing_per_file:INFO Epoch 35 Done,	total_loss: 0.002938,	reconstruction_loss: 0.002938,	Time: 0.0 hr,	
+2025-01-05 16:15:03 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:15:11 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002926,	reconstruction_loss: 0.002926,	Time: 8.403303623199463 s	
+2025-01-05 16:15:11 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0029262539464980364
+2025-01-05 16:15:11 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0029262539464980364, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-35.step-245
+2025-01-05 16:15:11 logger.DCASE_dev_bearing_per_file:INFO Epoch 36 start, lr 0.0004782969000000001
+2025-01-05 16:15:28 logger.DCASE_dev_bearing_per_file:INFO Epoch: 36,	Trained sentences: 25000,	total_loss: 0.002945,	reconstruction_loss: 0.002945,	lr: 0.00047830,	elapse: 16.5 s
+2025-01-05 16:15:34 logger.DCASE_dev_bearing_per_file:INFO Epoch 36 Done,	total_loss: 0.002918,	reconstruction_loss: 0.002918,	Time: 0.0 hr,	
+2025-01-05 16:15:34 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:15:43 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002909,	reconstruction_loss: 0.002909,	Time: 8.784705400466919 s	
+2025-01-05 16:15:43 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.00290875812061131
+2025-01-05 16:15:43 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.00290875812061131, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-36.step-252
+2025-01-05 16:15:43 logger.DCASE_dev_bearing_per_file:INFO Epoch 37 start, lr 0.0004782969000000001
+2025-01-05 16:16:06 logger.DCASE_dev_bearing_per_file:INFO Epoch 37 Done,	total_loss: 0.002899,	reconstruction_loss: 0.002899,	Time: 0.0 hr,	
+2025-01-05 16:16:06 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:16:14 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002891,	reconstruction_loss: 0.002891,	Time: 8.613228797912598 s	
+2025-01-05 16:16:14 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0028905111830681562
+2025-01-05 16:16:14 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0028905111830681562, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-37.step-259
+2025-01-05 16:16:14 logger.DCASE_dev_bearing_per_file:INFO Epoch 38 start, lr 0.0004782969000000001
+2025-01-05 16:16:18 logger.DCASE_dev_bearing_per_file:INFO Epoch: 38,	Trained sentences: 26000,	total_loss: 0.002893,	reconstruction_loss: 0.002893,	lr: 0.00047830,	elapse: 3.6 s
+2025-01-05 16:16:37 logger.DCASE_dev_bearing_per_file:INFO Epoch 38 Done,	total_loss: 0.002882,	reconstruction_loss: 0.002882,	Time: 0.0 hr,	
+2025-01-05 16:16:37 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:16:46 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002874,	reconstruction_loss: 0.002874,	Time: 8.683244705200195 s	
+2025-01-05 16:16:46 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0028741031419485807
+2025-01-05 16:16:46 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0028741031419485807, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-38.step-266
+2025-01-05 16:16:46 logger.DCASE_dev_bearing_per_file:INFO Epoch 39 start, lr 0.0004782969000000001
+2025-01-05 16:16:59 logger.DCASE_dev_bearing_per_file:INFO Epoch: 39,	Trained sentences: 27000,	total_loss: 0.002920,	reconstruction_loss: 0.002920,	lr: 0.00043047,	elapse: 13.3 s
+2025-01-05 16:17:09 logger.DCASE_dev_bearing_per_file:INFO Epoch 39 Done,	total_loss: 0.002866,	reconstruction_loss: 0.002866,	Time: 0.0 hr,	
+2025-01-05 16:17:09 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:17:18 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002861,	reconstruction_loss: 0.002861,	Time: 8.591239929199219 s	
+2025-01-05 16:17:18 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002860541455447674
+2025-01-05 16:17:18 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002860541455447674, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-39.step-273
+2025-01-05 16:17:18 logger.DCASE_dev_bearing_per_file:INFO Epoch 40 start, lr 0.0004304672100000001
+2025-01-05 16:17:40 logger.DCASE_dev_bearing_per_file:INFO Epoch: 40,	Trained sentences: 28000,	total_loss: 0.002853,	reconstruction_loss: 0.002853,	lr: 0.00043047,	elapse: 22.7 s
+2025-01-05 16:17:40 logger.DCASE_dev_bearing_per_file:INFO Epoch 40 Done,	total_loss: 0.002853,	reconstruction_loss: 0.002853,	Time: 0.0 hr,	
+2025-01-05 16:17:40 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:17:49 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002848,	reconstruction_loss: 0.002848,	Time: 8.658177375793457 s	
+2025-01-05 16:17:49 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002847568364813924
+2025-01-05 16:17:49 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002847568364813924, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-40.step-280
+2025-01-05 16:17:49 logger.DCASE_dev_bearing_per_file:INFO Epoch 41 start, lr 0.0004304672100000001
+2025-01-05 16:18:12 logger.DCASE_dev_bearing_per_file:INFO Epoch 41 Done,	total_loss: 0.002840,	reconstruction_loss: 0.002840,	Time: 0.0 hr,	
+2025-01-05 16:18:12 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:18:21 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002835,	reconstruction_loss: 0.002835,	Time: 8.698434352874756 s	
+2025-01-05 16:18:21 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0028349992353469133
+2025-01-05 16:18:21 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0028349992353469133, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-41.step-287
+2025-01-05 16:18:21 logger.DCASE_dev_bearing_per_file:INFO Epoch 42 start, lr 0.0004304672100000001
+2025-01-05 16:18:30 logger.DCASE_dev_bearing_per_file:INFO Epoch: 42,	Trained sentences: 29000,	total_loss: 0.002872,	reconstruction_loss: 0.002872,	lr: 0.00043047,	elapse: 9.9 s
+2025-01-05 16:18:43 logger.DCASE_dev_bearing_per_file:INFO Epoch 42 Done,	total_loss: 0.002828,	reconstruction_loss: 0.002828,	Time: 0.0 hr,	
+2025-01-05 16:18:43 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:18:52 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002823,	reconstruction_loss: 0.002823,	Time: 8.528743505477905 s	
+2025-01-05 16:18:52 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0028227611910551786
+2025-01-05 16:18:52 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0028227611910551786, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-42.step-294
+2025-01-05 16:18:52 logger.DCASE_dev_bearing_per_file:INFO Epoch 43 start, lr 0.0004304672100000001
+2025-01-05 16:19:12 logger.DCASE_dev_bearing_per_file:INFO Epoch: 43,	Trained sentences: 30000,	total_loss: 0.002827,	reconstruction_loss: 0.002827,	lr: 0.00043047,	elapse: 19.7 s
+2025-01-05 16:19:15 logger.DCASE_dev_bearing_per_file:INFO Epoch 43 Done,	total_loss: 0.002816,	reconstruction_loss: 0.002816,	Time: 0.0 hr,	
+2025-01-05 16:19:15 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:19:24 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002811,	reconstruction_loss: 0.002811,	Time: 8.897506713867188 s	
+2025-01-05 16:19:24 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0028108812402933836
+2025-01-05 16:19:24 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0028108812402933836, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-43.step-301
+2025-01-05 16:19:24 logger.DCASE_dev_bearing_per_file:INFO Epoch 44 start, lr 0.0004304672100000001
+2025-01-05 16:19:47 logger.DCASE_dev_bearing_per_file:INFO Epoch 44 Done,	total_loss: 0.002804,	reconstruction_loss: 0.002804,	Time: 0.0 hr,	
+2025-01-05 16:19:47 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:19:55 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002801,	reconstruction_loss: 0.002801,	Time: 8.534667491912842 s	
+2025-01-05 16:19:55 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0028007186483591795
+2025-01-05 16:19:55 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0028007186483591795, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-44.step-308
+2025-01-05 16:19:55 logger.DCASE_dev_bearing_per_file:INFO Epoch 45 start, lr 0.0003874204890000001
+2025-01-05 16:20:02 logger.DCASE_dev_bearing_per_file:INFO Epoch: 45,	Trained sentences: 31000,	total_loss: 0.002858,	reconstruction_loss: 0.002858,	lr: 0.00038742,	elapse: 6.5 s
+2025-01-05 16:20:18 logger.DCASE_dev_bearing_per_file:INFO Epoch 45 Done,	total_loss: 0.002794,	reconstruction_loss: 0.002794,	Time: 0.0 hr,	
+2025-01-05 16:20:18 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:20:27 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002791,	reconstruction_loss: 0.002791,	Time: 8.543161630630493 s	
+2025-01-05 16:20:27 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0027908114716410637
+2025-01-05 16:20:27 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0027908114716410637, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-45.step-315
+2025-01-05 16:20:27 logger.DCASE_dev_bearing_per_file:INFO Epoch 46 start, lr 0.0003874204890000001
+2025-01-05 16:20:43 logger.DCASE_dev_bearing_per_file:INFO Epoch: 46,	Trained sentences: 32000,	total_loss: 0.002809,	reconstruction_loss: 0.002809,	lr: 0.00038742,	elapse: 16.5 s
+2025-01-05 16:20:50 logger.DCASE_dev_bearing_per_file:INFO Epoch 46 Done,	total_loss: 0.002784,	reconstruction_loss: 0.002784,	Time: 0.0 hr,	
+2025-01-05 16:20:50 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:20:59 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002781,	reconstruction_loss: 0.002781,	Time: 8.835723876953125 s	
+2025-01-05 16:20:59 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0027813634369522333
+2025-01-05 16:20:59 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0027813634369522333, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-46.step-322
+2025-01-05 16:20:59 logger.DCASE_dev_bearing_per_file:INFO Epoch 47 start, lr 0.0003874204890000001
+2025-01-05 16:21:21 logger.DCASE_dev_bearing_per_file:INFO Epoch 47 Done,	total_loss: 0.002775,	reconstruction_loss: 0.002775,	Time: 0.0 hr,	
+2025-01-05 16:21:21 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:21:30 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002773,	reconstruction_loss: 0.002773,	Time: 8.740806102752686 s	
+2025-01-05 16:21:30 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002772500505670905
+2025-01-05 16:21:30 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002772500505670905, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-47.step-329
+2025-01-05 16:21:30 logger.DCASE_dev_bearing_per_file:INFO Epoch 48 start, lr 0.0003874204890000001
+2025-01-05 16:21:33 logger.DCASE_dev_bearing_per_file:INFO Epoch: 48,	Trained sentences: 33000,	total_loss: 0.002773,	reconstruction_loss: 0.002773,	lr: 0.00038742,	elapse: 3.4 s
+2025-01-05 16:21:53 logger.DCASE_dev_bearing_per_file:INFO Epoch 48 Done,	total_loss: 0.002766,	reconstruction_loss: 0.002766,	Time: 0.0 hr,	
+2025-01-05 16:21:53 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:22:02 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002764,	reconstruction_loss: 0.002764,	Time: 8.580618143081665 s	
+2025-01-05 16:22:02 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002764203818514943
+2025-01-05 16:22:02 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002764203818514943, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-48.step-336
+2025-01-05 16:22:02 logger.DCASE_dev_bearing_per_file:INFO Epoch 49 start, lr 0.0003874204890000001
+2025-01-05 16:22:15 logger.DCASE_dev_bearing_per_file:INFO Epoch: 49,	Trained sentences: 34000,	total_loss: 0.002808,	reconstruction_loss: 0.002808,	lr: 0.00034868,	elapse: 13.1 s
+2025-01-05 16:22:24 logger.DCASE_dev_bearing_per_file:INFO Epoch 49 Done,	total_loss: 0.002758,	reconstruction_loss: 0.002758,	Time: 0.0 hr,	
+2025-01-05 16:22:24 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:22:33 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002757,	reconstruction_loss: 0.002757,	Time: 8.66849970817566 s	
+2025-01-05 16:22:33 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0027572549879550934
+2025-01-05 16:22:33 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0027572549879550934, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-49.step-343
+2025-01-05 16:22:33 logger.DCASE_dev_bearing_per_file:INFO Epoch 50 start, lr 0.0003486784401000001
+2025-01-05 16:22:56 logger.DCASE_dev_bearing_per_file:INFO Epoch: 50,	Trained sentences: 35000,	total_loss: 0.002751,	reconstruction_loss: 0.002751,	lr: 0.00034868,	elapse: 23.0 s
+2025-01-05 16:22:56 logger.DCASE_dev_bearing_per_file:INFO Epoch 50 Done,	total_loss: 0.002751,	reconstruction_loss: 0.002751,	Time: 0.0 hr,	
+2025-01-05 16:22:56 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:23:05 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002751,	reconstruction_loss: 0.002751,	Time: 8.565962791442871 s	
+2025-01-05 16:23:05 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002750580897554755
+2025-01-05 16:23:05 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002750580897554755, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-50.step-350
+2025-01-05 16:23:05 logger.DCASE_dev_bearing_per_file:INFO Epoch 51 start, lr 0.0003486784401000001
+2025-01-05 16:23:28 logger.DCASE_dev_bearing_per_file:INFO Epoch 51 Done,	total_loss: 0.002745,	reconstruction_loss: 0.002745,	Time: 0.0 hr,	
+2025-01-05 16:23:28 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:23:36 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002744,	reconstruction_loss: 0.002744,	Time: 8.66068172454834 s	
+2025-01-05 16:23:36 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002744147554039955
+2025-01-05 16:23:36 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002744147554039955, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-51.step-357
+2025-01-05 16:23:36 logger.DCASE_dev_bearing_per_file:INFO Epoch 52 start, lr 0.0003486784401000001
+2025-01-05 16:23:46 logger.DCASE_dev_bearing_per_file:INFO Epoch: 52,	Trained sentences: 36000,	total_loss: 0.002780,	reconstruction_loss: 0.002780,	lr: 0.00034868,	elapse: 9.7 s
+2025-01-05 16:23:59 logger.DCASE_dev_bearing_per_file:INFO Epoch 52 Done,	total_loss: 0.002738,	reconstruction_loss: 0.002738,	Time: 0.0 hr,	
+2025-01-05 16:23:59 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:24:08 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002738,	reconstruction_loss: 0.002738,	Time: 8.532715082168579 s	
+2025-01-05 16:24:08 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002737954491749406
+2025-01-05 16:24:08 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002737954491749406, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-52.step-364
+2025-01-05 16:24:08 logger.DCASE_dev_bearing_per_file:INFO Epoch 53 start, lr 0.0003486784401000001
+2025-01-05 16:24:27 logger.DCASE_dev_bearing_per_file:INFO Epoch: 53,	Trained sentences: 37000,	total_loss: 0.002743,	reconstruction_loss: 0.002743,	lr: 0.00034868,	elapse: 19.5 s
+2025-01-05 16:24:30 logger.DCASE_dev_bearing_per_file:INFO Epoch 53 Done,	total_loss: 0.002732,	reconstruction_loss: 0.002732,	Time: 0.0 hr,	
+2025-01-05 16:24:30 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:24:39 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002732,	reconstruction_loss: 0.002732,	Time: 9.112114429473877 s	
+2025-01-05 16:24:39 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002731943503022194
+2025-01-05 16:24:39 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002731943503022194, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-53.step-371
+2025-01-05 16:24:39 logger.DCASE_dev_bearing_per_file:INFO Epoch 54 start, lr 0.0003486784401000001
+2025-01-05 16:25:02 logger.DCASE_dev_bearing_per_file:INFO Epoch 54 Done,	total_loss: 0.002726,	reconstruction_loss: 0.002726,	Time: 0.0 hr,	
+2025-01-05 16:25:02 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:25:11 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002727,	reconstruction_loss: 0.002727,	Time: 8.657930612564087 s	
+2025-01-05 16:25:11 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002726699225604534
+2025-01-05 16:25:11 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002726699225604534, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-54.step-378
+2025-01-05 16:25:11 logger.DCASE_dev_bearing_per_file:INFO Epoch 55 start, lr 0.0003138105960900001
+2025-01-05 16:25:17 logger.DCASE_dev_bearing_per_file:INFO Epoch: 55,	Trained sentences: 38000,	total_loss: 0.002782,	reconstruction_loss: 0.002782,	lr: 0.00031381,	elapse: 6.6 s
+2025-01-05 16:25:34 logger.DCASE_dev_bearing_per_file:INFO Epoch 55 Done,	total_loss: 0.002721,	reconstruction_loss: 0.002721,	Time: 0.0 hr,	
+2025-01-05 16:25:34 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:25:42 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002721,	reconstruction_loss: 0.002721,	Time: 8.543949127197266 s	
+2025-01-05 16:25:42 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0027214298024773598
+2025-01-05 16:25:42 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0027214298024773598, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-55.step-385
+2025-01-05 16:25:42 logger.DCASE_dev_bearing_per_file:INFO Epoch 56 start, lr 0.0003138105960900001
+2025-01-05 16:25:59 logger.DCASE_dev_bearing_per_file:INFO Epoch: 56,	Trained sentences: 39000,	total_loss: 0.002739,	reconstruction_loss: 0.002739,	lr: 0.00031381,	elapse: 16.3 s
+2025-01-05 16:26:05 logger.DCASE_dev_bearing_per_file:INFO Epoch 56 Done,	total_loss: 0.002716,	reconstruction_loss: 0.002716,	Time: 0.0 hr,	
+2025-01-05 16:26:05 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:26:14 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002716,	reconstruction_loss: 0.002716,	Time: 8.807391881942749 s	
+2025-01-05 16:26:14 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0027161252219229937
+2025-01-05 16:26:14 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0027161252219229937, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-56.step-392
+2025-01-05 16:26:14 logger.DCASE_dev_bearing_per_file:INFO Epoch 57 start, lr 0.0003138105960900001
+2025-01-05 16:26:36 logger.DCASE_dev_bearing_per_file:INFO Epoch 57 Done,	total_loss: 0.002710,	reconstruction_loss: 0.002710,	Time: 0.0 hr,	
+2025-01-05 16:26:36 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:26:45 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002711,	reconstruction_loss: 0.002711,	Time: 8.580434799194336 s	
+2025-01-05 16:26:45 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002710771979764104
+2025-01-05 16:26:45 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002710771979764104, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-57.step-399
+2025-01-05 16:26:45 logger.DCASE_dev_bearing_per_file:INFO Epoch 58 start, lr 0.0003138105960900001
+2025-01-05 16:26:48 logger.DCASE_dev_bearing_per_file:INFO Epoch: 58,	Trained sentences: 40000,	total_loss: 0.002710,	reconstruction_loss: 0.002710,	lr: 0.00031381,	elapse: 3.4 s
+2025-01-05 16:27:08 logger.DCASE_dev_bearing_per_file:INFO Epoch 58 Done,	total_loss: 0.002705,	reconstruction_loss: 0.002705,	Time: 0.0 hr,	
+2025-01-05 16:27:08 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:27:16 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002705,	reconstruction_loss: 0.002705,	Time: 8.551007747650146 s	
+2025-01-05 16:27:16 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002705308375880122
+2025-01-05 16:27:16 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002705308375880122, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-58.step-406
+2025-01-05 16:27:16 logger.DCASE_dev_bearing_per_file:INFO Epoch 59 start, lr 0.0003138105960900001
+2025-01-05 16:27:30 logger.DCASE_dev_bearing_per_file:INFO Epoch: 59,	Trained sentences: 41000,	total_loss: 0.002748,	reconstruction_loss: 0.002748,	lr: 0.00028243,	elapse: 13.3 s
+2025-01-05 16:27:39 logger.DCASE_dev_bearing_per_file:INFO Epoch 59 Done,	total_loss: 0.002699,	reconstruction_loss: 0.002699,	Time: 0.0 hr,	
+2025-01-05 16:27:39 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:27:48 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002700,	reconstruction_loss: 0.002700,	Time: 8.440184831619263 s	
+2025-01-05 16:27:48 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0027002959977835417
+2025-01-05 16:27:48 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0027002959977835417, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-59.step-413
+2025-01-05 16:27:48 logger.DCASE_dev_bearing_per_file:INFO Epoch 60 start, lr 0.0002824295364810001
+2025-01-05 16:28:11 logger.DCASE_dev_bearing_per_file:INFO Epoch: 60,	Trained sentences: 42000,	total_loss: 0.002694,	reconstruction_loss: 0.002694,	lr: 0.00028243,	elapse: 22.8 s
+2025-01-05 16:28:11 logger.DCASE_dev_bearing_per_file:INFO Epoch 60 Done,	total_loss: 0.002694,	reconstruction_loss: 0.002694,	Time: 0.0 hr,	
+2025-01-05 16:28:11 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:28:20 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002695,	reconstruction_loss: 0.002695,	Time: 8.809345483779907 s	
+2025-01-05 16:28:20 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.00269505032338202
+2025-01-05 16:28:20 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.00269505032338202, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-60.step-420
+2025-01-05 16:28:20 logger.DCASE_dev_bearing_per_file:INFO Epoch 61 start, lr 0.0002824295364810001
+2025-01-05 16:28:42 logger.DCASE_dev_bearing_per_file:INFO Epoch 61 Done,	total_loss: 0.002689,	reconstruction_loss: 0.002689,	Time: 0.0 hr,	
+2025-01-05 16:28:42 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:28:51 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002690,	reconstruction_loss: 0.002690,	Time: 8.535279989242554 s	
+2025-01-05 16:28:51 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0026895925402641296
+2025-01-05 16:28:51 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0026895925402641296, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-61.step-427
+2025-01-05 16:28:51 logger.DCASE_dev_bearing_per_file:INFO Epoch 62 start, lr 0.0002824295364810001
+2025-01-05 16:29:01 logger.DCASE_dev_bearing_per_file:INFO Epoch: 62,	Trained sentences: 43000,	total_loss: 0.002724,	reconstruction_loss: 0.002724,	lr: 0.00028243,	elapse: 9.8 s
+2025-01-05 16:29:14 logger.DCASE_dev_bearing_per_file:INFO Epoch 62 Done,	total_loss: 0.002683,	reconstruction_loss: 0.002683,	Time: 0.0 hr,	
+2025-01-05 16:29:14 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:29:22 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002684,	reconstruction_loss: 0.002684,	Time: 8.622114896774292 s	
+2025-01-05 16:29:22 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002683957340195775
+2025-01-05 16:29:22 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002683957340195775, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-62.step-434
+2025-01-05 16:29:22 logger.DCASE_dev_bearing_per_file:INFO Epoch 63 start, lr 0.0002824295364810001
+2025-01-05 16:29:42 logger.DCASE_dev_bearing_per_file:INFO Epoch: 63,	Trained sentences: 44000,	total_loss: 0.002688,	reconstruction_loss: 0.002688,	lr: 0.00028243,	elapse: 19.4 s
+2025-01-05 16:29:45 logger.DCASE_dev_bearing_per_file:INFO Epoch 63 Done,	total_loss: 0.002677,	reconstruction_loss: 0.002677,	Time: 0.0 hr,	
+2025-01-05 16:29:45 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:29:54 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002678,	reconstruction_loss: 0.002678,	Time: 8.931689262390137 s	
+2025-01-05 16:29:54 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002678160322830081
+2025-01-05 16:29:54 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002678160322830081, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-63.step-441
+2025-01-05 16:29:54 logger.DCASE_dev_bearing_per_file:INFO Epoch 64 start, lr 0.0002824295364810001
+2025-01-05 16:30:16 logger.DCASE_dev_bearing_per_file:INFO Epoch 64 Done,	total_loss: 0.002672,	reconstruction_loss: 0.002672,	Time: 0.0 hr,	
+2025-01-05 16:30:16 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:30:25 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002673,	reconstruction_loss: 0.002673,	Time: 8.455413341522217 s	
+2025-01-05 16:30:25 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002672868547961116
+2025-01-05 16:30:25 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002672868547961116, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-64.step-448
+2025-01-05 16:30:25 logger.DCASE_dev_bearing_per_file:INFO Epoch 65 start, lr 0.0002541865828329001
+2025-01-05 16:30:31 logger.DCASE_dev_bearing_per_file:INFO Epoch: 65,	Trained sentences: 45000,	total_loss: 0.002726,	reconstruction_loss: 0.002726,	lr: 0.00025419,	elapse: 6.5 s
+2025-01-05 16:30:47 logger.DCASE_dev_bearing_per_file:INFO Epoch 65 Done,	total_loss: 0.002666,	reconstruction_loss: 0.002666,	Time: 0.0 hr,	
+2025-01-05 16:30:47 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:30:56 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002667,	reconstruction_loss: 0.002667,	Time: 8.629555225372314 s	
+2025-01-05 16:30:56 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002667439403012395
+2025-01-05 16:30:56 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002667439403012395, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-65.step-455
+2025-01-05 16:30:56 logger.DCASE_dev_bearing_per_file:INFO Epoch 66 start, lr 0.0002541865828329001
+2025-01-05 16:31:12 logger.DCASE_dev_bearing_per_file:INFO Epoch: 66,	Trained sentences: 46000,	total_loss: 0.002684,	reconstruction_loss: 0.002684,	lr: 0.00025419,	elapse: 16.4 s
+2025-01-05 16:31:19 logger.DCASE_dev_bearing_per_file:INFO Epoch 66 Done,	total_loss: 0.002660,	reconstruction_loss: 0.002660,	Time: 0.0 hr,	
+2025-01-05 16:31:19 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:31:28 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002662,	reconstruction_loss: 0.002662,	Time: 8.702739238739014 s	
+2025-01-05 16:31:28 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0026619313284754753
+2025-01-05 16:31:28 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0026619313284754753, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-66.step-462
+2025-01-05 16:31:28 logger.DCASE_dev_bearing_per_file:INFO Epoch 67 start, lr 0.0002541865828329001
+2025-01-05 16:31:50 logger.DCASE_dev_bearing_per_file:INFO Epoch 67 Done,	total_loss: 0.002655,	reconstruction_loss: 0.002655,	Time: 0.0 hr,	
+2025-01-05 16:31:50 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:31:59 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002656,	reconstruction_loss: 0.002656,	Time: 8.510076761245728 s	
+2025-01-05 16:31:59 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002656378550454974
+2025-01-05 16:31:59 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002656378550454974, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-67.step-469
+2025-01-05 16:31:59 logger.DCASE_dev_bearing_per_file:INFO Epoch 68 start, lr 0.0002541865828329001
+2025-01-05 16:32:02 logger.DCASE_dev_bearing_per_file:INFO Epoch: 68,	Trained sentences: 47000,	total_loss: 0.002654,	reconstruction_loss: 0.002654,	lr: 0.00025419,	elapse: 3.4 s
+2025-01-05 16:32:22 logger.DCASE_dev_bearing_per_file:INFO Epoch 68 Done,	total_loss: 0.002649,	reconstruction_loss: 0.002649,	Time: 0.0 hr,	
+2025-01-05 16:32:22 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:32:30 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002651,	reconstruction_loss: 0.002651,	Time: 8.845104217529297 s	
+2025-01-05 16:32:30 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002650786191225052
+2025-01-05 16:32:30 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002650786191225052, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-68.step-476
+2025-01-05 16:32:30 logger.DCASE_dev_bearing_per_file:INFO Epoch 69 start, lr 0.0002541865828329001
+2025-01-05 16:32:44 logger.DCASE_dev_bearing_per_file:INFO Epoch: 69,	Trained sentences: 48000,	total_loss: 0.002692,	reconstruction_loss: 0.002692,	lr: 0.00022877,	elapse: 13.1 s
+2025-01-05 16:32:53 logger.DCASE_dev_bearing_per_file:INFO Epoch 69 Done,	total_loss: 0.002644,	reconstruction_loss: 0.002644,	Time: 0.0 hr,	
+2025-01-05 16:32:53 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:33:02 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002646,	reconstruction_loss: 0.002646,	Time: 8.710664510726929 s	
+2025-01-05 16:33:02 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002645754488185048
+2025-01-05 16:33:02 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002645754488185048, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-69.step-483
+2025-01-05 16:33:02 logger.DCASE_dev_bearing_per_file:INFO Epoch 70 start, lr 0.0002287679245496101
+2025-01-05 16:33:26 logger.DCASE_dev_bearing_per_file:INFO Epoch: 70,	Trained sentences: 49000,	total_loss: 0.002639,	reconstruction_loss: 0.002639,	lr: 0.00022877,	elapse: 23.4 s
+2025-01-05 16:33:26 logger.DCASE_dev_bearing_per_file:INFO Epoch 70 Done,	total_loss: 0.002639,	reconstruction_loss: 0.002639,	Time: 0.0 hr,	
+2025-01-05 16:33:26 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:33:34 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002641,	reconstruction_loss: 0.002641,	Time: 8.678178071975708 s	
+2025-01-05 16:33:34 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.00264065433293581
+2025-01-05 16:33:34 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.00264065433293581, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-70.step-490
+2025-01-05 16:33:34 logger.DCASE_dev_bearing_per_file:INFO Epoch 71 start, lr 0.0002287679245496101
+2025-01-05 16:33:57 logger.DCASE_dev_bearing_per_file:INFO Epoch 71 Done,	total_loss: 0.002634,	reconstruction_loss: 0.002634,	Time: 0.0 hr,	
+2025-01-05 16:33:57 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:34:06 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002636,	reconstruction_loss: 0.002636,	Time: 8.710566759109497 s	
+2025-01-05 16:34:06 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0026355294976383448
+2025-01-05 16:34:06 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0026355294976383448, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-71.step-497
+2025-01-05 16:34:06 logger.DCASE_dev_bearing_per_file:INFO Epoch 72 start, lr 0.0002287679245496101
+2025-01-05 16:34:15 logger.DCASE_dev_bearing_per_file:INFO Epoch: 72,	Trained sentences: 50000,	total_loss: 0.002668,	reconstruction_loss: 0.002668,	lr: 0.00022877,	elapse: 9.7 s
+2025-01-05 16:34:29 logger.DCASE_dev_bearing_per_file:INFO Epoch 72 Done,	total_loss: 0.002628,	reconstruction_loss: 0.002628,	Time: 0.0 hr,	
+2025-01-05 16:34:29 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:34:37 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002630,	reconstruction_loss: 0.002630,	Time: 8.672050952911377 s	
+2025-01-05 16:34:37 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0026303883641958237
+2025-01-05 16:34:37 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0026303883641958237, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-72.step-504
+2025-01-05 16:34:37 logger.DCASE_dev_bearing_per_file:INFO Epoch 73 start, lr 0.0002287679245496101
+2025-01-05 16:34:57 logger.DCASE_dev_bearing_per_file:INFO Epoch: 73,	Trained sentences: 51000,	total_loss: 0.002634,	reconstruction_loss: 0.002634,	lr: 0.00022877,	elapse: 19.6 s
+2025-01-05 16:35:00 logger.DCASE_dev_bearing_per_file:INFO Epoch 73 Done,	total_loss: 0.002623,	reconstruction_loss: 0.002623,	Time: 0.0 hr,	
+2025-01-05 16:35:00 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:35:09 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002625,	reconstruction_loss: 0.002625,	Time: 9.07756233215332 s	
+2025-01-05 16:35:09 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0026252262759953737
+2025-01-05 16:35:09 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0026252262759953737, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-73.step-511
+2025-01-05 16:35:09 logger.DCASE_dev_bearing_per_file:INFO Epoch 74 start, lr 0.0002287679245496101
+2025-01-05 16:35:32 logger.DCASE_dev_bearing_per_file:INFO Epoch 74 Done,	total_loss: 0.002618,	reconstruction_loss: 0.002618,	Time: 0.0 hr,	
+2025-01-05 16:35:32 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:35:41 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002621,	reconstruction_loss: 0.002621,	Time: 8.773780107498169 s	
+2025-01-05 16:35:41 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0026205836329609156
+2025-01-05 16:35:41 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0026205836329609156, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-74.step-518
+2025-01-05 16:35:41 logger.DCASE_dev_bearing_per_file:INFO Epoch 75 start, lr 0.0002058911320946491
+2025-01-05 16:35:48 logger.DCASE_dev_bearing_per_file:INFO Epoch: 75,	Trained sentences: 52000,	total_loss: 0.002672,	reconstruction_loss: 0.002672,	lr: 0.00020589,	elapse: 6.6 s
+2025-01-05 16:36:04 logger.DCASE_dev_bearing_per_file:INFO Epoch 75 Done,	total_loss: 0.002614,	reconstruction_loss: 0.002614,	Time: 0.0 hr,	
+2025-01-05 16:36:04 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:36:12 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002616,	reconstruction_loss: 0.002616,	Time: 8.591184377670288 s	
+2025-01-05 16:36:12 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002615894190967083
+2025-01-05 16:36:12 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002615894190967083, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-75.step-525
+2025-01-05 16:36:12 logger.DCASE_dev_bearing_per_file:INFO Epoch 76 start, lr 0.0002058911320946491
+2025-01-05 16:36:29 logger.DCASE_dev_bearing_per_file:INFO Epoch: 76,	Trained sentences: 53000,	total_loss: 0.002632,	reconstruction_loss: 0.002632,	lr: 0.00020589,	elapse: 16.4 s
+2025-01-05 16:36:35 logger.DCASE_dev_bearing_per_file:INFO Epoch 76 Done,	total_loss: 0.002609,	reconstruction_loss: 0.002609,	Time: 0.0 hr,	
+2025-01-05 16:36:35 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:36:44 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002611,	reconstruction_loss: 0.002611,	Time: 8.826512098312378 s	
+2025-01-05 16:36:44 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002611195668578148
+2025-01-05 16:36:44 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002611195668578148, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-76.step-532
+2025-01-05 16:36:44 logger.DCASE_dev_bearing_per_file:INFO Epoch 77 start, lr 0.0002058911320946491
+2025-01-05 16:37:07 logger.DCASE_dev_bearing_per_file:INFO Epoch 77 Done,	total_loss: 0.002604,	reconstruction_loss: 0.002604,	Time: 0.0 hr,	
+2025-01-05 16:37:07 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:37:16 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002606,	reconstruction_loss: 0.002606,	Time: 8.760297060012817 s	
+2025-01-05 16:37:16 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0026064810808748007
+2025-01-05 16:37:16 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0026064810808748007, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-77.step-539
+2025-01-05 16:37:16 logger.DCASE_dev_bearing_per_file:INFO Epoch 78 start, lr 0.0002058911320946491
+2025-01-05 16:37:19 logger.DCASE_dev_bearing_per_file:INFO Epoch: 78,	Trained sentences: 54000,	total_loss: 0.002604,	reconstruction_loss: 0.002604,	lr: 0.00020589,	elapse: 3.5 s
+2025-01-05 16:37:39 logger.DCASE_dev_bearing_per_file:INFO Epoch 78 Done,	total_loss: 0.002599,	reconstruction_loss: 0.002599,	Time: 0.0 hr,	
+2025-01-05 16:37:39 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:37:47 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002602,	reconstruction_loss: 0.002602,	Time: 8.606303930282593 s	
+2025-01-05 16:37:47 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0026017455384135246
+2025-01-05 16:37:47 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0026017455384135246, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-78.step-546
+2025-01-05 16:37:47 logger.DCASE_dev_bearing_per_file:INFO Epoch 79 start, lr 0.0002058911320946491
+2025-01-05 16:38:01 logger.DCASE_dev_bearing_per_file:INFO Epoch: 79,	Trained sentences: 55000,	total_loss: 0.002642,	reconstruction_loss: 0.002642,	lr: 0.00018530,	elapse: 13.4 s
+2025-01-05 16:38:10 logger.DCASE_dev_bearing_per_file:INFO Epoch 79 Done,	total_loss: 0.002595,	reconstruction_loss: 0.002595,	Time: 0.0 hr,	
+2025-01-05 16:38:10 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:38:19 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002597,	reconstruction_loss: 0.002597,	Time: 8.577820062637329 s	
+2025-01-05 16:38:19 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0025974763557314873
+2025-01-05 16:38:19 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0025974763557314873, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-79.step-553
+2025-01-05 16:38:19 logger.DCASE_dev_bearing_per_file:INFO Epoch 80 start, lr 0.00018530201888518417
+2025-01-05 16:38:42 logger.DCASE_dev_bearing_per_file:INFO Epoch: 80,	Trained sentences: 56000,	total_loss: 0.002591,	reconstruction_loss: 0.002591,	lr: 0.00018530,	elapse: 22.6 s
+2025-01-05 16:38:42 logger.DCASE_dev_bearing_per_file:INFO Epoch 80 Done,	total_loss: 0.002591,	reconstruction_loss: 0.002591,	Time: 0.0 hr,	
+2025-01-05 16:38:42 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:38:50 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002593,	reconstruction_loss: 0.002593,	Time: 8.564616918563843 s	
+2025-01-05 16:38:50 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002593167359009385
+2025-01-05 16:38:50 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002593167359009385, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-80.step-560
+2025-01-05 16:38:50 logger.DCASE_dev_bearing_per_file:INFO Epoch 81 start, lr 0.00018530201888518417
+2025-01-05 16:39:13 logger.DCASE_dev_bearing_per_file:INFO Epoch 81 Done,	total_loss: 0.002586,	reconstruction_loss: 0.002586,	Time: 0.0 hr,	
+2025-01-05 16:39:13 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:39:22 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002589,	reconstruction_loss: 0.002589,	Time: 8.591832399368286 s	
+2025-01-05 16:39:22 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0025888511445373297
+2025-01-05 16:39:22 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0025888511445373297, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-81.step-567
+2025-01-05 16:39:22 logger.DCASE_dev_bearing_per_file:INFO Epoch 82 start, lr 0.00018530201888518417
+2025-01-05 16:39:31 logger.DCASE_dev_bearing_per_file:INFO Epoch: 82,	Trained sentences: 57000,	total_loss: 0.002621,	reconstruction_loss: 0.002621,	lr: 0.00018530,	elapse: 9.8 s
+2025-01-05 16:39:44 logger.DCASE_dev_bearing_per_file:INFO Epoch 82 Done,	total_loss: 0.002582,	reconstruction_loss: 0.002582,	Time: 0.0 hr,	
+2025-01-05 16:39:44 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:39:53 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002585,	reconstruction_loss: 0.002585,	Time: 8.574041604995728 s	
+2025-01-05 16:39:53 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0025845186319202185
+2025-01-05 16:39:53 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0025845186319202185, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-82.step-574
+2025-01-05 16:39:53 logger.DCASE_dev_bearing_per_file:INFO Epoch 83 start, lr 0.00018530201888518417
+2025-01-05 16:40:13 logger.DCASE_dev_bearing_per_file:INFO Epoch: 83,	Trained sentences: 58000,	total_loss: 0.002588,	reconstruction_loss: 0.002588,	lr: 0.00018530,	elapse: 19.7 s
+2025-01-05 16:40:16 logger.DCASE_dev_bearing_per_file:INFO Epoch 83 Done,	total_loss: 0.002578,	reconstruction_loss: 0.002578,	Time: 0.0 hr,	
+2025-01-05 16:40:16 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:40:25 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002580,	reconstruction_loss: 0.002580,	Time: 8.882715940475464 s	
+2025-01-05 16:40:25 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002580187516286969
+2025-01-05 16:40:25 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002580187516286969, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-83.step-581
+2025-01-05 16:40:25 logger.DCASE_dev_bearing_per_file:INFO Epoch 84 start, lr 0.00018530201888518417
+2025-01-05 16:40:48 logger.DCASE_dev_bearing_per_file:INFO Epoch 84 Done,	total_loss: 0.002573,	reconstruction_loss: 0.002573,	Time: 0.0 hr,	
+2025-01-05 16:40:48 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:40:56 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002576,	reconstruction_loss: 0.002576,	Time: 8.804925203323364 s	
+2025-01-05 16:40:56 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002576310420408845
+2025-01-05 16:40:56 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002576310420408845, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-84.step-588
+2025-01-05 16:40:56 logger.DCASE_dev_bearing_per_file:INFO Epoch 85 start, lr 0.00016677181699666576
+2025-01-05 16:41:03 logger.DCASE_dev_bearing_per_file:INFO Epoch: 85,	Trained sentences: 59000,	total_loss: 0.002627,	reconstruction_loss: 0.002627,	lr: 0.00016677,	elapse: 6.6 s
+2025-01-05 16:41:19 logger.DCASE_dev_bearing_per_file:INFO Epoch 85 Done,	total_loss: 0.002570,	reconstruction_loss: 0.002570,	Time: 0.0 hr,	
+2025-01-05 16:41:19 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:41:28 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002572,	reconstruction_loss: 0.002572,	Time: 8.717164993286133 s	
+2025-01-05 16:41:28 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002572450088337064
+2025-01-05 16:41:28 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002572450088337064, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-85.step-595
+2025-01-05 16:41:28 logger.DCASE_dev_bearing_per_file:INFO Epoch 86 start, lr 0.00016677181699666576
+2025-01-05 16:41:44 logger.DCASE_dev_bearing_per_file:INFO Epoch: 86,	Trained sentences: 60000,	total_loss: 0.002588,	reconstruction_loss: 0.002588,	lr: 0.00016677,	elapse: 16.2 s
+2025-01-05 16:41:51 logger.DCASE_dev_bearing_per_file:INFO Epoch 86 Done,	total_loss: 0.002566,	reconstruction_loss: 0.002566,	Time: 0.0 hr,	
+2025-01-05 16:41:51 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:42:00 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002569,	reconstruction_loss: 0.002569,	Time: 8.935072660446167 s	
+2025-01-05 16:42:00 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0025686428416520357
+2025-01-05 16:42:00 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0025686428416520357, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-86.step-602
+2025-01-05 16:42:00 logger.DCASE_dev_bearing_per_file:INFO Epoch 87 start, lr 0.00016677181699666576
+2025-01-05 16:42:22 logger.DCASE_dev_bearing_per_file:INFO Epoch 87 Done,	total_loss: 0.002562,	reconstruction_loss: 0.002562,	Time: 0.0 hr,	
+2025-01-05 16:42:22 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:42:31 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002565,	reconstruction_loss: 0.002565,	Time: 8.67935299873352 s	
+2025-01-05 16:42:31 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002564887749031186
+2025-01-05 16:42:31 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002564887749031186, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-87.step-609
+2025-01-05 16:42:31 logger.DCASE_dev_bearing_per_file:INFO Epoch 88 start, lr 0.00016677181699666576
+2025-01-05 16:42:34 logger.DCASE_dev_bearing_per_file:INFO Epoch: 88,	Trained sentences: 61000,	total_loss: 0.002563,	reconstruction_loss: 0.002563,	lr: 0.00016677,	elapse: 3.2 s
+2025-01-05 16:42:54 logger.DCASE_dev_bearing_per_file:INFO Epoch 88 Done,	total_loss: 0.002558,	reconstruction_loss: 0.002558,	Time: 0.0 hr,	
+2025-01-05 16:42:54 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:43:02 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002561,	reconstruction_loss: 0.002561,	Time: 8.696595430374146 s	
+2025-01-05 16:43:02 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002561209723353386
+2025-01-05 16:43:02 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002561209723353386, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-88.step-616
+2025-01-05 16:43:02 logger.DCASE_dev_bearing_per_file:INFO Epoch 89 start, lr 0.00016677181699666576
+2025-01-05 16:43:15 logger.DCASE_dev_bearing_per_file:INFO Epoch: 89,	Trained sentences: 62000,	total_loss: 0.002601,	reconstruction_loss: 0.002601,	lr: 0.00015009,	elapse: 13.2 s
+2025-01-05 16:43:25 logger.DCASE_dev_bearing_per_file:INFO Epoch 89 Done,	total_loss: 0.002555,	reconstruction_loss: 0.002555,	Time: 0.0 hr,	
+2025-01-05 16:43:25 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:43:34 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002558,	reconstruction_loss: 0.002558,	Time: 8.569859504699707 s	
+2025-01-05 16:43:34 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.00255797547288239
+2025-01-05 16:43:34 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.00255797547288239, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-89.step-623
+2025-01-05 16:43:34 logger.DCASE_dev_bearing_per_file:INFO Epoch 90 start, lr 0.00015009463529699917
+2025-01-05 16:43:56 logger.DCASE_dev_bearing_per_file:INFO Epoch: 90,	Trained sentences: 63000,	total_loss: 0.002552,	reconstruction_loss: 0.002552,	lr: 0.00015009,	elapse: 22.7 s
+2025-01-05 16:43:56 logger.DCASE_dev_bearing_per_file:INFO Epoch 90 Done,	total_loss: 0.002552,	reconstruction_loss: 0.002552,	Time: 0.0 hr,	
+2025-01-05 16:43:56 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:44:05 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002555,	reconstruction_loss: 0.002555,	Time: 8.561948299407959 s	
+2025-01-05 16:44:05 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0025548117700964212
+2025-01-05 16:44:05 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0025548117700964212, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-90.step-630
+2025-01-05 16:44:05 logger.DCASE_dev_bearing_per_file:INFO Epoch 91 start, lr 0.00015009463529699917
+2025-01-05 16:44:28 logger.DCASE_dev_bearing_per_file:INFO Epoch 91 Done,	total_loss: 0.002548,	reconstruction_loss: 0.002548,	Time: 0.0 hr,	
+2025-01-05 16:44:28 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:44:36 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002552,	reconstruction_loss: 0.002552,	Time: 8.535212755203247 s	
+2025-01-05 16:44:36 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0025517309550195932
+2025-01-05 16:44:36 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0025517309550195932, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-91.step-637
+2025-01-05 16:44:36 logger.DCASE_dev_bearing_per_file:INFO Epoch 92 start, lr 0.00015009463529699917
+2025-01-05 16:44:46 logger.DCASE_dev_bearing_per_file:INFO Epoch: 92,	Trained sentences: 64000,	total_loss: 0.002584,	reconstruction_loss: 0.002584,	lr: 0.00015009,	elapse: 9.8 s
+2025-01-05 16:44:59 logger.DCASE_dev_bearing_per_file:INFO Epoch 92 Done,	total_loss: 0.002545,	reconstruction_loss: 0.002545,	Time: 0.0 hr,	
+2025-01-05 16:44:59 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:45:08 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002549,	reconstruction_loss: 0.002549,	Time: 8.609508514404297 s	
+2025-01-05 16:45:08 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0025487253442406654
+2025-01-05 16:45:08 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0025487253442406654, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-92.step-644
+2025-01-05 16:45:08 logger.DCASE_dev_bearing_per_file:INFO Epoch 93 start, lr 0.00015009463529699917
+2025-01-05 16:45:27 logger.DCASE_dev_bearing_per_file:INFO Epoch: 93,	Trained sentences: 65000,	total_loss: 0.002553,	reconstruction_loss: 0.002553,	lr: 0.00015009,	elapse: 19.6 s
+2025-01-05 16:45:30 logger.DCASE_dev_bearing_per_file:INFO Epoch 93 Done,	total_loss: 0.002542,	reconstruction_loss: 0.002542,	Time: 0.0 hr,	
+2025-01-05 16:45:30 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:45:39 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002546,	reconstruction_loss: 0.002546,	Time: 9.082803964614868 s	
+2025-01-05 16:45:39 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002545807743445039
+2025-01-05 16:45:39 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002545807743445039, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-93.step-651
+2025-01-05 16:45:39 logger.DCASE_dev_bearing_per_file:INFO Epoch 94 start, lr 0.00015009463529699917
+2025-01-05 16:46:02 logger.DCASE_dev_bearing_per_file:INFO Epoch 94 Done,	total_loss: 0.002540,	reconstruction_loss: 0.002540,	Time: 0.0 hr,	
+2025-01-05 16:46:02 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:46:11 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002543,	reconstruction_loss: 0.002543,	Time: 8.676076412200928 s	
+2025-01-05 16:46:11 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0025432538241147995
+2025-01-05 16:46:11 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0025432538241147995, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-94.step-658
+2025-01-05 16:46:11 logger.DCASE_dev_bearing_per_file:INFO Epoch 95 start, lr 0.0001350851717672993
+2025-01-05 16:46:18 logger.DCASE_dev_bearing_per_file:INFO Epoch: 95,	Trained sentences: 66000,	total_loss: 0.002594,	reconstruction_loss: 0.002594,	lr: 0.00013509,	elapse: 6.6 s
+2025-01-05 16:46:34 logger.DCASE_dev_bearing_per_file:INFO Epoch 95 Done,	total_loss: 0.002537,	reconstruction_loss: 0.002537,	Time: 0.0 hr,	
+2025-01-05 16:46:34 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:46:43 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002541,	reconstruction_loss: 0.002541,	Time: 8.738375186920166 s	
+2025-01-05 16:46:43 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0025407650973647833
+2025-01-05 16:46:43 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0025407650973647833, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-95.step-665
+2025-01-05 16:46:43 logger.DCASE_dev_bearing_per_file:INFO Epoch 96 start, lr 0.0001350851717672993
+2025-01-05 16:46:59 logger.DCASE_dev_bearing_per_file:INFO Epoch: 96,	Trained sentences: 67000,	total_loss: 0.002557,	reconstruction_loss: 0.002557,	lr: 0.00013509,	elapse: 16.6 s
+2025-01-05 16:47:06 logger.DCASE_dev_bearing_per_file:INFO Epoch 96 Done,	total_loss: 0.002535,	reconstruction_loss: 0.002535,	Time: 0.0 hr,	
+2025-01-05 16:47:06 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:47:15 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002538,	reconstruction_loss: 0.002538,	Time: 8.861738681793213 s	
+2025-01-05 16:47:15 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002538340399041772
+2025-01-05 16:47:15 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002538340399041772, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-96.step-672
+2025-01-05 16:47:15 logger.DCASE_dev_bearing_per_file:INFO Epoch 97 start, lr 0.0001350851717672993
+2025-01-05 16:47:38 logger.DCASE_dev_bearing_per_file:INFO Epoch 97 Done,	total_loss: 0.002532,	reconstruction_loss: 0.002532,	Time: 0.0 hr,	
+2025-01-05 16:47:38 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:47:46 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002536,	reconstruction_loss: 0.002536,	Time: 8.591411113739014 s	
+2025-01-05 16:47:46 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0025359741412103176
+2025-01-05 16:47:46 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0025359741412103176, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-97.step-679
+2025-01-05 16:47:46 logger.DCASE_dev_bearing_per_file:INFO Epoch 98 start, lr 0.0001350851717672993
+2025-01-05 16:47:50 logger.DCASE_dev_bearing_per_file:INFO Epoch: 98,	Trained sentences: 68000,	total_loss: 0.002534,	reconstruction_loss: 0.002534,	lr: 0.00013509,	elapse: 3.4 s
+2025-01-05 16:48:09 logger.DCASE_dev_bearing_per_file:INFO Epoch 98 Done,	total_loss: 0.002530,	reconstruction_loss: 0.002530,	Time: 0.0 hr,	
+2025-01-05 16:48:09 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:48:18 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002534,	reconstruction_loss: 0.002534,	Time: 8.72286605834961 s	
+2025-01-05 16:48:18 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.0025336705148220062
+2025-01-05 16:48:18 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.0025336705148220062, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-98.step-686
+2025-01-05 16:48:18 logger.DCASE_dev_bearing_per_file:INFO Epoch 99 start, lr 0.0001350851717672993
+2025-01-05 16:48:31 logger.DCASE_dev_bearing_per_file:INFO Epoch: 99,	Trained sentences: 69000,	total_loss: 0.002573,	reconstruction_loss: 0.002573,	lr: 0.00012158,	elapse: 13.2 s
+2025-01-05 16:48:41 logger.DCASE_dev_bearing_per_file:INFO Epoch 99 Done,	total_loss: 0.002528,	reconstruction_loss: 0.002528,	Time: 0.0 hr,	
+2025-01-05 16:48:41 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:48:49 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002532,	reconstruction_loss: 0.002532,	Time: 8.505338668823242 s	
+2025-01-05 16:48:49 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002531645819544792
+2025-01-05 16:48:49 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002531645819544792, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-99.step-693
+2025-01-05 16:48:49 logger.DCASE_dev_bearing_per_file:INFO Epoch 100 start, lr 0.00012157665459056935
+2025-01-05 16:49:12 logger.DCASE_dev_bearing_per_file:INFO Epoch: 100,	Trained sentences: 70000,	total_loss: 0.002526,	reconstruction_loss: 0.002526,	lr: 0.00012158,	elapse: 23.0 s
+2025-01-05 16:49:12 logger.DCASE_dev_bearing_per_file:INFO Epoch 100 Done,	total_loss: 0.002526,	reconstruction_loss: 0.002526,	Time: 0.0 hr,	
+2025-01-05 16:49:12 logger.DCASE_dev_bearing_per_file:INFO Start Validation
+2025-01-05 16:49:22 logger.DCASE_dev_bearing_per_file:INFO Validation Done,	total_loss: 0.002530,	reconstruction_loss: 0.002530,	Time: 9.060860872268677 s	
+2025-01-05 16:49:22 logger.DCASE_dev_bearing_per_file:INFO reduced valid loss: 0.002529664896428585
+2025-01-05 16:49:22 logger.DCASE_dev_bearing_per_file:INFO new best_valid_loss: 0.002529664896428585, storing best model: E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-100.step-700
+2025-01-05 16:49:22 logger.DCASE_dev_bearing_per_file:INFO Training finished
+2025-01-05 22:38:56 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-05 22:38:56 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-05 22:38:57 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-05 22:38:57 logger.DCASE_dev_bearing_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\chkpt, Current lr: 0.001
+2025-01-05 22:38:57 logger.DCASE_dev_bearing_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-100.step-700
+2025-01-06 13:54:11 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-06 13:54:11 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-06 13:54:11 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-06 13:54:11 logger.DCASE_dev_bearing_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\chkpt, Current lr: 0.001
+2025-01-06 13:54:11 logger.DCASE_dev_bearing_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-100.step-700
+2025-01-06 13:54:38 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-06 13:54:38 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-06 13:54:38 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-06 13:54:38 logger.DCASE_dev_bearing_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\chkpt, Current lr: 0.001
+2025-01-06 13:54:38 logger.DCASE_dev_bearing_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-100.step-700
+2025-01-06 13:58:33 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-06 13:58:33 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-06 13:58:33 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-06 13:58:33 logger.DCASE_dev_bearing_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\chkpt, Current lr: 0.001
+2025-01-06 13:58:33 logger.DCASE_dev_bearing_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-100.step-700
+2025-01-06 13:59:59 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-06 13:59:59 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-06 13:59:59 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-06 13:59:59 logger.DCASE_dev_bearing_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\chkpt, Current lr: 0.001
+2025-01-06 13:59:59 logger.DCASE_dev_bearing_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-100.step-700
+2025-01-06 14:00:48 logger.DCASE_dev_bearing_per_file:INFO Random initialize model
+2025-01-06 14:00:48 logger.DCASE_dev_bearing_per_file:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-06 14:00:48 logger.DCASE_dev_bearing_per_file:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-06 14:00:48 logger.DCASE_dev_bearing_per_file:INFO Loading checkpoint from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\chkpt, Current lr: 0.001
+2025-01-06 14:00:48 logger.DCASE_dev_bearing_per_file:INFO Loading most recent model from E:\mamba_tsad_dcase\result\DCASE_dev_bearing_per_file\model.epoch-100.step-700
