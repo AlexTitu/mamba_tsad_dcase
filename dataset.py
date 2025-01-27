@@ -169,8 +169,8 @@ class AudioAnomalyDataset(Dataset):
 
         if self.extension == '.npy':
             # Directly load precomputed spectrogram
-            signal = np.load(path)  # Shape: (1, 128, 313) B, M, T
-            signal = np.transpose(np.squeeze(signal, 0))  # Shape: (1, 313, 128) B, T, M
+            signal = np.load(path)  # Shape: (1, 128, 313) C, M, T
+            signal = np.transpose(np.squeeze(signal, 0))  # Shape: (313, 128)  T, M
         else:
             # Load the signal
             signal, _ = librosa.load(path, sr=self.sample_rate)

@@ -1,0 +1,5 @@
+2025-01-25 21:14:16 logger.DCASE_dev_bearing_new:INFO Random initialize model
+2025-01-25 21:14:16 logger.DCASE_dev_bearing_new:INFO model proto: DecomposeMambaSSM,	model_size: 0.06672 M
+2025-01-25 21:14:16 logger.DCASE_dev_bearing_new:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-25 21:14:16 logger.DCASE_dev_bearing_new:INFO no checkpoint, start training from scratch
+2025-01-25 21:14:16 logger.DCASE_dev_bearing_new:INFO Epoch 1 start, lr 0.001

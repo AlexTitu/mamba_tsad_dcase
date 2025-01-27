@@ -1,0 +1,4 @@
+2025-01-27 20:54:35 logger.NASA_A-4_anomaly_detection:INFO Random initialize model
+2025-01-27 20:54:35 logger.NASA_A-4_anomaly_detection:INFO model proto: DecomposeMambaSSM,	model_size: 0.037056 M
+2025-01-27 20:54:36 logger.NASA_A-4_anomaly_detection:INFO [Optimizer] scheduler wrapper is StepLRScheduleWrapper
+2025-01-27 20:54:36 logger.NASA_A-4_anomaly_detection:INFO no checkpoint, start training from scratch

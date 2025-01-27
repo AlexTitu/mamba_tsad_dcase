@@ -86,7 +86,7 @@ def test_loop(model, data_loader, steps, window_length, stride, num_windows_per_
                 else:
                     res = model(window_input)
 
-                hidden = getattr(res, "hidden", None)
+                hidden = res.get("hidden", None)
                 # Append results and targets for concatenation
                 predictions.append(res["x"])  # Adjust if key differs
                 ground_truths.append(window_target)
